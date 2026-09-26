@@ -68,7 +68,7 @@
     <path d="M169.670000000 152 L189.030000000 152 L187.252250000 165 L168.750250000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
     <path d="M193.870000000 152 L213.230000000 152 L210.379750000 165 L191.877750000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
     <use href="#shopping-cart-basket-outer" fill="none" stroke="#050b1d" stroke-width="7" />
-    <path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#050b1d" stroke-width="13" />
+    <path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#050b1d" stroke-width="19" />
     <path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#05b2f7" stroke-width="7" />
     <path d="M91 85 L109 174 Q113 185 130 185 H209" fill="none" stroke="#91e4ff" stroke-width="2" />
     <use href="#shopping-cart-grip" fill="url(#shopping-cart-gold)" />
