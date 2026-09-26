@@ -54,7 +54,7 @@
     <path d="M94 64 V185" fill="none" stroke="#050b1d" stroke-width="5" />
     <use href="#closed-book-pages" fill="url(#closed-book-white)" />
     <use href="#closed-book-pages" fill="none" stroke="url(#closed-book-white-edge)" stroke-width="7" clip-path="url(#closed-book-pages-clip)" />
-    <path id="closed-book-page-boundary" d="M211 185 H94 Q83 185 83 198 Q83 211 94 211 H211 Q200 211 200 198 Q200 185 211 185 Z" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path id="closed-book-page-boundary" d="M211 185 H94 Q83 185 83 198 Q83 211 94 211 H211 Q200 211 200 198 Q200 185 211 185 Z" fill="none" stroke="#050b1d" stroke-width="6" />
     <path id="closed-book-outer-outline" d="M97 64 H190 Q207 64 207 81 V185 M207 211 Q207 219 195 219 H97 Q76 219 76 202 V85 Q76 64 97 64" fill="none" stroke="#050b1d" stroke-width="7" />
   </g>
 </svg>
