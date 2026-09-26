@@ -48,19 +48,19 @@
     <clipPath id="business-wallet-back-clip">
       <use href="#business-wallet-back" />
     </clipPath>
-    <path id="business-wallet-note-back" d="M76 78 L195 61 Q198 60.6 198 64 V116 H74 V81 Q74 78.3 76 78 Z" />
+    <path id="business-wallet-note-back" d="M78 75 H194 Q198 75 198 79 V126 H74 V79 Q74 75 78 75 Z" transform="rotate(-7 136 101)" />
     <clipPath id="business-wallet-note-back-clip">
       <use href="#business-wallet-note-back" />
     </clipPath>
-    <path id="business-wallet-note-back-panel" d="M86 89.812 L185 77 V110 H86 Z" />
+    <path id="business-wallet-note-back-panel" d="M85 87 H187 V116 H85 Z" transform="rotate(-7 136 101)" />
     <clipPath id="business-wallet-note-back-panel-clip">
       <use href="#business-wallet-note-back-panel" />
     </clipPath>
-    <path id="business-wallet-note-front" d="M88 94 Q88 89 94 89 L210 82 Q217 82 217 90 V128 H88 Z" />
+    <path id="business-wallet-note-front" d="M93 88 H211 Q216 88 216 93 V132 H88 V93 Q88 88 93 88 Z" transform="rotate(-3 152 110)" />
     <clipPath id="business-wallet-note-front-clip">
       <use href="#business-wallet-note-front" />
     </clipPath>
-    <path id="business-wallet-note-front-panel" d="M99 100 L204 93 V121 H99 Z" />
+    <path id="business-wallet-note-front-panel" d="M99 99 H205 V122 H99 Z" transform="rotate(-3 152 110)" />
     <clipPath id="business-wallet-note-front-panel-clip">
       <use href="#business-wallet-note-front-panel" />
     </clipPath>
@@ -92,7 +92,7 @@
     <use href="#business-wallet-note-back-panel" fill="none" stroke="url(#business-wallet-note-edge)" stroke-width="3" clip-path="url(#business-wallet-note-back-panel-clip)" />
     <use href="#business-wallet-note-front" fill="url(#business-wallet-white)" />
     <use href="#business-wallet-note-front" fill="none" stroke="url(#business-wallet-white-edge)" stroke-width="10" clip-path="url(#business-wallet-note-front-clip)" />
-    <use href="#business-wallet-note-front" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#business-wallet-note-front" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#business-wallet-note-front-panel" fill="url(#business-wallet-note-green)" />
     <use href="#business-wallet-note-front-panel" fill="none" stroke="url(#business-wallet-note-edge)" stroke-width="3" clip-path="url(#business-wallet-note-front-panel-clip)" />
     <path d="M145 96 L156 96 L139 121 H128 Z" fill="#d0eee1" clip-path="url(#business-wallet-note-front-panel-clip)" />

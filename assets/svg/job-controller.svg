@@ -77,38 +77,21 @@
     <clipPath id="job-controller-node-2-clip">
       <use href="#job-controller-node-2" />
     </clipPath>
-    <mask id="job-controller-junction-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
-      <rect width="288" height="288" fill="white" />
-      <g fill="black" stroke="black" stroke-width="6">
-      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
-      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
-      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
-      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
-          </g>
+    <mask id="job-controller-connector-junctions" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="black" />
+      <g fill="none" stroke="white" stroke-width="11" stroke-linecap="butt" stroke-linejoin="round"><path d="M144 89 V190 M95 162 L82 192 M193 162 L206 192" /></g>
     </mask>
   </defs>
-  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
-  <g id="job-controller-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
-    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
-  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <path d="M144 89 V190" fill="none" stroke="#050b1d" stroke-width="25" />
-    <path d="M95 162 L82 192" fill="none" stroke="#050b1d" stroke-width="25" />
-    <path d="M193 162 L206 192" fill="none" stroke="#050b1d" stroke-width="25" />
-    <g id="job-controller-connector-faces" fill="#83909d" stroke="#83909d" stroke-width="6">
-      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
-      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
-      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
-      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
+    <g id="job-controller-exterior-contours" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke-width="25"><path d="M144 89 V190 M95 162 L82 192 M193 162 L206 192" /></g>
+      <g stroke-width="14"><use href="#job-controller-top" /><use href="#job-controller-body" /><use href="#job-controller-node-0" /><use href="#job-controller-node-1" /><use href="#job-controller-node-2" /></g>
     </g>
+    <g id="job-controller-connector-faces" fill="none" stroke="#83909d" stroke-width="11" stroke-linecap="butt" stroke-linejoin="round"><path d="M144 89 V190 M95 162 L82 192 M193 162 L206 192" /></g>
     <use href="#job-controller-top" fill="url(#job-controller-gold)" />
     <use href="#job-controller-top" fill="none" stroke="url(#job-controller-gold-edge)" stroke-width="11" clip-path="url(#job-controller-top-clip)" />
-    <use href="#job-controller-top" fill="none" stroke="#050b1d" stroke-width="7" mask="url(#job-controller-junction-mask)" />
     <use href="#job-controller-body" fill="url(#job-controller-white)" />
     <use href="#job-controller-body" fill="none" stroke="url(#job-controller-white-edge)" stroke-width="13" clip-path="url(#job-controller-body-clip)" />
-    <use href="#job-controller-body" fill="none" stroke="#050b1d" stroke-width="7" mask="url(#job-controller-junction-mask)" />
     <use href="#job-controller-play" fill="url(#job-controller-green)" />
     <use href="#job-controller-play" fill="none" stroke="url(#job-controller-green-edge)" stroke-width="6" clip-path="url(#job-controller-play-clip)" />
     <use href="#job-controller-play" fill="none" stroke="#050b1d" stroke-width="2" />
@@ -117,22 +100,13 @@
     <use href="#job-controller-stop" fill="none" stroke="#050b1d" stroke-width="2" />
     <use href="#job-controller-node-0" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-0" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-0-clip)" />
-    <use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M74 207 H90" fill="none" stroke="#ffffff" stroke-width="7" />
     <use href="#job-controller-node-1" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-1" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-1-clip)" />
-    <use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M136 207 H152" fill="none" stroke="#ffffff" stroke-width="7" />
     <use href="#job-controller-node-2" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-2" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-2-clip)" />
-    <use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M198 207 H214" fill="none" stroke="#ffffff" stroke-width="7" />
-    <g id="job-controller-junction-boundaries" fill="none" stroke="#050b1d" stroke-width="2">
-      <use href="#job-controller-top" />
-      <use href="#job-controller-body" />
-      <use href="#job-controller-node-0" />
-      <use href="#job-controller-node-1" />
-      <use href="#job-controller-node-2" />
-    </g>
+    <g id="job-controller-junction-boundaries" fill="none" stroke="#050b1d" stroke-width="2" mask="url(#job-controller-connector-junctions)"><use href="#job-controller-top" /><use href="#job-controller-body" /><use href="#job-controller-node-0" /><use href="#job-controller-node-1" /><use href="#job-controller-node-2" /></g>
   </g>
 </svg>

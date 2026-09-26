@@ -20,24 +20,22 @@
       <use href="#department-child" />
     </clipPath>
     <path id="department-connectors" d="M144 108 V140 M76 172 V140 H212 V172 M144 140 V172" />
-    <path id="department-connector-faces" d="M144 113 V140 M76 170 V140 H212 V170 M144 140 V170" />
+    <mask id="department-connector-junctions" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="black" />
+      <g fill="none" stroke="white" stroke-width="11" stroke-linecap="butt" stroke-linejoin="round"><use href="#department-connectors" /></g>
+    </mask>
   </defs>
-  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
-  <g id="department-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
-    <g stroke-linecap="round" stroke-linejoin="round"><use href="#department-parent" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(48 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(116 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(184 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="25.000000"/></g>
-  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="18" />
+    <g id="department-exterior-contours" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke-width="25"><use href="#department-connectors" /></g>
+      <g stroke-width="14"><use href="#department-parent" /><use href="#department-child" transform="translate(48 167)" /><use href="#department-child" transform="translate(116 167)" /><use href="#department-child" transform="translate(184 167)" /></g>
+    </g>
+    <g id="department-connector-faces" fill="none" stroke="#83909d" stroke-width="11" stroke-linecap="butt" stroke-linejoin="round"><use href="#department-connectors" /></g>
     <use href="#department-parent" fill="url(#department-blue)" />
     <g clip-path="url(#department-parent-clip)">
       <path d="M109 105 V72 Q109 69 112 69 H176 Q179 69 179 72" fill="none" stroke="#83ddfa" stroke-width="3" />
       <path d="M179 75 V106 Q179 111 174 111 H116" fill="none" stroke="#006ccc" stroke-width="4" opacity=".55" />
     </g>
-    <use href="#department-parent" fill="none" stroke="#050b1d" stroke-width="6" />
     <path d="M128 85 H160 M135 96 H153" fill="none" stroke="#e4f8ff" stroke-width="3.5" />
     <g transform="translate(48 167)">
       <use href="#department-child" fill="url(#department-paper)" />
@@ -47,7 +45,6 @@
         <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
       </g>
       <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
-      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
     </g>
     <g transform="translate(116 167)">
       <use href="#department-child" fill="url(#department-paper)" />
@@ -57,7 +54,6 @@
         <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
       </g>
       <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
-      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
     </g>
     <g transform="translate(184 167)">
       <use href="#department-child" fill="url(#department-paper)" />
@@ -67,9 +63,7 @@
         <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
       </g>
       <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
-      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
     </g>
-    <use href="#department-connector-faces" fill="none" stroke="#83909d" stroke-width="11" stroke-linecap="butt" />
-    <path id="department-connector-boundaries" d="M138.5 113 H149.5 M70.5 170 H81.5 M138.5 170 H149.5 M206.5 170 H217.5" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="butt" />
+    <g id="department-junction-boundaries" fill="none" stroke="#050b1d" stroke-width="2" mask="url(#department-connector-junctions)"><use href="#department-parent" /><use href="#department-child" transform="translate(48 167)" /><use href="#department-child" transform="translate(116 167)" /><use href="#department-child" transform="translate(184 167)" /></g>
   </g>
 </svg>

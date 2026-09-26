@@ -138,6 +138,7 @@
     <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" fill="#08b9eb" stroke="none" id="airplane-cockpit-glass" />
     <path d="M116 121 H148 L129 138 H116Z" fill="#77e6fc" opacity=".3" clip-path="url(#airplane-cockpit-glass-clip)" />
     <path d="M157 120 H173 V138 H140Z" fill="#0085ed" opacity=".65" clip-path="url(#airplane-cockpit-glass-clip)" />
+    <path id="airplane-cockpit-frame" d="M144 121 L127 121 Q119 122 116 136 H172 Q169 122 161 121 Z" fill="none" stroke="#050b1d" stroke-width="2.3" />
     <path d="M144 121 V136 M128 121 L125 136 M160 121 L163 136" fill="none" stroke="#d7eaf3" stroke-width="2" />
   </g>
 </svg>

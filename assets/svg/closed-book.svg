@@ -21,7 +21,7 @@
       <stop offset="0.35" stop-color="#278cf6" stop-opacity="1" />
       <stop offset="1" stop-color="#003fa8" stop-opacity="1" />
     </linearGradient>
-    <path id="closed-book-body" d="M97 64 H190 Q207 64 207 81 V185 Q196 185 196 198 Q196 211 207 211 Q207 219 195 219 H97 Q76 219 76 202 V85 Q76 64 97 64 Z" />
+    <path id="closed-book-body" d="M97 64 H190 Q207 64 207 81 V211 Q207 219 195 219 H97 Q76 219 76 202 V85 Q76 64 97 64 Z" />
     <clipPath id="closed-book-body-clip">
       <use href="#closed-book-body" />
     </clipPath>
@@ -42,10 +42,6 @@
       <stop offset="1" stop-color="#003fa8" stop-opacity="1" />
     </linearGradient>
   </defs>
-  <!-- Background-facing contours retain the existing interior seams. -->
-  <g id="closed-book-exterior-width-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M207 185 Q196 185 196 198 Q196 211 207 211" fill="none" stroke="#050b1d" stroke-width="8" />
-  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#closed-book-body" fill="url(#closed-book-cover)" />
     <g clip-path="url(#closed-book-spine-bevel-clip)">
@@ -56,9 +52,14 @@
     <path id="closed-book-front-upper-bevel" d="M94 185 V64 H190 Q207 64 207 81 V173" fill="none" stroke="url(#closed-book-front-edge)" stroke-width="13" stroke-linecap="butt" clip-path="url(#closed-book-front-clip)" />
     <path id="closed-book-front-lower-bevel" d="M207 173 Q207 185 195 185 H94" fill="none" stroke="url(#closed-book-front-edge)" stroke-width="7" stroke-linecap="butt" clip-path="url(#closed-book-front-clip)" />
     <path d="M94 64 V185" fill="none" stroke="#050b1d" stroke-width="5" />
+    <g id="closed-book-back-cover-inside">
+      <path d="M194 185 H207 V211 H194 Z" fill="#2466cf" />
+      <path d="M203 188 V208" fill="none" stroke="#68aaff" stroke-width="2" />
+    </g>
     <use href="#closed-book-pages" fill="url(#closed-book-white)" />
     <use href="#closed-book-pages" fill="none" stroke="url(#closed-book-white-edge)" stroke-width="7" clip-path="url(#closed-book-pages-clip)" />
-    <path id="closed-book-page-boundary" d="M207 185 H94 Q83 185 83 198 Q83 211 94 211 H207 Q196 211 196 198 Q196 185 207 185 Z" fill="none" stroke="#050b1d" stroke-width="6" />
-    <path id="closed-book-outer-outline" d="M97 64 H190 Q207 64 207 81 V185 M207 211 Q207 219 195 219 H97 Q76 219 76 202 V85 Q76 64 97 64" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path id="closed-book-page-boundary" d="M207 185 H94 Q83 185 83 198 Q83 211 94 211 H207" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path id="closed-book-page-recess-boundary" d="M207 185 Q196 185 196 198 Q196 211 207 211" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path id="closed-book-outer-outline" d="M97 64 H190 Q207 64 207 81 V211 Q207 219 195 219 H97 Q76 219 76 202 V85 Q76 64 97 64" fill="none" stroke="#050b1d" stroke-width="7" />
   </g>
 </svg>

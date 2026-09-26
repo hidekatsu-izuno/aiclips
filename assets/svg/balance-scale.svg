@@ -75,9 +75,9 @@
   </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#050b1d" stroke-width="9" />
-    <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#506786" stroke-width="3" />
+    <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#83909d" stroke-width="3" />
     <path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#050b1d" stroke-width="9" />
-    <path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#506786" stroke-width="3" />
+    <path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#83909d" stroke-width="3" />
     <use href="#balance-scale-shape1" fill="url(#balance-scale-pillar)" />
     <use href="#balance-scale-shape1" fill="none" stroke="url(#balance-scale-pillar)" stroke-width="11.0" clip-path="url(#balance-scale-shape1-clip)" />
     <path d="M140 117 V181" fill="none" stroke="#fff5ac" stroke-width="2" clip-path="url(#balance-scale-shape1-clip)" />

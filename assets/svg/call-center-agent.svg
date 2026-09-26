@@ -95,6 +95,10 @@
       <stop offset="1" stop-color="#102136" />
     </linearGradient>
   </defs>
+  <g id="call-center-agent-exposed-contour-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(17.28 47.82) scale(.88 .78)"><use href="#call-center-agent-outfit-body" fill="none" stroke="#050b1d" stroke-width="12.367469879518072"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(17.28 47.82) scale(.88 .78)"><use href="#call-center-agent-outfit-hem" fill="none" stroke="#050b1d" stroke-width="12.367469879518072" stroke-linecap="butt"/></g></g>
+  </g>
   <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
   <g id="call-center-agent-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
     <g stroke-linecap="round" stroke-linejoin="round"><use href="#call-center-agent-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
@@ -112,7 +116,7 @@
     <g id="call-center-agent-outfit" transform="translate(17.28 47.82) scale(.88 .78)">
       <use href="#call-center-agent-outfit-body" fill="url(#call-center-agent-outfit-suit-paint)" />
       <use href="#call-center-agent-outfit-shoulder-left" fill="none" stroke="url(#call-center-agent-outfit-suit-bevel)" stroke-width="15" clip-path="url(#call-center-agent-outfit-body-clip)" />
-      <path d="M 144,171.06 C 122,170.28 98.24,176.52 81.52,192.9 C 74.48,201.48 70.96,213.18 70.96,220.98 C 70.96,226.44 74.48,228 80.64,228 C 101.76,228 122.88,228 144,228 C 165.12,228 186.24,228 207.36,228 C 213.52,228 217.04,226.44 217.04,220.98 C 217.04,213.18 213.52,201.48 206.48,192.9 C 189.76,176.52 166,170.28 144,171.06" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(1.13636364 0 0 1.28205128 -19.6363636 -61.3076923)"/>
+      <use href="#call-center-agent-outfit-body" fill="none" stroke="#050b1d" stroke-width="4.5"/>
       <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
       <use href="#call-center-agent-outfit-shirt" fill="url(#call-center-agent-outfit-white-paint)" clip-path="url(#call-center-agent-outfit-body-clip)" />
       <use href="#call-center-agent-outfit-neck" fill="url(#call-center-agent-outfit-neck-paint)" />
@@ -126,7 +130,7 @@
       <use href="#call-center-agent-outfit-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="2.5" transform="translate(288 0) scale(-1 1)" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
       <use href="#call-center-agent-outfit-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="2.5" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
       <use href="#call-center-agent-outfit-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="2.5" transform="translate(288 0) scale(-1 1)" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
-      <path d="M 80.64,228 L 207.36,228" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(1.13636364 0 0 1.28205128 -19.6363636 -61.3076923)" stroke-linecap="butt"/>
+      <use href="#call-center-agent-outfit-hem" fill="none" stroke="#050b1d" stroke-width="4.5" stroke-linecap="butt"/>
     </g>
     <g transform="translate(0 0)">
       <use href="#call-center-agent-shape3" fill="url(#call-center-agent-skin)" />

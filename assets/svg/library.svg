@@ -16,36 +16,6 @@
       <stop offset="0" stop-color="#301d18" />
       <stop offset="1" stop-color="#573122" />
     </linearGradient>
-    <linearGradient id="library-blue" x1="0" y1="0" x2="1" y2=".2">
-      <stop offset="0" stop-color="#219fff" />
-      <stop offset="0.5" stop-color="#0863e5" />
-      <stop offset="1" stop-color="#0045b5" />
-    </linearGradient>
-    <linearGradient id="library-red" x1="0" y1="0" x2="1" y2=".2">
-      <stop offset="0" stop-color="#ff7770" />
-      <stop offset="0.5" stop-color="#f12f34" />
-      <stop offset="1" stop-color="#b71722" />
-    </linearGradient>
-    <linearGradient id="library-green" x1="0" y1="0" x2="1" y2=".2">
-      <stop offset="0" stop-color="#55dc77" />
-      <stop offset="0.5" stop-color="#20a64e" />
-      <stop offset="1" stop-color="#087436" />
-    </linearGradient>
-    <linearGradient id="library-gold" x1="0" y1="0" x2="1" y2=".2">
-      <stop offset="0" stop-color="#fff17e" />
-      <stop offset="0.5" stop-color="#ffd126" />
-      <stop offset="1" stop-color="#e8a40e" />
-    </linearGradient>
-    <linearGradient id="library-cream" x1="0" y1="0" x2="1" y2=".2">
-      <stop offset="0" stop-color="#fffef3" />
-      <stop offset="0.5" stop-color="#f5e9c9" />
-      <stop offset="1" stop-color="#d6bd87" />
-    </linearGradient>
-    <linearGradient id="library-band" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0" stop-color="#fff2a0" />
-      <stop offset="0.5" stop-color="#ffd548" />
-      <stop offset="1" stop-color="#edb326" />
-    </linearGradient>
     <rect id="library-book-1" x="72" y="75" width="27" height="62" rx="3" />
     <clipPath id="library-book-1-clip"><use href="#library-book-1" /></clipPath>
     <rect id="library-book-2" x="102" y="75" width="27" height="62" rx="3" />
@@ -90,96 +60,106 @@
     <rect x="61" y="57" width="166" height="174" rx="3" fill="url(#library-recess)" stroke="#050b1d" stroke-width="5" />
     <path d="M69 65 H219" fill="none" stroke="#b3712a" stroke-width="4" />
     <g id="library-book-1-paint">
-      <use href="#library-book-1" fill="url(#library-blue)" />
+      <use href="#library-book-1" fill="#1788ed" />
       <g clip-path="url(#library-book-1-clip)">
-        <path d="M74.5 133 V80 Q74.5 77.5 78 77.5 H95" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="72" y="88" width="27" height="3" fill="url(#library-band)" />
-        <rect x="72" y="125" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-1-highlight" d="M73.2 133 V79 Q73.2 76.2 76 76.2 H97 L93 80 H78 V128 Z" fill="#83d9ff" />
+        <path id="library-book-1-shadow" d="M94 80 L97.8 76.2 V134 Q97.8 135.8 96 135.8 H73.2 L78 131 H94 Z" fill="#0753b5" />
+        <rect x="72" y="88" width="27" height="3" fill="#ffe087" />
+        <rect x="72" y="125" width="27" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-1" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-2-paint">
-      <use href="#library-book-2" fill="url(#library-red)" />
+      <use href="#library-book-2" fill="#f34b50" />
       <g clip-path="url(#library-book-2-clip)">
-        <path d="M104.5 133 V80 Q104.5 77.5 108 77.5 H125" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="102" y="88" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-2-highlight" d="M103.2 133 V79 Q103.2 76.2 106 76.2 H127 L123 80 H108 V128 Z" fill="#ffac98" />
+        <path id="library-book-2-shadow" d="M124 80 L127.8 76.2 V134 Q127.8 135.8 126 135.8 H103.2 L108 131 H124 Z" fill="#b92338" />
+        <rect x="102" y="88" width="27" height="3" fill="#ffe087" />
         <path d="M102 93 H129" fill="none" stroke="#ffd548" stroke-width="1.3" />
-        <rect x="102" y="125" width="27" height="3" fill="url(#library-band)" />
+        <rect x="102" y="125" width="27" height="3" fill="#ffe087" />
         <path d="M102 130 H129" fill="none" stroke="#ffd548" stroke-width="1.3" />
       </g>
       <use href="#library-book-2" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-3-paint">
-      <use href="#library-book-3" fill="url(#library-green)" />
+      <use href="#library-book-3" fill="#32bd62" />
       <g clip-path="url(#library-book-3-clip)">
-        <path d="M134.5 133 V80 Q134.5 77.5 138 77.5 H155" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="132" y="88" width="27" height="3" fill="url(#library-band)" />
-        <rect x="132" y="125" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-3-highlight" d="M133.2 133 V79 Q133.2 76.2 136 76.2 H157 L153 80 H138 V128 Z" fill="#a1ed91" />
+        <path id="library-book-3-shadow" d="M154 80 L157.8 76.2 V134 Q157.8 135.8 156 135.8 H133.2 L138 131 H154 Z" fill="#128444" />
+        <rect x="132" y="88" width="27" height="3" fill="#ffe087" />
+        <rect x="132" y="125" width="27" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-3" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-4-paint">
-      <use href="#library-book-4" fill="url(#library-cream)" />
+      <use href="#library-book-4" fill="#f5e8c6" />
       <g clip-path="url(#library-book-4-clip)">
-        <path d="M164.5 133 V80 Q164.5 77.5 168 77.5 H185" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="162" y="88" width="27" height="3" fill="url(#library-band)" />
-        <rect x="162" y="125" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-4-highlight" d="M163.2 133 V79 Q163.2 76.2 166 76.2 H187 L183 80 H168 V128 Z" fill="#fffdf0" />
+        <path id="library-book-4-shadow" d="M184 80 L187.8 76.2 V134 Q187.8 135.8 186 135.8 H163.2 L168 131 H184 Z" fill="#c9ad77" />
+        <rect x="162" y="88" width="27" height="3" fill="#ffe087" />
+        <rect x="162" y="125" width="27" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-4" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-5-paint">
-      <use href="#library-book-5" fill="url(#library-gold)" />
+      <use href="#library-book-5" fill="#ffda37" />
       <g clip-path="url(#library-book-5-clip)">
-        <path d="M194.5 133 V80 Q194.5 77.5 198 77.5 H213" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="192" y="88" width="25" height="3" fill="url(#library-band)" />
-        <rect x="192" y="125" width="25" height="3" fill="url(#library-band)" />
+        <path id="library-book-5-highlight" d="M193.2 133 V79 Q193.2 76.2 196 76.2 H215 L211 80 H198 V128 Z" fill="#fff59a" />
+        <path id="library-book-5-shadow" d="M212 80 L215.8 76.2 V134 Q215.8 135.8 214 135.8 H193.2 L198 131 H212 Z" fill="#dfa522" />
+        <rect x="192" y="88" width="25" height="3" fill="#ffe087" />
+        <rect x="192" y="125" width="25" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-5" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-6-paint">
-      <use href="#library-book-6" fill="url(#library-green)" />
+      <use href="#library-book-6" fill="#32bd62" />
       <g clip-path="url(#library-book-6-clip)">
-        <path d="M74.5 214 V163 Q74.5 160.5 78 160.5 H95" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="72" y="171" width="27" height="3" fill="url(#library-band)" />
-        <rect x="72" y="206" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-6-highlight" d="M73.2 214 V162 Q73.2 159.2 76 159.2 H97 L93 163 H78 V209 Z" fill="#a1ed91" />
+        <path id="library-book-6-shadow" d="M94 163 L97.8 159.2 V215 Q97.8 216.8 96 216.8 H73.2 L78 212 H94 Z" fill="#128444" />
+        <rect x="72" y="171" width="27" height="3" fill="#ffe087" />
+        <rect x="72" y="206" width="27" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-6" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-7-paint">
-      <use href="#library-book-7" fill="url(#library-cream)" />
+      <use href="#library-book-7" fill="#f5e8c6" />
       <g clip-path="url(#library-book-7-clip)">
-        <path d="M104.5 214 V163 Q104.5 160.5 108 160.5 H125" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="102" y="171" width="27" height="3" fill="url(#library-band)" />
-        <rect x="102" y="206" width="27" height="3" fill="url(#library-band)" />
+        <path id="library-book-7-highlight" d="M103.2 214 V162 Q103.2 159.2 106 159.2 H127 L123 163 H108 V209 Z" fill="#fffdf0" />
+        <path id="library-book-7-shadow" d="M124 163 L127.8 159.2 V215 Q127.8 216.8 126 216.8 H103.2 L108 212 H124 Z" fill="#c9ad77" />
+        <rect x="102" y="171" width="27" height="3" fill="#ffe087" />
+        <rect x="102" y="206" width="27" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-7" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-8-paint" transform="rotate(7 132 218)">
-      <use href="#library-book-8" fill="url(#library-blue)" />
+      <use href="#library-book-8" fill="#1788ed" />
       <g clip-path="url(#library-book-8-clip)">
-        <path d="M134.5 214 V165 Q134.5 162.5 138 162.5 H151" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="132" y="173" width="23" height="3" fill="url(#library-band)" />
-        <rect x="132" y="206" width="23" height="3" fill="url(#library-band)" />
+        <path id="library-book-8-highlight" d="M133.2 214 V164 Q133.2 161.2 136 161.2 H153 L149 165 H138 V209 Z" fill="#83d9ff" />
+        <path id="library-book-8-shadow" d="M150 165 L153.8 161.2 V215 Q153.8 216.8 152 216.8 H133.2 L138 212 H150 Z" fill="#0753b5" />
+        <rect x="132" y="173" width="23" height="3" fill="#ffe087" />
+        <rect x="132" y="206" width="23" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-8" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-9-paint">
-      <use href="#library-book-9" fill="url(#library-red)" />
+      <use href="#library-book-9" fill="#f34b50" />
       <g clip-path="url(#library-book-9-clip)">
-        <path d="M168.5 214 V163 Q168.5 160.5 172 160.5 H187" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="166" y="171" width="25" height="3" fill="url(#library-band)" />
+        <path id="library-book-9-highlight" d="M167.2 214 V162 Q167.2 159.2 170 159.2 H189 L185 163 H172 V209 Z" fill="#ffac98" />
+        <path id="library-book-9-shadow" d="M186 163 L189.8 159.2 V215 Q189.8 216.8 188 216.8 H167.2 L172 212 H186 Z" fill="#b92338" />
+        <rect x="166" y="171" width="25" height="3" fill="#ffe087" />
         <path d="M166 176 H191" fill="none" stroke="#ffd548" stroke-width="1.3" />
-        <rect x="166" y="206" width="25" height="3" fill="url(#library-band)" />
+        <rect x="166" y="206" width="25" height="3" fill="#ffe087" />
         <path d="M166 211 H191" fill="none" stroke="#ffd548" stroke-width="1.3" />
       </g>
       <use href="#library-book-9" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>
     <g id="library-book-10-paint">
-      <use href="#library-book-10" fill="url(#library-gold)" />
+      <use href="#library-book-10" fill="#ffda37" />
       <g clip-path="url(#library-book-10-clip)">
-        <path d="M196.5 214 V163 Q196.5 160.5 200 160.5 H213" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.5" />
-        <rect x="194" y="171" width="23" height="3" fill="url(#library-band)" />
-        <rect x="194" y="206" width="23" height="3" fill="url(#library-band)" />
+        <path id="library-book-10-highlight" d="M195.2 214 V162 Q195.2 159.2 198 159.2 H215 L211 163 H200 V209 Z" fill="#fff59a" />
+        <path id="library-book-10-shadow" d="M212 163 L215.8 159.2 V215 Q215.8 216.8 214 216.8 H195.2 L200 212 H212 Z" fill="#dfa522" />
+        <rect x="194" y="171" width="23" height="3" fill="#ffe087" />
+        <rect x="194" y="206" width="23" height="3" fill="#ffe087" />
       </g>
       <use href="#library-book-10" fill="none" stroke="#050b1d" stroke-width="2.4" />
     </g>

@@ -189,7 +189,7 @@
       <path d="M180 207 Q192 204 201 206" fill="none" stroke="#11253b" stroke-width="2.5" />
       <g id="person-editing-hand-mouse-exterior" fill="#050b1d" stroke="#050b1d">
         <use href="#person-editing-mouse-shape" transform="translate(0 6.9)" stroke-width="11.8" />
-        <path d="M 187.68,217.5065 C 185.978,210.1355 191.085,205.2215 197.894,205.2215 C 203.427,204.812 209.386,206.8595 211.939,211.364 C 212.876,213.6572 212.876,217.2608 211.939,219.554 C 210.662,222.011 207.258,222.83 203.853,223.2395 C 200.874,223.649 199.171,222.83 197.894,222.011 C 196.788,221.6015 196.192,224.0585 194.064,224.0585 C 190.659,224.0585 187.68,221.6015 187.68,217.5065" fill="none" stroke="#050b1d" stroke-width="11.5" transform="matrix(1 0 0 1 -19 0)"/>
+        <use href="#person-editing-hand" transform="translate(0 224) scale(1 .78) translate(0 -224)" stroke-width="11.2" vector-effect="non-scaling-stroke"/>
       </g>
       <g id="person-editing-mouse" transform="translate(0 6.9)">
         <use href="#person-editing-mouse-shape" fill="url(#person-editing-mouse-paint)" stroke="#172b42" stroke-width="2.2" />
