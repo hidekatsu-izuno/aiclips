@@ -107,6 +107,10 @@
       <rect x="0" y="0" width="288" height="224" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="thinking-person-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#thinking-person-bust-crop)"><path d="M 125.55 149.01 C 118.71 153.0 108.07 155.09 98.76 159.84 C 86.79 165.16 81.66 172.0 82.23 187.39 C 81.47 203.16 83.94 212.85 91.73 220.64 Q 92.87 229.57 100.85 233.37 Q 107.88 238.5 127.07 235.08 L 186.35 236.41 Q 202.31 234.89 202.88 221.78 C 204.59 210.95 202.5 189.67 197.94 174.85 Q 195.28 168.2 188.44 164.02 C 178.56 157.94 167.92 154.9 159.37 149.96 L 157.85 144.45 Z" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#thinking-person-bust-crop)">
     <g id="thinking-person-integrated-torso">
       <path d="M 125.55 149.01 C 118.71 153.0 108.07 155.09 98.76 159.84 C 86.79 165.16 81.66 172.0 82.23 187.39 C 81.47 203.16 83.94 212.85 91.73 220.64 Q 92.87 229.57 100.85 233.37 Q 107.88 238.5 127.07 235.08 L 186.35 236.41 Q 202.31 234.89 202.88 221.78 C 204.59 210.95 202.5 189.67 197.94 174.85 Q 195.28 168.2 188.44 164.02 C 178.56 157.94 167.92 154.9 159.37 149.96 L 157.85 144.45 Z" fill="url(#thinking-employee-suit-paint)" />
@@ -127,8 +131,8 @@
     </g>
     <g id="thinking-person-tilted-head" transform="translate(5 -1) translate(144 60) scale(.88) translate(-144 -60) rotate(-14 144 165) translate(144 108) scale(1.1) translate(-144 -108)">
       <use href="#thinking-employee-face" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14.46281" mask="url(#thinking-employee-neck-continuity)" />
-      <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14" />
-      <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14.462810" />
+      <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14.462810" transform="translate(288 0) scale(-1 1)" />
       <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" />
       <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" transform="translate(288 0) scale(-1 1)" />
       <use href="#thinking-employee-face" fill="url(#thinking-employee-skin-paint)" />
@@ -174,6 +178,6 @@
       <path fill="none" stroke="#050b1d" stroke-width="3" d="M133 213.8 L181 204.9" />
       <path d="M 129.54 214.94 L 133.91 213.99 L 134.48 232.23 L 130.3 232.23 Z" fill="url(#thinking-employee-white-paint)" stroke="#050b1d" stroke-width="1.6" />
     </g>
-    <path id="thinking-person-bottom-edge" d="M94 224 H203" fill="none" stroke="#050b1d" stroke-width="10" stroke-linecap="butt" />
+    <path id="thinking-person-bottom-edge" d="M94 224 H203" fill="none" stroke="#050b1d" stroke-width="14.000000" stroke-linecap="butt" />
   </g>
 </svg>

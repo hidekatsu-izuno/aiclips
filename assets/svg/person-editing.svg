@@ -135,6 +135,12 @@
     </mask>
     <path id="person-editing-mouse-shape" d="M181 211 C171 211 166 217 166 225 Q166 231 181 231 Q196 231 196 225 C196 217 191 211 181 211 Z" />
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="person-editing-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(-10 6) translate(0 230) skewX(-8.5) translate(0 -230)"><use href="#person-editing-computer" fill="none" stroke="#050b1d" stroke-width="7.961076"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g stroke-linecap="round" stroke-linejoin="round" transform="translate(4 0)"><g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)"><use href="#person-editing-base-body" fill="none" stroke="#050b1d" stroke-width="8.555556"/></g></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g stroke-linecap="round" stroke-linejoin="round" transform="translate(4 0)"><g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)"><use href="#person-editing-base-hem" fill="none" stroke="#050b1d" stroke-width="8.555556" stroke-linecap="butt"/></g></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g stroke-linecap="round" stroke-linejoin="round" id="person-editing-employee" transform="translate(4 0)">
       <g id="person-editing-torso-proportions" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
@@ -159,14 +165,14 @@
         <use href="#person-editing-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
       </g>
       <g id="person-editing-head-proportions" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
-        <use href="#person-editing-base-face" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#person-editing-base-neck-continuity)" />
-        <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
-        <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+        <use href="#person-editing-base-face" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="12.727273" mask="url(#person-editing-base-neck-continuity)" />
+        <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="12.727273" />
+        <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="12.727273" transform="translate(288 0) scale(-1 1)" />
         <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" />
         <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
         <use href="#person-editing-base-face" fill="url(#person-editing-base-skin-paint)" />
         <use href="#person-editing-base-hair" fill="#061025" />
-        <path d="M98 119 C88 113 86 101 94 88 L98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119" fill="none" stroke="#050b1d" stroke-width="7" />
+        <path d="M98 119 C88 113 86 101 94 88 L98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119" fill="none" stroke="#050b1d" stroke-width="6.363636" />
         <use href="#person-editing-base-side-hair" fill="url(#person-editing-base-side-hair-paint)" />
         <use href="#person-editing-base-side-hair" fill="none" stroke="url(#person-editing-base-side-bevel)" stroke-width="5" clip-path="url(#person-editing-base-side-hair-clip)" />
         <use href="#person-editing-base-sweep" fill="url(#person-editing-base-hair-paint)" />
@@ -183,7 +189,7 @@
       <path d="M180 207 Q192 204 201 206" fill="none" stroke="#11253b" stroke-width="2.5" />
       <g id="person-editing-hand-mouse-exterior" fill="#050b1d" stroke="#050b1d">
         <use href="#person-editing-mouse-shape" transform="translate(0 6.9)" stroke-width="11.8" />
-        <use href="#person-editing-hand" transform="translate(0 224) scale(1 .78) translate(0 -224)" stroke-width="11.2" vector-effect="non-scaling-stroke" />
+        <path d="M 187.68,217.5065 C 185.978,210.1355 191.085,205.2215 197.894,205.2215 C 203.427,204.812 209.386,206.8595 211.939,211.364 C 212.876,213.6572 212.876,217.2608 211.939,219.554 C 210.662,222.011 207.258,222.83 203.853,223.2395 C 200.874,223.649 199.171,222.83 197.894,222.011 C 196.788,221.6015 196.192,224.0585 194.064,224.0585 C 190.659,224.0585 187.68,221.6015 187.68,217.5065" fill="none" stroke="#050b1d" stroke-width="11.5" transform="matrix(1 0 0 1 -19 0)"/>
       </g>
       <g id="person-editing-mouse" transform="translate(0 6.9)">
         <use href="#person-editing-mouse-shape" fill="url(#person-editing-mouse-paint)" stroke="#172b42" stroke-width="2.2" />

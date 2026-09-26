@@ -14,6 +14,13 @@
     <path id="ship-wave" d="M57 201 Q67 190 80 200 Q91 208 104 201 Q116 193 130 201 Q143 209 156 201 Q169 193 181 201 Q193 207 207 201 Q222 193 230 201 C237 208 232 218 223 219 Q210 230 194 225 Q181 228 168 224 Q155 230 141 225 Q127 230 112 225 Q96 231 81 225 Q67 227 61 220 C51 217 51 208 57 201Z"/>
     <clipPath id="ship-wave-clip"><use href="#ship-wave"/></clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="ship-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M134 85 V69 Q134 61 143 61 Q152 61 152 69 V85Z" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="113" y="82" width="61" height="33" rx="7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="91" y="103" width="106" height="41" rx="7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#ship-bow" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use id="ship-wave-exterior-outline" href="#ship-wave" fill="none" stroke="#050b1d" stroke-width="14"/>
     <path d="M134 85 V69 Q134 61 143 61 Q152 61 152 69 V85Z" fill="url(#ship-red)" stroke="#050b1d" stroke-width="6"/>

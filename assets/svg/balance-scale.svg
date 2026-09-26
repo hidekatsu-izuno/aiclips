@@ -64,6 +64,15 @@
       <stop stop-color="#e4a608" offset="1" />
     </radialGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="balance-scale-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#balance-scale-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#balance-scale-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#balance-scale-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#balance-scale-shape5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#050b1d" stroke-width="17.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#050b1d" stroke-width="17.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#050b1d" stroke-width="9" />
     <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#506786" stroke-width="3" />

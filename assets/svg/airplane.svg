@@ -95,6 +95,17 @@
       <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="airplane-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="139.5" y="183" width="9" height="26" rx=".5" fill="none" stroke="#050b1d" stroke-width="11.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape8" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#airplane-shape9" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#airplane-shape1" fill="url(#airplane-blue)" />
     <use href="#airplane-shape1" fill="none" stroke="url(#airplane-cyan)" stroke-width="7" clip-path="url(#airplane-shape1-clip)" />

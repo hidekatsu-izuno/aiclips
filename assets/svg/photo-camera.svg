@@ -44,6 +44,10 @@
       <stop offset="1" stop-color="#d5e0ea" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="photo-camera-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#photo-camera-shutter" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#photo-camera-shutter" fill="url(#photo-camera-steel)" />
     <use href="#photo-camera-shutter" fill="none" stroke="url(#photo-camera-steel-edge)" stroke-width="10" clip-path="url(#photo-camera-shutter-clip)" />

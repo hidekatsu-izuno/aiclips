@@ -129,6 +129,11 @@
       <use href="#approval-person-base-body" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="approval-person-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)"><use href="#approval-person-base-body" fill="none" stroke="#050b1d" stroke-width="8.555556"/></g></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)"><use href="#approval-person-base-hem" fill="none" stroke="#050b1d" stroke-width="8.555556" stroke-linecap="butt"/></g></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g transform="" stroke-linecap="round" stroke-linejoin="round">
       <g id="approval-person-torso-placement" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
@@ -155,9 +160,9 @@
         </g>
       </g>
       <g id="approval-person-head-placement" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
-        <path fill="none" stroke="#050b1d" stroke-width="7" d="M109 134 C112 151 126 159 144 159 C162 159 176 151 179 134" mask="url(#approval-person-base-neck-continuity)" />
-        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
-        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+        <use href="#approval-person-base-face" fill="none" stroke="#050b1d" stroke-width="12.727273" mask="url(#approval-person-base-neck-continuity)"/>
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="12.727273" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="12.727273" transform="translate(288 0) scale(-1 1)" />
         <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" />
         <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
         <use href="#approval-person-base-face" fill="url(#approval-person-base-skin-paint)" />
@@ -168,7 +173,7 @@
           <use href="#approval-person-temple-right" fill="url(#approval-person-temple-paint)" />
           <path d="M100 98 L115 90 M100 104 L112 98" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#approval-person-temple-left-clip)" />
           <path d="M177 94 L194 105 M180 102 L193 112" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#approval-person-temple-right-clip)" />
-          <path d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" fill="none" stroke="#050b1d" stroke-width="7" />
+          <path d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" fill="none" stroke="#050b1d" stroke-width="6.363636" />
           <path id="approval-person-part-highlight" d="M155 61 C160 64 160 71 156 75 C147 81 133 83 124 81" fill="none" stroke="#49617a" stroke-width="2" stroke-opacity=".55" stroke-linecap="round" clip-path="url(#approval-person-mature-hair-clip)" />
           <path id="approval-person-hair-part-line" d="M163 58 C168 64 169 72 165 79" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="round" clip-path="url(#approval-person-mature-hair-clip)" />
         </g>

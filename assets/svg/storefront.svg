@@ -73,6 +73,14 @@
       <stop offset="1" stop-color="#76522e" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="storefront-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M74 100 V88 Q74 79 83 79 H205 Q214 79 214 88 V100" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M73 100 L57 132 C47 152 74 166 86 148 Q100.5 164 115 148 Q129.5 164 144 148 Q158.5 164 173 148 Q187.5 164 202 148 C214 166 241 152 231 132 L215 100" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(71 208)"><use href="#storefront-tree-crown" fill="none" stroke="#050b1d" stroke-width="10.500000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(217 208)"><use href="#storefront-tree-crown" fill="none" stroke="#050b1d" stroke-width="10.500000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M67.5 228 H220.5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#storefront-shape1" fill="url(#storefront-paper)" />
     <use href="#storefront-shape1" fill="none" stroke="url(#storefront-silver-edge)" stroke-width="8" clip-path="url(#storefront-shape1-clip)" />

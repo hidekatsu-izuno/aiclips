@@ -75,6 +75,11 @@
       <use href="#warehouse-building-flat-carton-3" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="warehouse-building-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#warehouse-building-wall" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#warehouse-building-roof" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linejoin="round" stroke-linecap="round">
     <use href="#warehouse-building-wall" fill="url(#warehouse-building-wall-paint)" />
     <g id="warehouse-building-corrugated-wall" clip-path="url(#warehouse-building-wall-clip)" fill="none" stroke-linecap="butt">

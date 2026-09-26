@@ -38,6 +38,10 @@
       <use href="#folder-open-front" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="folder-open-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-6.469819985 92 74)"><use href="#folder-open-paper-back" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#folder-open-back" fill="url(#folder-open-gold)" />
     <use href="#folder-open-back" fill="none" stroke="url(#folder-open-gold-edge)" stroke-width="13" clip-path="url(#folder-open-back-clip)" />

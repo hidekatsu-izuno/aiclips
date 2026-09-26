@@ -286,9 +286,10 @@
     </g>
     <g transform="translate(56.16 29) scale(.61)" stroke-linecap="round" stroke-linejoin="round">
       <g id="team-meeting-center-torso" transform="translate(144 0) scale(.76 1) translate(-144 0)">
-        <use href="#team-meeting-base-body" fill="url(#team-meeting-base-suit-paint)" stroke="#050b1d" stroke-width="7" vector-effect="non-scaling-stroke" />
+        <use href="#team-meeting-base-body" fill="url(#team-meeting-base-suit-paint)" stroke="none" stroke-width="7"/>
+<path d="M 144,125.38 C 132.41,124.77 119.8928,129.65 111.0844,142.46 C 107.3756,149.17 105.5212,158.32 105.5212,164.42 C 105.5212,168.69 107.3756,169.91 110.6208,169.91 C 121.7472,169.91 132.8736,169.91 144,169.91 C 155.1264,169.91 166.2528,169.91 177.3792,169.91 C 180.6244,169.91 182.4788,168.69 182.4788,164.42 C 182.4788,158.32 180.6244,149.17 176.9156,142.46 C 168.1072,129.65 155.59,124.77 144,125.38" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(2.15703192 0 0 1.63934426 -166.612597 -47.5409836)"/>
         <use href="#team-meeting-base-shoulder-left" fill="none" stroke="url(#team-meeting-base-suit-bevel)" stroke-width="15" clip-path="url(#team-meeting-base-body-clip)" />
-        <use href="#team-meeting-base-body" fill="none" stroke="#050b1d" stroke-width="7" vector-effect="non-scaling-stroke" />
+        <path d="M 144,125.38 C 132.41,124.77 119.8928,129.65 111.0844,142.46 C 107.3756,149.17 105.5212,158.32 105.5212,164.42 C 105.5212,168.69 107.3756,169.91 110.6208,169.91 C 121.7472,169.91 132.8736,169.91 144,169.91 C 155.1264,169.91 166.2528,169.91 177.3792,169.91 C 180.6244,169.91 182.4788,168.69 182.4788,164.42 C 182.4788,158.32 180.6244,149.17 176.9156,142.46 C 168.1072,129.65 155.59,124.77 144,125.38" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(2.15703192 0 0 1.63934426 -166.612597 -47.5409836)"/>
         <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
         <use href="#team-meeting-base-shirt" fill="url(#team-meeting-base-white-paint)" />
         <use href="#team-meeting-base-neck" fill="url(#team-meeting-base-neck-paint)" />
@@ -304,7 +305,7 @@
         <use href="#team-meeting-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
         <use href="#team-meeting-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" />
         <use href="#team-meeting-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
-        <use href="#team-meeting-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" vector-effect="non-scaling-stroke" />
+        <path d="M 110.6208,169.91 L 177.3792,169.91" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(2.15703192 0 0 1.63934426 -166.612597 -47.5409836)" stroke-linecap="butt"/>
       </g>
       <g id="team-meeting-center-head" transform="translate(144 158) scale(.88) translate(-144 -158)">
         <use href="#team-meeting-base-face" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="26.080477" mask="url(#team-meeting-center-neck-continuity)" />

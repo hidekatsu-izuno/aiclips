@@ -74,6 +74,12 @@
     <rect id="power-plant-shape8" x="207" y="180" width="12" height="14" rx="2" />
     <rect id="power-plant-shape9" x="227" y="180" width="12" height="14" rx="2" />
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="power-plant-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-27 0)" stroke-linecap="round" stroke-linejoin="round"><use href="#power-plant-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(-27 0)" stroke-linecap="round" stroke-linejoin="round"><use href="#power-plant-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(-27 0)" stroke-linecap="round" stroke-linejoin="round"><use href="#power-plant-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g transform="translate(-27 0)" stroke-linecap="round" stroke-linejoin="round">
     <use href="#power-plant-shape1" fill="url(#power-plant-paper)" />
     <g clip-path="url(#power-plant-shape1-clip)">

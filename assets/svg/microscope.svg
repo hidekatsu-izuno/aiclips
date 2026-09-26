@@ -89,6 +89,16 @@
       <stop offset="1" stop-color="#8ea7bf" stop-opacity="0" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="microscope-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape2" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape3" fill="none" stroke="#050b1d" stroke-width="11.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape5" fill="none" stroke="#050b1d" stroke-width="10.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape8" fill="none" stroke="#050b1d" stroke-width="11.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#microscope-shape10" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#microscope-shape1" fill="url(#microscope-arm)" />
     <g clip-path="url(#microscope-shape1-clip)">

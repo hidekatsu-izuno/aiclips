@@ -87,6 +87,11 @@
       <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="passenger-train-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0 -12)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-train-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(0 -12)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-train-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g transform="translate(0 -12)" stroke-linecap="round" stroke-linejoin="round">
     <use href="#passenger-train-shape1" fill="url(#passenger-train-paper)" />
     <g clip-path="url(#passenger-train-shape1-clip)">

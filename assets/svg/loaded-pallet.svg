@@ -34,6 +34,13 @@
       <use href="#loaded-pallet-flat-carton-2" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="loaded-pallet-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#loaded-pallet-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 -3.5) scale(.84 1) translate(-145 0)"><use href="#loaded-pallet-flat-carton-0" fill="none" stroke="#050b1d" stroke-width="10.217391"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 -3.5) scale(.84 1) translate(-145 0)"><use href="#loaded-pallet-flat-carton-1" fill="none" stroke="#050b1d" stroke-width="10.217391"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 -3.5) scale(.84 1) translate(-145 0)"><use href="#loaded-pallet-flat-carton-2" fill="none" stroke="#050b1d" stroke-width="10.217391"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#loaded-pallet-shape1" fill="url(#loaded-pallet-wood)" />
     <g clip-path="url(#loaded-pallet-shape1-clip)">

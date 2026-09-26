@@ -30,6 +30,10 @@
     <clipPath id="host-computer-front-clip"><use href="#host-computer-front" /></clipPath>
     <clipPath id="host-computer-case-clip"><use href="#host-computer-case" /></clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="host-computer-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#host-computer-case" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#host-computer-case" fill="url(#host-computer-front-paint)" />
     <path d="M92 55 H119 V232 H84 V158 H92 Z" fill="url(#host-computer-recess-paint)" />

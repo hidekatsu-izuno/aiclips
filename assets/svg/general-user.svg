@@ -58,9 +58,9 @@
     <path d="M126 168 C128 181 160 181 162 168" fill="none" stroke="#075a9d" stroke-width="3" />
     <path d="M128 153 V163 Q128 167 124 167.2 C100 169.5 82 185 76 205 Q72 216 72 224 Q72 229 79 229 H209 Q216 229 216 224 Q216 216 212 205 C206 185 188 169.5 164 167.2 Q160 167 160 163 V153" fill="none" stroke="#050b1d" stroke-width="7" id="general-user-neck-shoulder-outline" />
     <g id="general-user-head-proportions" transform="translate(144 108) scale(1.1) translate(-144 -108)">
-      <use href="#general-user-face" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" mask="url(#general-user-open-chin)" />
-      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" />
-      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#general-user-face" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="12.727273" mask="url(#general-user-open-chin)" />
+      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="12.727273" />
+      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="12.727273" transform="translate(288 0) scale(-1 1)" />
       <use href="#general-user-face" fill="url(#general-user-skin)" />
       <path d="M177 124 C175 143 163 155 148 157" fill="none" stroke="#edb17a" stroke-width="4" opacity=".5" clip-path="url(#general-user-face-clip)" />
       <g id="general-user-compact-hair" transform="translate(144 0) scale(.94 1) translate(-144 0)">
@@ -69,7 +69,7 @@
           <path d="M100 116 C94 104 96 86 103 76 C111 64 126 60 141 61 C154 60 165 65 170 70 C184 71 194 81 195 96 Q197 111 190 121" stroke="url(#general-user-hair-light)" stroke-width="17" />
           <path d="M190 85 Q197 106 185 118 M123 95 C136 108 159 112 177 106" stroke="#182c43" stroke-width="3.5" />
         </g>
-        <path d="M100 116 C94 104 96 86 103 76 C111 64 126 60 141 61 C154 60 165 65 170 70 C184 71 194 81 195 96 Q197 111 190 121" fill="none" stroke="#050b1d" stroke-width="7" />
+        <path d="M100 116 C94 104 96 86 103 76 C111 64 126 60 141 61 C154 60 165 65 170 70 C184 71 194 81 195 96 Q197 111 190 121" fill="none" stroke="#050b1d" stroke-width="6.560450" />
         <path d="M111 123 C114 113 118 103 123 94 C135 108 159 112 177 106 Q178 114 178 122" fill="none" stroke="#14253b" stroke-width="2.5" />
       </g>
       <use href="#general-user-ear" fill="url(#general-user-skin)" />

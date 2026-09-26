@@ -59,6 +59,11 @@
       <use href="#secure-safe-shape9" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="secure-safe-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#secure-safe-shape1" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#secure-safe-shape2" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linejoin="round" stroke-linecap="round">
     <use href="#secure-safe-shape1" fill="url(#secure-safe-dark)" />
     <use href="#secure-safe-shape1" fill="none" stroke="url(#secure-safe-edge)" stroke-width="5" clip-path="url(#secure-safe-shape1-clip)" />

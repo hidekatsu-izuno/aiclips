@@ -44,6 +44,11 @@
       <use href="#message-queue-output" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="message-queue-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#message-queue-input" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#message-queue-output" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#message-queue-body" fill="url(#message-queue-blue)" />
     <use href="#message-queue-body" fill="none" stroke="url(#message-queue-blue-edge)" stroke-width="15" clip-path="url(#message-queue-body-clip)" />

@@ -63,6 +63,12 @@
       <stop offset="1" stop-color="#76522e" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="business-building-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#business-building-ground-clip)"><path d="M70 225 V95 Q70 88 77 88 H100 V68 Q100 59 109 59 H179 Q188 59 188 68 V88 H211 Q218 88 218 95 V225 Z" fill="none" stroke="#050b1d" stroke-width="8.000000" stroke-linejoin="miter"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#business-building-ground-clip)"><g transform="translate(74 206)"><use href="#business-building-tree-crown" fill="none" stroke="#050b1d" stroke-width="10.500000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#business-building-ground-clip)"><g transform="translate(214 206)"><use href="#business-building-tree-crown" fill="none" stroke="#050b1d" stroke-width="10.500000"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#business-building-ground-clip)">
     <use href="#business-building-shape1" fill="url(#business-building-paper)" />
     <use href="#business-building-shape1" fill="none" stroke="url(#business-building-silver-edge)" stroke-width="10" clip-path="url(#business-building-shape1-clip)" />

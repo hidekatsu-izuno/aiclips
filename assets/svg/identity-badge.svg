@@ -40,6 +40,10 @@
       <use href="#identity-badge-shape5" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="identity-badge-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#identity-badge-shape2" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linejoin="round" stroke-linecap="round">
     <use href="#identity-badge-shape1" fill="url(#identity-badge-white)" />
     <use href="#identity-badge-shape1" fill="none" stroke="url(#identity-badge-edge)" stroke-width="9" clip-path="url(#identity-badge-shape1-clip)" />

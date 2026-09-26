@@ -197,6 +197,17 @@
       <stop offset="1.0" stop-color="#d82316" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="virus-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(45 144 144)"><use href="#virus-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(135 144 144)"><use href="#virus-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(225 144 144)"><use href="#virus-shape6" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(315 144 144)"><use href="#virus-shape8" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(0 144 144) translate(0 8)"><use href="#virus-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(90 144 144) translate(0 8)"><use href="#virus-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(180 144 144) translate(0 8)"><use href="#virus-shape5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(270 144 144) translate(0 8)"><use href="#virus-shape7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#virus-shape9" fill="none" stroke="#050b1d" stroke-width="14" />
     <g id="virus-background-spikes">

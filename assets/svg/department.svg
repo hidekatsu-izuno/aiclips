@@ -22,6 +22,14 @@
     <path id="department-connectors" d="M144 108 V140 M76 172 V140 H212 V172 M144 140 V172" />
     <path id="department-connector-faces" d="M144 113 V140 M76 170 V140 H212 V170 M144 140 V170" />
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="department-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#department-parent" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(48 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(116 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(184 167)"><use href="#department-child" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="25.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="18" />
     <use href="#department-parent" fill="url(#department-blue)" />

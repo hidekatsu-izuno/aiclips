@@ -66,7 +66,7 @@
         <rect x="65" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
         <rect x="114" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
       </g>
-      <use href="#rdbms-view-card" fill="none" stroke="#050b1d" stroke-width="5" stroke-dasharray="10 7" stroke-linecap="butt" />
+      <use href="#rdbms-view-card" fill="none" stroke="#050b1d" stroke-width="7.000000" stroke-dasharray="10 7" stroke-linecap="butt" />
     </g>
   </g>
 </svg>

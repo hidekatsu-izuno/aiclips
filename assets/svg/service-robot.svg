@@ -107,6 +107,16 @@
       <stop offset="1" stop-color="#008ded" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="service-robot-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape1" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape2" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(288 0) scale(-1 1)"><use href="#service-robot-shape4" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape6" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape11" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape12" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#service-robot-shape13" fill="none" stroke="#050b1d" stroke-width="14.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#service-robot-shape1" fill="none" stroke="#050b1d" stroke-width="12" />
     <use href="#service-robot-shape1" fill="url(#service-robot-steel)" />

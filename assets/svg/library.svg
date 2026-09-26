@@ -67,6 +67,21 @@
     <rect id="library-book-10" x="194" y="158" width="23" height="60" rx="3" />
     <clipPath id="library-book-10-clip"><use href="#library-book-10" /></clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="library-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="9.000000">
+      <rect x="58" y="229" width="15" height="14" rx="3"/>
+      <rect x="215" y="229" width="15" height="14" rx="3"/>
+    </g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="11.000000">
+      <path d="M57 59 H69 V228 H57 Z"/>
+      <path d="M219 59 H231 V228 H219 Z"/>
+    </g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="8.000000">
+      <rect x="52" y="48" width="184" height="14" rx="5"/>
+      <rect x="52" y="224" width="184" height="12" rx="4"/>
+    </g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="library-feet" fill="url(#library-wood)" stroke="#050b1d" stroke-width="5">
       <rect x="58" y="229" width="15" height="14" rx="3" />

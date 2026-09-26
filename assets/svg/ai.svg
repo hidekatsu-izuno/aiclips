@@ -46,7 +46,7 @@
       <path d="M220 744 C200 733 197 721 207 704 C217 686 239 665 259 642 C283 615 299 607 299 588 C299 574 290 553 284 534 C253 418 314 299 410 230 C498 165 599 135 701 147" fill="none" stroke="url(#ai-light)" stroke-width="29" />
       <path d="M1002 360 C1116 583 1006 735 877 853 C790 930 748 1063 552 1129 L922 1161 L1074 815 L1124 448Z" fill="url(#ai-shadow)" />
     </g>
-    <use href="#ai-head" fill="none" stroke="#050b1d" stroke-width="40" />
+    <use href="#ai-head" fill="none" stroke="#050b1d" stroke-width="41.176471" />
     <g transform="translate(21 0) scale(.94 1)">
       <use href="#ai-brain" fill="url(#ai-brain-fill)" stroke="#050b1d" stroke-width="32" />
       <use href="#ai-brain" fill="none" stroke="url(#ai-brain-bevel)" stroke-width="47" clip-path="url(#ai-brain-clip)" />

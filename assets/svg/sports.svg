@@ -21,9 +21,13 @@
     <circle id="sports-ball" cx="184" cy="192" r="48" />
     <clipPath id="sports-ball-clip"><use href="#sports-ball" /></clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="sports-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(163 184) scale(.90) translate(-184 -192)"><use href="#sports-ball" fill="none" stroke="#050b1d" stroke-width="9.555556"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="sports-table-tennis-racket" transform="translate(96 85) scale(.82) translate(-96 -60)">
-      <path d="M96 60 C72 60 54 81 54 108 L54 119 C54 137 66 145 78 151 Q86 157 88 167 C90 179 88 193 87 203 Q96 206 105 203 C104 193 102 179 104 167 Q106 157 114 151 C126 145 138 137 138 119 L138 108 C138 81 120 60 96 60 Z" fill="#ebc78b" stroke="#050b1d" stroke-width="8.536585" />
+      <path d="M96 60 C72 60 54 81 54 108 L54 119 C54 137 66 145 78 151 Q86 157 88 167 C90 179 88 193 87 203 Q96 206 105 203 C104 193 102 179 104 167 Q106 157 114 151 C126 145 138 137 138 119 L138 108 C138 81 120 60 96 60 Z" fill="#ebc78b" stroke="#050b1d" stroke-width="10.200000"/>
       <path d="M96 62 C73 62 56 82 56 108 L56 119 C56 131 63 140 76 145 L116 145 C129 140 136 131 136 119 L136 108 C136 82 119 62 96 62 Z" fill="#e84945" stroke="#050b1d" stroke-width="2.5" />
       <path d="M88 147 Q92 176 87 203 Q96 205 105 203 Q100 176 104 147 Z" fill="#caa16d" stroke="#050b1d" stroke-width="2.5" />
       <path d="M94 149 L98 149 L99 201 L93 201 Z" fill="#315d90" />
@@ -32,8 +36,8 @@
       <use href="#sports-bat" fill="url(#sports-wood)" />
       <path d="M150 51 Q156 77 150 125 Q146 169 147 204 L146 265 L163 265 L166 51 Z" fill="#a96828" opacity=".28" clip-path="url(#sports-bat-clip)" />
       <path d="M141 260 L140 204 Q139 167 135 126 Q132 94 133 72 Q133 58 144 58" fill="none" stroke="#ffedba" stroke-width="4" clip-path="url(#sports-bat-clip)" />
-      <use href="#sports-bat" fill="none" stroke="#050b1d" stroke-width="5" />
-      <rect x="131" y="261" width="26" height="10" rx="5" fill="url(#sports-wood)" stroke="#050b1d" stroke-width="4" />
+      <path d="M 66.14754,210.96301 L 101.00791,174.54701 Q 121.01903,152.98026 143.44846,124.32829 Q 159.52806,103.58178 175.15512,89.51035 Q 186.44055,78.22493 198.10781,89.89219 Q 209.77507,101.55945 198.48965,112.84488 Q 184.41822,128.47194 163.67171,144.55154 Q 135.01974,166.98097 113.45299,186.99209 L 77.03699,221.85246 L 66.14754,210.96301" fill="none" stroke="#050b1d" stroke-width="7" transform="matrix(0.642824347 -0.841793787 0.642824347 0.841793787 -41.1334118 142.095238)"/>
+      <rect x="131" y="261" width="26" height="10" rx="5" fill="url(#sports-wood)" stroke="#050b1d" stroke-width="8.333333"/>
     </g>
     <g id="sports-soccer-ball" transform="translate(163 184) scale(.90) translate(-184 -192)">
       <use href="#sports-ball" fill="url(#sports-ball-paint)" />

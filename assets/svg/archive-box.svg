@@ -53,6 +53,13 @@
       <use href="#archive-box-side-face" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="archive-box-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M94 79 H231 Q236 79 236 84" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#archive-box-paper-back" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#archive-box-paper-front" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M94 79 Q90 79 88 82 L58 123 V207 Q58 221 72 221 H196 Q204 221 208 217 L233 183 Q236 179 236 175 V84 Q236 79 231 79 H217" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#archive-box-rim" fill="url(#archive-box-rim-paint)" />
     <path id="archive-box-opening" d="M71.528342 118 H201.453877 L223.999332 87 H94.073797 Z" fill="url(#archive-box-interior-paint)" stroke="#050b1d" stroke-width="2" />

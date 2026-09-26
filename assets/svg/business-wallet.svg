@@ -77,6 +77,10 @@
       <use href="#business-wallet-stud" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="business-wallet-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#business-wallet-strap" fill="none" stroke="#050b1d" stroke-width="10.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#business-wallet-back" fill="url(#business-wallet-leather)" />
     <use href="#business-wallet-back" fill="none" stroke="url(#business-wallet-leather-edge)" stroke-width="12" clip-path="url(#business-wallet-back-clip)" />

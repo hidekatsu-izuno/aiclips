@@ -34,6 +34,10 @@
       <stop offset="1" stop-color="#b6c7d8" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="sea-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#sea-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#sea-shape1" fill="url(#sea-gold)" />
     <use href="#sea-shape1" fill="none" stroke="#fff080" stroke-width="9" clip-path="url(#sea-shape1-clip)" />

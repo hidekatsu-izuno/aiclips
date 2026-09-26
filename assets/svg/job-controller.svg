@@ -87,6 +87,12 @@
           </g>
     </mask>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="job-controller-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="8.000000" mask="url(#job-controller-junction-mask)"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <path d="M144 89 V190" fill="none" stroke="#050b1d" stroke-width="25" />
     <path d="M95 162 L82 192" fill="none" stroke="#050b1d" stroke-width="25" />

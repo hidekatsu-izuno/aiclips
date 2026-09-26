@@ -34,7 +34,7 @@
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#broadleaf-tree-shape1" fill="none" stroke="#02102a" stroke-width="14" />
-    <use href="#broadleaf-tree-shape2" fill="none" stroke="#02102a" stroke-width="16" />
+    <use href="#broadleaf-tree-shape2" fill="none" stroke="#02102a" stroke-width="14.000000" />
     <use href="#broadleaf-tree-shape1" fill="url(#broadleaf-tree-bark)" />
     <path d="M125 172 L131 172 L138 184 C143 198 135 215 130 222 H123 C134 207 136 197 133 185 Z" fill="url(#broadleaf-tree-bark-highlight)" clip-path="url(#broadleaf-tree-shape1-clip)" />
     <use href="#broadleaf-tree-shape2" fill="url(#broadleaf-tree-leaves)" />

@@ -59,6 +59,14 @@
       <stop stop-color="#0083c9" offset="1" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="bicycle-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#bicycle-shape5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M133 188 H145 L147 193 H131 Z" fill="none" stroke="#050b1d" stroke-width="11.500000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#bicycle-shape6" fill="none" stroke="#050b1d" stroke-width="10.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M87 168 L115 125 L139 168 H87 M115 125 L178 104 L139 168 M178 104 L199 168 M115 125 L106 100 M178 104 L174 91 Q189 91 183 81 H162" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M139 174 V189" fill="none" stroke="#050b1d" stroke-width="18.000000" stroke-linecap="butt"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#bicycle-shape1" fill="url(#bicycle-tire-face)" />
     <use href="#bicycle-shape1" fill="none" stroke="url(#bicycle-tire-bevel)" stroke-width="12" clip-path="url(#bicycle-shape1-clip)" />

@@ -43,7 +43,7 @@
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="14" />
+    <use href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="10.500000" />
     <use href="#algorithm-logic-shape4" fill="url(#algorithm-logic-box4-paint)" />
     <use href="#algorithm-logic-shape4" fill="none" stroke="url(#algorithm-logic-box4-edge)" stroke-width="16.4" clip-path="url(#algorithm-logic-shape4-clip)" />
     <use href="#algorithm-logic-shape4" fill="none" stroke="#050b1d" stroke-width="7" />

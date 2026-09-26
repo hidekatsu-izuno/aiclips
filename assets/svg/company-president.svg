@@ -136,6 +136,10 @@
       <rect x="0" y="0" width="288" height="231" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="company-president-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 166.6) scale(.92 .86) translate(-144 -158)"><path d="M126 148 C127 151 125 154 122 156 C110 159 96 165 86 171 Q78 175 74 184 C66 199 61 215 58 231 H230 C227 215 222 199 214 184 Q210 175 202 171 C192 165 178 159 166 156 C163 154 161 151 162 148" fill="none" stroke="#050b1d" stroke-width="8.730337" stroke-linecap="butt"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="company-president-chair" transform="translate(11.52 0) scale(.92 1)" stroke-linejoin="round">
       <path d="M68 207 C61 189 58 151 62 128 C66 103 83 97 106 96 H182 C205 97 222 103 226 128 C230 151 227 189 220 207Z" fill="url(#company-president-chair-cushion)" stroke="#050b1d" stroke-width="7" vector-effect="non-scaling-stroke" />
@@ -181,7 +185,7 @@
       <path id="company-president-neck-shoulder-outline" d="M126 148 C127 151 125 154 122 156 C110 159 96 165 86 171 Q78 175 74 184 C66 199 61 215 58 231 H230 C227 215 222 199 214 184 Q210 175 202 171 C192 165 178 159 166 156 C163 154 161 151 162 148" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
     </g>
     <g id="company-president-head" transform="translate(144 164) scale(1.04) translate(-144 -159)">
-      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#company-president-reference-base-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#company-president-neck-continuity)" />
+      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#company-president-reference-base-skin-paint)" stroke="#050b1d" stroke-width="13.461538" mask="url(#company-president-neck-continuity)"/>
       <use href="#company-president-reference-base-face" fill="url(#company-president-reference-base-skin-paint)" />
       <g clip-path="url(#company-president-face-clip)">
         <path d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="url(#company-president-hairline-shadow)" stroke-width="7" />

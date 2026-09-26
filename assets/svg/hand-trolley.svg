@@ -49,6 +49,14 @@
       <use href="#hand-trolley-flat-carton-0" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="hand-trolley-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hand-trolley-flat-carton-0" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hand-trolley-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hand-trolley-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hand-trolley-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M193 188 L197 78 Q197 72 205 72 H222" fill="none" stroke="#050b1d" stroke-width="25.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="hand-trolley-flat-carton-0-art">
       <use href="#hand-trolley-flat-carton-0" fill="url(#hand-trolley-matched-carton)" />

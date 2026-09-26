@@ -75,6 +75,13 @@
       <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="passenger-bus-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-bus-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-bus-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-bus-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round"><use href="#passenger-bus-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round">
     <use href="#passenger-bus-shape1" fill="url(#passenger-bus-wheel)" />
     <path d="M88 219 V225 Q88 229 93 229 H98" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />

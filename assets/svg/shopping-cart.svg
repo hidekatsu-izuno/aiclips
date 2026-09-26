@@ -50,6 +50,10 @@
       <use href="#shopping-cart-wheel-1" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="shopping-cart-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#050b1d" stroke-width="21.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <path d="M114 174 H217 L213 187 H126 Q117 187 114 174 Z" fill="#009de8" stroke="#050b1d" stroke-width="4" />
     <use href="#shopping-cart-basket-outer" fill="#17384e" />

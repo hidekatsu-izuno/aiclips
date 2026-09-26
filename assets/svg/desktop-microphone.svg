@@ -48,6 +48,10 @@
       <stop offset="1" stop-color="#0eaa46" stop-opacity="1" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="desktop-microphone-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#desktop-microphone-stem" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#desktop-microphone-foot" fill="url(#desktop-microphone-steel)" />
     <use href="#desktop-microphone-foot" fill="none" stroke="url(#desktop-microphone-steel-edge)" stroke-width="13" clip-path="url(#desktop-microphone-foot-clip)" />

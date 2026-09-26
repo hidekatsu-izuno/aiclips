@@ -31,6 +31,10 @@
     </clipPath>
     <path id="data-chart-shape4" d="M72 203 V92 H64 L78 72 L92 92 H84 V191 H225 V183 L238 197 L225 211 V203 Z" />
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="data-chart-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#data-chart-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000" stroke-linejoin="miter"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#data-chart-shape1" fill="url(#data-chart-blue)" />
     <path d="M91.5 188 V152 Q91.5 149.5 94 149.5 H112" fill="none" stroke="#82e2ff" stroke-width="4" clip-path="url(#data-chart-shape1-clip)" />

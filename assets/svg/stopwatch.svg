@@ -50,6 +50,11 @@
       <circle cx="143" cy="156" r="59" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="stopwatch-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-35 91 94)"><rect x="78.0" y="84.0" width="26.0" height="20.0" rx="4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(35 198 89)"><rect x="185.0" y="79.0" width="26.0" height="20.0" rx="4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <rect x="130" y="70" width="26" height="22" rx="3" fill="url(#stopwatch-ring)" stroke="#050b1d" stroke-width="5" />
     <use href="#stopwatch-top-button" fill="url(#stopwatch-ring)" />

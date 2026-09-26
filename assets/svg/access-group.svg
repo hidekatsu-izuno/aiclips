@@ -56,6 +56,13 @@
       <use href="#access-group-shape6" />
     </clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="access-group-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round" stroke-linecap="round"><g transform="translate(12 0)"><use href="#access-group-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><g transform="translate(12 0)"><use href="#access-group-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-12 0)"><use href="#access-group-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-12 0)"><use href="#access-group-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g></g>
+  </g>
   <g stroke-linejoin="round" stroke-linecap="round">
     <g id="access-group-left-person" transform="translate(12 0)">
       <use href="#access-group-shape1" fill="url(#access-group-green)" />

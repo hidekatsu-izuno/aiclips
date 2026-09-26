@@ -108,6 +108,10 @@
       <stop offset="1" stop-color="#a96937" stop-opacity="0" />
     </linearGradient>
   </defs>
+  <!-- Background-facing contours retain the existing interior seams. -->
+  <g id="field-worker-exterior-width-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(140 229) scale(0.94 0.88) translate(-140 -229)"><path fill="none" stroke="#050b1d" stroke-width="8.384615" d="M123 157 C91 162 67 187 66 223 Q65 231 72 231 H208 Q215 231 214 223 C213 187 189 162 157 157"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="field-worker-torso-proportions" transform="translate(140 229) scale(0.94 0.88) translate(-140 -229)">
       <use href="#field-worker-body" fill="url(#field-worker-uniform)" />
@@ -126,9 +130,9 @@
       <path fill="none" stroke="#050b1d" stroke-width="7" d="M123 157 C91 162 67 187 66 223 Q65 231 72 231 H208 Q215 231 214 223 C213 187 189 162 157 157" />
     </g>
     <g id="field-worker-employee-head" transform="translate(140 108) scale(1.1 1.1) translate(-140 -108) translate(-4 0)">
-      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#field-worker-person-neck-continuity)" />
-      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" />
-      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="12.727273" mask="url(#field-worker-person-neck-continuity)" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="12.727273" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="12.727273" transform="translate(288 0) scale(-1 1)" />
       <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" />
       <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" transform="translate(288 0) scale(-1 1)" />
       <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" />
@@ -147,7 +151,7 @@
       <path d="M129 96 V67 Q129 60 135 58" fill="none" stroke="#fff284" stroke-width="3" />
       <use href="#field-worker-brim" fill="url(#field-worker-visor-yellow)" />
       <path d="M95 100.75 H185" id="field-worker-helmet-join" fill="none" stroke="#c99508" stroke-width="3.5" stroke-linecap="butt" clip-path="url(#field-worker-helmet-whole-clip)" />
-      <path d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" id="field-worker-helmet-dome-outline" />
+      <path d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99" fill="none" stroke="#050b1d" stroke-width="6.363636" stroke-linecap="butt" id="field-worker-helmet-dome-outline" />
       <path id="field-worker-flared-brim-outline" d="M91.5 99 L86 112 Q84 116 92 116 H188 Q196 116 194 112 L188.5 99 H181.5 L186 112 Q187 114 184 114 H96 Q93 114 94 112 L98.5 99Z" fill="#050b1d" />
     </g>
     <g id="field-worker-tools-proportions" transform="translate(140 229) scale(0.94 0.88) translate(-140 -229)">

@@ -56,6 +56,12 @@
     <clipPath id="hacker-face-clip"><use href="#hacker-face" /></clipPath>
     <clipPath id="hacker-neck-clip"><use href="#hacker-neck" /></clipPath>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="hacker-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 0) scale(.92 1) translate(-144 0)"><use href="#hacker-torso" fill="none" stroke="#050b1d" stroke-width="8.583333"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hacker-hood" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M68 224 H220 L219 240 Q219 243 215 243 H73 Q69 243 69 240 Z" fill="none" stroke="#050b1d" stroke-width="10.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="hacker-torso-proportions" transform="translate(144 0) scale(.92 1) translate(-144 0)">
       <use href="#hacker-torso" fill="url(#hacker-jacket-paint)" />

@@ -68,6 +68,13 @@
       <stop offset="1" stop-color="#8d9daa" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="delivery-van-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="86" y="197" width="26" height="36" rx="8" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="178" y="197" width="26" height="36" rx="8" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="57" y="127" width="16" height="29" rx="5" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><rect x="217" y="127" width="16" height="29" rx="5" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <rect x="86" y="197" width="26" height="36" rx="8" fill="url(#delivery-van-wheel)" stroke="#050b1d" stroke-width="6" />
     <path d="M91 216 V224 Q91 228 96 228" fill="none" stroke="#a3bcd0" stroke-width="3" />

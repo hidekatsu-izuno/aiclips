@@ -42,6 +42,10 @@
       <stop offset="1" stop-color="#003fa8" stop-opacity="1" />
     </linearGradient>
   </defs>
+  <!-- Background-facing contours retain the existing interior seams. -->
+  <g id="closed-book-exterior-width-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M207 185 Q196 185 196 198 Q196 211 207 211" fill="none" stroke="#050b1d" stroke-width="8" />
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#closed-book-body" fill="url(#closed-book-cover)" />
     <g clip-path="url(#closed-book-spine-bevel-clip)">

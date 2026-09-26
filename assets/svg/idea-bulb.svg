@@ -63,8 +63,8 @@
     <use href="#idea-bulb-glass" fill="none" stroke="#050b1d" stroke-width="7" />
     <path d="M111 100 Q120 85 133 81" fill="none" stroke="#fff38b" stroke-width="11" />
     <path d="M130 135 Q138 147 138 161 V183 M162 135 Q154 147 154 161 V183 M130 135 Q146 157 162 135" fill="none" stroke="#c48d00" stroke-width="6" />
-    <g id="idea-bulb-socket-outline" fill="#050b1d" stroke="#050b1d" stroke-width="14" mask="url(#idea-bulb-socket-exterior)">
-      <use href="#idea-bulb-tip" />
+    <g id="idea-bulb-socket-outline" fill="#050b1d" stroke="#050b1d" stroke-width="12.000000" mask="url(#idea-bulb-socket-exterior)">
+      <use href="#idea-bulb-tip" stroke-width="14"/>
       <use href="#idea-bulb-upper-band" />
       <use href="#idea-bulb-lower-band" />
     </g>

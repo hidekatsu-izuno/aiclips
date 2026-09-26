@@ -53,6 +53,28 @@
           </g>
     </mask>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="neural-network-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape2" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape3" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape4" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape5" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape6" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><use href="#neural-network-shape7" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 113 L144 82" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 113 L144 145" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 113 L144 208" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 180 L144 82" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 180 L144 145" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M78 180 L144 208" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 82 L210 113" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 82 L210 180" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 145 L210 113" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 145 L210 180" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 208 L210 113" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+    <g stroke-linejoin="round" stroke-linecap="round"><path d="M144 208 L210 180" fill="none" stroke="#050b1d" stroke-width="20.000000"/></g>
+  </g>
   <g stroke-linejoin="round" stroke-linecap="round">
     <path d="M78 113 L144 82" fill="none" stroke="#050b1d" stroke-width="18" />
     <path d="M78 113 L144 145" fill="none" stroke="#050b1d" stroke-width="18" />

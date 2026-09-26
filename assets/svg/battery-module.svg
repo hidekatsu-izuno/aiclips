@@ -75,6 +75,11 @@
     </linearGradient>
     <path id="battery-module-bolt" d="M129 137 L103 173 H118 L114 195 L141 163 H125 Z" />
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="battery-module-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M87 88 V75 Q87 70 92 70 H111 Q116 70 116 75 V88" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><path d="M167 88 V75 Q167 70 172 70 H191 Q196 70 196 75 V88" fill="none" stroke="#050b1d" stroke-width="9.000000"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#battery-module-body" fill="url(#battery-module-gold)" />
     <use href="#battery-module-body" fill="none" stroke="url(#battery-module-gold-edge)" stroke-width="15" clip-path="url(#battery-module-body-clip)" />

@@ -75,9 +75,14 @@
       <path d="M132 146 H156 V173 H132Z" fill="black" />
     </mask>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="office-employee-female-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 231) scale(.86 .88) translate(-144 -231)"><use href="#female-employee-body" fill="none" stroke="#050b1d" stroke-width="9.091954"/></g></g>
+    <g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(144 231) scale(.86 .88) translate(-144 -231)"><use href="#female-employee-hem" fill="none" stroke="#050b1d" stroke-width="9.091954" stroke-linecap="butt"/></g></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="female-employee-back-hair-size" transform="translate(144 108) scale(1.1) translate(-144 -108)">
-      <use href="#female-employee-long-hair" fill="url(#female-employee-hair-paint)" stroke="#050b1d" stroke-width="7" />
+      <use href="#female-employee-long-hair" fill="url(#female-employee-hair-paint)" stroke="#050b1d" stroke-width="6.363636"/>
       <g clip-path="url(#female-employee-long-hair-clip)">
         <path d="M102 107 C99 135 95 157 97 171 Q97 177 110 177" fill="none" stroke="#425d7f" stroke-width="6" />
         <path d="M187 112 L191 169 Q193 178 182 179" fill="none" stroke="#102137" stroke-width="7" />
@@ -104,8 +109,8 @@
     </g>
     <g id="female-employee-head-size" transform="translate(144 108) scale(1.1) translate(-144 -108)">
       <use href="#female-employee-face" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#female-employee-neck-join)" />
-      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="14" />
-      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="12.727273" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="12.727273" transform="translate(288 0) scale(-1 1)" />
       <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" />
       <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" transform="translate(288 0) scale(-1 1)" />
       <use href="#female-employee-face" fill="url(#female-employee-skin-paint)" />
@@ -115,7 +120,7 @@
         <path d="M129 80 C135 99 155 109 179 111" fill="none" stroke="#102137" stroke-width="5" />
         <path d="M178 80 Q187 95 187 112" fill="none" stroke="#344c6a" stroke-width="4" />
       </g>
-      <path d="M97 119 C94 77 112 54 143 54 C175 53 193 77 192 119" fill="none" stroke="#050b1d" stroke-width="7" />
+      <path d="M97 119 C94 77 112 54 143 54 C175 53 193 77 192 119" fill="none" stroke="#050b1d" stroke-width="6.363636" />
       <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" />
       <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" transform="translate(288 0) scale(-1 1)" />
       <use href="#female-employee-ear-left" fill="none" stroke="url(#female-employee-ear-bevel)" stroke-width="2.5" clip-path="url(#female-employee-ear-clip)" />

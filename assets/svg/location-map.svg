@@ -40,6 +40,10 @@
       <path d="M-5 76 C20 61 38 81 62 73 C77 68 76 99 66 107 Q59 119 70 140" fill="none" stroke="#cba873" stroke-width="7" stroke-linecap="round" />
     </g>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="location-map-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linejoin="round"><path d="M66 90 L118 77 L170 90 L222 77 V211 L170 224 L118 211 L66 224Z" fill="none" stroke="#050b1d" stroke-width="8.000000"/></g>
+  </g>
   <g stroke-linejoin="round">
     <g transform="matrix(1 -.25 0 1 66 90)" clip-path="url(#location-map-left)">
       <use href="#location-map-content" />

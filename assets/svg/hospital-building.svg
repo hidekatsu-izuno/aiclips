@@ -49,6 +49,10 @@
       <stop stop-color="#8296a9" stop-opacity="0" offset="1" />
     </linearGradient>
   </defs>
+  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <g id="hospital-building-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round"><use href="#hospital-building-shape1" fill="none" stroke="#050b1d" stroke-width="8.000000" stroke-linejoin="miter"/></g>
+  </g>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#hospital-building-shape1" fill="url(#hospital-building-paper)" />
     <path d="M65 216 V122 Q65 113 74 113 H107 V81 Q107 72 115 72 H173" fill="none" stroke="#ffffff" stroke-width="8" clip-path="url(#hospital-building-shape1-clip)" />
