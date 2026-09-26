@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="call-center-agent-title">
   <title id="call-center-agent-title">コールセンター担当者</title>
-  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <desc>Call center agent wearing a slim padded headset with blue earcups, an adjustable headband and a hinged microphone boom.</desc>
   <defs>
     <linearGradient id="call-center-agent-blue" x1="0" y1="0" x2=".3" y2="1">
       <stop offset="0.0" stop-color="#0bc5ff" />
@@ -36,15 +36,15 @@
     <clipPath id="call-center-agent-shape4-clip">
       <use href="#call-center-agent-shape4" />
     </clipPath>
-    <rect id="call-center-agent-shape5" x="83" y="119" width="24" height="35" rx="8" />
+    <rect id="call-center-agent-shape5" x="82" y="121" width="18" height="32" rx="7" />
     <clipPath id="call-center-agent-shape5-clip">
       <use href="#call-center-agent-shape5" />
     </clipPath>
-    <rect id="call-center-agent-shape6" x="181" y="119" width="24" height="35" rx="8" />
+    <rect id="call-center-agent-shape6" x="188" y="121" width="18" height="32" rx="7" />
     <clipPath id="call-center-agent-shape6-clip">
       <use href="#call-center-agent-shape6" />
     </clipPath>
-    <rect id="call-center-agent-shape7" x="153" y="161" width="17" height="12" rx="6" />
+    <rect id="call-center-agent-shape7" x="148" y="158" width="16" height="10" rx="5" />
     <clipPath id="call-center-agent-shape7-clip">
       <use href="#call-center-agent-shape7" />
     </clipPath>
@@ -84,9 +84,18 @@
     <path id="call-center-agent-outfit-lapel-rim-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
     <path id="call-center-agent-outfit-shoulder-left" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222" />
     <path id="call-center-agent-outfit-hem" d="M72 231 H216" />
+    <linearGradient id="call-center-agent-headset-metal" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#a9bfd3" />
+      <stop offset=".45" stop-color="#627f9b" />
+      <stop offset="1" stop-color="#2c455e" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-ear-cushion" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#16263a" />
+      <stop offset=".5" stop-color="#3a5068" />
+      <stop offset="1" stop-color="#102136" />
+    </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#050b1d" stroke-width="17" id="call-center-agent-headset-outer-outline" />
     <use href="#call-center-agent-shape1" fill="url(#call-center-agent-hair)" />
     <use href="#call-center-agent-shape1" fill="none" stroke="url(#call-center-agent-hair-edge)" stroke-width="7" clip-path="url(#call-center-agent-shape1-clip)" />
     <use href="#call-center-agent-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
@@ -116,20 +125,26 @@
       <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="url(#call-center-agent-hair-edge)" stroke-width="20" clip-path="url(#call-center-agent-shape4-clip)" />
       <path d="M187 129 L181 135 Q168 121 161 101 C145 118 122 127 100 128" fill="none" stroke="#050b1d" stroke-width="3" />
     </g>
-    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#050b1d" stroke-width="9" />
-    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#06baff" stroke-width="4.5" />
-    <use href="#call-center-agent-shape5" fill="none" stroke="#050b1d" stroke-width="9" />
-    <use href="#call-center-agent-shape5" fill="url(#call-center-agent-blue)" />
-    <use href="#call-center-agent-shape5" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape5-clip)" />
-    <use href="#call-center-agent-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
-    <use href="#call-center-agent-shape6" fill="none" stroke="#050b1d" stroke-width="9" />
-    <use href="#call-center-agent-shape6" fill="url(#call-center-agent-blue)" />
-    <use href="#call-center-agent-shape6" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape6-clip)" />
-    <use href="#call-center-agent-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
-    <path d="M193 154 Q189 166 166 167" fill="none" stroke="#050b1d" stroke-width="7" />
-    <path d="M193 154 Q189 166 166 167" fill="none" stroke="#08a4e3" stroke-width="3" />
-    <use href="#call-center-agent-shape7" fill="url(#call-center-agent-blue)" />
-    <use href="#call-center-agent-shape7" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="3" clip-path="url(#call-center-agent-shape7-clip)" />
-    <use href="#call-center-agent-shape7" fill="none" stroke="#050b1d" stroke-width="4" />
+    <g id="call-center-agent-headset">
+      <path d="M88 124 V106 C88 74 110 53 144 53 C178 53 200 76 200 108 V124" fill="none" stroke="#050b1d" stroke-width="10" />
+      <path d="M88 124 V106 C88 74 110 53 144 53 C178 53 200 76 200 108 V124" fill="none" stroke="url(#call-center-agent-headset-metal)" stroke-width="5.5" />
+      <path d="M93 84 Q108 56 144 56 Q180 56 195 84" fill="none" stroke="#c9deeb" stroke-width="1.3" />
+      <path d="M88 113 V126 M200 113 V126" fill="none" stroke="#050b1d" stroke-width="5" />
+      <path d="M88 114 V123 M200 114 V123" fill="none" stroke="#849fb7" stroke-width="2.5" />
+      <rect x="94" y="119" width="14" height="36" rx="7" fill="url(#call-center-agent-ear-cushion)" stroke="#050b1d" stroke-width="2.5" />
+      <rect x="180" y="119" width="14" height="36" rx="7" fill="url(#call-center-agent-ear-cushion)" stroke="#050b1d" stroke-width="2.5" />
+      <use href="#call-center-agent-shape5" fill="url(#call-center-agent-blue)" />
+      <use href="#call-center-agent-shape5" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape5-clip)" />
+      <use href="#call-center-agent-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#call-center-agent-shape6" fill="url(#call-center-agent-blue)" />
+      <use href="#call-center-agent-shape6" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape6-clip)" />
+      <use href="#call-center-agent-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+      <path d="M86 138 V130 Q86 125 91 125 M192 138 V130 Q192 125 197 125" fill="none" stroke="#a0edff" stroke-width="1.5" />
+      <path d="M199 146 V150 Q199 163 183 163 H161" fill="none" stroke="#050b1d" stroke-width="5" />
+      <path d="M199 146 V150 Q199 163 183 163 H161" fill="none" stroke="url(#call-center-agent-headset-metal)" stroke-width="2.3" />
+      <circle cx="199" cy="146" r="3.5" fill="url(#call-center-agent-headset-metal)" stroke="#050b1d" stroke-width="1.5" />
+      <use href="#call-center-agent-shape7" fill="url(#call-center-agent-ear-cushion)" stroke="#050b1d" stroke-width="2.5" />
+      <path d="M152 161 H159" fill="none" stroke="#9ab6cd" stroke-width="1.4" />
+    </g>
   </g>
 </svg>

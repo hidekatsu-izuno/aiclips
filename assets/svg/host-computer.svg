@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="host-computer-title">
+  <title id="host-computer-title">ホストコンピュータ</title>
+  <desc>A front-facing tall blue-gray mainframe with a plain front panel, a narrow red vertical stripe and a recessed black console on the left. Editable vector reconstruction of the imagegen reference.</desc>
+  <defs>
+    <linearGradient id="host-computer-front-paint" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#6b8195" />
+      <stop offset=".45" stop-color="#4a6074" />
+      <stop offset="1" stop-color="#34495b" />
+    </linearGradient>
+    <linearGradient id="host-computer-side-paint" x1="0" y1="0" x2="1" y2=".4">
+      <stop offset="0" stop-color="#283746" />
+      <stop offset="1" stop-color="#131f2b" />
+    </linearGradient>
+    <linearGradient id="host-computer-recess-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14232d" />
+      <stop offset=".5" stop-color="#080f18" />
+      <stop offset="1" stop-color="#17232e" />
+    </linearGradient>
+    <linearGradient id="host-computer-red-paint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9b98" />
+      <stop offset=".4" stop-color="#f36c6b" />
+      <stop offset="1" stop-color="#c74347" />
+    </linearGradient>
+    <linearGradient id="host-computer-console-paint" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#849bae" />
+      <stop offset="1" stop-color="#536c82" />
+    </linearGradient>
+    <path id="host-computer-case" d="M79 53 H209 V235 H79 Z" />
+    <path id="host-computer-front" d="M133 53 H209 V235 H133 Z" />
+    <clipPath id="host-computer-front-clip"><use href="#host-computer-front" /></clipPath>
+    <clipPath id="host-computer-case-clip"><use href="#host-computer-case" /></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#host-computer-case" fill="url(#host-computer-front-paint)" />
+    <path d="M92 55 H119 V232 H84 V158 H92 Z" fill="url(#host-computer-recess-paint)" />
+    <path d="M83 231 V57 H119 M120 57 V232" fill="none" stroke="#8298aa" stroke-width="1.6" />
+    <path d="M92 56 V148" fill="none" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M122 58 H132 V232 H122 Z" fill="#050b1d" />
+    <path d="M125 59 H130 V231 H125 Z" fill="url(#host-computer-red-paint)" />
+    <use href="#host-computer-front" fill="url(#host-computer-front-paint)" />
+    <path d="M135 233 V55 H207 V233" fill="none" stroke="#9bafbf" stroke-width="2.5" clip-path="url(#host-computer-front-clip)" />
+    <g id="host-computer-console">
+      <rect x="94" y="123" width="22" height="25" rx="1" fill="#0b141e" stroke="#354b5b" stroke-width="1.5" />
+      <path d="M97 126 H113 V145 H97 Z" fill="url(#host-computer-side-paint)" />
+      <path d="M97 126 H112 L99 145 H97 Z" fill="#7391a9" opacity=".19" />
+      <path d="M84 151 H118 V159 H84 Z" fill="url(#host-computer-console-paint)" stroke="#050b1d" stroke-width="2" />
+      <path d="M84 159 H118 V163 H84 Z" fill="#243847" stroke="#050b1d" stroke-width="1.5" />
+      <path d="M86 152 H116" fill="none" stroke="#b4c8d7" stroke-width="1.2" />
+    </g>
+    <g id="host-computer-lower-panels" fill="url(#host-computer-front-paint)" stroke="#050b1d" stroke-width="1.5">
+      <rect x="88" y="184" width="25" height="9" rx=".7" />
+      <rect x="88" y="199" width="25" height="9" rx=".7" />
+    </g>
+    <path d="M89 185 H112 M89 200 H112" fill="none" stroke="#8aa0b2" stroke-width="1" />
+    <use href="#host-computer-case" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

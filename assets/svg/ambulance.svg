@@ -1,179 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="ambulance-title">
   <title id="ambulance-title">救急車</title>
-  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <desc>Front-facing ambulance with a wide blue windshield, a red roof beacon divided by a white center and a horizontal red stripe, twin round red warning lights, yellow rectangular headlights and a thick white bumper.</desc>
   <defs>
-    <linearGradient id="ambulance-body-edge-left" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ambulance-body-paint" x1="0" y1="0" x2=".25" y2="1">
       <stop offset="0" stop-color="#ffffff" />
-      <stop offset=".5" stop-color="#e8eef5" />
-      <stop offset="1" stop-color="#b5c4d3" />
+      <stop offset=".6" stop-color="#f6f8fb" />
+      <stop offset="1" stop-color="#d4dee7" />
     </linearGradient>
-    <linearGradient id="ambulance-body-edge-right" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f5f8fb" />
-      <stop offset=".5" stop-color="#cbd7e3" />
-      <stop offset="1" stop-color="#879db4" />
-    </linearGradient>
-    <linearGradient id="ambulance-body-paint" gradientUnits="userSpaceOnUse" x1="144" y1="110" x2="144" y2="205">
-      <stop offset="0" stop-color="#ffffff" />
-      <stop offset=".3" stop-color="#f2f5f8" />
-      <stop offset=".7" stop-color="#cdd8e3" />
-      <stop offset="1" stop-color="#a9bacb" />
-    </linearGradient>
-    <linearGradient id="ambulance-tire-paint" gradientUnits="userSpaceOnUse" x1="0" y1="207" x2="0" y2="228">
-      <stop offset="0" stop-color="#111720" />
-      <stop offset=".35" stop-color="#343c48" />
-      <stop offset=".65" stop-color="#262d37" />
-      <stop offset="1" stop-color="#111720" />
-    </linearGradient>
-    <linearGradient id="ambulance-tire-highlight" gradientUnits="userSpaceOnUse" x1="0" y1="211" x2="0" y2="225">
-      <stop offset="0" stop-color="#68717e" stop-opacity=".65" />
-      <stop offset="1" stop-color="#68717e" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="ambulance-bumper-paint" gradientUnits="userSpaceOnUse" x1="0" y1="198" x2="0" y2="210">
-      <stop offset="0" stop-color="#a9bdcc" />
-      <stop offset=".25" stop-color="#7991a5" />
-      <stop offset=".26" stop-color="#4c657b" />
-      <stop offset=".7" stop-color="#30465a" />
-      <stop offset=".71" stop-color="#1c2d3e" />
-      <stop offset="1" stop-color="#111e2b" />
-    </linearGradient>
-    <linearGradient id="ambulance-screen-paint" gradientUnits="userSpaceOnUse" x1="92.235294" y1="109.045977" x2="194.147059" y2="147.482759">
+    <linearGradient id="ambulance-glass-paint" gradientUnits="userSpaceOnUse" x1="88" y1="98" x2="200" y2="148">
       <stop offset="0" stop-color="#08c4ef" />
       <stop offset="1" stop-color="#00ade6" />
     </linearGradient>
-    <linearGradient id="ambulance-glass-paint" gradientUnits="userSpaceOnUse" x1="98.705882" y1="109.045977" x2="157.750000" y2="138.885057">
-      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+    <linearGradient id="ambulance-glass-highlight" gradientUnits="userSpaceOnUse" x1="95" y1="98" x2="160" y2="140">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity=".22" />
       <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="ambulance-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="154.514706" y1="117.643678" x2="199.000000" y2="149.000000">
+    <linearGradient id="ambulance-glass-shadow" gradientUnits="userSpaceOnUse" x1="155" y1="110" x2="203" y2="148">
       <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
       <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
     </linearGradient>
-    <linearGradient id="ambulance-paper" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#ffffff" />
-      <stop offset="0.5" stop-color="#f6f7fb" />
-      <stop offset="1.0" stop-color="#e0e6ed" />
+    <linearGradient id="ambulance-headlight-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#fff071" />
+      <stop offset=".5" stop-color="#ffd51c" />
+      <stop offset="1" stop-color="#f2a900" />
     </linearGradient>
-    <linearGradient id="ambulance-steel" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#a9bfd5" />
-      <stop offset="0.5" stop-color="#7896b1" />
-      <stop offset="1.0" stop-color="#516d8d" />
+    <linearGradient id="ambulance-red-paint" x1="0" y1="0" x2=".25" y2="1">
+      <stop offset="0" stop-color="#ff8069" />
+      <stop offset=".45" stop-color="#ff493b" />
+      <stop offset="1" stop-color="#db2528" />
     </linearGradient>
-    <linearGradient id="ambulance-red" gradientUnits="userSpaceOnUse" x1="144" y1="110" x2="144" y2="205">
-      <stop offset="0" stop-color="#ff6269" />
-      <stop offset=".3" stop-color="#f84450" />
-      <stop offset=".7" stop-color="#d9253b" />
-      <stop offset="1" stop-color="#a91c30" />
+    <linearGradient id="ambulance-steel-paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d0d9" />
+      <stop offset=".5" stop-color="#96aab9" />
+      <stop offset="1" stop-color="#6b8193" />
     </linearGradient>
-    <linearGradient id="ambulance-edge" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#d3ecff" />
-      <stop offset="0.5" stop-color="#6d92b9" />
-      <stop offset="1.0" stop-color="#294766" />
+    <linearGradient id="ambulance-bumper-paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#f1f5f8" />
+      <stop offset="1" stop-color="#bacbd8" />
     </linearGradient>
-    <linearGradient id="ambulance-silver-edge" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#ffffff" />
-      <stop offset="0.5" stop-color="#dce5ef" />
-      <stop offset="1.0" stop-color="#9caec2" />
+    <linearGradient id="ambulance-tire-paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111720" />
+      <stop offset=".55" stop-color="#39434f" />
+      <stop offset="1" stop-color="#192330" />
     </linearGradient>
-    <linearGradient id="ambulance-red-lamp" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#ff8d73" />
-      <stop offset="0.5" stop-color="#ff4630" />
-      <stop offset="1.0" stop-color="#d51a0a" />
-    </linearGradient>
-    <rect id="ambulance-shape1" x="51" y="128" width="23" height="29" rx="8" />
-    <clipPath id="ambulance-shape1-clip">
-      <use href="#ambulance-shape1" />
+    <path id="ambulance-body" d="M104 80 H184 Q196 80 203 96 Q212 117 218 149 V207 Q218 220 205 220 H83 Q70 220 70 207 V149 Q76 117 85 96 Q92 80 104 80 Z" />
+    <clipPath id="ambulance-body-clip">
+      <use href="#ambulance-body" />
     </clipPath>
-    <rect id="ambulance-shape2" x="213" y="128" width="23" height="29" rx="8" />
-    <clipPath id="ambulance-shape2-clip">
-      <use href="#ambulance-shape2" />
+    <path id="ambulance-windshield" d="M106 98 H182 Q190 98 194 109 L203 142 Q204 148 198 148 H90 Q84 148 85 142 L94 109 Q98 98 106 98 Z" />
+    <clipPath id="ambulance-windshield-clip">
+      <use href="#ambulance-windshield" />
     </clipPath>
-    <rect id="ambulance-shape3" x="77" y="196" width="26" height="32" rx="8" />
-    <clipPath id="ambulance-shape3-clip">
-      <use href="#ambulance-shape3" />
-    </clipPath>
-    <rect id="ambulance-shape4" x="185" y="196" width="26" height="32" rx="8" />
-    <clipPath id="ambulance-shape4-clip">
-      <use href="#ambulance-shape4" />
-    </clipPath>
-    <rect id="ambulance-shape5" x="93" y="64" width="102" height="32" rx="12" />
-    <clipPath id="ambulance-shape5-clip">
-      <use href="#ambulance-shape5" />
-    </clipPath>
-    <rect id="ambulance-shape6" x="127" y="65" width="34" height="29" rx="0" />
-    <clipPath id="ambulance-shape6-clip">
-      <use href="#ambulance-shape6" />
-    </clipPath>
-    <path id="ambulance-shape7" d="M144 89 H100 Q81 89 79 108 L70 196 Q69 209 82 209 H206 Q219 209 218 196 L209 108 Q207 89 188 89 Z" />
-    <clipPath id="ambulance-shape7-clip">
-      <use href="#ambulance-shape7" />
-    </clipPath>
-    <path id="ambulance-shape8" d="M103 105 H185 Q193 105 194 112 L197.784091 149 H90.215909 L94 112 Q95 105 103 105 Z" />
-    <clipPath id="ambulance-shape8-clip">
-      <use href="#ambulance-shape8" />
-    </clipPath>
-    <path id="ambulance-shape9" d="M140 154 H148 Q151 154 151 157 V166 H160 Q163 166 163 169 V177 Q163 180 160 180 H151 V189 Q151 192 148 192 H140 Q137 192 137 189 V180 H128 Q125 180 125 177 V169 Q125 166 128 166 H137 V157 Q137 154 140 154 Z" />
-    <rect id="ambulance-shape10" x="75" y="198" width="138" height="12" rx="3" />
-    <clipPath id="ambulance-shape10-clip">
-      <use href="#ambulance-shape10" />
-    </clipPath>
-    <rect id="ambulance-shape11" x="79" y="188" width="26" height="24" rx="7" />
-    <clipPath id="ambulance-shape11-clip">
-      <use href="#ambulance-shape11" />
-    </clipPath>
-    <rect id="ambulance-shape12" x="183" y="188" width="26" height="24" rx="7" />
-    <clipPath id="ambulance-shape12-clip">
-      <use href="#ambulance-shape12" />
-    </clipPath>
-    <clipPath id="ambulance-red-bands-clip">
-      <path d="M71 166 H107 Q110 166 110 169 V177 Q110 180 107 180 H71 Z M217 166 H181 Q178 166 178 169 V177 Q178 180 181 180 H217 Z" />
+    <path id="ambulance-roof-beacon" d="M98 78 L104 65 Q106 60 113 60 H175 Q182 60 184 65 L190 78 Z" />
+    <clipPath id="ambulance-roof-beacon-clip">
+      <use href="#ambulance-roof-beacon" />
     </clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#ambulance-shape1" fill="url(#ambulance-steel)" />
-    <use href="#ambulance-shape1" fill="none" stroke="url(#ambulance-edge)" stroke-width="11" clip-path="url(#ambulance-shape1-clip)" />
-    <use href="#ambulance-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
-    <use href="#ambulance-shape2" fill="url(#ambulance-steel)" />
-    <use href="#ambulance-shape2" fill="none" stroke="url(#ambulance-edge)" stroke-width="11" clip-path="url(#ambulance-shape2-clip)" />
-    <use href="#ambulance-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
-    <use href="#ambulance-shape3" fill="url(#ambulance-tire-paint)" />
-    <path d="M82 211 V219 Q82 223 85 224" fill="none" stroke="url(#ambulance-tire-highlight)" stroke-width="2" clip-path="url(#ambulance-shape3-clip)" />
-    <use href="#ambulance-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
-    <use href="#ambulance-shape4" fill="url(#ambulance-tire-paint)" />
-    <path d="M190 211 V219 Q190 223 193 224" fill="none" stroke="url(#ambulance-tire-highlight)" stroke-width="2" clip-path="url(#ambulance-shape4-clip)" />
-    <use href="#ambulance-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
-    <use href="#ambulance-shape5" fill="url(#ambulance-red-lamp)" />
-    <use href="#ambulance-shape5" fill="none" stroke="#ffa08b" stroke-width="13" clip-path="url(#ambulance-shape5-clip)" />
-    <use href="#ambulance-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
-    <use href="#ambulance-shape6" fill="url(#ambulance-paper)" />
-    <use href="#ambulance-shape6" fill="none" stroke="url(#ambulance-silver-edge)" stroke-width="8" clip-path="url(#ambulance-shape6-clip)" />
-    <use href="#ambulance-shape6" fill="none" stroke="#050b1d" stroke-width="5" />
-    <use href="#ambulance-shape7" fill="url(#ambulance-body-paint)" />
-    <g id="ambulance-body-side-shadows" clip-path="url(#ambulance-shape7-clip)">
-      <rect x="64" y="89" width="20" height="120" fill="url(#ambulance-body-edge-left)" />
-      <rect x="204" y="89" width="20" height="120" fill="url(#ambulance-body-edge-right)" />
+    <rect x="77" y="205" width="26" height="35" rx="7" fill="url(#ambulance-tire-paint)" stroke="#050b1d" stroke-width="6" />
+    <rect x="185" y="205" width="26" height="35" rx="7" fill="url(#ambulance-tire-paint)" stroke="#050b1d" stroke-width="6" />
+    <path d="M82 232 H97 M190 232 H205" fill="none" stroke="#657180" stroke-width="2" />
+    <path d="M74 136 H62 M214 136 H226" fill="none" stroke="#050b1d" stroke-width="6" />
+    <rect x="53" y="128" width="16" height="22" rx="4" fill="url(#ambulance-steel-paint)" stroke="#050b1d" stroke-width="5" />
+    <rect x="219" y="128" width="16" height="22" rx="4" fill="url(#ambulance-steel-paint)" stroke="#050b1d" stroke-width="5" />
+    <use href="#ambulance-body" fill="url(#ambulance-body-paint)" />
+    <g clip-path="url(#ambulance-body-clip)">
+      <path d="M76 203 V149 Q82 118 90 99 Q96 86 105 86 H183" fill="none" stroke="#ffffff" stroke-width="5" />
+      <path d="M192 87 Q204 102 213 149 V207 Q213 215 204 215" fill="none" stroke="#a9bdcc" stroke-width="5" />
+      <path d="M68 157 H220 V170 H68 Z" fill="url(#ambulance-red-paint)" />
+      <path d="M73 158 H215" fill="none" stroke="#ff9b88" stroke-width="2" />
     </g>
-    <path d="M71 166 H107 Q110 166 110 169 V177 Q110 180 107 180 H71 Z" fill="url(#ambulance-red)" stroke="none" stroke-width="0" clip-path="url(#ambulance-shape7-clip)" />
-    <path d="M217 166 H181 Q178 166 178 169 V177 Q178 180 181 180 H217 Z" fill="url(#ambulance-red)" stroke="none" stroke-width="0" clip-path="url(#ambulance-shape7-clip)" />
-    <g clip-path="url(#ambulance-shape7-clip)">
-      <g clip-path="url(#ambulance-red-bands-clip)" fill="#243d56">
-        <rect x="64" y="89" width="20" height="120" opacity=".06" />
-        <rect x="204" y="89" width="20" height="120" opacity=".18" />
-      </g>
+    <use href="#ambulance-windshield" fill="url(#ambulance-glass-paint)" />
+    <g clip-path="url(#ambulance-windshield-clip)">
+      <path d="M85 98 H163 L85 148 Z" fill="url(#ambulance-glass-highlight)" />
+      <path d="M183 98 H204 V148 H109 Z" fill="url(#ambulance-glass-shadow)" />
     </g>
-    <use href="#ambulance-shape8" fill="url(#ambulance-screen-paint)" />
-    <path d="M89 105 H160.985294 L89 149.505747 Z" fill="url(#ambulance-glass-paint)" clip-path="url(#ambulance-shape8-clip)" />
-    <path d="M182.823529 105 H199 V149 H110.838235 Z" fill="url(#ambulance-screen-shadow-paint)" clip-path="url(#ambulance-shape8-clip)" />
-    <use href="#ambulance-shape8" fill="none" stroke="#050b1d" stroke-width="3" />
-    <use href="#ambulance-shape9" fill="url(#ambulance-red)" />
-    <path d="M144 89 H100 Q81 89 79 108 L70 196 Q69 209 82 209 H206 Q219 209 218 196 L209 108 Q207 89 188 89 Z" fill="none" stroke="#050b1d" stroke-width="7" />
-    <use href="#ambulance-shape10" fill="url(#ambulance-bumper-paint)" />
-    <path d="M78 200 H210" fill="none" stroke="#c0cfda" stroke-width="1" clip-path="url(#ambulance-shape10-clip)" />
-    <use href="#ambulance-shape10" fill="none" stroke="#050b1d" stroke-width="3" />
-    <use href="#ambulance-shape11" fill="url(#ambulance-paper)" />
-    <use href="#ambulance-shape11" fill="none" stroke="url(#ambulance-silver-edge)" stroke-width="9" clip-path="url(#ambulance-shape11-clip)" />
-    <use href="#ambulance-shape11" fill="none" stroke="#050b1d" stroke-width="3" />
-    <use href="#ambulance-shape12" fill="url(#ambulance-paper)" />
-    <use href="#ambulance-shape12" fill="none" stroke="url(#ambulance-silver-edge)" stroke-width="9" clip-path="url(#ambulance-shape12-clip)" />
-    <use href="#ambulance-shape12" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#ambulance-windshield" fill="none" stroke="#050b1d" stroke-width="2.3" />
+    <use href="#ambulance-roof-beacon" fill="url(#ambulance-red-paint)" />
+    <path d="M105 72 L108 67 Q110 65 115 65 H174" fill="none" stroke="#ffb09b" stroke-width="3" clip-path="url(#ambulance-roof-beacon-clip)" />
+    <g clip-path="url(#ambulance-roof-beacon-clip)">
+      <rect x="132" y="60" width="24" height="18" fill="url(#ambulance-bumper-paint)" />
+      <path d="M132 60 V78 M156 60 V78" fill="none" stroke="#050b1d" stroke-width="3" />
+    </g>
+    <use href="#ambulance-roof-beacon" fill="none" stroke="#050b1d" stroke-width="5" />
+    <circle cx="144" cy="164" r="9" fill="url(#ambulance-bumper-paint)" stroke="#050b1d" stroke-width="3" />
+    <rect x="105" y="179" width="78" height="22" rx="3" fill="url(#ambulance-steel-paint)" stroke="#050b1d" stroke-width="3" />
+    <path d="M110 188 H178 M110 195 H178" fill="none" stroke="#e1e9ef" stroke-width="2" />
+    <circle cx="123" cy="185" r="7" fill="url(#ambulance-red-paint)" stroke="#050b1d" stroke-width="3" />
+    <circle cx="165" cy="185" r="7" fill="url(#ambulance-red-paint)" stroke="#050b1d" stroke-width="3" />
+    <rect x="77" y="183" width="22" height="14" rx="2" fill="url(#ambulance-headlight-gold)" stroke="#050b1d" stroke-width="1.6" />
+    <path d="M80 192 V186 H95" fill="none" stroke="#fff386" stroke-width="2" />
+    <rect x="189" y="183" width="22" height="14" rx="2" fill="url(#ambulance-headlight-gold)" stroke="#050b1d" stroke-width="1.6" />
+    <path d="M192 192 V186 H207" fill="none" stroke="#fff386" stroke-width="2" />
+    <rect x="71" y="202" width="146" height="18" rx="6" fill="url(#ambulance-bumper-paint)" stroke="#050b1d" stroke-width="3.5" />
+    <path d="M78 206 H210" fill="none" stroke="#ffffff" stroke-width="2" />
+    <use href="#ambulance-body" fill="none" stroke="#050b1d" stroke-width="6" />
+    <rect x="131" y="210" width="26" height="14" rx="1.5" fill="#ffffff" stroke="#050b1d" stroke-width="3" />
   </g>
 </svg>

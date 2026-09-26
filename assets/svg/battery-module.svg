@@ -84,10 +84,12 @@
     <use href="#battery-module-body" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#battery-module-positive" fill="url(#battery-module-gold)" />
     <use href="#battery-module-positive" fill="none" stroke="url(#battery-module-gold-edge)" stroke-width="12" clip-path="url(#battery-module-positive-clip)" />
-    <use href="#battery-module-positive" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M87 88 V75 Q87 70 92 70 H111 Q116 70 116 75 V88" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M87 88 V94 Q87 99 92 99 H111 Q116 99 116 94 V88" fill="none" stroke="#050b1d" stroke-width="2" />
     <use href="#battery-module-negative" fill="url(#battery-module-terminal-white)" />
     <use href="#battery-module-negative" fill="none" stroke="url(#battery-module-terminal-edge)" stroke-width="12" clip-path="url(#battery-module-negative-clip)" />
-    <use href="#battery-module-negative" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M167 88 V75 Q167 70 172 70 H191 Q196 70 196 75 V88" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M167 88 V94 Q167 99 172 99 H191 Q196 99 196 94 V88" fill="none" stroke="#050b1d" stroke-width="2" />
     <use href="#battery-module-indicator-0" fill="url(#battery-module-indicator)" />
     <use href="#battery-module-indicator-0" fill="none" stroke="url(#battery-module-indicator-edge)" stroke-width="5" clip-path="url(#battery-module-indicator-0-clip)" />
     <use href="#battery-module-indicator-0" fill="none" stroke="#050b1d" stroke-width="2" />

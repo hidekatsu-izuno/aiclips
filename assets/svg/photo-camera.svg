@@ -38,6 +38,11 @@
     <clipPath id="photo-camera-lens-clip">
       <use href="#photo-camera-lens" />
     </clipPath>
+    <linearGradient id="photo-camera-flash-paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#fffde4" />
+      <stop offset="1" stop-color="#d5e0ea" />
+    </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#photo-camera-shutter" fill="url(#photo-camera-steel)" />
@@ -46,6 +51,11 @@
     <use href="#photo-camera-body" fill="url(#photo-camera-steel)" />
     <use href="#photo-camera-body" fill="none" stroke="url(#photo-camera-steel-edge)" stroke-width="16" clip-path="url(#photo-camera-body-clip)" />
     <use href="#photo-camera-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g id="photo-camera-flash">
+      <rect x="129" y="80" width="46" height="20" rx="4" fill="#243a53" stroke="#050b1d" stroke-width="2.5" />
+      <rect x="133" y="84" width="38" height="12" rx="2" fill="url(#photo-camera-flash-paint)" />
+      <path d="M137 87 H167" fill="none" stroke="#ffffff" stroke-width="1.5" />
+    </g>
     <rect x="201" y="114" width="19" height="14" rx="7" fill="#ff5359" stroke="#050b1d" stroke-width="2" />
     <path d="M206 116 H214" fill="none" stroke="#ffb1b2" stroke-width="1.5" />
     <use href="#photo-camera-lens-ring" fill="url(#photo-camera-steel)" />

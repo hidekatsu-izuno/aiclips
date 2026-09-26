@@ -27,8 +27,8 @@
       <stop offset="0.5" stop-color="#14354b" />
       <stop offset="1.0" stop-color="#0c2238" />
     </linearGradient>
-    <rect id="passenger-bus-shape1" x="83" y="205" width="27" height="22" rx="10" />
-    <rect id="passenger-bus-shape2" x="182" y="205" width="27" height="22" rx="10" />
+    <rect id="passenger-bus-shape1" x="83" y="205" width="27" height="30" rx="10" />
+    <rect id="passenger-bus-shape2" x="182" y="205" width="27" height="30" rx="10" />
     <rect id="passenger-bus-shape3" x="57" y="101" width="20" height="36" rx="8" />
     <rect id="passenger-bus-shape4" x="215" y="101" width="20" height="36" rx="8" />
     <path id="passenger-bus-shape5" d="M103 73 H189 A25 25 0 0 1 214 98 V205 Q214 214 205 214 H87 Q78 214 78 205 V98 A25 25 0 0 1 103 73 Z" />
@@ -77,10 +77,10 @@
   </defs>
   <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round">
     <use href="#passenger-bus-shape1" fill="url(#passenger-bus-wheel)" />
-    <path d="M88 211 V217 Q88 221 93 221 H98" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
+    <path d="M88 219 V225 Q88 229 93 229 H98" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
     <use href="#passenger-bus-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
     <use href="#passenger-bus-shape2" fill="url(#passenger-bus-wheel)" />
-    <path d="M187 211 V217 Q187 221 192 221 H197" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
+    <path d="M187 219 V225 Q187 229 192 229 H197" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
     <use href="#passenger-bus-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
     <use href="#passenger-bus-shape3" fill="url(#passenger-bus-steel)" />
     <path d="M61 129 V111 Q61 105 67 105" fill="none" stroke="#d7e6ef" stroke-width="2.5" />

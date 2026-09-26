@@ -16,7 +16,7 @@
     <clipPath id="telephone-body-clip">
       <use href="#telephone-body" />
     </clipPath>
-    <rect id="telephone-display" x="139" y="103" width="63" height="27" rx="4" />
+    <rect id="telephone-display" x="139" y="97" width="63" height="27" rx="4" />
     <clipPath id="telephone-display-clip">
       <use href="#telephone-display" />
     </clipPath>
@@ -42,19 +42,22 @@
     <use href="#telephone-body" fill="none" stroke="url(#telephone-steel-edge)" stroke-width="16" clip-path="url(#telephone-body-clip)" />
     <use href="#telephone-body" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#telephone-display" fill="url(#telephone-shared-glass-paint)" />
-    <path d="M131 103 H172 L131 132Z" fill="url(#telephone-shared-glass-light)" clip-path="url(#telephone-display-clip)" />
-    <path d="M187 103 H210 V132 H151Z" fill="url(#telephone-shared-glass-shadow)" clip-path="url(#telephone-display-clip)" />
+    <path d="M131 97 H172 L131 126Z" fill="url(#telephone-shared-glass-light)" clip-path="url(#telephone-display-clip)" />
+    <path d="M187 97 H210 V126 H151Z" fill="url(#telephone-shared-glass-shadow)" clip-path="url(#telephone-display-clip)" />
     <use href="#telephone-display" fill="none" stroke="#23485f" stroke-width="4" clip-path="url(#telephone-display-clip)" />
     <use href="#telephone-display" fill="none" stroke="#050b1d" stroke-width="2" />
-    <circle cx="144" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="170" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="196" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="144" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="170" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="196" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="144" cy="189" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="170" cy="189" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
-    <circle cx="196" cy="189" r="8.5" fill="#ff5359" stroke="#050b1d" stroke-width="2" />
+    <circle cx="148" cy="139" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="139" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="192" cy="139" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="148" cy="156" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="156" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="192" cy="156" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="148" cy="173" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="173" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="192" cy="173" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="148" cy="190" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="190" r="6.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="192" cy="190" r="6.5" fill="#ff5359" stroke="#050b1d" stroke-width="2" />
     <use href="#telephone-handset" fill="url(#telephone-steel)" />
     <use href="#telephone-handset" fill="none" stroke="url(#telephone-steel-edge)" stroke-width="14" clip-path="url(#telephone-handset-clip)" />
     <use href="#telephone-handset" fill="none" stroke="#050b1d" stroke-width="7" />

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="gpu-title">
+  <title id="gpu-title">GPU</title>
+  <desc>GPU chip based on the CPU icon and imagegen reference, with a green package, gold pins and four blue compute cores in a silver inset. Editable vector shapes.</desc>
+  <defs>
+    <linearGradient id="gpu-green" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#39e969" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#0bce46" stop-opacity="1" />
+      <stop offset="1" stop-color="#00aa3b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="gpu-green-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#a0ffad" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#36eb69" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#00882e" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="gpu-green-shadow" gradientUnits="userSpaceOnUse" x1="154" y1="122" x2="202" y2="204">
+      <stop offset="0" stop-color="#009638" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#006e29" stop-opacity="0.9" />
+    </linearGradient>
+    <rect id="gpu-body" x="83" y="86" width="120" height="120" rx="14" />
+    <clipPath id="gpu-body-clip">
+      <use href="#gpu-body" />
+    </clipPath>
+    <linearGradient id="gpu-core-paint" gradientUnits="userSpaceOnUse" x1="110" y1="110" x2="178" y2="185">
+      <stop offset="0" stop-color="#f6f8fc" stop-opacity="1" />
+      <stop offset="1" stop-color="#cbd7e3" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="gpu-core-bevel" gradientUnits="userSpaceOnUse" x1="107" y1="110" x2="178" y2="182">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#e8eef5" stop-opacity="1" />
+      <stop offset="1" stop-color="#a5b8cb" stop-opacity="1" />
+    </linearGradient>
+    <rect id="gpu-core" x="103" y="106" width="80" height="82" rx="10" />
+    <clipPath id="gpu-core-clip">
+      <use href="#gpu-core" />
+    </clipPath>
+    <linearGradient id="gpu-pin-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff48a" />
+      <stop offset=".4" stop-color="#ffd725" />
+      <stop offset="1" stop-color="#f1ac00" />
+    </linearGradient>
+    <linearGradient id="gpu-compute-paint" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#14caff" />
+      <stop offset=".5" stop-color="#009cff" />
+      <stop offset="1" stop-color="#0078ed" />
+    </linearGradient>
+    <rect id="gpu-compute-1" x="115" y="117" width="23" height="26" rx="4" />
+    <clipPath id="gpu-compute-1-clip"><use href="#gpu-compute-1" /></clipPath>
+    <rect id="gpu-compute-2" x="148" y="117" width="23" height="26" rx="4" />
+    <clipPath id="gpu-compute-2-clip"><use href="#gpu-compute-2" /></clipPath>
+    <rect id="gpu-compute-3" x="115" y="150" width="23" height="26" rx="4" />
+    <clipPath id="gpu-compute-3-clip"><use href="#gpu-compute-3" /></clipPath>
+    <rect id="gpu-compute-4" x="148" y="150" width="23" height="26" rx="4" />
+    <clipPath id="gpu-compute-4-clip"><use href="#gpu-compute-4" /></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="105" y="60" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="105" y="195" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="133" y="60" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="133" y="195" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="161" y="60" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="161" y="195" width="20" height="32" rx="10" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="104" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="104" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="133" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="133" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="162" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="162" width="32" height="21" rx="10.5" fill="url(#gpu-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <use href="#gpu-body" fill="url(#gpu-green)" />
+    <path d="M197 86 H203 V206 H110 C152 192 181 143 197 86 Z" fill="url(#gpu-green-shadow)" clip-path="url(#gpu-body-clip)" />
+    <use href="#gpu-body" fill="none" stroke="url(#gpu-green-edge)" stroke-width="15" clip-path="url(#gpu-body-clip)" />
+    <use href="#gpu-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#gpu-core" fill="url(#gpu-core-paint)" />
+    <path d="M166 106 H183 V188 H108 Z" fill="#d6e0ea" clip-path="url(#gpu-core-clip)" />
+    <use href="#gpu-core" fill="none" stroke="url(#gpu-core-bevel)" stroke-width="11" clip-path="url(#gpu-core-clip)" />
+    <use href="#gpu-core" fill="none" stroke="#050b1d" stroke-width="6" />
+    <g id="gpu-compute-1-paint">
+      <use href="#gpu-compute-1" fill="url(#gpu-compute-paint)" />
+      <path d="M115 117 H138 L115 141 Z" fill="#9deeff" opacity=".28" clip-path="url(#gpu-compute-1-clip)" />
+      <use href="#gpu-compute-1" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <g id="gpu-compute-2-paint">
+      <use href="#gpu-compute-2" fill="url(#gpu-compute-paint)" />
+      <path d="M148 117 H171 L148 141 Z" fill="#9deeff" opacity=".28" clip-path="url(#gpu-compute-2-clip)" />
+      <use href="#gpu-compute-2" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <g id="gpu-compute-3-paint">
+      <use href="#gpu-compute-3" fill="url(#gpu-compute-paint)" />
+      <path d="M115 150 H138 L115 174 Z" fill="#9deeff" opacity=".28" clip-path="url(#gpu-compute-3-clip)" />
+      <use href="#gpu-compute-3" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <g id="gpu-compute-4-paint">
+      <use href="#gpu-compute-4" fill="url(#gpu-compute-paint)" />
+      <path d="M148 150 H171 L148 174 Z" fill="#9deeff" opacity=".28" clip-path="url(#gpu-compute-4-clip)" />
+      <use href="#gpu-compute-4" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+  </g>
+</svg>

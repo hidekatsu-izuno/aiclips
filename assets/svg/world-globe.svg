@@ -1,11 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="world-globe-title">
   <title id="world-globe-title">地球儀</title>
-  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <desc>Globe with blue oceans and green continents, a warm wooden base, and a silver metal support shaft and meridian ring.</desc>
   <defs>
-    <linearGradient id="world-globe-blue" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0.0" stop-color="#0bc5ff" />
-      <stop offset="0.5" stop-color="#0099ff" />
-      <stop offset="1.0" stop-color="#0078ed" />
+    <linearGradient id="world-globe-metal" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#edf4f9" />
+      <stop offset=".3" stop-color="#a7b8c8" />
+      <stop offset=".5" stop-color="#f4f8fb" />
+      <stop offset=".7" stop-color="#90a4b6" />
+      <stop offset="1" stop-color="#596f84" />
+    </linearGradient>
+    <linearGradient id="world-globe-wood" x1="0" y1="0" x2=".25" y2="1">
+      <stop offset="0" stop-color="#d6a367" />
+      <stop offset=".45" stop-color="#b77b40" />
+      <stop offset="1" stop-color="#78451f" />
+    </linearGradient>
+    <linearGradient id="world-globe-wood-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#f0c58c" />
+      <stop offset=".45" stop-color="#ca9358" />
+      <stop offset="1" stop-color="#653719" />
     </linearGradient>
     <rect id="world-globe-shape1" x="127.0" y="203" width="20" height="21" rx="1" />
     <clipPath id="world-globe-shape1-clip">
@@ -36,20 +48,21 @@
       <stop stop-color="#003366" stop-opacity=".03" offset="0.65" />
       <stop stop-color="#003366" stop-opacity=".25" offset="1" />
     </linearGradient>
-    <linearGradient id="world-globe-stand-bevel" x1="0" y1="0" x2=".3" y2="1">
-      <stop stop-color="#91e8ff" stop-opacity="1" offset="0" />
-      <stop stop-color="#19baff" stop-opacity="1" offset="0.35" />
-      <stop stop-color="#0059ba" stop-opacity="1" offset="1" />
+    <linearGradient id="world-globe-metal-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="1" offset="0" />
+      <stop stop-color="#cad7e2" stop-opacity="1" offset="0.35" />
+      <stop stop-color="#50697e" stop-opacity="1" offset="1" />
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="#050b1d" stroke-width="15" />
-    <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="url(#world-globe-blue)" stroke-width="7" />
-    <use href="#world-globe-shape1" fill="url(#world-globe-blue)" />
-    <use href="#world-globe-shape1" fill="none" stroke="url(#world-globe-stand-bevel)" stroke-width="11" clip-path="url(#world-globe-shape1-clip)" />
+    <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="url(#world-globe-metal)" stroke-width="7" />
+    <use href="#world-globe-shape1" fill="url(#world-globe-metal)" />
+    <use href="#world-globe-shape1" fill="none" stroke="url(#world-globe-metal-edge)" stroke-width="11" clip-path="url(#world-globe-shape1-clip)" />
     <use href="#world-globe-shape1" fill="none" stroke="#050b1d" stroke-width="5" />
-    <use href="#world-globe-shape2" fill="url(#world-globe-blue)" />
-    <use href="#world-globe-shape2" fill="none" stroke="url(#world-globe-stand-bevel)" stroke-width="11" clip-path="url(#world-globe-shape2-clip)" />
+    <use href="#world-globe-shape2" fill="url(#world-globe-wood)" />
+    <use href="#world-globe-shape2" fill="none" stroke="url(#world-globe-wood-edge)" stroke-width="11" clip-path="url(#world-globe-shape2-clip)" />
+    <path d="M115 226 Q128 223 143 226 Q152 228 161 225 M119 230 Q135 228 148 231" fill="none" stroke="#79502a" stroke-width="1" opacity=".45" clip-path="url(#world-globe-shape2-clip)" />
     <use href="#world-globe-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
     <use href="#world-globe-shape3" fill="url(#world-globe-ocean)" />
     <g id="world-globe-continents" clip-path="url(#world-globe-shape3-clip)">

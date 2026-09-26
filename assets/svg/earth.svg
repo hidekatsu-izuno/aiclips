@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="earth-title">
+  <title id="earth-title">地球</title>
+  <desc>Earth based on the globe illustration, with blue oceans and green continents, centered without a stand or support ring. Editable vector shapes.</desc>
+  <defs>
+    <circle id="earth-shape3" cx="137" cy="141" r="67" />
+    <clipPath id="earth-shape3-clip">
+      <use href="#earth-shape3" />
+    </clipPath>
+    <circle id="earth-shape4" cx="137" cy="141" r="67" />
+    <radialGradient id="earth-ocean" cx=".28" cy=".23" r=".9">
+      <stop stop-color="#05baff" stop-opacity="1" offset="0" />
+      <stop stop-color="#009af7" stop-opacity="1" offset="0.55" />
+      <stop stop-color="#0062dc" stop-opacity="1" offset="1" />
+    </radialGradient>
+    <linearGradient id="earth-land" x1="85" y1="72" x2="184" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b8ee79" stop-opacity="1" offset="0" />
+      <stop stop-color="#a4e268" stop-opacity="1" offset="0.45" />
+      <stop stop-color="#84c94d" stop-opacity="1" offset="1" />
+    </linearGradient>
+    <linearGradient id="earth-globe-rim" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".35" offset="0" />
+      <stop stop-color="#ffffff" stop-opacity=".20" offset="0.3" />
+      <stop stop-color="#003366" stop-opacity=".03" offset="0.65" />
+      <stop stop-color="#003366" stop-opacity=".25" offset="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" transform="translate(144 144) scale(1.25) translate(-137 -141)">
+    <use href="#earth-shape3" fill="url(#earth-ocean)" />
+    <g id="earth-continents" clip-path="url(#earth-shape3-clip)">
+      <g transform="translate(1 10)" fill="url(#earth-land)">
+        <path id="earth-north-america" d="M81 98 Q88 87 101 82 L108 81 L112 83 L111 88 Q106 88 107 94 Q109 100 114 97 L117 90 L121 89 L123 93 L122 97 L127 99 L125 103 L119 104 L117 108 L113 110 L111 114 L107 117 L109 121 L109 125 L106 123 L104 119 Q99 117 97 122 L98 127 L96 131 L93 134 L93 139 L97 142 L95 146 L89 142 L87 136 L84 130 L83 124 L80 120 L78 115 L78 110 L76 106 Z" />
+        <path id="earth-greenland" d="M135 81 Q141 77 148 81 L151 85 L148 91 L144 97 Q142 101 139 97 L137 92 L132 88 Q130 84 135 81 Z" />
+        <path id="earth-iceland" d="M149 104 L152 102 L155 104 L153 106 L150 106 Z" />
+        <path id="earth-europe-asia" d="M174 78 L190 88 L204 107 L205 122 L192 122 Q190 119 193 116 L193 114 Q184 116 178 114 Q172 107 168 110 Q162 115 158 110 Q155 104 163 99 Q172 95 168 91 Q163 88 170 84 Z" />
+        <path id="earth-africa" d="M178 118 Q172 111 163 116 Q151 121 151 133 Q150 146 162 146 Q170 144 171 153 Q172 160 166 175 Q163 183 174 182 L190 179 L207 148 L204 133 Q195 133 191 129 Q188 122 195 124 L202 125 L202 115 Q190 109 187 114 Q188 121 183 122 Q180 122 178 118 Z" />
+        <path id="earth-central-america" d="M 86.104 138.000 Q 90.875 139.000 93.160 142.000 Q 95.710 146.000 99.856 145.000 L 104.182 143.000 L 106.916 147.000 L 101.644 150.000 Q 94.550 151.000 90.746 146.000 Q 88.441 143.000 85.771 143.000 Z" />
+        <path id="earth-south-america" d="M 100.498 140.000 Q 112.359 138.000 120.422 147.000 Q 124.525 152.000 130.878 152.000 Q 141.095 153.000 138.414 161.000 Q 136.000 170.000 125.888 175.000 Q 125.291 177.000 126.855 180.000 L 123.014 184.000 Q 125.373 189.000 125.648 192.000 Q 117.774 188.000 111.286 178.000 Q 108.396 169.000 102.038 167.000 Q 96.445 164.000 93.566 155.000 Q 91.553 145.000 100.498 140.000 Z" />
+      </g>
+    </g>
+    <use href="#earth-shape3" fill="none" stroke="url(#earth-globe-rim)" stroke-width="17" clip-path="url(#earth-shape3-clip)" />
+    <use href="#earth-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

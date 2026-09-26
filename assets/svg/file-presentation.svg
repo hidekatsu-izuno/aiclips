@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-presentation-title">
   <title id="file-presentation-title">PRESENTATION</title>
-  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <desc>Presentation document with a red slide containing a title line, a pie chart and horizontal text lines.</desc>
   <defs>
     <linearGradient id="file-presentation-blue" x1="0" y1="0" x2=".3" y2="1">
       <stop offset="0.0" stop-color="#0bc5ff" />
@@ -43,6 +43,13 @@
     <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-presentation-blue)" stroke="none" stroke-width="0" />
     <use href="#file-presentation-shape2" fill="url(#file-presentation-hotred)" />
     <use href="#file-presentation-shape2" fill="none" stroke="url(#file-presentation-red-edge)" stroke-width="14.0" clip-path="url(#file-presentation-shape2-clip)" />
-    <path d="M111 140 H178 V179 H111 Z" fill="none" stroke="#fff7e9" stroke-width="8" stroke-linejoin="round" />
+    <g fill="#fff7e9" stroke="none">
+      <rect x="109" y="134" width="70" height="5" rx="2.5" />
+      <path d="M122 150 A13 13 0 1 0 135 163 H122 Z" />
+      <path d="M125 147 A13 13 0 0 1 138 160 H125 Z" />
+      <rect x="148" y="151" width="31" height="4" rx="2" />
+      <rect x="148" y="162" width="31" height="4" rx="2" />
+      <rect x="148" y="173" width="23" height="4" rx="2" />
+    </g>
   </g>
 </svg>

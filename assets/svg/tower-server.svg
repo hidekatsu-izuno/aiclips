@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="tower-server-title">
+  <title id="tower-server-title">タワー型サーバー</title>
+  <desc>A freestanding tower server viewed straight from the front with a blue-gray case, green status lights, two drive bays and a lower ventilation grille, matching the server rack illustration.</desc>
+  <defs>
+    <linearGradient id="tower-server-case-paint" gradientUnits="userSpaceOnUse" x1="78" y1="78" x2="213" y2="222">
+      <stop offset="0" stop-color="#748ba2" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#364a60" stop-opacity="1" />
+      <stop offset="1" stop-color="#60788f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="tower-server-case-edge" gradientUnits="userSpaceOnUse" x1="80" y1="79" x2="209" y2="223">
+      <stop offset="0" stop-color="#b9cede" />
+      <stop offset=".4" stop-color="#7791a7" />
+      <stop offset="1" stop-color="#324e65" />
+    </linearGradient>
+    <linearGradient id="tower-server-bay-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#657d94" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#394e63" stop-opacity="1" />
+      <stop offset="1" stop-color="#506980" stop-opacity="1" />
+    </linearGradient>
+    <rect id="tower-server-case" x="84" y="51" width="120" height="182" rx="10" />
+    <clipPath id="tower-server-case-clip"><use href="#tower-server-case" /></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="94" y="226" width="22" height="12" rx="3" fill="#283c50" stroke="#050b1d" stroke-width="4" />
+    <rect x="172" y="226" width="22" height="12" rx="3" fill="#283c50" stroke="#050b1d" stroke-width="4" />
+    <use href="#tower-server-case" fill="url(#tower-server-case-paint)" />
+    <use href="#tower-server-case" fill="none" stroke="url(#tower-server-case-edge)" stroke-width="12" clip-path="url(#tower-server-case-clip)" />
+    <use href="#tower-server-case" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="105" cy="80" r="7" fill="#263e52" stroke="#050b1d" stroke-width="2" />
+    <path d="M102 77 A4 4 0 1 0 108 77 M105 74 V79" fill="none" stroke="#b9cede" stroke-width="1.7" />
+    <rect x="128" y="77" width="14" height="6" rx="1" fill="#050b1d" />
+    <circle cx="180" cy="80" r="4" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <rect x="95" y="109" width="98" height="64" rx="5" fill="#050c16" />
+    <rect x="100" y="114" width="88" height="25" rx="3" fill="url(#tower-server-bay-paint)" stroke="#819aaf" stroke-width="1.5" />
+    <rect x="106" y="123" width="50" height="7" rx="2" fill="#192f43" />
+    <circle cx="175" cy="126.5" r="4.5" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <rect x="100" y="143" width="88" height="25" rx="3" fill="url(#tower-server-bay-paint)" stroke="#819aaf" stroke-width="1.5" />
+    <rect x="106" y="152" width="50" height="7" rx="2" fill="#192f43" />
+    <circle cx="175" cy="155.5" r="4.5" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <rect x="96" y="181" width="96" height="39" rx="5" fill="#253b4e" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M105 189 H183 M105 198 H183 M105 207 H183" fill="none" stroke="#050b1d" stroke-width="4" />
+    <path d="M105 187 H183 M105 196 H183 M105 205 H183" fill="none" stroke="#6e889e" stroke-width="1.5" />
+  </g>
+</svg>

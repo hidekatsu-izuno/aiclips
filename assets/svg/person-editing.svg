@@ -180,7 +180,7 @@
     </g>
     <g id="person-editing-hand-mouse-placement" transform="translate(19 0)">
       <path d="M180 207 Q192 204 201 206" fill="none" stroke="#11253b" stroke-width="2.5" />
-      <g id="person-editing-mouse" transform="translate(181 225) scale(.85) translate(-181 -223)">
+      <g id="person-editing-mouse" transform="translate(0 6.9)">
         <path d="M181 211 C171 211 166 217 166 225 Q166 231 181 231 Q196 231 196 225 C196 217 191 211 181 211 Z" fill="url(#person-editing-mouse-paint)" stroke="#172b42" stroke-width="2.2" />
         <path d="M167 227 Q181 232 195 227" fill="none" stroke="#738ba4" stroke-width="1.2" />
       </g>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-word-title">
   <title id="file-word-title">WORD</title>
-  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <desc>Word document with a blue heading, body text and an embedded bar chart with body text wrapping along its right side.</desc>
   <defs>
     <linearGradient id="file-word-blue" x1="0" y1="0" x2=".3" y2="1">
       <stop offset="0.0" stop-color="#0bc5ff" />
@@ -31,22 +31,7 @@
       <stop offset="0.5" stop-color="#607b95" />
       <stop offset="1.0" stop-color="#425e79" />
     </linearGradient>
-    <linearGradient id="file-word-line-paint3" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
-      <stop offset="0.0" stop-color="#8199ae" />
-      <stop offset="0.5" stop-color="#607b95" />
-      <stop offset="1.0" stop-color="#425e79" />
-    </linearGradient>
-    <linearGradient id="file-word-line-paint4" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
-      <stop offset="0.0" stop-color="#8199ae" />
-      <stop offset="0.5" stop-color="#607b95" />
-      <stop offset="1.0" stop-color="#425e79" />
-    </linearGradient>
     <linearGradient id="file-word-line-paint5" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
-      <stop offset="0.0" stop-color="#8199ae" />
-      <stop offset="0.5" stop-color="#607b95" />
-      <stop offset="1.0" stop-color="#425e79" />
-    </linearGradient>
-    <linearGradient id="file-word-line-paint6" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
       <stop offset="0.0" stop-color="#8199ae" />
       <stop offset="0.5" stop-color="#607b95" />
       <stop offset="1.0" stop-color="#425e79" />
@@ -58,10 +43,17 @@
     <use href="#file-word-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
     <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-word-blue)" stroke="none" stroke-width="0" />
     <path d="M101 101 H142" fill="none" stroke="url(#file-word-line-paint1)" stroke-width="12" />
-    <path d="M101 125 H185" fill="none" stroke="url(#file-word-line-paint2)" stroke-width="9" />
-    <path d="M101 143 H185" fill="none" stroke="url(#file-word-line-paint3)" stroke-width="9" />
-    <path d="M101 161 H185" fill="none" stroke="url(#file-word-line-paint4)" stroke-width="9" />
-    <path d="M101 179 H185" fill="none" stroke="url(#file-word-line-paint5)" stroke-width="9" />
-    <path d="M101 197 H151" fill="none" stroke="url(#file-word-line-paint6)" stroke-width="9" />
+    <path d="M101 125 H183" fill="none" stroke="url(#file-word-line-paint2)" stroke-width="9" />
+    <g id="file-word-embedded-chart">
+      <rect x="98" y="139" width="48" height="38" rx="2" fill="#e5f3ff" stroke="#a1c6e5" stroke-width="1.5" />
+      <g fill="url(#file-word-blue)">
+        <rect x="105" y="159" width="8" height="11" rx="1" />
+        <rect x="118" y="153" width="8" height="17" rx="1" />
+        <rect x="131" y="147" width="8" height="23" rx="1" />
+      </g>
+      <path d="M103 171 H141" fill="none" stroke="#607b95" stroke-width="1.5" />
+    </g>
+    <path d="M158 143 H183 M158 159 H183 M158 175 H175" fill="none" stroke="url(#file-word-line-paint2)" stroke-width="9" />
+    <path d="M101 193 H169" fill="none" stroke="url(#file-word-line-paint5)" stroke-width="9" />
   </g>
 </svg>
