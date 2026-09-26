@@ -54,10 +54,10 @@
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#water-faucet-shape1" fill="url(#water-faucet-chrome)" />
     <use href="#water-faucet-shape1" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="12" clip-path="url(#water-faucet-shape1-clip)" />
-    <use href="#water-faucet-shape1" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#water-faucet-shape2" fill="url(#water-faucet-chrome)" />
     <use href="#water-faucet-shape2" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="10" clip-path="url(#water-faucet-shape2-clip)" />
-    <use href="#water-faucet-shape2" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#water-faucet-shape3" fill="url(#water-faucet-chrome)" />
     <use href="#water-faucet-shape3" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="21" clip-path="url(#water-faucet-shape3-clip)" />
     <use href="#water-faucet-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
@@ -69,7 +69,7 @@
     <use href="#water-faucet-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#water-faucet-shape6" fill="url(#water-faucet-chrome)" />
     <use href="#water-faucet-shape6" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="14" clip-path="url(#water-faucet-shape6-clip)" />
-    <use href="#water-faucet-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape6" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#water-faucet-shape7" fill="url(#water-faucet-water)" />
     <use href="#water-faucet-shape7" fill="none" stroke="url(#water-faucet-cyan)" stroke-width="14" clip-path="url(#water-faucet-shape7-clip)" />
     <use href="#water-faucet-shape7" fill="none" stroke="#050b1d" stroke-width="7" />

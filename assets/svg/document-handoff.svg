@@ -117,7 +117,7 @@
       <stop offset="1" stop-color="#2a202c" />
     </linearGradient>
     <mask id="document-handoff-collar-interior-mask" maskUnits="userSpaceOnUse" x="40" y="130" width="80" height="90">
-      <use href="#document-handoff-body0" fill="white" stroke="black" stroke-width="3.2" />
+      <use href="#document-handoff-body0" fill="white" stroke="black" stroke-width="7" />
     </mask>
     <mask id="document-handoff-hair-above-suit-mask" maskUnits="userSpaceOnUse" x="35" y="60" width="100" height="165">
       <rect x="35" y="60" width="100" height="165" fill="white" />
@@ -131,14 +131,14 @@
         <path d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H101" fill="none" stroke="url(#document-handoff-jacket-edge)" stroke-width="9" clip-path="url(#document-handoff-body0-clip)" />
         <g clip-path="url(#document-handoff-body0-clip)">
           </g>
-        <path fill="none" stroke="#050b1d" stroke-width="3.2" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H99 Q105 214 105 207 L108 175 C109 162 100 150 93 145" />
+        <path fill="none" stroke="#050b1d" stroke-width="7" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H99 Q105 214 105 207 L108 175 C109 162 100 150 93 145" />
       </g>
-      <path id="document-handoff-face-front-outline0" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" />
+      <path id="document-handoff-face-front-outline0" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="14" stroke-linecap="butt" />
       <path id="document-handoff-nape-join0" d="M69 130 L75 132 V140 H71 V134 Q71 133 69.5 132.5 Z" fill="#050b1d" />
       <use href="#document-handoff-headback0" fill="url(#document-handoff-hair)" />
       <use href="#document-handoff-headback0" fill="none" stroke="url(#document-handoff-hair-edge)" stroke-width="10" clip-path="url(#document-handoff-headback0-clip)" />
-      <path fill="none" stroke="#050b1d" stroke-width="3.2" d="M70 131 C53 126 47 107 55 90 C63 68 89 65 108 84 Q125 99 113 111" />
-      <path id="document-handoff-neck-back-outline0" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+      <path fill="none" stroke="#050b1d" stroke-width="7" d="M70 131 C53 126 47 107 55 90 C63 68 89 65 108 84 Q125 99 113 111" />
+      <path id="document-handoff-neck-back-outline0" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="14" stroke-linecap="butt" />
       <path id="document-handoff-neck0" d="M75 131 Q84 134 92 134 L93 146.5 L86.5 146.3 C83 146 79 144.8 75 144.5 Z" fill="url(#document-handoff-neck)" />
       <g id="document-handoff-back-collar0">
         <path id="document-handoff-back-collar-fill0" d="M75 143.5 Q78 143.7 80 145 L80 146 L75 145.5 Z" fill="url(#document-handoff-jacket)" mask="url(#document-handoff-collar-interior-mask)" />
@@ -146,7 +146,7 @@
         <path id="document-handoff-shirt-collar-shadow" d="M86 150 L90.7 157 L95 150.5 L95.8 152.2 L91.1 159 L87.2 152.7 Z" fill="#b1bfcd" clip-path="url(#document-handoff-shirt-front-clip)" />
         <path id="document-handoff-tie" d="M95.5 153 L100.5705 152.56525 C105.075 158.5225 108.65 166.55 108 175 L107.917 178 L100 175 C99.5 166 97.5 159 95.5 153 Z" fill="#058cce" />
       </g>
-      <path id="document-handoff-tie-chest-outline" d="M98.4375 149.96875 C103.875 156.0625 108.75 165.25 108 175" fill="none" stroke="#050b1d" stroke-width="3.2" stroke-linecap="butt" />
+      <path id="document-handoff-tie-chest-outline" d="M98.4375 149.96875 C103.875 156.0625 108.75 165.25 108 175" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
       <path id="document-handoff-tie-knot" d="M 92.72 148.4 L 97.395 149.675 Q 98.67 149.93 99.265 151.375 L 100.795 154.35 Q 101.22 155.625 100.03 156.815 L 98.415 158.345 Q 97.14 159.45 95.695 158.005 L 92.72 153.925 Q 91.445 152.225 92.72 148.4 Z" fill="url(#document-handoff-knot-paint)" stroke="#087bab" stroke-width=".9" />
       <path id="document-handoff-shirt-collar-tip" d="M80 145 L93.3 146.3 L95.5 150.5 L90.7 157 L86 150 Z" fill="#f8fafc" stroke="#c5d1dd" stroke-width=".6" stroke-linejoin="round" />
       <path id="document-handoff-lapel0" mask="url(#document-handoff-collar-interior-mask)" d="M69 145 Q72 143 75 143.5 Q78 143.7 80 145 C82 146 84.5 148 86 150 C88 152.5 89.5 154.5 90.7 157 C93 164 95 172 96.5 179" fill="none" stroke="#182d45" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round" />
@@ -161,15 +161,15 @@
         <g clip-path="url(#document-handoff-body1-clip)">
           <path d="M81 146.5 C83 147.5 85 149.5 86.5 151.5 C88.5 154 89.5 155.5 90.5 157.5 C93 164.5 95 173 96.5 180.5 H105 C105 169 100 157 93 148 Z" fill="url(#document-handoff-white)" id="document-handoff-shirt1" />
         </g>
-        <path fill="none" stroke="#050b1d" stroke-width="3.2" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H99 Q105 214 105 207 L106 175 C107 162 100 150 93 145" />
+        <path fill="none" stroke="#050b1d" stroke-width="7" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H99 Q105 214 105 207 L106 175 C107 162 100 150 93 145" />
       </g>
-      <path id="document-handoff-face-front-outline1" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" />
+      <path id="document-handoff-face-front-outline1" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="14" stroke-linecap="butt" />
       <g id="document-handoff-woman-far-fringe-layer">
-        <use href="#document-handoff-woman-far-fringe" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linejoin="round" />
+        <use href="#document-handoff-woman-far-fringe" fill="none" stroke="#050b1d" stroke-width="14" stroke-linejoin="round" />
         <use href="#document-handoff-woman-far-fringe" fill="url(#document-handoff-far-fringe-paint)" />
         <path d="M108 87 C116.5 89 121.5 99 118 110 Q116 115 110 118" fill="none" stroke="url(#document-handoff-far-fringe-edge)" stroke-width="5" clip-path="url(#document-handoff-woman-far-fringe-clip)" />
       </g>
-      <path id="document-handoff-neck-back-outline1" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" />
+      <path id="document-handoff-neck-back-outline1" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="14" stroke-linecap="butt" />
       <path id="document-handoff-neck1" d="M75 131 Q84 134 92 134 L93 148 H90 C85 148 80 146.5 75 146 Z" fill="url(#document-handoff-neck)" />
       <g id="document-handoff-back-collar1">
         <path id="document-handoff-back-collar-fill1" mask="url(#document-handoff-collar-interior-mask)" d="M70 142 Q76 142.5 81 146.5 L81 153 H68 Z" fill="url(#document-handoff-jacket)" />
@@ -179,7 +179,7 @@
       <use href="#document-handoff-face1" fill="url(#document-handoff-skin)" />
       <use href="#document-handoff-face1" fill="none" stroke="url(#document-handoff-skin-edge)" stroke-width="5" clip-path="url(#document-handoff-face1-clip)" />
       <path fill="none" stroke="#050b1d" stroke-width="1.2" d="M72 114 Q78 111 83 117 L86 111 Q103 108 108 96" />
-      <path id="document-handoff-woman-fringe-outline" mask="url(#document-handoff-hair-above-suit-mask)" d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" stroke-linejoin="round" clip-path="url(#document-handoff-woman-exterior-hair-edge)" />
+      <path id="document-handoff-woman-fringe-outline" mask="url(#document-handoff-hair-above-suit-mask)" d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="#050b1d" stroke-width="14" stroke-linecap="butt" stroke-linejoin="round" clip-path="url(#document-handoff-woman-exterior-hair-edge)" />
       <use href="#document-handoff-woman-bob" fill="url(#document-handoff-woman-hair)" />
       <g clip-path="url(#document-handoff-woman-bob-clip)">
         <path d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="url(#document-handoff-woman-edge)" stroke-width="10" stroke-linecap="butt" />
@@ -190,7 +190,7 @@
     </g>
     <use href="#document-handoff-paper" fill="url(#document-handoff-white)" />
     <use href="#document-handoff-paper" fill="none" stroke="url(#document-handoff-white-edge)" stroke-width="8" clip-path="url(#document-handoff-paper-clip)" />
-    <use href="#document-handoff-paper" fill="none" stroke="#050b1d" stroke-width="3.2" />
+    <use href="#document-handoff-paper" fill="none" stroke="#050b1d" stroke-width="7" />
     <path d="M131 152 H154" fill="none" stroke="#9aaabd" stroke-width="5" />
     <path d="M131 163 H154" fill="none" stroke="#9aaabd" stroke-width="5" />
     <path d="M131 174 H154" fill="none" stroke="#9aaabd" stroke-width="5" />
@@ -203,7 +203,8 @@
       <use href="#document-handoff-hand0" fill="url(#document-handoff-skin)" />
       <path d="M109 178 Q117 177 120 180" fill="none" stroke="#ffe2b3" stroke-width="1.7" stroke-linecap="round" clip-path="url(#document-handoff-hand0-clip)" />
       <path id="document-handoff-hand0-finger-creases" d="M115 182 Q118 183 120 182" fill="none" stroke="#ba855a" stroke-width="1.2" stroke-linecap="round" clip-path="url(#document-handoff-hand0-clip)" stroke-linejoin="round" />
-      <use href="#document-handoff-hand0" fill="none" stroke="#050b1d" stroke-width="3.2" />
+      <path d="M105 176 C109 175 116 175 120 177 C123 178 124 181 122 182 Q120.5 183 121.5 184 C125 189 122 194 118 195 C114 196 109 196 105 195" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+      <path id="document-handoff-wrist-seam0" d="M105 176 V195" fill="none" stroke="#050b1d" stroke-width="4.5" stroke-linecap="butt" />
     </g>
     <g transform="translate(288 0) scale(-1 1)" stroke-linecap="round" stroke-linejoin="round">
       <g id="document-handoff-rounded-sleeve1">
@@ -214,7 +215,8 @@
       <use href="#document-handoff-hand1" fill="url(#document-handoff-skin)" />
       <path d="M109 178 Q117 177 120 180" fill="none" stroke="#ffe2b3" stroke-width="1.7" stroke-linecap="round" clip-path="url(#document-handoff-hand1-clip)" />
       <path id="document-handoff-hand1-finger-creases" d="M115 182 Q118 183 120 182" fill="none" stroke="#ba855a" stroke-width="1.2" stroke-linecap="round" clip-path="url(#document-handoff-hand1-clip)" stroke-linejoin="round" />
-      <use href="#document-handoff-hand1" fill="none" stroke="#050b1d" stroke-width="3.2" />
+      <path d="M105 176 C109 175 116 175 120 177 C123 178 124 181 122 182 Q120.5 183 121.5 184 C125 189 122 194 118 195 C114 196 109 196 105 195" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+      <path id="document-handoff-wrist-seam1" d="M105 176 V195" fill="none" stroke="#050b1d" stroke-width="4.5" stroke-linecap="butt" />
     </g>
   </g>
 </svg>

@@ -126,7 +126,7 @@
       <path id="thinking-person-left-underarm-seam" d="M94 176 Q98 183 101 193" fill="none" stroke="#102139" stroke-width="2.4" />
     </g>
     <g id="thinking-person-tilted-head" transform="translate(5 -1) translate(144 60) scale(.88) translate(-144 -60) rotate(-14 144 165) translate(144 108) scale(1.1) translate(-144 -108)">
-      <use href="#thinking-employee-face" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#thinking-employee-neck-continuity)" />
+      <use href="#thinking-employee-face" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14.46281" mask="url(#thinking-employee-neck-continuity)" />
       <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14" />
       <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
       <use href="#thinking-employee-ear-left" fill="url(#thinking-employee-skin-paint)" />
@@ -146,12 +146,12 @@
       <use href="#thinking-employee-ear-left" fill="none" stroke="url(#thinking-employee-ear-bevel)" stroke-width="2.5" clip-path="url(#thinking-employee-ear-clip)" />
     </g>
     <g id="thinking-person-question-mark" transform="translate(-5 9) translate(214 70) scale(.86) translate(-214 -70) rotate(10 214 70)">
-      <path d="M201 53 C201 39 226 39 226 53 C226 62 213 63 213 74" fill="none" stroke="#050b1d" stroke-width="17" />
+      <path d="M201 53 C201 39 226 39 226 53 C226 62 213 63 213 74" fill="none" stroke="#050b1d" stroke-width="26.27907" />
       <path d="M201 53 C201 39 226 39 226 53 C226 62 213 63 213 74" fill="none" stroke="#159efa" stroke-width="10" />
       <g mask="url(#thinking-person-question-highlight-mask)">
         <path d="M201 53 C201 39 226 39 226 53" fill="none" stroke="#76d4ff" stroke-width="2.5" transform="translate(-1.2 -2.2)" />
       </g>
-      <circle cx="213" cy="91" r="6" fill="#159efa" stroke="#050b1d" stroke-width="3.5" />
+      <circle cx="213" cy="104" r="6" fill="#159efa" stroke="#050b1d" stroke-width="16.27907" paint-order="stroke fill" />
     </g>
     <g id="thinking-person-raised-arm">
       <use href="#thinking-person-sleeve" fill="url(#thinking-employee-suit-paint)" />
@@ -169,7 +169,7 @@
       <path d="M134.1 216.08 C125 215.2 119 214.1 111 214 C106 214 103.5 211.8 101 212.5 C97.5 213.2 97.5 216.2 100.5 218 Q104 220.2 109 220 Q104 222.5 98.5 221 L94.5 220 Q95.5 226.5 103 228 L134.1 229Z" fill="url(#thinking-employee-skin-paint)" stroke="#050b1d" stroke-width="2.5" />
       <path d="M100.5 214.8 Q103.5 217.1 110 217" fill="none" stroke="#ffe1b0" stroke-width="1.5" />
       <use href="#thinking-person-crossed-sleeve" fill="url(#thinking-employee-suit-paint)" />
-      <path d="M 136.38 216.46 L 183.69 207.53 Q 193.0 206.01 196.99 213.42" fill="none" stroke="#6683a5" stroke-width="4" clip-path="url(#thinking-person-crossed-sleeve-clip)" opacity=".65" />
+      <path id="thinking-person-forearm-highlight" d="M136.38 216.46 L177 208.79 Q180.5 208.13 183 208.2" fill="none" stroke="#6683a5" stroke-width="4" clip-path="url(#thinking-person-crossed-sleeve-clip)" opacity=".65" />
       <path d="M 138.66 231.66 L 188.06 230.9 Q 196.42 230.33 197.75 225.01" fill="none" stroke="#14273e" stroke-width="4" clip-path="url(#thinking-person-crossed-sleeve-clip)" />
       <path fill="none" stroke="#050b1d" stroke-width="3" d="M133 213.8 L181 204.9" />
       <path d="M 129.54 214.94 L 133.91 213.99 L 134.48 232.23 L 130.3 232.23 Z" fill="url(#thinking-employee-white-paint)" stroke="#050b1d" stroke-width="1.6" />

@@ -111,11 +111,14 @@
     </clipPath>
     <mask id="medical-doctor-ear-insertion-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
       <rect width="288" height="288" fill="white" />
-      <path d="M104 127 Q102 130 104 134 H114 V127Z" fill="black" />
-      <path d="M104 127 Q102 130 104 134 H114 V127Z" fill="black" transform="translate(288 0) scale(-1 1)" />
+      <path d="M104 120 Q102 131 104 142 H116 V120Z" fill="black" />
+      <path d="M104 120 Q102 131 104 142 H116 V120Z" fill="black" transform="translate(288 0) scale(-1 1)" />
     </mask>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="medical-doctor-ear-tube-exterior" mask="url(#medical-doctor-ear-insertion-mask)">
+      <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 M182 131 H184 C187 131 188 133 188 136 C188 146 184 156 178 166" fill="none" stroke="#050b1d" stroke-width="19" />
+    </g>
     <g id="medical-doctor-torso-proportions" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
       <use href="#medical-doctor-coat-body" fill="url(#medical-doctor-paper)" />
       <g clip-path="url(#medical-doctor-coat-body-clip)" fill="none">
@@ -141,7 +144,7 @@
       <path d="M72 231 H216" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
     </g>
     <g id="medical-doctor-scaled-head" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
-      <use href="#medical-doctor-reference-face" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#medical-doctor-reference-neck-continuity)" />
+      <use href="#medical-doctor-reference-face" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#medical-doctor-reference-neck-continuity)" />
       <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="14" />
       <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
       <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" />
@@ -164,6 +167,7 @@
       <path d="M78 225 L93 211 Q98 210 103 213 L111 225Z" fill="#f8fcff" />
       <path d="M78 225 L93 211 M103 213 L111 225" fill="none" stroke="#a1b5c7" stroke-width="2" />
       <g id="medical-doctor-binaural-assembly" mask="url(#medical-doctor-ear-insertion-mask)">
+        <path id="medical-doctor-ear-tube-outline" d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 C116 176 129 191 144 191 C159 191 172 176 178 166 C184 156 188 146 188 136 C188 133 187 131 184 131 H182" fill="none" stroke="#050b1d" stroke-width="9" />
         <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 C116 176 129 191 144 191 C159 191 172 176 178 166 C184 156 188 146 188 136 C188 133 187 131 184 131 H182" fill="none" stroke="#aebfcd" stroke-width="5" />
         <g mask="url(#medical-doctor-ear-tube-highlight-mask)">
           <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 M182 131 H184 C187 131 188 133 188 136 C188 146 184 156 178 166" fill="none" stroke="#dce6ee" stroke-width="1.1" transform="translate(-.6 -.6)" />

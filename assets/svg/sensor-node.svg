@@ -63,10 +63,10 @@
     <use href="#sensor-node-foot" fill="url(#sensor-node-blue)" />
     <use href="#sensor-node-foot" fill="none" stroke="url(#sensor-node-blue-edge)" stroke-width="10" clip-path="url(#sensor-node-foot-clip)" />
     <use href="#sensor-node-foot" fill="none" stroke="#050b1d" stroke-width="7" />
-    <path d="M99 77 Q144 37 189 77" fill="none" stroke="#050b1d" stroke-width="19" />
+    <path d="M99 77 Q144 37 189 77" fill="none" stroke="#050b1d" stroke-width="26" />
     <path d="M99 77 Q144 37 189 77" fill="none" stroke="url(#sensor-node-blue)" stroke-width="12" />
     <path d="M99 77 Q144 37 189 77" fill="none" stroke="#74daff" stroke-width="2" />
-    <path d="M117 99 Q144 74 171 99" fill="none" stroke="#050b1d" stroke-width="19" />
+    <path d="M117 99 Q144 74 171 99" fill="none" stroke="#050b1d" stroke-width="26" />
     <path d="M117 99 Q144 74 171 99" fill="none" stroke="url(#sensor-node-blue)" stroke-width="12" />
     <path d="M117 99 Q144 74 171 99" fill="none" stroke="#74daff" stroke-width="2" />
     <use href="#sensor-node-signal" fill="url(#sensor-node-blue)" />

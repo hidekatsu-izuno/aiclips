@@ -20,8 +20,8 @@
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#algorithm-loop-shape1" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
-    <use href="#algorithm-loop-shape2" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-loop-shape1" fill="#83909d" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-loop-shape2" fill="#83909d" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
     <use href="#algorithm-loop-shape3" fill="url(#algorithm-loop-box3-paint)" />
     <use href="#algorithm-loop-shape3" fill="none" stroke="url(#algorithm-loop-box3-edge)" stroke-width="16.4" clip-path="url(#algorithm-loop-shape3-clip)" />
     <use href="#algorithm-loop-shape3" fill="none" stroke="#050b1d" stroke-width="7" />

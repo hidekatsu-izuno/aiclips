@@ -77,25 +77,32 @@
     <clipPath id="job-controller-node-2-clip">
       <use href="#job-controller-node-2" />
     </clipPath>
-    <mask id="job-controller-connectors-outside-faces" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+    <mask id="job-controller-junction-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
       <rect width="288" height="288" fill="white" />
-      <rect x="127.5" y="63.5" width="33.0" height="23.0" rx="4.5" fill="black" />
-      <rect x="84.5" y="103.5" width="119.0" height="60.0" rx="9.5" fill="black" />
-      <rect x="61.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
-      <rect x="123.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
-      <rect x="185.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
+      <g fill="black" stroke="black" stroke-width="6">
+      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
+      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
+      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
+      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
+          </g>
     </mask>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <path d="M144 89 V190" fill="none" stroke="#050b1d" stroke-width="11" />
-    <path d="M95 162 L82 192" fill="none" stroke="#050b1d" stroke-width="11" />
-    <path d="M193 162 L206 192" fill="none" stroke="#050b1d" stroke-width="11" />
+    <path d="M144 89 V190" fill="none" stroke="#050b1d" stroke-width="25" />
+    <path d="M95 162 L82 192" fill="none" stroke="#050b1d" stroke-width="25" />
+    <path d="M193 162 L206 192" fill="none" stroke="#050b1d" stroke-width="25" />
+    <g id="job-controller-connector-faces" fill="#83909d" stroke="#83909d" stroke-width="6">
+      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
+      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
+      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
+      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
+    </g>
     <use href="#job-controller-top" fill="url(#job-controller-gold)" />
     <use href="#job-controller-top" fill="none" stroke="url(#job-controller-gold-edge)" stroke-width="11" clip-path="url(#job-controller-top-clip)" />
-    <use href="#job-controller-top" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#job-controller-top" fill="none" stroke="#050b1d" stroke-width="7" mask="url(#job-controller-junction-mask)" />
     <use href="#job-controller-body" fill="url(#job-controller-white)" />
     <use href="#job-controller-body" fill="none" stroke="url(#job-controller-white-edge)" stroke-width="13" clip-path="url(#job-controller-body-clip)" />
-    <use href="#job-controller-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#job-controller-body" fill="none" stroke="#050b1d" stroke-width="7" mask="url(#job-controller-junction-mask)" />
     <use href="#job-controller-play" fill="url(#job-controller-green)" />
     <use href="#job-controller-play" fill="none" stroke="url(#job-controller-green-edge)" stroke-width="6" clip-path="url(#job-controller-play-clip)" />
     <use href="#job-controller-play" fill="none" stroke="#050b1d" stroke-width="2" />
@@ -104,21 +111,22 @@
     <use href="#job-controller-stop" fill="none" stroke="#050b1d" stroke-width="2" />
     <use href="#job-controller-node-0" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-0" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-0-clip)" />
-    <use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M74 207 H90" fill="none" stroke="#ffffff" stroke-width="7" />
     <use href="#job-controller-node-1" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-1" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-1-clip)" />
-    <use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M136 207 H152" fill="none" stroke="#ffffff" stroke-width="7" />
     <use href="#job-controller-node-2" fill="url(#job-controller-blue)" />
     <use href="#job-controller-node-2" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-2-clip)" />
-    <use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="6" mask="url(#job-controller-junction-mask)" />
     <path d="M198 207 H214" fill="none" stroke="#ffffff" stroke-width="7" />
-    <g id="job-controller-connector-faces" fill="#23354c" stroke="none" mask="url(#job-controller-connectors-outside-faces)">
-      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
-      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
-      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
-      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
+    <g id="job-controller-junction-boundaries" fill="none" stroke="#050b1d" stroke-width="2">
+      <use href="#job-controller-top" />
+      <use href="#job-controller-body" />
+      <use href="#job-controller-node-0" />
+      <use href="#job-controller-node-1" />
+      <use href="#job-controller-node-2" />
     </g>
   </g>
 </svg>

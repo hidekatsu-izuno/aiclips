@@ -13,9 +13,6 @@
     <clipPath id="algorithm-logic-shape3-clip">
       <use href="#algorithm-logic-shape3" />
     </clipPath>
-    <mask id="algorithm-logic-face-mask" maskUnits="userSpaceOnUse" x="100" y="68" width="88" height="76">
-      <use href="#algorithm-logic-shape3" fill="#ffffff" stroke="#000000" stroke-width="7" />
-    </mask>
     <rect id="algorithm-logic-shape4" x="56" y="166" width="74" height="47" rx="10.34" />
     <clipPath id="algorithm-logic-shape4-clip">
       <use href="#algorithm-logic-shape4" />
@@ -46,20 +43,21 @@
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="14" />
     <use href="#algorithm-logic-shape4" fill="url(#algorithm-logic-box4-paint)" />
     <use href="#algorithm-logic-shape4" fill="none" stroke="url(#algorithm-logic-box4-edge)" stroke-width="16.4" clip-path="url(#algorithm-logic-shape4-clip)" />
     <use href="#algorithm-logic-shape4" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#algorithm-logic-shape5" fill="url(#algorithm-logic-box5-paint)" />
     <use href="#algorithm-logic-shape5" fill="none" stroke="url(#algorithm-logic-box5-edge)" stroke-width="16.4" clip-path="url(#algorithm-logic-shape5-clip)" />
     <use href="#algorithm-logic-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
-    <use href="#algorithm-logic-shape1" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-logic-shape1" fill="#83909d" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
     <g transform="translate(288 0) scale(-1 1)">
-      <use href="#algorithm-logic-shape2" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+      <use href="#algorithm-logic-shape2" fill="#83909d" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
     </g>
-    <g mask="url(#algorithm-logic-face-mask)">
+    <g id="algorithm-logic-diamond-face">
       <use href="#algorithm-logic-shape3" fill="url(#algorithm-logic-gold)" />
       <use href="#algorithm-logic-shape3" fill="none" stroke="#fff47d" stroke-width="16.0" clip-path="url(#algorithm-logic-shape3-clip)" />
+      <use id="algorithm-logic-diamond-boundary" href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="3.5" />
     </g>
   </g>
 </svg>

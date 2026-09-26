@@ -14,7 +14,7 @@
     </clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#algorithm-merge-shape1" fill="#343a40" />
+    <use href="#algorithm-merge-shape1" fill="#83909d" />
     <use href="#algorithm-merge-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#algorithm-merge-shape2" fill="url(#algorithm-merge-gold)" />
     <use href="#algorithm-merge-shape2" fill="none" stroke="#fff47d" stroke-width="13" stroke-linejoin="miter" clip-path="url(#algorithm-merge-shape2-clip)" />

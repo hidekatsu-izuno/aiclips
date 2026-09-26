@@ -19,6 +19,15 @@
     </linearGradient>
     <rect id="tower-server-case" x="84" y="51" width="120" height="182" rx="10" />
     <clipPath id="tower-server-case-clip"><use href="#tower-server-case" /></clipPath>
+    <linearGradient id="tower-server-lamp-paint" gradientUnits="userSpaceOnUse" x1="-8" y1="-4.5" x2="5" y2="8.5">
+      <stop offset="0" stop-color="#76ffa1" />
+      <stop offset="0.5" stop-color="#28dd68" />
+      <stop offset="1" stop-color="#04a63b" />
+    </linearGradient>
+    <g id="tower-server-lamp">
+      <circle r="8.2" fill="url(#tower-server-lamp-paint)" stroke="#050b1d" stroke-width="2" />
+      <path d="M-5 0.5 C-6 -3.5 -2 -6.5 2 -4.5" fill="none" stroke="#b6ffd1" stroke-width="1.4" />
+    </g>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <rect x="94" y="226" width="22" height="12" rx="3" fill="#283c50" stroke="#050b1d" stroke-width="4" />
@@ -29,14 +38,14 @@
     <circle cx="105" cy="80" r="7" fill="#263e52" stroke="#050b1d" stroke-width="2" />
     <path d="M102 77 A4 4 0 1 0 108 77 M105 74 V79" fill="none" stroke="#b9cede" stroke-width="1.7" />
     <rect x="128" y="77" width="14" height="6" rx="1" fill="#050b1d" />
-    <circle cx="180" cy="80" r="4" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <use href="#tower-server-lamp" transform="translate(180 80)" />
     <rect x="95" y="109" width="98" height="64" rx="5" fill="#050c16" />
     <rect x="100" y="114" width="88" height="25" rx="3" fill="url(#tower-server-bay-paint)" stroke="#819aaf" stroke-width="1.5" />
     <rect x="106" y="123" width="50" height="7" rx="2" fill="#192f43" />
-    <circle cx="175" cy="126.5" r="4.5" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <use href="#tower-server-lamp" transform="translate(175 126.5)" />
     <rect x="100" y="143" width="88" height="25" rx="3" fill="url(#tower-server-bay-paint)" stroke="#819aaf" stroke-width="1.5" />
     <rect x="106" y="152" width="50" height="7" rx="2" fill="#192f43" />
-    <circle cx="175" cy="155.5" r="4.5" fill="#28dd68" stroke="#050b1d" stroke-width="1.5" />
+    <use href="#tower-server-lamp" transform="translate(175 155.5)" />
     <rect x="96" y="181" width="96" height="39" rx="5" fill="#253b4e" stroke="#050b1d" stroke-width="2.5" />
     <path d="M105 189 H183 M105 198 H183 M105 207 H183" fill="none" stroke="#050b1d" stroke-width="4" />
     <path d="M105 187 H183 M105 196 H183 M105 205 H183" fill="none" stroke="#6e889e" stroke-width="1.5" />

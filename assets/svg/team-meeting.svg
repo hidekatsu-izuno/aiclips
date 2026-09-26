@@ -274,13 +274,21 @@
       <stop offset=".63" stop-color="#243c56" />
       <stop offset="1" stop-color="#172a3e" />
     </linearGradient>
+    <mask id="team-meeting-center-neck-continuity" maskUnits="userSpaceOnUse" x="85" y="75" width="120" height="110">
+      <rect x="85" y="75" width="120" height="110" fill="white" />
+      <rect x="128" y="146" width="32" height="36" fill="black" />
+    </mask>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="team-meeting-chair-exterior-outlines" fill="none" stroke="#050b1d" stroke-width="10">
+      <use href="#team-meeting-chair0" />
+      <use href="#team-meeting-chair1" transform="translate(288 0) scale(-1 1)" />
+    </g>
     <g transform="translate(56.16 29) scale(.61)" stroke-linecap="round" stroke-linejoin="round">
       <g id="team-meeting-center-torso" transform="translate(144 0) scale(.76 1) translate(-144 0)">
-        <use href="#team-meeting-base-body" fill="url(#team-meeting-base-suit-paint)" stroke="#050b1d" stroke-width="7" />
+        <use href="#team-meeting-base-body" fill="url(#team-meeting-base-suit-paint)" stroke="#050b1d" stroke-width="7" vector-effect="non-scaling-stroke" />
         <use href="#team-meeting-base-shoulder-left" fill="none" stroke="url(#team-meeting-base-suit-bevel)" stroke-width="15" clip-path="url(#team-meeting-base-body-clip)" />
-        <use href="#team-meeting-base-body" fill="none" stroke="#050b1d" stroke-width="7" />
+        <use href="#team-meeting-base-body" fill="none" stroke="#050b1d" stroke-width="7" vector-effect="non-scaling-stroke" />
         <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
         <use href="#team-meeting-base-shirt" fill="url(#team-meeting-base-white-paint)" />
         <use href="#team-meeting-base-neck" fill="url(#team-meeting-base-neck-paint)" />
@@ -296,18 +304,18 @@
         <use href="#team-meeting-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
         <use href="#team-meeting-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" />
         <use href="#team-meeting-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
-        <use href="#team-meeting-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+        <use href="#team-meeting-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" vector-effect="non-scaling-stroke" />
       </g>
       <g id="team-meeting-center-head" transform="translate(144 158) scale(.88) translate(-144 -158)">
-        <use href="#team-meeting-base-face" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="7" />
-        <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
-        <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+        <use href="#team-meeting-base-face" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="26.080477" mask="url(#team-meeting-center-neck-continuity)" />
+        <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="26.080477" />
+        <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" stroke="#050b1d" stroke-width="26.080477" transform="translate(288 0) scale(-1 1)" />
         <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" />
         <use href="#team-meeting-base-ear-left" fill="url(#team-meeting-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
         <use href="#team-meeting-base-neck" fill="url(#team-meeting-base-neck-paint)" />
         <use href="#team-meeting-base-face" fill="url(#team-meeting-base-skin-paint)" />
         <use href="#team-meeting-base-hair" fill="#061025" />
-        <path d="M98 119 C88 113 86 101 94 88 L98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119" fill="none" stroke="#050b1d" stroke-width="7" />
+        <path d="M98 119 C88 113 86 101 94 88 L98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119" fill="none" stroke="#050b1d" stroke-width="13.040238" />
         <use href="#team-meeting-base-side-hair" fill="url(#team-meeting-base-side-hair-paint)" />
         <use href="#team-meeting-base-side-hair" fill="none" stroke="url(#team-meeting-base-side-bevel)" stroke-width="5" clip-path="url(#team-meeting-base-side-hair-clip)" />
         <use href="#team-meeting-base-sweep" fill="url(#team-meeting-base-hair-paint)" />
@@ -322,18 +330,18 @@
     </g>
     <use href="#team-meeting-table-leg" fill="url(#team-meeting-trousers-shade)" />
     <use href="#team-meeting-table-leg" fill="none" stroke="#30475f" stroke-width="4" clip-path="url(#team-meeting-table-leg-clip)" />
-    <use href="#team-meeting-table-leg" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#team-meeting-table-leg" fill="none" stroke="#050b1d" stroke-width="7" />
     <g id="team-meeting-foreground-knee0" stroke-linejoin="round" transform="translate(1 -3) translate(108 197) scale(.9 .95) translate(-108 -197)">
       <use href="#team-meeting-leg0" fill="url(#team-meeting-trousers-shade)" />
-      <path d="M108 194 C119 198 123 205 123 214 Q123 226 112 226 Q103 226 98 218" fill="none" stroke="#050b1d" stroke-width="4" stroke-linecap="butt" />
+      <path d="M108 194 C119 198 123 205 123 214 Q123 226 112 226 Q103 226 98 218" fill="none" stroke="#050b1d" stroke-width="7.567568" stroke-linecap="butt" />
     </g>
     <g id="team-meeting-foreground-knee1" stroke-linejoin="round" transform="translate(288 0) scale(-1 1) translate(1 -3) translate(108 197) scale(.9 .95) translate(-108 -197)">
       <use href="#team-meeting-leg1" fill="url(#team-meeting-trousers-shade)" />
-      <path d="M108 194 C119 198 123 205 123 214 Q123 226 112 226 Q103 226 98 218" fill="none" stroke="#050b1d" stroke-width="4" stroke-linecap="butt" />
+      <path d="M108 194 C119 198 123 205 123 214 Q123 226 112 226 Q103 226 98 218" fill="none" stroke="#050b1d" stroke-width="7.567568" stroke-linecap="butt" />
     </g>
     <use href="#team-meeting-table" fill="url(#team-meeting-white)" />
     <use href="#team-meeting-table" fill="none" stroke="url(#team-meeting-white-edge)" stroke-width="11" clip-path="url(#team-meeting-table-clip)" />
-    <path fill="none" stroke="#050b1d" stroke-width="3" d="M79 169 V184 Q144 212 209 184 V169" stroke-linecap="butt" />
+    <path fill="none" stroke="#050b1d" stroke-width="7" d="M79 169 V184 Q144 212 209 184 V169" stroke-linecap="butt" />
     <path id="team-meeting-table-back-edge" d="M79 169 Q144 140 209 169" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="butt" />
     <g id="team-meeting-seated-person0" transform="">
       <g id="team-meeting-seated-hem-layer0">
@@ -345,10 +353,10 @@
           <path d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 192 63 207 Q63 214 69 214 H101" fill="none" stroke="url(#team-meeting-seated-jacket-edge)" stroke-width="9" clip-path="url(#team-meeting-seated-body0-clip)" />
           <g clip-path="url(#team-meeting-seated-body0-clip)">
           </g>
-          <path fill="none" stroke="#050b1d" stroke-width="3.2" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 187 63 195" />
+          <path fill="none" stroke="#050b1d" stroke-width="9.210526" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 187 63 195" />
         </g>
-        <path id="team-meeting-seated-face-front-outline0" d="M108 96 Q118 123 104 137 Q99 143 94 138" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="round" />
-        <path id="team-meeting-male-continuous-nape-outline" d="M72.75 142 V135 Q72.75 132.5 70 131 C53 126 47 107 55 90 C63 68 89 65 108 84 Q125 99 113 111" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" stroke-linejoin="round" />
+        <path id="team-meeting-seated-face-front-outline0" d="M108 96 Q118 123 104 137 Q99 143 94 138" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linecap="round" />
+        <path id="team-meeting-male-continuous-nape-outline" d="M72.75 142 V135 Q72.75 132.5 70 131 C53 126 47 107 55 90 C63 68 89 65 108 84 Q125 99 113 111" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linecap="butt" stroke-linejoin="round" />
         <use href="#team-meeting-seated-headback0" fill="url(#team-meeting-seated-hair)" mask="url(#team-meeting-male-hair-under-chin-mask)" />
         <use href="#team-meeting-seated-headback0" fill="none" stroke="url(#team-meeting-seated-hair-edge)" stroke-width="10" clip-path="url(#team-meeting-seated-headback0-clip)" mask="url(#team-meeting-male-hair-under-chin-mask)" />
         <path id="team-meeting-seated-neck0" d="M75 131 Q84 134 92 134 L93 146.5 L86.5 146.3 C83 146 79 144.8 75 144.5 Z" fill="url(#team-meeting-seated-neck)" transform="translate(84 0) scale(1.25 1) translate(-84 0)" />
@@ -382,15 +390,16 @@
           <use href="#team-meeting-seated-body1" fill="url(#team-meeting-seated-jacket)" />
           <g clip-path="url(#team-meeting-seated-body1-clip)">
             </g>
-          <path fill="none" stroke="#050b1d" stroke-width="3.2" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 187 63 195 M111 194 L106 175 C107 162 100 150 93 145" />
+          <path fill="none" stroke="#050b1d" stroke-width="9.210526" d="M75 140 C68 142 63.5 148 63 158 C61.5 172 61.5 187 63 195" />
+          <path d="M111 194 L106 175 C107 162 100 150 93 145" fill="none" stroke="#050b1d" stroke-width="3.2" />
         </g>
-        <path id="team-meeting-seated-face-front-outline1" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" />
+        <path id="team-meeting-seated-face-front-outline1" d="M108 96 Q118 123 104 137 Q93 149 75 134" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linecap="butt" />
         <g id="team-meeting-seated-woman-far-fringe-layer">
-          <use href="#team-meeting-seated-woman-far-fringe" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linejoin="round" />
+          <use href="#team-meeting-seated-woman-far-fringe" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linejoin="round" />
           <use href="#team-meeting-seated-woman-far-fringe" fill="url(#team-meeting-seated-far-fringe-paint)" />
           <path d="M108 87 C116.5 89 121.5 99 118 110 Q116 115 110 118" fill="none" stroke="url(#team-meeting-seated-far-fringe-edge)" stroke-width="5" clip-path="url(#team-meeting-seated-woman-far-fringe-clip)" />
         </g>
-        <path id="team-meeting-seated-neck-back-outline1" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" />
+        <path id="team-meeting-seated-neck-back-outline1" d="M75 130 V140" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linecap="butt" />
         <path id="team-meeting-seated-neck1" d="M75 131 Q84 134 92 134 L93 148 C87 145.5 81 143.5 75 142.5 Z" fill="url(#team-meeting-seated-neck)" />
         <g id="team-meeting-seated-back-collar1">
           <path id="team-meeting-seated-back-collar-fill1" mask="url(#team-meeting-seated-collar-interior-mask)" d="M75 142.5 C81 143.5 87 145.5 93 148 L95 156 H68 V145 Z" fill="url(#team-meeting-seated-jacket)" />
@@ -398,7 +407,7 @@
         </g>
         <use href="#team-meeting-seated-face1" fill="url(#team-meeting-seated-skin)" />
         <use href="#team-meeting-seated-face1" fill="none" stroke="url(#team-meeting-seated-skin-edge)" stroke-width="5" clip-path="url(#team-meeting-seated-face1-clip)" />
-        <path id="team-meeting-seated-woman-fringe-outline" mask="url(#team-meeting-seated-hair-above-suit-mask)" d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="#050b1d" stroke-width="6.4" stroke-linecap="butt" stroke-linejoin="round" clip-path="url(#team-meeting-seated-woman-exterior-hair-edge)" />
+        <path id="team-meeting-seated-woman-fringe-outline" mask="url(#team-meeting-seated-hair-above-suit-mask)" d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="#050b1d" stroke-width="18.421053" stroke-linecap="butt" stroke-linejoin="round" clip-path="url(#team-meeting-seated-woman-exterior-hair-edge)" />
         <use href="#team-meeting-seated-woman-bob" fill="url(#team-meeting-seated-woman-hair)" />
         <g clip-path="url(#team-meeting-seated-woman-bob-clip)">
           <path d="M70 143 C55 143 49 137 49 120 V102 C49 81 66 70 84 73 Q107 75 114 94" fill="none" stroke="url(#team-meeting-seated-woman-edge)" stroke-width="10" stroke-linecap="butt" />

@@ -133,6 +133,7 @@
       <rect x="85" y="80" width="120" height="110" fill="white" />
       <rect x="132" y="146" width="24" height="35" fill="black" />
     </mask>
+    <path id="person-editing-mouse-shape" d="M181 211 C171 211 166 217 166 225 Q166 231 181 231 Q196 231 196 225 C196 217 191 211 181 211 Z" />
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g stroke-linecap="round" stroke-linejoin="round" id="person-editing-employee" transform="translate(4 0)">
@@ -158,7 +159,7 @@
         <use href="#person-editing-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
       </g>
       <g id="person-editing-head-proportions" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
-        <use href="#person-editing-base-face" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#person-editing-base-neck-continuity)" />
+        <use href="#person-editing-base-face" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#person-editing-base-neck-continuity)" />
         <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
         <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
         <use href="#person-editing-base-ear-left" fill="url(#person-editing-base-skin-paint)" />
@@ -180,8 +181,12 @@
     </g>
     <g id="person-editing-hand-mouse-placement" transform="translate(19 0)">
       <path d="M180 207 Q192 204 201 206" fill="none" stroke="#11253b" stroke-width="2.5" />
+      <g id="person-editing-hand-mouse-exterior" fill="#050b1d" stroke="#050b1d">
+        <use href="#person-editing-mouse-shape" transform="translate(0 6.9)" stroke-width="11.8" />
+        <use href="#person-editing-hand" transform="translate(0 224) scale(1 .78) translate(0 -224)" stroke-width="11.2" vector-effect="non-scaling-stroke" />
+      </g>
       <g id="person-editing-mouse" transform="translate(0 6.9)">
-        <path d="M181 211 C171 211 166 217 166 225 Q166 231 181 231 Q196 231 196 225 C196 217 191 211 181 211 Z" fill="url(#person-editing-mouse-paint)" stroke="#172b42" stroke-width="2.2" />
+        <use href="#person-editing-mouse-shape" fill="url(#person-editing-mouse-paint)" stroke="#172b42" stroke-width="2.2" />
         <path d="M167 227 Q181 232 195 227" fill="none" stroke="#738ba4" stroke-width="1.2" />
       </g>
       <g id="person-editing-hand-proportions" transform="translate(0 224) scale(1 .78) translate(0 -224)">

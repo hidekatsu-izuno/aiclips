@@ -56,6 +56,6 @@
     <use href="#algorithm-sort-shape3" fill="url(#algorithm-sort-box3-paint)" />
     <use href="#algorithm-sort-shape3" fill="none" stroke="url(#algorithm-sort-box3-edge)" stroke-width="15" clip-path="url(#algorithm-sort-shape3-clip)" />
     <use href="#algorithm-sort-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
-    <use href="#algorithm-sort-shape4" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-sort-shape4" fill="#83909d" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
   </g>
 </svg>

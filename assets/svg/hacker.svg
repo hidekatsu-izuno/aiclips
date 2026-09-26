@@ -22,8 +22,8 @@
       <stop offset="1" stop-color="#ed9c69" />
     </linearGradient>
     <linearGradient id="hacker-device-paint" x1="0" y1="0" x2=".3" y2="1">
-      <stop offset="0" stop-color="#79bcff" />
-      <stop offset=".35" stop-color="#376db0" />
+      <stop offset="0" stop-color="#b2e3ff" />
+      <stop offset=".35" stop-color="#4b8fd0" />
       <stop offset="1" stop-color="#1c3048" />
     </linearGradient>
     <linearGradient id="hacker-visor-paint" x1="0" y1="0" x2="1" y2="1">
@@ -33,8 +33,8 @@
       <stop offset="1" stop-color="#087cf0" />
     </linearGradient>
     <linearGradient id="hacker-cyan-paint" x1="0" y1="0" x2=".2" y2="1">
-      <stop offset="0" stop-color="#91cfff" />
-      <stop offset=".5" stop-color="#289cff" />
+      <stop offset="0" stop-color="#d0f2ff" />
+      <stop offset=".5" stop-color="#65c8ff" />
       <stop offset="1" stop-color="#0865e8" />
     </linearGradient>
     <path id="hacker-torso" d="M93 149 Q79 157 68 160 Q55 165 50 187 L47 218 Q44 232.5 59.5 238 H228.5 Q244 232.5 241 218 L238 187 Q233 165 220 160 Q209 157 195 149 Z" />
@@ -57,14 +57,16 @@
     <clipPath id="hacker-neck-clip"><use href="#hacker-neck" /></clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#hacker-torso" fill="url(#hacker-jacket-paint)" />
-    <g clip-path="url(#hacker-torso-clip)">
-      <path d="M53.5 217 L56 188 Q61 169 73 166" fill="none" stroke="#248fff" stroke-width="4" />
-      <path d="M67 188 L81 212 M221 188 L207 212" fill="none" stroke="#102139" stroke-width="2" />
+    <g id="hacker-torso-proportions" transform="translate(144 0) scale(.92 1) translate(-144 0)">
+      <use href="#hacker-torso" fill="url(#hacker-jacket-paint)" />
+      <g clip-path="url(#hacker-torso-clip)">
+        <path d="M53.5 217 L56 188 Q61 169 73 166" fill="none" stroke="#66c7ff" stroke-width="5" />
+        <path d="M67 188 L81 212 M221 188 L207 212" fill="none" stroke="#102139" stroke-width="2" />
+      </g>
+      <use href="#hacker-torso" fill="none" stroke="#050b1d" stroke-width="6" />
     </g>
-    <use href="#hacker-torso" fill="none" stroke="#050b1d" stroke-width="6" />
     <use href="#hacker-hood" fill="url(#hacker-hood-paint)" />
-    <path d="M142 50 Q121 63 108 82 L80 125 Q76 133 81 143" fill="none" stroke="#248fff" stroke-width="4" clip-path="url(#hacker-hood-clip)" />
+    <path d="M142 50 Q121 63 108 82 L80 125 Q76 133 81 143" fill="none" stroke="#66c7ff" stroke-width="5" clip-path="url(#hacker-hood-clip)" />
     <path d="M144 69 Q157 73 169 84 L194 108 Q207 123 201 139 Q190 165 157 181 L144 188 L131 181 Q98 165 87 139 Q81 123 94 108 L119 84 Q131 73 144 69 Z" fill="#081326" />
     <path id="hacker-neck" d="M120 147 H168 L165 170 Q155 184 144 187 Q133 184 123 170 Z" fill="url(#hacker-neck-paint)" stroke="#050b1d" stroke-width="3" />
     <path d="M121 158 L135 169 Q144 175 153 169 L167 158 L166 174 Q154 184 144 185 Q133 183 122 173 Z" fill="url(#hacker-chin-shadow)" clip-path="url(#hacker-neck-clip)" />
@@ -74,13 +76,13 @@
     <path d="M158 148 Q162 146 164 150" fill="none" stroke="#050b1d" stroke-width="1.7" />
     <rect x="88" y="104" width="15" height="30" rx="5" fill="url(#hacker-device-paint)" stroke="#050b1d" stroke-width="4" />
     <rect x="185" y="104" width="15" height="30" rx="5" fill="url(#hacker-device-paint)" stroke="#050b1d" stroke-width="4" />
-    <path d="M92 112 V126 M196 112 V126" fill="none" stroke="url(#hacker-cyan-paint)" stroke-width="2.5" />
+    <path d="M92 112 V126 M196 112 V126" fill="none" stroke="url(#hacker-cyan-paint)" stroke-width="3.5" />
     <path d="M110 97 H178 Q193 97 193 112 V129 Q193 142 178 142 H157 L151 138 H137 L131 142 H110 Q95 142 95 129 V112 Q95 97 110 97 Z" fill="url(#hacker-device-paint)" stroke="#050b1d" stroke-width="4" />
     <path d="M138 73 Q144 71 150 73 L152 98 H136 Z" fill="url(#hacker-device-paint)" stroke="#050b1d" stroke-width="3" />
     <use href="#hacker-visor" fill="url(#hacker-visor-paint)" />
-    <path d="M98 102 H161 L131 139 H98 Z" fill="#409dff" opacity=".28" clip-path="url(#hacker-visor-clip)" />
-    <use href="#hacker-visor" fill="none" stroke="#68b5ff" stroke-width="1.5" />
-    <path d="M207 120 Q216 132 209 145 Q197 166 175 180" fill="none" stroke="#1675da" stroke-width="2.5" clip-path="url(#hacker-hood-clip)" />
+    <path d="M98 102 H161 L131 139 H98 Z" fill="#70c6ff" opacity=".42" clip-path="url(#hacker-visor-clip)" />
+    <use href="#hacker-visor" fill="none" stroke="#a1e1ff" stroke-width="2.5" />
+    <path d="M207 120 Q216 132 209 145 Q197 166 175 180" fill="none" stroke="#3ca9ff" stroke-width="3.5" clip-path="url(#hacker-hood-clip)" />
     <use href="#hacker-hood" fill="none" stroke="#050b1d" stroke-width="5" />
     <path d="M144 207 V228" fill="none" stroke="#050b1d" stroke-width="3" />
     <g id="hacker-hands">
@@ -99,7 +101,7 @@
     </g>
     <g id="hacker-keyboard">
       <path d="M68 224 H220 L219 240 Q219 243 215 243 H73 Q69 243 69 240 Z" fill="url(#hacker-jacket-paint)" stroke="#050b1d" stroke-width="4" />
-      <path d="M70 225 H218" fill="none" stroke="url(#hacker-device-paint)" stroke-width="2" />
+      <path d="M70 225 H218" fill="none" stroke="url(#hacker-cyan-paint)" stroke-width="3" />
     </g>
   </g>
 </svg>

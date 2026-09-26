@@ -38,27 +38,35 @@
       <stop offset=".4" stop-color="#ffd725" />
       <stop offset="1" stop-color="#f1ac00" />
     </linearGradient>
+    <g id="processor-chip-pins">
+      <rect x="105" y="65" width="20" height="37" rx="10" />
+      <rect x="105" y="195" width="20" height="32" rx="10" />
+      <rect x="133" y="65" width="20" height="37" rx="10" />
+      <rect x="133" y="195" width="20" height="32" rx="10" />
+      <rect x="161" y="65" width="20" height="37" rx="10" />
+      <rect x="161" y="195" width="20" height="32" rx="10" />
+      <rect x="62" y="104" width="32" height="21" rx="10.5" />
+      <rect x="192" y="104" width="32" height="21" rx="10.5" />
+      <rect x="62" y="133" width="32" height="21" rx="10.5" />
+      <rect x="192" y="133" width="32" height="21" rx="10.5" />
+      <rect x="62" y="162" width="32" height="21" rx="10.5" />
+      <rect x="192" y="162" width="32" height="21" rx="10.5" />
+    </g>
+    <mask id="processor-chip-pin-joins" maskUnits="userSpaceOnUse" x="50" y="50" width="190" height="190">
+      <rect x="50" y="50" width="190" height="190" fill="white" />
+      <use href="#processor-chip-pins" fill="black" />
+    </mask>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <rect x="105" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="105" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="133" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="133" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="161" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="161" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="62" y="104" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="192" y="104" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="62" y="133" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="192" y="133" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="62" y="162" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
-    <rect x="192" y="162" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <use href="#processor-chip-pins" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <use href="#processor-chip-body" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#processor-chip-body" fill="none" stroke="#050b1d" stroke-width="14" mask="url(#processor-chip-pin-joins)" />
     <use href="#processor-chip-body" fill="url(#processor-chip-blue)" />
     <path d="M197 86 H203 V206 H110 C152 192 181 143 197 86 Z" fill="url(#processor-chip-blue-shadow)" clip-path="url(#processor-chip-body-clip)" />
     <use href="#processor-chip-body" fill="none" stroke="url(#processor-chip-blue-edge)" stroke-width="15" clip-path="url(#processor-chip-body-clip)" />
-    <use href="#processor-chip-body" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#processor-chip-core" fill="url(#processor-chip-core-paint)" />
     <path d="M166 106 H183 V188 H108 Z" fill="#d6e0ea" clip-path="url(#processor-chip-core-clip)" />
     <use href="#processor-chip-core" fill="none" stroke="url(#processor-chip-core-bevel)" stroke-width="11" clip-path="url(#processor-chip-core-clip)" />
-    <use href="#processor-chip-core" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#processor-chip-core" fill="none" stroke="#050b1d" stroke-width="4.5" />
   </g>
 </svg>

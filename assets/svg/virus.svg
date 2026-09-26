@@ -198,7 +198,7 @@
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#virus-shape9" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#virus-shape9" fill="none" stroke="#050b1d" stroke-width="14" />
     <g id="virus-background-spikes">
       <g transform="rotate(45 144 144)">
         <path d="M144 105 V65" fill="none" stroke="#050b1d" stroke-width="14" />
@@ -235,20 +235,20 @@
     </g>
     <use href="#virus-shape9" fill="url(#virus-germ)" />
     <use href="#virus-shape9" fill="none" stroke="url(#virus-germ-edge)" stroke-width="14" clip-path="url(#virus-shape9-clip)" />
-    <use href="#virus-shape10" fill="url(#virus-germ)" />
-    <use href="#virus-shape10" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape10-clip)" />
-    <use href="#virus-shape11" fill="url(#virus-germ)" />
-    <use href="#virus-shape11" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape11-clip)" />
-    <use href="#virus-shape12" fill="url(#virus-germ)" />
-    <use href="#virus-shape12" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape12-clip)" />
-    <use href="#virus-shape13" fill="url(#virus-germ)" />
-    <use href="#virus-shape13" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape13-clip)" />
-    <use href="#virus-shape14" fill="url(#virus-germ)" />
-    <use href="#virus-shape14" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape14-clip)" />
-    <use href="#virus-shape15" fill="url(#virus-germ)" />
-    <use href="#virus-shape15" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape15-clip)" />
-    <use href="#virus-shape16" fill="url(#virus-germ)" />
-    <use href="#virus-shape16" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape16-clip)" />
+    <use href="#virus-shape10" fill="#078342" />
+    <use href="#virus-shape10" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape10-clip)" />
+    <use href="#virus-shape11" fill="#078342" />
+    <use href="#virus-shape11" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape11-clip)" />
+    <use href="#virus-shape12" fill="#078342" />
+    <use href="#virus-shape12" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape12-clip)" />
+    <use href="#virus-shape13" fill="#078342" />
+    <use href="#virus-shape13" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape13-clip)" />
+    <use href="#virus-shape14" fill="#078342" />
+    <use href="#virus-shape14" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape14-clip)" />
+    <use href="#virus-shape15" fill="#078342" />
+    <use href="#virus-shape15" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape15-clip)" />
+    <use href="#virus-shape16" fill="#078342" />
+    <use href="#virus-shape16" fill="none" stroke="#056b36" stroke-width="4" clip-path="url(#virus-shape16-clip)" />
     <g clip-path="url(#virus-shape9-clip)">
       <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(0 144 144)" fill="#067d40" opacity=".4" />
       <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(90 144 144)" fill="#067d40" opacity=".4" />

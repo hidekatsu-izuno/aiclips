@@ -35,6 +35,10 @@
     </clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="open-report-protruding-page-outlines" fill="none" stroke="#050b1d" stroke-width="10">
+      <use href="#open-report-left" />
+      <use href="#open-report-right" />
+    </g>
     <use href="#open-report-cover" fill="url(#open-report-blue)" />
     <use href="#open-report-cover" fill="none" stroke="url(#open-report-blue-edge)" stroke-width="15" clip-path="url(#open-report-cover-clip)" />
     <use href="#open-report-cover" fill="none" stroke="#050b1d" stroke-width="7" />

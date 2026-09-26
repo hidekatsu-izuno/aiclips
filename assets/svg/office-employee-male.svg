@@ -131,7 +131,7 @@
       <use href="#employee-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
     </g>
     <g id="office-employee-male-head-proportions" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
-      <use href="#employee-face" fill="url(#employee-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#employee-neck-continuity)" />
+      <use href="#employee-face" fill="url(#employee-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#employee-neck-continuity)" />
       <use href="#employee-ear-left" fill="url(#employee-skin-paint)" stroke="#050b1d" stroke-width="14" />
       <use href="#employee-ear-left" fill="url(#employee-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
       <use href="#employee-ear-left" fill="url(#employee-skin-paint)" />

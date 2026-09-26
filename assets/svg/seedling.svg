@@ -26,6 +26,7 @@
     </clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
+    <path id="seedling-stem-outline" d="M140 177 V151 C135 130 117 114 98 104 M140 151 C150 126 169 109 189 99" fill="none" stroke="#050b1d" stroke-width="20" />
     <use href="#seedling-mound" fill="url(#seedling-soil)" />
     <g clip-path="url(#seedling-mound-clip)">
       <path d="M98 204 C105 186 121 181 135 181" fill="none" stroke="#eaa052" stroke-width="6" />

@@ -126,7 +126,7 @@
       <path fill="none" stroke="#050b1d" stroke-width="7" d="M123 157 C91 162 67 187 66 223 Q65 231 72 231 H208 Q215 231 214 223 C213 187 189 162 157 157" />
     </g>
     <g id="field-worker-employee-head" transform="translate(140 108) scale(1.1 1.1) translate(-140 -108) translate(-4 0)">
-      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#field-worker-person-neck-continuity)" />
+      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#field-worker-person-neck-continuity)" />
       <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" />
       <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
       <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" />

@@ -15,6 +15,7 @@
     <clipPath id="ship-wave-clip"><use href="#ship-wave"/></clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
+    <use id="ship-wave-exterior-outline" href="#ship-wave" fill="none" stroke="#050b1d" stroke-width="14"/>
     <path d="M134 85 V69 Q134 61 143 61 Q152 61 152 69 V85Z" fill="url(#ship-red)" stroke="#050b1d" stroke-width="6"/>
     <path d="M138 75 V70 Q138 66 142 66" fill="none" stroke="#ffb194" stroke-width="2"/>
     <rect x="113" y="82" width="61" height="33" rx="7" fill="url(#ship-white)" stroke="#050b1d" stroke-width="6"/>

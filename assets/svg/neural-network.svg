@@ -36,6 +36,22 @@
     <linearGradient id="neural-network-blue-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#81dcff" stop-opacity=".65"/><stop offset="1" stop-color="#81dcff" stop-opacity="0"/></linearGradient>
     <linearGradient id="neural-network-cyan-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e5ffff" stop-opacity=".95"/><stop offset="1" stop-color="#e5ffff" stop-opacity="0"/></linearGradient>
     <linearGradient id="neural-network-green-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ccf77a" stop-opacity=".5"/><stop offset="1" stop-color="#ccf77a" stop-opacity="0"/></linearGradient>
+    <mask id="neural-network-junction-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <g fill="none" stroke="white" stroke-width="6" stroke-linecap="butt">
+      <path d="M95.0164 105.0074 L126.9836 89.9926"/>
+      <path d="M94.9165 121.2019 L127.0835 136.7981"/>
+      <path d="M88.7265 128.4396 L133.2735 192.5604"/>
+      <path d="M88.5017 164.4066 L133.4983 97.5934"/>
+      <path d="M94.6091 171.1922 L127.3909 153.8078"/>
+      <path d="M95.3069 187.3423 L126.6931 200.6577"/>
+      <path d="M161.0164 89.9926 L192.9836 105.0074"/>
+      <path d="M154.5017 97.5934 L199.4983 164.4066"/>
+      <path d="M160.9165 136.7981 L193.0835 121.2019"/>
+      <path d="M160.6091 153.8078 L193.3909 171.1922"/>
+      <path d="M154.7265 192.5604 L199.2735 128.4396"/>
+      <path d="M161.3069 200.6577 L192.6931 187.3423"/>
+          </g>
+    </mask>
   </defs>
   <g stroke-linejoin="round" stroke-linecap="round">
     <path d="M78 113 L144 82" fill="none" stroke="#050b1d" stroke-width="18" />
@@ -106,7 +122,7 @@
       </g>
     </g>
     <use href="#neural-network-shape7" fill="none" stroke="#050b1d" stroke-width="6" />
-    <g id="neural-network-connector-faces" fill="none" stroke="#23354c" stroke-width="6" stroke-linecap="butt">
+    <g id="neural-network-connector-faces" fill="none" stroke="#83909d" stroke-width="6" stroke-linecap="butt">
       <path d="M95.0164 105.0074 L126.9836 89.9926"/>
       <path d="M94.9165 121.2019 L127.0835 136.7981"/>
       <path d="M88.7265 128.4396 L133.2735 192.5604"/>
@@ -119,6 +135,15 @@
       <path d="M160.6091 153.8078 L193.3909 171.1922"/>
       <path d="M154.7265 192.5604 L199.2735 128.4396"/>
       <path d="M161.3069 200.6577 L192.6931 187.3423"/>
+    </g>
+    <g id="neural-network-junction-boundaries" fill="none" stroke="#050b1d" stroke-width="2" mask="url(#neural-network-junction-mask)">
+      <circle cx="78" cy="113" r="19" />
+      <circle cx="78" cy="180" r="19" />
+      <circle cx="144" cy="82" r="19" />
+      <circle cx="144" cy="145" r="19" />
+      <circle cx="144" cy="208" r="19" />
+      <circle cx="210" cy="113" r="19" />
+      <circle cx="210" cy="180" r="19" />
     </g>
   </g>
 </svg>

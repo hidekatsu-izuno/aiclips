@@ -23,7 +23,7 @@
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <g id="sports-table-tennis-racket" transform="translate(96 85) scale(.82) translate(-96 -60)">
-      <path d="M96 60 C72 60 54 81 54 108 L54 119 C54 137 66 145 78 151 Q86 157 88 167 C90 179 88 193 87 203 Q96 206 105 203 C104 193 102 179 104 167 Q106 157 114 151 C126 145 138 137 138 119 L138 108 C138 81 120 60 96 60 Z" fill="#ebc78b" stroke="#050b1d" stroke-width="5" />
+      <path d="M96 60 C72 60 54 81 54 108 L54 119 C54 137 66 145 78 151 Q86 157 88 167 C90 179 88 193 87 203 Q96 206 105 203 C104 193 102 179 104 167 Q106 157 114 151 C126 145 138 137 138 119 L138 108 C138 81 120 60 96 60 Z" fill="#ebc78b" stroke="#050b1d" stroke-width="8.536585" />
       <path d="M96 62 C73 62 56 82 56 108 L56 119 C56 131 63 140 76 145 L116 145 C129 140 136 131 136 119 L136 108 C136 82 119 62 96 62 Z" fill="#e84945" stroke="#050b1d" stroke-width="2.5" />
       <path d="M88 147 Q92 176 87 203 Q96 205 105 203 Q100 176 104 147 Z" fill="#caa16d" stroke="#050b1d" stroke-width="2.5" />
       <path d="M94 149 L98 149 L99 201 L93 201 Z" fill="#315d90" />

@@ -85,7 +85,7 @@
       <path d="M80 227 H209" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
     </g>
     <g id="older-adult-head-proportions" transform="translate(144 173) scale(1.04) translate(-144 -159)">
-      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#older-adult-ref-reference-base-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#older-adult-ref-neck-continuity)" />
+      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#older-adult-ref-reference-base-skin-paint)" stroke="#050b1d" stroke-width="14" mask="url(#older-adult-ref-neck-continuity)" />
       <use href="#older-adult-ref-reference-base-face" fill="url(#older-adult-ref-reference-base-skin-paint)" />
       <g clip-path="url(#older-adult-ref-face-clip)">
         <path d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="url(#older-adult-ref-hairline-shadow)" stroke-width="7" />

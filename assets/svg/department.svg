@@ -23,7 +23,7 @@
     <path id="department-connector-faces" d="M144 113 V140 M76 170 V140 H212 V170 M144 140 V170" />
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="18" />
     <use href="#department-parent" fill="url(#department-blue)" />
     <g clip-path="url(#department-parent-clip)">
       <path d="M109 105 V72 Q109 69 112 69 H176 Q179 69 179 72" fill="none" stroke="#83ddfa" stroke-width="3" />
@@ -61,6 +61,7 @@
       <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
       <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
     </g>
-    <use href="#department-connector-faces" fill="none" stroke="#23354c" stroke-width="4" stroke-linecap="butt" />
+    <use href="#department-connector-faces" fill="none" stroke="#83909d" stroke-width="11" stroke-linecap="butt" />
+    <path id="department-connector-boundaries" d="M138.5 113 H149.5 M70.5 170 H81.5 M138.5 170 H149.5 M206.5 170 H217.5" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="butt" />
   </g>
 </svg>

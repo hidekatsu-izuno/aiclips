@@ -44,7 +44,8 @@
       <path d="M145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80" fill="none" stroke="url(#key-ring-key-lower-shadow)" stroke-width="24" clip-path="url(#key-ring-key-body-clip)" />
       <path d="M71 187 V208 Q71 217 80 217 H102" fill="none" stroke="url(#key-ring-key-tip-edge)" stroke-width="14" stroke-linecap="butt" clip-path="url(#key-ring-key-body-clip)" />
       <circle cx="182" cy="109" r="12" fill="none" stroke="url(#key-ring-key-hole-edge)" stroke-width="14" clip-path="url(#key-ring-key-body-clip)" />
-      <use href="#key-ring-key-body" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#key-ring-key-outer-contour" fill="none" stroke="#050b1d" stroke-width="12.727273" />
+      <circle cx="182" cy="109" r="12" fill="none" stroke="#050b1d" stroke-width="7" />
     </g>
     <linearGradient id="key-ring-metal" gradientUnits="userSpaceOnUse" x1="112" y1="71" x2="174" y2="139">
       <stop offset="0" stop-color="#ffffff" />
@@ -53,9 +54,9 @@
     </linearGradient>
     <mask id="key-ring-wire-occlusion" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288" style="mask-type:luminance">
       <rect width="288" height="288" fill="white" />
-      <circle cx="185.99622408148664" cy="131.6393947623427" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-right)" />
-      <circle cx="144.3889087296526" cy="150.55599205235723" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-middle)" />
-      <circle cx="102.6409266803869" cy="132.08553252878264" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-left)" />
+      <circle cx="185.99622408148664" cy="131.6393947623427" r="31.825" fill="black" clip-path="url(#key-ring-far-half-right)" />
+      <circle cx="144.3889087296526" cy="150.55599205235723" r="31.825" fill="black" clip-path="url(#key-ring-far-half-middle)" />
+      <circle cx="102.6409266803869" cy="132.08553252878264" r="31.825" fill="black" clip-path="url(#key-ring-far-half-left)" />
       <circle cx="180.77013326971095" cy="124.85380526495388" r="4.675" fill="white" />
       <circle cx="144.0" cy="142.0" r="4.675" fill="white" />
       <circle cx="107.22986673028906" cy="124.85380526495389" r="4.675" fill="white" />
@@ -71,7 +72,7 @@
     </clipPath>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="9.5" />
+    <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="18.5" />
     <circle cx="144" cy="94" r="48" fill="none" stroke="url(#key-ring-metal)" stroke-width="4.5" />
     <circle id="key-ring-hole-depth-right" cx="180.77013326971095" cy="124.85380526495388" r="6.6" fill="#050b1d" />
     <g id="key-ring-right" transform="translate(180.770133270 124.853805265) rotate(-80) scale(0.55) translate(-182 -109)">
@@ -86,7 +87,7 @@
       <use href="#key-ring-key-drawing" />
     </g>
     <g mask="url(#key-ring-wire-occlusion)">
-      <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="9.5" />
+      <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="18.5" />
       <circle cx="144" cy="94" r="48" fill="none" stroke="url(#key-ring-metal)" stroke-width="4.5" />
     </g>
     <path id="key-ring-hole-lip-right" d="M175.7142399451257 120.61140704102272 A6.6 6.6 0 0 1 185.8260265942962 129.09620348888504" fill="none" stroke="#050b1d" stroke-width="3.85" stroke-linecap="butt" />

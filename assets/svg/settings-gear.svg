@@ -39,7 +39,7 @@
       <use href="#settings-gear-outer" transform="translate(4 4)" fill="none" stroke="url(#settings-gear-highlight)" stroke-width="7" />
       <path d="M178 144 A34 34 0 1 0 110 144 A34 34 0 1 0 178 144Z M170 144 A26 26 0 1 0 118 144 A26 26 0 1 0 170 144Z" fill="url(#settings-gear-bore)" fill-rule="evenodd" />
       <circle cx="144" cy="144" r="34" fill="none" stroke="url(#settings-gear-bore-rim)" stroke-width="4" />
-      <circle cx="144" cy="144" r="26" fill="none" stroke="#050b1d" stroke-width="3" />
+      <circle cx="144" cy="144" r="26" fill="none" stroke="#050b1d" stroke-width="14" />
     </g>
     <use href="#settings-gear-outer" fill="none" stroke="#050b1d" stroke-width="7" />
   </g>

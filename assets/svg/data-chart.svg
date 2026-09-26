@@ -29,7 +29,7 @@
     <clipPath id="data-chart-shape3-clip">
       <use href="#data-chart-shape3" />
     </clipPath>
-    <path id="data-chart-shape4" d="M72 203 V92 H64 L78 72 L92 92 H84 V190 H225 V183 L238 197 L225 211 V203 Z" />
+    <path id="data-chart-shape4" d="M72 203 V92 H64 L78 72 L92 92 H84 V191 H225 V183 L238 197 L225 211 V203 Z" />
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#data-chart-shape1" fill="url(#data-chart-blue)" />

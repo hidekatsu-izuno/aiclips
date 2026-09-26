@@ -58,9 +58,9 @@
     <path d="M126 168 C128 181 160 181 162 168" fill="none" stroke="#075a9d" stroke-width="3" />
     <path d="M128 153 V163 Q128 167 124 167.2 C100 169.5 82 185 76 205 Q72 216 72 224 Q72 229 79 229 H209 Q216 229 216 224 Q216 216 212 205 C206 185 188 169.5 164 167.2 Q160 167 160 163 V153" fill="none" stroke="#050b1d" stroke-width="7" id="general-user-neck-shoulder-outline" />
     <g id="general-user-head-proportions" transform="translate(144 108) scale(1.1) translate(-144 -108)">
-      <use href="#general-user-face" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="7" mask="url(#general-user-open-chin)" />
-      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="7" />
-      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="7" transform="translate(288 0) scale(-1 1)" />
+      <use href="#general-user-face" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" mask="url(#general-user-open-chin)" />
+      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" />
+      <use href="#general-user-ear" fill="url(#general-user-skin)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
       <use href="#general-user-face" fill="url(#general-user-skin)" />
       <path d="M177 124 C175 143 163 155 148 157" fill="none" stroke="#edb17a" stroke-width="4" opacity=".5" clip-path="url(#general-user-face-clip)" />
       <g id="general-user-compact-hair" transform="translate(144 0) scale(.94 1) translate(-144 0)">

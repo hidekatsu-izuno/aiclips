@@ -51,6 +51,10 @@
       <stop offset=".75" stop-color="#0074d2" />
       <stop offset="1" stop-color="#0052aa" />
     </linearGradient>
+    <mask id="idea-bulb-socket-exterior" maskUnits="userSpaceOnUse" x="100" y="165" width="92" height="76">
+      <rect x="100" y="165" width="92" height="76" fill="white" />
+      <use href="#idea-bulb-glass" fill="black" />
+    </mask>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
     <use href="#idea-bulb-glass" fill="url(#idea-bulb-gold)" />
@@ -59,9 +63,13 @@
     <use href="#idea-bulb-glass" fill="none" stroke="#050b1d" stroke-width="7" />
     <path d="M111 100 Q120 85 133 81" fill="none" stroke="#fff38b" stroke-width="11" />
     <path d="M130 135 Q138 147 138 161 V183 M162 135 Q154 147 154 161 V183 M130 135 Q146 157 162 135" fill="none" stroke="#c48d00" stroke-width="6" />
+    <g id="idea-bulb-socket-outline" fill="#050b1d" stroke="#050b1d" stroke-width="14" mask="url(#idea-bulb-socket-exterior)">
+      <use href="#idea-bulb-tip" />
+      <use href="#idea-bulb-upper-band" />
+      <use href="#idea-bulb-lower-band" />
+    </g>
     <use href="#idea-bulb-tip" fill="url(#idea-bulb-tip-paint)" />
     <use href="#idea-bulb-tip" fill="none" stroke="url(#idea-bulb-base-contour)" stroke-width="10" clip-path="url(#idea-bulb-tip-clip)" />
-    <use href="#idea-bulb-tip" fill="none" stroke="#050b1d" stroke-width="5" />
     <use href="#idea-bulb-upper-band" fill="url(#idea-bulb-upper-band-paint)" />
     <use href="#idea-bulb-upper-band" fill="none" stroke="url(#idea-bulb-base-contour)" stroke-width="7" clip-path="url(#idea-bulb-upper-band-clip)" />
     <use href="#idea-bulb-upper-band" fill="none" stroke="#050b1d" stroke-width="2" />

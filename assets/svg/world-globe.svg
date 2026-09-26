@@ -55,15 +55,15 @@
     </linearGradient>
   </defs>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="#050b1d" stroke-width="15" />
+    <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="#050b1d" stroke-width="21" />
     <path d="M151 65 C235 89 230 197 148 213" fill="none" stroke="url(#world-globe-metal)" stroke-width="7" />
     <use href="#world-globe-shape1" fill="url(#world-globe-metal)" />
     <use href="#world-globe-shape1" fill="none" stroke="url(#world-globe-metal-edge)" stroke-width="11" clip-path="url(#world-globe-shape1-clip)" />
-    <use href="#world-globe-shape1" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#world-globe-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#world-globe-shape2" fill="url(#world-globe-wood)" />
     <use href="#world-globe-shape2" fill="none" stroke="url(#world-globe-wood-edge)" stroke-width="11" clip-path="url(#world-globe-shape2-clip)" />
     <path d="M115 226 Q128 223 143 226 Q152 228 161 225 M119 230 Q135 228 148 231" fill="none" stroke="#79502a" stroke-width="1" opacity=".45" clip-path="url(#world-globe-shape2-clip)" />
-    <use href="#world-globe-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#world-globe-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
     <use href="#world-globe-shape3" fill="url(#world-globe-ocean)" />
     <g id="world-globe-continents" clip-path="url(#world-globe-shape3-clip)">
       <g transform="translate(1 10)" fill="url(#world-globe-land)">
@@ -78,6 +78,6 @@
     </g>
     <use href="#world-globe-shape3" fill="none" stroke="url(#world-globe-globe-rim)" stroke-width="17" clip-path="url(#world-globe-shape3-clip)" />
     <use href="#world-globe-shape4" fill="none" />
-    <use href="#world-globe-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#world-globe-shape4" fill="none" stroke="#050b1d" stroke-width="7" />
   </g>
 </svg>
