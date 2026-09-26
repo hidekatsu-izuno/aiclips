@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="mountain-title">
+  <title id="mountain-title">緑豊かな二つの山</title>
+  <desc>Two overlapping, rounded green mountains with soft grassy slopes and gentle highlights, suggesting a peaceful picnic destination.</desc>
+  <defs>
+    <path id="mountain-back" d="M86 213 C101 193 113 159 128 134 C140 113 153 102 168 103 C183 104 193 121 205 142 C217 163 228 188 240 207 Q245 216 232 216 H93 Q84 216 86 213Z"/>
+    <path id="mountain-front" d="M48 206 C63 190 76 171 89 153 C99 140 109 132 120 133 C133 134 143 148 155 165 C168 183 183 198 198 207 Q207 216 193 216 H55 Q42 216 48 206Z"/>
+    <clipPath id="mountain-back-clip"><use href="#mountain-back"/></clipPath>
+    <clipPath id="mountain-front-clip"><use href="#mountain-front"/></clipPath>
+    <linearGradient id="mountain-back-green" gradientUnits="userSpaceOnUse" x1="147" y1="100" x2="204" y2="216"><stop stop-color="#56bd65"/><stop offset=".5" stop-color="#299953"/><stop offset="1" stop-color="#147741"/></linearGradient>
+    <linearGradient id="mountain-front-green" gradientUnits="userSpaceOnUse" x1="91" y1="141" x2="148" y2="216"><stop stop-color="#86c958"/><stop offset=".48" stop-color="#55b44c"/><stop offset="1" stop-color="#329247"/></linearGradient>
+    <linearGradient id="mountain-back-shadow" gradientUnits="userSpaceOnUse" x1="176" y1="123" x2="221" y2="209"><stop stop-color="#11673d" stop-opacity="0"/><stop offset="1" stop-color="#11673d" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="mountain-front-shadow" gradientUnits="userSpaceOnUse" x1="127" y1="145" x2="161" y2="215"><stop stop-color="#167c39" stop-opacity="0"/><stop offset="1" stop-color="#167c39" stop-opacity=".5"/></linearGradient>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#mountain-back" fill="url(#mountain-back-green)"/>
+    <g clip-path="url(#mountain-back-clip)">
+      <path d="M166 104 C169 132 181 148 188 170 C194 186 192 202 184 216 H245 V102Z" fill="url(#mountain-back-shadow)"/>
+    </g>
+    <g fill="none" stroke="#237d42" stroke-width="2" stroke-linecap="round">
+      <path d="M184 160 L181 156 M184 160 L187 155 M213 200 L210 196 M213 200 L216 195"/>
+    </g>
+    <use href="#mountain-back" fill="none" stroke="#050b1d" stroke-width="7"/>
+    <use href="#mountain-front" fill="url(#mountain-front-green)"/>
+    <g clip-path="url(#mountain-front-clip)">
+      <path d="M120 133 C121 154 140 164 144 183 C148 196 140 209 133 216 H207 V131Z" fill="url(#mountain-front-shadow)"/>
+    </g>
+    <path d="M88 212 C81 199 94 191 107 182 C119 174 123 163 121 153 C126 164 122 176 112 186 C102 195 92 201 96 212Z" fill="#d9d399"/>
+    <g fill="none" stroke="#328841" stroke-width="2" stroke-linecap="round">
+      <path d="M73 194 L71 190 M73 194 L76 190 M146 200 L143 196 M146 200 L149 195"/>
+    </g>
+    <use href="#mountain-front" fill="none" stroke="#050b1d" stroke-width="7"/>
+  </g>
+</svg>

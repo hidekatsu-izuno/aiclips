@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="server-rack-title">
+  <title id="server-rack-title">サーバー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="server-rack-case-paint" gradientUnits="userSpaceOnUse" x1="78" y1="78" x2="213" y2="222">
+      <stop offset="0" stop-color="#748ba2" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#364a60" stop-opacity="1" />
+      <stop offset="1" stop-color="#60788f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="server-rack-case-edge" gradientUnits="userSpaceOnUse" x1="80" y1="79" x2="209" y2="223">
+      <stop offset="0" stop-color="#b9cede" />
+      <stop offset=".4" stop-color="#7791a7" />
+      <stop offset="1" stop-color="#324e65" />
+    </linearGradient>
+    <linearGradient id="server-rack-bay-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#657d94" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#394e63" stop-opacity="1" />
+      <stop offset="1" stop-color="#506980" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="server-rack-bay-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#adbdce" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#637e95" stop-opacity="1" />
+      <stop offset="1" stop-color="#2c4258" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="server-rack-lamp" gradientUnits="userSpaceOnUse" x1="168" y1="97" x2="181" y2="110">
+      <stop offset="0" stop-color="#76ffa1" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#28dd68" stop-opacity="1" />
+      <stop offset="1" stop-color="#04a63b" stop-opacity="1" />
+    </linearGradient>
+    <path id="server-rack-cap" d="M73.696972202 78 Q74.669697220 75.330302780 77 73 L96 55 Q100 51 106 51 H184 Q190 51 194 55 L213 73 Q215.330302780 75.330302780 216.303027798 78 Z" />
+    <clipPath id="server-rack-cap-clip">
+      <use href="#server-rack-cap" />
+    </clipPath>
+    <path id="server-rack-case" d="M73 82 Q73 77 77 73 L96 55 Q100 51 106 51 H184 Q190 51 194 55 L213 73 Q217 77 217 82 V214 Q217 231 200 231 H90 Q73 231 73 214 Z" />
+    <clipPath id="server-rack-case-clip">
+      <use href="#server-rack-case" />
+    </clipPath>
+    <rect id="server-rack-bay-0" x="94" y="90.0" width="102" height="25.75" rx="4" />
+    <clipPath id="server-rack-bay-0-clip">
+      <use href="#server-rack-bay-0" />
+    </clipPath>
+    <rect id="server-rack-bay-1" x="94" y="121.75" width="102" height="25.75" rx="4" />
+    <clipPath id="server-rack-bay-1-clip">
+      <use href="#server-rack-bay-1" />
+    </clipPath>
+    <rect id="server-rack-bay-2" x="94" y="153.5" width="102" height="25.75" rx="4" />
+    <clipPath id="server-rack-bay-2-clip">
+      <use href="#server-rack-bay-2" />
+    </clipPath>
+    <rect id="server-rack-bay-3" x="94" y="185.25" width="102" height="25.75" rx="4" />
+    <clipPath id="server-rack-bay-3-clip">
+      <use href="#server-rack-bay-3" />
+    </clipPath>
+    <linearGradient id="server-rack-cap-paint" gradientUnits="userSpaceOnUse" x1="145" y1="51" x2="145" y2="78">
+      <stop offset="0" stop-color="#b8cbd9" />
+      <stop offset="1" stop-color="#8ca7bd" />
+    </linearGradient>
+    <linearGradient id="server-rack-cap-edge" gradientUnits="userSpaceOnUse" x1="155" y1="51" x2="207" y2="51">
+      <stop offset="0" stop-color="#cfdeea" />
+      <stop offset=".3" stop-color="#cfdeea" />
+      <stop offset="1" stop-color="#6f899e" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#server-rack-case" fill="url(#server-rack-case-paint)" />
+    <path d="M73 82 Q73 77 77 73 L96 55 Q100 51 106 51 H184 Q190 51 194 55 L213 73 Q217 77 217 82 V214 Q217 231 200 231 H90 Q73 231 73 214 Z" fill="none" stroke="url(#server-rack-case-edge)" stroke-width="16" clip-path="url(#server-rack-case-clip)" />
+    <use href="#server-rack-cap" fill="url(#server-rack-cap-paint)" />
+    <path d="M73 82 Q73 77 77 73 L96 55 Q100 51 106 51 H184 Q190 51 194 55 L213 73 Q217 77 217 82 V214 Q217 231 200 231 H90 Q73 231 73 214 Z" fill="none" stroke="url(#server-rack-cap-edge)" stroke-width="13" clip-path="url(#server-rack-cap-clip)" />
+    <path id="server-rack-cap-front-highlight" d="M73 75 H217 V78 H73 Z" fill="url(#server-rack-cap-edge)" clip-path="url(#server-rack-cap-clip)" />
+    <use href="#server-rack-case" fill="none" stroke="#050b1d" stroke-width="7" />
+    <rect x="88" y="84" width="114" height="133" rx="10" fill="#050c16" />
+    <use href="#server-rack-bay-0" fill="url(#server-rack-bay-paint)" />
+    <use href="#server-rack-bay-0" fill="none" stroke="url(#server-rack-bay-edge)" stroke-width="3" clip-path="url(#server-rack-bay-0-clip)" />
+    <path d="M185 90.0 H196 V115.75 H164 Z" fill="#263f53" fill-opacity=".4" clip-path="url(#server-rack-bay-0-clip)" />
+    <rect x="110" y="99" width="28" height="5" rx="2.5" fill="#192f43" fill-opacity="1" transform="translate(0 2.0) " />
+    <circle cx="104" cy="101" r="4.2" fill="#172b3e" transform="translate(0 2.0) " />
+    <path d="M101.4 101.1 A2.6 2.6 0 0 1 104.7 98.6" fill="none" stroke="#b8cbdc" stroke-width="1.1" transform="translate(0 2.0) " stroke-linecap="round" />
+    <g transform="translate(0 2.0) translate(0 0)">
+      <circle cx="176" cy="101.5" r="8.2" fill="url(#server-rack-lamp)" stroke="#050b1d" stroke-width="2" />
+      <path d="M171 102 C170 98 174 95 178 97" fill="none" stroke="#b6ffd1" stroke-width="1.4" />
+    </g>
+    <use href="#server-rack-bay-1" fill="url(#server-rack-bay-paint)" />
+    <use href="#server-rack-bay-1" fill="none" stroke="url(#server-rack-bay-edge)" stroke-width="3" clip-path="url(#server-rack-bay-1-clip)" />
+    <path d="M185 121.75 H196 V147.5 H164 Z" fill="#263f53" fill-opacity=".4" clip-path="url(#server-rack-bay-1-clip)" />
+    <rect x="110" y="133" width="28" height="5" rx="2.5" fill="#192f43" fill-opacity="1" transform="translate(0 -0.25) " />
+    <circle cx="104" cy="135" r="4.2" fill="#172b3e" transform="translate(0 -0.25) " />
+    <path d="M101.4 135.1 A2.6 2.6 0 0 1 104.7 132.6" fill="none" stroke="#b8cbdc" stroke-width="1.1" transform="translate(0 -0.25) " stroke-linecap="round" />
+    <g transform="translate(0 -0.25) translate(0 34)">
+      <circle cx="176" cy="101.5" r="8.2" fill="url(#server-rack-lamp)" stroke="#050b1d" stroke-width="2" />
+      <path d="M171 102 C170 98 174 95 178 97" fill="none" stroke="#b6ffd1" stroke-width="1.4" />
+    </g>
+    <use href="#server-rack-bay-2" fill="url(#server-rack-bay-paint)" />
+    <use href="#server-rack-bay-2" fill="none" stroke="url(#server-rack-bay-edge)" stroke-width="3" clip-path="url(#server-rack-bay-2-clip)" />
+    <path d="M185 153.5 H196 V179.25 H164 Z" fill="#263f53" fill-opacity=".4" clip-path="url(#server-rack-bay-2-clip)" />
+    <rect x="110" y="167" width="28" height="5" rx="2.5" fill="#192f43" fill-opacity="1" transform="translate(0 -2.5) " />
+    <circle cx="104" cy="169" r="4.2" fill="#172b3e" transform="translate(0 -2.5) " />
+    <path d="M101.4 169.1 A2.6 2.6 0 0 1 104.7 166.6" fill="none" stroke="#b8cbdc" stroke-width="1.1" transform="translate(0 -2.5) " stroke-linecap="round" />
+    <g transform="translate(0 -2.5) translate(0 68)">
+      <circle cx="176" cy="101.5" r="8.2" fill="url(#server-rack-lamp)" stroke="#050b1d" stroke-width="2" />
+      <path d="M171 102 C170 98 174 95 178 97" fill="none" stroke="#b6ffd1" stroke-width="1.4" />
+    </g>
+    <use href="#server-rack-bay-3" fill="url(#server-rack-bay-paint)" />
+    <use href="#server-rack-bay-3" fill="none" stroke="url(#server-rack-bay-edge)" stroke-width="3" clip-path="url(#server-rack-bay-3-clip)" />
+    <path d="M185 185.25 H196 V211.0 H164 Z" fill="#263f53" fill-opacity=".4" clip-path="url(#server-rack-bay-3-clip)" />
+    <rect x="110" y="201" width="28" height="5" rx="2.5" fill="#192f43" fill-opacity="1" transform="translate(0 -4.75) " />
+    <circle cx="104" cy="203" r="4.2" fill="#172b3e" transform="translate(0 -4.75) " />
+    <path d="M101.4 203.1 A2.6 2.6 0 0 1 104.7 200.6" fill="none" stroke="#b8cbdc" stroke-width="1.1" transform="translate(0 -4.75) " stroke-linecap="round" />
+    <g transform="translate(0 -4.75) translate(0 102)">
+      <circle cx="176" cy="101.5" r="8.2" fill="url(#server-rack-lamp)" stroke="#050b1d" stroke-width="2" />
+      <path d="M171 102 C170 98 174 95 178 97" fill="none" stroke="#b6ffd1" stroke-width="1.4" />
+    </g>
+  </g>
+</svg>

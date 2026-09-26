@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="remote-control-title">
+  <title id="remote-control-title">リモコン</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="remote-control-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-red" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff656a" stop-opacity="1" />
+      <stop offset="1" stop-color="#ef2634" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb2b5" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff666e" stop-opacity="1" />
+      <stop offset="1" stop-color="#be1425" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="remote-control-green-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#9af5b5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#51e58b" stop-opacity="1" />
+      <stop offset="1" stop-color="#088a37" stop-opacity="1" />
+    </linearGradient>
+    <rect id="remote-control-body" x="80" y="53" width="125" height="175" rx="27" />
+    <clipPath id="remote-control-body-clip">
+      <use href="#remote-control-body" />
+    </clipPath>
+    <circle id="remote-control-power" cx="142.5" cy="82" r="16" />
+    <clipPath id="remote-control-power-clip">
+      <use href="#remote-control-power" />
+    </clipPath>
+    <circle id="remote-control-nav" cx="142.5" cy="136" r="31" />
+    <clipPath id="remote-control-nav-clip">
+      <use href="#remote-control-nav" />
+    </clipPath>
+    <circle id="remote-control-nav-center" cx="142.5" cy="136" r="13" />
+    <clipPath id="remote-control-nav-center-clip">
+      <use href="#remote-control-nav-center" />
+    </clipPath>
+    <circle id="remote-control-button-0" cx="110.5" cy="203" r="9" />
+    <clipPath id="remote-control-button-0-clip">
+      <use href="#remote-control-button-0" />
+    </clipPath>
+    <circle id="remote-control-button-1" cx="142.5" cy="203" r="9" />
+    <clipPath id="remote-control-button-1-clip">
+      <use href="#remote-control-button-1" />
+    </clipPath>
+    <circle id="remote-control-button-2" cx="174.5" cy="203" r="9" />
+    <clipPath id="remote-control-button-2-clip">
+      <use href="#remote-control-button-2" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#remote-control-body" fill="url(#remote-control-steel)" />
+    <use href="#remote-control-body" fill="none" stroke="url(#remote-control-steel-edge)" stroke-width="17" clip-path="url(#remote-control-body-clip)" />
+    <use href="#remote-control-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#remote-control-power" fill="url(#remote-control-red)" />
+    <use href="#remote-control-power" fill="none" stroke="url(#remote-control-red-edge)" stroke-width="7" clip-path="url(#remote-control-power-clip)" />
+    <use href="#remote-control-power" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M136 80 A8 8 0 1 0 149 80" fill="none" stroke="#ffffff" stroke-width="2.3" transform="translate(0 -2)" />
+    <path d="M142.5 75 V83" fill="none" stroke="#ffffff" stroke-width="2.3" transform="translate(0 -2)" />
+    <use href="#remote-control-nav" fill="url(#remote-control-steel)" />
+    <use href="#remote-control-nav" fill="none" stroke="url(#remote-control-steel-edge)" stroke-width="10" clip-path="url(#remote-control-nav-clip)" />
+    <use href="#remote-control-nav" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M142.5 111 L137 119 H148 Z" fill="#eef5fa" />
+    <path d="M142.5 161 L137 153 H148 Z" fill="#eef5fa" />
+    <path d="M116 136 L123 131 V141 Z" fill="#eef5fa" />
+    <path d="M169 136 L162 131 V141 Z" fill="#eef5fa" />
+    <use href="#remote-control-nav-center" fill="url(#remote-control-white)" />
+    <use href="#remote-control-nav-center" fill="none" stroke="url(#remote-control-white-edge)" stroke-width="7" clip-path="url(#remote-control-nav-center-clip)" />
+    <use href="#remote-control-nav-center" fill="none" stroke="#050b1d" stroke-width="3" />
+    <ellipse cx="110.5" cy="181" rx="9" ry="7" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <ellipse cx="142.5" cy="181" rx="9" ry="7" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <ellipse cx="174.5" cy="181" rx="9" ry="7" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <use href="#remote-control-button-0" fill="url(#remote-control-red)" />
+    <use href="#remote-control-button-0" fill="none" stroke="url(#remote-control-red-edge)" stroke-width="5" clip-path="url(#remote-control-button-0-clip)" />
+    <use href="#remote-control-button-0" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#remote-control-button-1" fill="url(#remote-control-gold)" />
+    <use href="#remote-control-button-1" fill="none" stroke="url(#remote-control-gold-edge)" stroke-width="5" clip-path="url(#remote-control-button-1-clip)" />
+    <use href="#remote-control-button-1" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#remote-control-button-2" fill="url(#remote-control-green)" />
+    <use href="#remote-control-button-2" fill="none" stroke="url(#remote-control-green-edge)" stroke-width="5" clip-path="url(#remote-control-button-2-clip)" />
+    <use href="#remote-control-button-2" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

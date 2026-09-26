@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="ship-title">
+  <title id="ship-title">船</title>
+  <desc>Editable front-facing ship, with a narrow red funnel, stepped bridge, faceted white bow, red waterline and rounded blue waves.</desc>
+  <defs>
+    <linearGradient id="ship-white" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#d9e5f1"/></linearGradient>
+    <linearGradient id="ship-bow-light" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e5edf6"/></linearGradient>
+    <linearGradient id="ship-bow-shade" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#cbdceb"/><stop offset="1" stop-color="#9db7d2"/></linearGradient>
+    <linearGradient id="ship-glass" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#22c8fa"/><stop offset="1" stop-color="#008aef"/></linearGradient>
+    <linearGradient id="ship-red" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#ff6c59"/><stop offset=".4" stop-color="#ff4937"/><stop offset="1" stop-color="#e32c26"/></linearGradient>
+    <linearGradient id="ship-red-shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f74736"/><stop offset="1" stop-color="#ba1f1c"/></linearGradient>
+    <linearGradient id="ship-water" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#1ac7ff"/><stop offset=".55" stop-color="#00a5f8"/><stop offset="1" stop-color="#0086e8"/></linearGradient>
+    <path id="ship-bow" d="M144 123 L77 137 Q66 140 70 149 L86 205 Q115 215 144 215 Q173 215 202 205 L218 149 Q222 140 211 137Z"/>
+    <clipPath id="ship-bow-clip"><use href="#ship-bow"/></clipPath>
+    <path id="ship-wave" d="M57 201 Q67 190 80 200 Q91 208 104 201 Q116 193 130 201 Q143 209 156 201 Q169 193 181 201 Q193 207 207 201 Q222 193 230 201 C237 208 232 218 223 219 Q210 230 194 225 Q181 228 168 224 Q155 230 141 225 Q127 230 112 225 Q96 231 81 225 Q67 227 61 220 C51 217 51 208 57 201Z"/>
+    <clipPath id="ship-wave-clip"><use href="#ship-wave"/></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M134 85 V69 Q134 61 143 61 Q152 61 152 69 V85Z" fill="url(#ship-red)" stroke="#050b1d" stroke-width="6"/>
+    <path d="M138 75 V70 Q138 66 142 66" fill="none" stroke="#ffb194" stroke-width="2"/>
+    <rect x="113" y="82" width="61" height="33" rx="7" fill="url(#ship-white)" stroke="#050b1d" stroke-width="6"/>
+    <path d="M119 98 V90 Q119 88 122 88 H164" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="124" y="93" width="39" height="12" rx="1" fill="url(#ship-glass)"/>
+    <path d="M126 94 H140 L126 103Z" fill="#b6f0ff" opacity=".45"/>
+    <rect x="91" y="103" width="106" height="41" rx="7" fill="url(#ship-white)" stroke="#050b1d" stroke-width="6"/>
+    <path d="M97 132 V113 Q97 109 101 109 H186" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <path d="M191 112 V138" fill="none" stroke="#aabfd2" stroke-width="4" opacity=".6"/>
+    <path d="M104 114 H124 V130 H104Z M135 114 H153 V130 H135Z M164 114 H184 V130 H164Z" fill="url(#ship-glass)"/>
+    <path d="M106 115 H118 L106 125Z M137 115 H149 L137 125Z M166 115 H178 L166 125Z" fill="#b6f0ff" opacity=".4"/>
+    <use href="#ship-bow" fill="url(#ship-bow-light)"/>
+    <g clip-path="url(#ship-bow-clip)">
+      <path d="M144 123 L221 140 L202 208 L144 215Z" fill="url(#ship-bow-shade)"/>
+      <path d="M72 146 L144 130 L215 146" fill="none" stroke="#ffffff" stroke-width="5" opacity=".8"/>
+      <path d="M79 190 L144 178 L209 190 L204 218 H84Z" fill="url(#ship-red)"/>
+      <path d="M144 178 L210 190 L204 218 H144Z" fill="url(#ship-red-shade)"/>
+      <path d="M77 151 L89 198" fill="none" stroke="#ffffff" stroke-width="3" opacity=".3"/>
+    </g>
+    <use href="#ship-bow" fill="none" stroke="#050b1d" stroke-width="6"/>
+    <use href="#ship-wave" fill="url(#ship-water)"/>
+    <g clip-path="url(#ship-wave-clip)">
+      <path d="M57 211 Q69 203 82 211 Q94 218 107 211 Q118 205 131 211 Q144 218 157 211 Q169 205 183 211 Q195 218 208 211 Q221 204 232 210 V232 H55Z" fill="#008fe7" opacity=".45"/>
+      <path d="M60 205 Q66 199 78 205 Q91 214 106 205 Q118 199 131 205 Q144 214 157 205 Q168 199 182 205 Q194 212 207 205 Q220 199 225 204" fill="none" stroke="#63dcff" stroke-width="3.5" opacity=".65"/>
+    </g>
+  </g>
+</svg>

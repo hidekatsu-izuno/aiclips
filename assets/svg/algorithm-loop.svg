@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="algorithm-loop-title">
+  <title id="algorithm-loop-title">繰り返し</title>
+  <desc>Editable vector illustration with rotationally symmetric arrows forming a clockwise loop around a centered process frame.</desc>
+  <defs>
+    <path id="algorithm-loop-shape1" d="M140 83 V69 L164 92 L140 115 V101 H120 C99 101 86 114 86 135 V153 Q86 170 95.879 180.121 L83.121 192.879 Q68 178 68 153 V135 C68 104 89 83 120 83 Z" />
+    <use id="algorithm-loop-shape2" href="#algorithm-loop-shape1" transform="rotate(180 144 144)" />
+    <rect id="algorithm-loop-shape3" x="104.5" y="120.5" width="79" height="47" rx="10.34" />
+    <clipPath id="algorithm-loop-shape3-clip">
+      <use href="#algorithm-loop-shape3" />
+    </clipPath>
+    <linearGradient id="algorithm-loop-box3-paint" gradientUnits="userSpaceOnUse" x1="104.5" y1="120.5" x2="118.6" y2="167.5">
+      <stop offset="0" stop-color="#0bc5ff" />
+      <stop offset=".5" stop-color="#0099ff" />
+      <stop offset="1" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="algorithm-loop-box3-edge" gradientUnits="userSpaceOnUse" x1="104.5" y1="120.5" x2="118.6" y2="167.5">
+      <stop offset="0" stop-color="#82e2ff" />
+      <stop offset=".5" stop-color="#1ac0ff" />
+      <stop offset="1" stop-color="#0565bd" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#algorithm-loop-shape1" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-loop-shape2" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <use href="#algorithm-loop-shape3" fill="url(#algorithm-loop-box3-paint)" />
+    <use href="#algorithm-loop-shape3" fill="none" stroke="url(#algorithm-loop-box3-edge)" stroke-width="16.4" clip-path="url(#algorithm-loop-shape3-clip)" />
+    <use href="#algorithm-loop-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

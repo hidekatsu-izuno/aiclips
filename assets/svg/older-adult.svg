@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="older-adult-title">
+  <title id="older-adult-title">高齢者</title>
+  <desc>Older adult with continuous ear, hair and face contours based on company-president, an open shaded neck and smoothly connected shoulders and white collar.</desc>
+  <defs>
+    <linearGradient id="older-adult-neck" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d99258" />
+      <stop offset=".6" stop-color="#f7ba80" />
+      <stop offset="1" stop-color="#ffce96" />
+    </linearGradient>
+    <linearGradient id="older-adult-white" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#e5ebf4" />
+    </linearGradient>
+    <path id="older-adult-body" d="M124 175 C98 178 78 194 74 216 Q71 227 80 227 H209 Q218 227 214 216 C210 194 190 178 164 175 L144 186Z" />
+    <clipPath id="older-adult-body-clip">
+      <use href="#older-adult-body" />
+    </clipPath>
+    <linearGradient id="older-adult-jacket" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#48a74c" />
+      <stop offset=".5" stop-color="#339145" />
+      <stop offset="1" stop-color="#20753c" />
+    </linearGradient>
+    <linearGradient id="older-adult-ref-cheek-shadow" gradientUnits="userSpaceOnUse" x1="176" y1="116" x2="157" y2="160">
+      <stop stop-color="#c48b5b" stop-opacity="0" />
+      <stop offset=".3" stop-color="#c48b5b" stop-opacity=".25" />
+      <stop offset=".55" stop-color="#c48b5b" stop-opacity=".28" />
+      <stop offset="1" stop-color="#c48b5b" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="older-adult-ref-face-clip">
+      <use href="#older-adult-ref-reference-base-face" />
+    </clipPath>
+    <linearGradient id="older-adult-ref-hair-sweep" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#d9e2eb" />
+      <stop offset=".55" stop-color="#cbd8e4" />
+      <stop offset="1" stop-color="#b4c4d4" />
+    </linearGradient>
+    <linearGradient id="older-adult-ref-hairline-shadow" gradientUnits="userSpaceOnUse" x1="144" y1="85" x2="144" y2="122">
+      <stop stop-color="#b77d52" stop-opacity=".2" />
+      <stop offset=".55" stop-color="#b77d52" stop-opacity=".12" />
+      <stop offset="1" stop-color="#b77d52" stop-opacity="0" />
+    </linearGradient>
+    <mask id="older-adult-ref-neck-continuity" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect x="0" y="0" width="288" height="288" fill="white" />
+      <rect x="129" y="146" width="30" height="35" fill="black" />
+    </mask>
+    <linearGradient id="older-adult-ref-part-shadow" gradientUnits="userSpaceOnUse" x1="171" y1="75" x2="180" y2="83">
+      <stop stop-color="#657f9d" stop-opacity=".65" />
+      <stop offset="1" stop-color="#657f9d" stop-opacity="0" />
+    </linearGradient>
+    <path id="older-adult-ref-reference-base-face" d="M119 85 C135 91 155 90 170 83 C176 94 178 105 179 120 C181 116 184 114 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116 C103 114 106 116 109 120 C112 109 114 98 119 85Z" />
+    <linearGradient id="older-adult-ref-reference-base-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="older-adult-ref-side-hair" gradientUnits="userSpaceOnUse" x1="176" y1="73" x2="192" y2="117">
+      <stop stop-color="#b5c8da" />
+      <stop offset=".5" stop-color="#9db3c9" />
+      <stop offset="1" stop-color="#859fb9" />
+    </linearGradient>
+    <linearGradient id="older-adult-ref-silver-hair" gradientUnits="userSpaceOnUse" x1="112" y1="62" x2="175" y2="115">
+      <stop stop-color="#d7e1ec" offset="0" />
+      <stop stop-color="#bacadb" offset="0.5" />
+      <stop stop-color="#8fa5bd" offset="1" />
+    </linearGradient>
+    <clipPath id="older-adult-ref-silver-hair-clip">
+      <use href="#older-adult-ref-silver-hair-shape" />
+    </clipPath>
+    <path id="older-adult-ref-silver-hair-shape" d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C155 90 135 91 119 85 C114 98 112 109 109 120 C106 116 103 114 99 116Z" />
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <g id="older-adult-torso-proportions" transform="translate(144 228) scale(0.97 0.94) translate(-144 -228)">
+      <use href="#older-adult-body" fill="url(#older-adult-jacket)" />
+      <g clip-path="url(#older-adult-body-clip)">
+        <path d="M79 218 C85 196 99 184 119 179" fill="none" stroke="#77c663" stroke-width="4" opacity=".65" />
+        <path d="M99 207 Q97 216 97 225 M189 207 Q191 216 191 225" fill="none" opacity=".9" stroke="#155c31" stroke-width="2.5" />
+      </g>
+      <path d="M128 160 V171 Q128 174 124 175 L144 186 L164 175 Q160 174 160 171 V160Z" fill="url(#older-adult-neck)" />
+      <path d="M128 160 V171 Q128 174 124 175 C98 178 78 194 74 216 Q71 227 80 227 H209 Q218 227 214 216 C210 194 190 178 164 175 Q160 174 160 171 V160" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+      <g id="older-adult-shirt-contained" clip-path="url(#older-adult-body-clip)">
+        <path d="M125 178 L144 186 L163 178 Q161 198 144 224 Q127 198 125 178Z" fill="url(#older-adult-white)" stroke="#7c9985" stroke-width="1.5" />
+        <path d="M128 177 L144 185 L136 195 L127 183 L125 178Z" fill="#ffffff" stroke="#9eafc0" stroke-width="1.1" />
+        <path d="M128 177 L144 185 L136 195 L127 183 L125 178Z" fill="#ffffff" stroke="#9eafc0" stroke-width="1.1" transform="translate(288 0) scale(-1 1)" />
+      </g>
+      <path d="M80 227 H209" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    </g>
+    <g id="older-adult-head-proportions" transform="translate(144 173) scale(1.04) translate(-144 -159)">
+      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#older-adult-ref-reference-base-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#older-adult-ref-neck-continuity)" />
+      <use href="#older-adult-ref-reference-base-face" fill="url(#older-adult-ref-reference-base-skin-paint)" />
+      <g clip-path="url(#older-adult-ref-face-clip)">
+        <path d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="url(#older-adult-ref-hairline-shadow)" stroke-width="7" />
+        <path d="M178 123 C181 146 162 159 144 159" fill="none" stroke="url(#older-adult-ref-cheek-shadow)" stroke-width="8" />
+        <path d="M97 121 Q98 116 104 118" fill="none" stroke="#ffe7b5" stroke-width="2" opacity=".7" />
+      </g>
+      <g id="older-adult-ref-hairstyle">
+        <use href="#older-adult-ref-silver-hair-shape" fill="url(#older-adult-ref-silver-hair)" />
+        <g clip-path="url(#older-adult-ref-silver-hair-clip)">
+          <path d="M173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C173 79 173.5 75 173 70Z" fill="url(#older-adult-ref-side-hair)" />
+          <path d="M173 70 C173.5 75 173 79 170 83 L174 88 Q180 78 173 70Z" fill="url(#older-adult-ref-part-shadow)" />
+          <path d="M100 102 C99 88 109 74 121 68 C137 59 154 61 166 68 C153 64 138 66 125 74 C110 83 104 92 100 102Z" fill="url(#older-adult-ref-hair-sweep)" opacity=".4" />
+          <path d="M117 80 C137 84 159 77 170 69 C168 80 147 90 128 87Z" fill="#8fa9c1" opacity=".22" />
+          <path d="M100 102 Q103 92 109 88 L108 110 L109 120 Q101 113 100 102Z" fill="#a0b7cd" opacity=".65" />
+          <path d="M177 74 C187 78 193 91 190 105 C188 94 182 88 176 84Z" fill="url(#older-adult-ref-hair-sweep)" opacity=".4" />
+          <path d="M178 87 Q189 98 188 113 L181 118 Q184 104 178 87Z" fill="#6f8ba7" opacity=".3" />
+        </g>
+      </g>
+      <path id="older-adult-hairline" d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="#8e9eae" stroke-width="1.8" />
+    </g>
+  </g>
+</svg>

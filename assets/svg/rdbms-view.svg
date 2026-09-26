@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="rdbms-view-title">
+  <title id="rdbms-view-title">RDBMSビュー</title>
+  <desc>An opaque blue table almost entirely covered by a translucent green view, offset slightly down and right and enclosed by a dashed outline.</desc>
+  <defs>
+    <linearGradient id="rdbms-view-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#10c4fb" />
+      <stop offset="1" stop-color="#0085f4" />
+    </linearGradient>
+    <linearGradient id="rdbms-view-green" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#38db74" />
+      <stop offset="1" stop-color="#16b94f" />
+    </linearGradient>
+    <linearGradient id="rdbms-view-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="1" stop-color="#cbd4dc" />
+    </linearGradient>
+    <linearGradient id="rdbms-view-mint" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#e8fff1" />
+      <stop offset="1" stop-color="#b9e7ce" />
+    </linearGradient>
+    <rect id="rdbms-view-card" x="0" y="0" width="170" height="150" rx="14" />
+    <clipPath id="rdbms-view-card-clip">
+      <use href="#rdbms-view-card" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="rdbms-view-base" transform="translate(52 62)">
+      <g opacity="1">
+        <use href="#rdbms-view-card" fill="url(#rdbms-view-paper)" />
+        <g clip-path="url(#rdbms-view-card-clip)">
+          <path d="M0 0 H170 V35 H0Z" fill="url(#rdbms-view-blue)" />
+          <path d="M6 28 V15 Q6 6 15 6 H157" fill="none" stroke="#83e7ff" stroke-width="4" />
+          <path d="M164 14 V31" fill="none" stroke="#006bdd" stroke-width="4" />
+          <path d="M164 40 V134 Q164 144 154 144 H13" fill="none" stroke="#96aabd" stroke-width="4" />
+          <rect x="16" y="47" width="39" height="20" rx="1.5" fill="#009fee" />
+          <rect x="65" y="47" width="39" height="20" rx="1.5" fill="#009fee" />
+          <rect x="114" y="47" width="39" height="20" rx="1.5" fill="#009fee" />
+          <rect x="16" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="65" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="114" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="16" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="65" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="114" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+        </g>
+      </g>
+      <use href="#rdbms-view-card" fill="none" stroke="#050b1d" stroke-width="7" />
+    </g>
+    <g id="rdbms-view-overlay" transform="translate(66 76)">
+      <g opacity=".78">
+        <use href="#rdbms-view-card" fill="url(#rdbms-view-mint)" />
+        <g clip-path="url(#rdbms-view-card-clip)">
+          <path d="M0 0 H170 V35 H0Z" fill="url(#rdbms-view-green)" />
+          <path d="M6 28 V15 Q6 6 15 6 H157" fill="none" stroke="#9af5b5" stroke-width="4" />
+          <path d="M164 14 V31" fill="none" stroke="#088a37" stroke-width="4" />
+          <path d="M164 40 V134 Q164 144 154 144 H13" fill="none" stroke="#7dbea0" stroke-width="4" />
+          <rect x="16" y="47" width="39" height="20" rx="1.5" fill="#24c260" />
+          <rect x="65" y="47" width="39" height="20" rx="1.5" fill="#24c260" />
+          <rect x="114" y="47" width="39" height="20" rx="1.5" fill="#24c260" />
+          <rect x="16" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="65" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="114" y="77" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="16" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="65" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+          <rect x="114" y="107" width="39" height="20" rx="1.5" fill="#f8fafc" />
+        </g>
+      </g>
+      <use href="#rdbms-view-card" fill="none" stroke="#050b1d" stroke-width="5" stroke-dasharray="10 7" stroke-linecap="butt" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="passenger-bus-title">
+  <title id="passenger-bus-title">バス</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="passenger-bus-green" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#57de95" />
+      <stop offset="0.5" stop-color="#20b76a" />
+      <stop offset="1.0" stop-color="#148647" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#b8cede" />
+      <stop offset="0.5" stop-color="#7e9db6" />
+      <stop offset="1.0" stop-color="#3d5e7d" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#19374d" />
+      <stop offset="0.5" stop-color="#14354b" />
+      <stop offset="1.0" stop-color="#0c2238" />
+    </linearGradient>
+    <rect id="passenger-bus-shape1" x="83" y="205" width="27" height="22" rx="10" />
+    <rect id="passenger-bus-shape2" x="182" y="205" width="27" height="22" rx="10" />
+    <rect id="passenger-bus-shape3" x="57" y="101" width="20" height="36" rx="8" />
+    <rect id="passenger-bus-shape4" x="215" y="101" width="20" height="36" rx="8" />
+    <path id="passenger-bus-shape5" d="M103 73 H189 A25 25 0 0 1 214 98 V205 Q214 214 205 214 H87 Q78 214 78 205 V98 A25 25 0 0 1 103 73 Z" />
+    <clipPath id="passenger-bus-shape5-clip">
+      <use href="#passenger-bus-shape5" />
+    </clipPath>
+    <rect id="passenger-bus-shape6" x="88.5" y="83" width="115" height="94" rx="17" />
+    <clipPath id="passenger-bus-shape6-clip">
+      <use href="#passenger-bus-shape6" />
+    </clipPath>
+    <rect id="passenger-bus-shape7" x="115.0" y="94" width="62" height="13" rx="1" />
+    <rect id="passenger-bus-shape8" x="89.0" y="117" width="114" height="58" rx="5" />
+    <clipPath id="passenger-bus-shape8-clip">
+      <use href="#passenger-bus-shape8" />
+    </clipPath>
+    <rect id="passenger-bus-shape9" x="78" y="181" width="136" height="23" rx="0" />
+    <ellipse id="passenger-bus-shape10" cx="94" cy="192" rx="10" ry="7" />
+    <clipPath id="passenger-bus-shape10-clip">
+      <use href="#passenger-bus-shape10" />
+    </clipPath>
+    <ellipse id="passenger-bus-shape11" cx="198" cy="192" rx="10" ry="7" />
+    <clipPath id="passenger-bus-shape11-clip">
+      <use href="#passenger-bus-shape11" />
+    </clipPath>
+    <linearGradient id="passenger-bus-body-shade" x1="0" y1="0" x2="1" y2=".2">
+      <stop stop-color="#809bb5" stop-opacity="0" />
+      <stop offset="1" stop-color="#809bb5" stop-opacity=".5" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-wheel" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#12263b" />
+      <stop offset=".55" stop-color="#6f95b3" />
+      <stop offset="1" stop-color="#304e6c" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-glass8-screen-paint" gradientUnits="userSpaceOnUse" x1="92.352941" y1="122.333333" x2="197.970588" y2="173.000000">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-glass8-glass-paint" gradientUnits="userSpaceOnUse" x1="99.058824" y1="122.333333" x2="160.250000" y2="161.666667">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="passenger-bus-glass8-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="156.897059" y1="133.666667" x2="203.000000" y2="175.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-4 -11)" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#passenger-bus-shape1" fill="url(#passenger-bus-wheel)" />
+    <path d="M88 211 V217 Q88 221 93 221 H98" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
+    <use href="#passenger-bus-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-bus-shape2" fill="url(#passenger-bus-wheel)" />
+    <path d="M187 211 V217 Q187 221 192 221 H197" fill="none" stroke="#a2bbce" stroke-width="2.5" opacity=".6" />
+    <use href="#passenger-bus-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-bus-shape3" fill="url(#passenger-bus-steel)" />
+    <path d="M61 129 V111 Q61 105 67 105" fill="none" stroke="#d7e6ef" stroke-width="2.5" />
+    <use href="#passenger-bus-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-bus-shape4" fill="url(#passenger-bus-steel)" />
+    <path d="M219 129 V111 Q219 105 225 105" fill="none" stroke="#d7e6ef" stroke-width="2.5" />
+    <use href="#passenger-bus-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-bus-shape5" fill="url(#passenger-bus-paper)" />
+    <g clip-path="url(#passenger-bus-shape5-clip)">
+      <path d="M83 199 V100 Q83 78 106 78 H185" fill="none" stroke="#ffffff" stroke-width="5" />
+      <path d="M194 73 H215 V214 H194Z" fill="url(#passenger-bus-body-shade)" />
+      <path d="M78 206 Q143 211 214 206 V214 H78Z" fill="#8aa3ba" opacity=".45" />
+    </g>
+    <use href="#passenger-bus-shape6" fill="url(#passenger-bus-suit)" />
+    <path d="M93 108 Q93 88 113 88 H180" fill="none" stroke="#557185" stroke-width="3" opacity=".35" clip-path="url(#passenger-bus-shape6-clip)" />
+    <use href="#passenger-bus-shape7" fill="url(#passenger-bus-gold)" />
+    <use href="#passenger-bus-shape8" fill="url(#passenger-bus-glass8-screen-paint)" />
+    <path d="M89 117 H163.602941 L89 175 Z" fill="url(#passenger-bus-glass8-glass-paint)" clip-path="url(#passenger-bus-shape8-clip)" />
+    <path d="M186.235294 117 H203 V175 H111.632353 Z" fill="url(#passenger-bus-glass8-screen-shadow-paint)" clip-path="url(#passenger-bus-shape8-clip)" />
+    <use href="#passenger-bus-shape8" fill="none" stroke="#050b1d" stroke-width="3" />
+    <g clip-path="url(#passenger-bus-shape5-clip)">
+      <use href="#passenger-bus-shape9" fill="url(#passenger-bus-green)" />
+      <path d="M78 183 H214" fill="none" stroke="#9af0bc" stroke-width="2" />
+      <path d="M78 202 H214" fill="none" stroke="#117344" stroke-width="2" opacity=".5" />
+      <use href="#passenger-bus-shape10" fill="url(#passenger-bus-gold)" />
+      <path d="M88 193 Q88 188 94 188 H97" fill="none" stroke="#fff8b0" stroke-width="2" clip-path="url(#passenger-bus-shape10-clip)" />
+      <use href="#passenger-bus-shape10" fill="none" stroke="#177b42" stroke-width="3" />
+      <use href="#passenger-bus-shape11" fill="url(#passenger-bus-gold)" />
+      <path d="M192 193 Q192 188 198 188 H201" fill="none" stroke="#fff8b0" stroke-width="2" clip-path="url(#passenger-bus-shape11-clip)" />
+      <use href="#passenger-bus-shape11" fill="none" stroke="#177b42" stroke-width="3" />
+    </g>
+    <path d="M135 207 H157" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#passenger-bus-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

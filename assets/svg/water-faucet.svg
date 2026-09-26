@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="water-faucet-title">
+  <title id="water-faucet-title">蛇口</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="water-faucet-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="water-faucet-chrome" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#e7f4ff" />
+      <stop offset="0.5" stop-color="#bfd6e8" />
+      <stop offset="1.0" stop-color="#7fa2c1" />
+    </linearGradient>
+    <linearGradient id="water-faucet-chrome-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#d8efff" />
+      <stop offset="1.0" stop-color="#688ba9" />
+    </linearGradient>
+    <linearGradient id="water-faucet-water" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#4bddff" />
+      <stop offset="0.5" stop-color="#05b9ff" />
+      <stop offset="1.0" stop-color="#0085f1" />
+    </linearGradient>
+    <rect id="water-faucet-shape1" x="125" y="94" width="48" height="18" rx="5" />
+    <clipPath id="water-faucet-shape1-clip">
+      <use href="#water-faucet-shape1" />
+    </clipPath>
+    <rect id="water-faucet-shape2" x="140" y="73" width="18" height="31" rx="2" />
+    <clipPath id="water-faucet-shape2-clip">
+      <use href="#water-faucet-shape2" />
+    </clipPath>
+    <path id="water-faucet-shape3" d="M90 116 H174 Q197 116 197 136 V163 Q197 171 189 171 H170 Q162 171 162 163 V153 H90 Z" />
+    <clipPath id="water-faucet-shape3-clip">
+      <use href="#water-faucet-shape3" />
+    </clipPath>
+    <rect id="water-faucet-shape4" x="68" y="113" width="36" height="62" rx="14" />
+    <clipPath id="water-faucet-shape4-clip">
+      <use href="#water-faucet-shape4" />
+    </clipPath>
+    <rect id="water-faucet-shape5" x="103" y="66" width="92" height="25" rx="12" />
+    <clipPath id="water-faucet-shape5-clip">
+      <use href="#water-faucet-shape5" />
+    </clipPath>
+    <circle id="water-faucet-shape6" cx="149" cy="73" r="13" />
+    <clipPath id="water-faucet-shape6-clip">
+      <use href="#water-faucet-shape6" />
+    </clipPath>
+    <path id="water-faucet-shape7" d="M178 175 C173 186 158 201 158 212 C158 238 198 238 198 212 C198 201 183 186 178 175 Z" />
+    <clipPath id="water-faucet-shape7-clip">
+      <use href="#water-faucet-shape7" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#water-faucet-shape1" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape1" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="12" clip-path="url(#water-faucet-shape1-clip)" />
+    <use href="#water-faucet-shape1" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape2" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape2" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="10" clip-path="url(#water-faucet-shape2-clip)" />
+    <use href="#water-faucet-shape2" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape3" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape3" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="21" clip-path="url(#water-faucet-shape3-clip)" />
+    <use href="#water-faucet-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#water-faucet-shape4" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape4" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="20" clip-path="url(#water-faucet-shape4-clip)" />
+    <use href="#water-faucet-shape4" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#water-faucet-shape5" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape5" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="18" clip-path="url(#water-faucet-shape5-clip)" />
+    <use href="#water-faucet-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#water-faucet-shape6" fill="url(#water-faucet-chrome)" />
+    <use href="#water-faucet-shape6" fill="none" stroke="url(#water-faucet-chrome-edge)" stroke-width="14" clip-path="url(#water-faucet-shape6-clip)" />
+    <use href="#water-faucet-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#water-faucet-shape7" fill="url(#water-faucet-water)" />
+    <use href="#water-faucet-shape7" fill="none" stroke="url(#water-faucet-cyan)" stroke-width="14" clip-path="url(#water-faucet-shape7-clip)" />
+    <use href="#water-faucet-shape7" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

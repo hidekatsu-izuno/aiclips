@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="balance-scale-title">
+  <title id="balance-scale-title">天秤</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <rect id="balance-scale-shape1" x="136" y="96" width="16" height="106" rx="5" />
+    <clipPath id="balance-scale-shape1-clip">
+      <use href="#balance-scale-shape1" />
+    </clipPath>
+    <rect id="balance-scale-shape2" x="77" y="95" width="134" height="17" rx="8.5" />
+    <clipPath id="balance-scale-shape2-clip">
+      <use href="#balance-scale-shape2" />
+    </clipPath>
+    <circle id="balance-scale-shape3" cx="144" cy="79" r="15" />
+    <clipPath id="balance-scale-shape3-clip">
+      <use href="#balance-scale-shape3" />
+    </clipPath>
+    <path id="balance-scale-shape4" d="M133 186 H155 L160 200 H128 Z" />
+    <clipPath id="balance-scale-shape4-clip">
+      <use href="#balance-scale-shape4" />
+    </clipPath>
+    <path id="balance-scale-shape5" d="M105 218 C102 190 186 190 183 218 Z" />
+    <clipPath id="balance-scale-shape5-clip">
+      <use href="#balance-scale-shape5" />
+    </clipPath>
+    <path id="balance-scale-shape6" d="M58 158 H122 C121 199 59 199 58 158 Z" />
+    <clipPath id="balance-scale-shape6-clip">
+      <use href="#balance-scale-shape6" />
+    </clipPath>
+    <path id="balance-scale-shape7" d="M166 158 H230 C229 199 167 199 166 158 Z" />
+    <clipPath id="balance-scale-shape7-clip">
+      <use href="#balance-scale-shape7" />
+    </clipPath>
+    <linearGradient id="balance-scale-pillar" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fff6a5" offset="0" />
+      <stop stop-color="#ffe24b" offset="0.28" />
+      <stop stop-color="#ffcb13" offset="0.65" />
+      <stop stop-color="#ba7900" offset="1" />
+    </linearGradient>
+    <linearGradient id="balance-scale-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff8b1" offset="0" />
+      <stop stop-color="#ffe451" offset="0.27" />
+      <stop stop-color="#ffd020" offset="0.6" />
+      <stop stop-color="#c28a02" offset="1" />
+    </linearGradient>
+    <linearGradient id="balance-scale-bowl" x1="0" y1="0" x2=".25" y2="1">
+      <stop stop-color="#ffe95b" offset="0" />
+      <stop stop-color="#ffda24" offset="0.35" />
+      <stop stop-color="#e7a600" offset="1" />
+    </linearGradient>
+    <linearGradient id="balance-scale-bevel" x1="0" y1="0" x2=".35" y2="1">
+      <stop stop-color="#fffbd2" offset="0" />
+      <stop stop-color="#fff080" offset="0.25" />
+      <stop stop-color="#dda208" offset="0.7" />
+      <stop stop-color="#aa7000" offset="1" />
+    </linearGradient>
+    <linearGradient id="balance-scale-base" x1="0" y1="0" x2=".2" y2="1">
+      <stop stop-color="#fff080" offset="0" />
+      <stop stop-color="#ffdd33" offset="0.35" />
+      <stop stop-color="#eab006" offset="1" />
+    </linearGradient>
+    <radialGradient id="balance-scale-ball" cx=".28" cy=".24" r=".85">
+      <stop stop-color="#fff7ae" offset="0" />
+      <stop stop-color="#ffe145" offset="0.45" />
+      <stop stop-color="#e4a608" offset="1" />
+    </radialGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#050b1d" stroke-width="9" />
+    <path d="M90 111 L65 158 M90 111 L115 158" fill="none" stroke="#506786" stroke-width="3" />
+    <path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#050b1d" stroke-width="9" />
+    <path d="M198 111 L173 158 M198 111 L223 158" fill="none" stroke="#506786" stroke-width="3" />
+    <use href="#balance-scale-shape1" fill="url(#balance-scale-pillar)" />
+    <use href="#balance-scale-shape1" fill="none" stroke="url(#balance-scale-pillar)" stroke-width="11.0" clip-path="url(#balance-scale-shape1-clip)" />
+    <path d="M140 117 V181" fill="none" stroke="#fff5ac" stroke-width="2" clip-path="url(#balance-scale-shape1-clip)" />
+    <use href="#balance-scale-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <circle cx="144" cy="103.5" r="11" fill="url(#balance-scale-ball)" stroke="#050b1d" stroke-width="3" />
+    <use href="#balance-scale-shape2" fill="url(#balance-scale-beam)" />
+    <use href="#balance-scale-shape2" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="11.0" clip-path="url(#balance-scale-shape2-clip)" />
+    <path d="M84 100 H131 M157 100 H204" fill="none" stroke="#fff5ac" stroke-width="2.5" clip-path="url(#balance-scale-shape2-clip)" />
+    <use href="#balance-scale-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <circle cx="144" cy="103.5" r="10.5" fill="url(#balance-scale-ball)" />
+    <use href="#balance-scale-shape3" fill="url(#balance-scale-ball)" />
+    <use href="#balance-scale-shape3" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="11.0" clip-path="url(#balance-scale-shape3-clip)" />
+    <path d="M135 77 Q137 70 143 70" fill="none" stroke="#fff9c1" stroke-width="3" clip-path="url(#balance-scale-shape3-clip)" />
+    <use href="#balance-scale-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#balance-scale-shape4" fill="url(#balance-scale-beam)" />
+    <use href="#balance-scale-shape4" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="10.0" clip-path="url(#balance-scale-shape4-clip)" />
+    <use href="#balance-scale-shape4" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#balance-scale-shape5" fill="url(#balance-scale-base)" />
+    <use href="#balance-scale-shape5" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="13.0" clip-path="url(#balance-scale-shape5-clip)" />
+    <path d="M112 211 Q116 204 128 204" fill="none" stroke="#fff9c1" stroke-width="3" clip-path="url(#balance-scale-shape5-clip)" />
+    <use href="#balance-scale-shape5" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#balance-scale-shape6" fill="url(#balance-scale-bowl)" />
+    <use href="#balance-scale-shape6" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="13.0" clip-path="url(#balance-scale-shape6-clip)" />
+    <path d="M65 163 H115" fill="none" stroke="#fff5ac" stroke-width="2.5" clip-path="url(#balance-scale-shape6-clip)" />
+    <use href="#balance-scale-shape6" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#balance-scale-shape7" fill="url(#balance-scale-bowl)" />
+    <use href="#balance-scale-shape7" fill="none" stroke="url(#balance-scale-bevel)" stroke-width="13.0" clip-path="url(#balance-scale-shape7-clip)" />
+    <path d="M173 163 H223" fill="none" stroke="#fff5ac" stroke-width="2.5" clip-path="url(#balance-scale-shape7-clip)" />
+    <use href="#balance-scale-shape7" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

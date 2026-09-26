@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="information-mark-title">
+  <title id="information-mark-title">情報マーク</title>
+  <desc>Editable vector paths with continuous outlines, clipped highlights and gradient shading. Transparent background; no raster images or filters.</desc>
+  <defs>
+    <linearGradient id="information-mark-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#009cff" />
+      <stop offset="1.0" stop-color="#087ce5" />
+    </linearGradient>
+    <linearGradient id="information-mark-white" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f2f6fb" />
+      <stop offset="1.0" stop-color="#c9d4e0" />
+    </linearGradient>
+    <linearGradient id="information-mark-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dcf7ff" />
+      <stop offset="0.5" stop-color="#70c6ec" />
+      <stop offset="1.0" stop-color="#245786" />
+    </linearGradient>
+    <circle id="information-mark-shape1" cx="144" cy="144" r="78" />
+    <clipPath id="information-mark-shape1-clip">
+      <use href="#information-mark-shape1" />
+    </clipPath>
+    <circle id="information-mark-shape2" cx="144" cy="106" r="13" />
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#information-mark-shape1" fill="url(#information-mark-blue)" />
+    <use href="#information-mark-shape1" fill="none" stroke="url(#information-mark-edge)" stroke-width="18" clip-path="url(#information-mark-shape1-clip)" />
+    <use href="#information-mark-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#information-mark-shape2" fill="url(#information-mark-white)" />
+    <path d="M133 134 H151 Q154 134 154 137 V182 H159 Q162 182 162 185 V192 Q162 195 159 195 H128 Q125 195 125 192 V185 Q125 182 128 182 H136 V146 H133 Q130 146 130 143 V137 Q130 134 133 134 Z" fill="url(#information-mark-white)" stroke="none" stroke-width="0" />
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="inspection-magnifier-title">
+  <title id="inspection-magnifier-title">検索・拡大鏡</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="inspection-magnifier-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="inspection-magnifier-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="inspection-magnifier-silver" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#e3eaf2" />
+      <stop offset="0.5" stop-color="#c5d0de" />
+      <stop offset="1.0" stop-color="#95a8bf" />
+    </linearGradient>
+    <linearGradient id="inspection-magnifier-suit" x1="211" y1="210" x2="191" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#48688e" />
+      <stop offset="0.5" stop-color="#29435f" />
+      <stop offset="1.0" stop-color="#1d304b" />
+    </linearGradient>
+    <linearGradient id="inspection-magnifier-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <path id="inspection-magnifier-shape1" d="M174 173 L221 219 Q231 230 221 240 Q210 250 198 240 L154 192 Z" />
+    <clipPath id="inspection-magnifier-shape1-clip">
+      <use href="#inspection-magnifier-shape1" />
+    </clipPath>
+    <circle id="inspection-magnifier-shape2" cx="130" cy="145" r="70" />
+    <clipPath id="inspection-magnifier-shape2-clip">
+      <use href="#inspection-magnifier-shape2" />
+    </clipPath>
+    <circle id="inspection-magnifier-shape3" cx="130" cy="145" r="53" />
+    <clipPath id="inspection-magnifier-shape3-clip">
+      <use href="#inspection-magnifier-shape3" />
+    </clipPath>
+    <mask id="inspection-magnifier-outer-rim" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="white" />
+      <use href="#inspection-magnifier-shape1" fill="black" />
+    </mask>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#inspection-magnifier-shape1" fill="url(#inspection-magnifier-suit)" />
+    <g clip-path="url(#inspection-magnifier-shape1-clip)" fill="none">
+      <path d="M174 179 L217 222 Q224 229 220 235" stroke="#91afce" stroke-width="5" />
+      <path d="M160 193 L201 237 Q210 245 221 236" stroke="#15283f" stroke-width="7" />
+    </g>
+    <use href="#inspection-magnifier-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#inspection-magnifier-shape2" fill="url(#inspection-magnifier-silver)" />
+    <use href="#inspection-magnifier-shape2" fill="none" stroke="url(#inspection-magnifier-silver-edge)" stroke-width="12" clip-path="url(#inspection-magnifier-shape2-clip)" />
+    <use href="#inspection-magnifier-shape2" fill="none" stroke="#050b1d" stroke-width="7" mask="url(#inspection-magnifier-outer-rim)" />
+    <use href="#inspection-magnifier-shape2" fill="none" stroke="#050b1d" stroke-width="2" clip-path="url(#inspection-magnifier-shape1-clip)" />
+    <use href="#inspection-magnifier-shape3" fill="url(#inspection-magnifier-blue)" />
+    <use href="#inspection-magnifier-shape3" fill="none" stroke="url(#inspection-magnifier-cyan)" stroke-width="6" clip-path="url(#inspection-magnifier-shape3-clip)" />
+    <use href="#inspection-magnifier-shape3" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M102 126 Q107 117 116 113" fill="none" stroke="#8de7ff" stroke-width="10" />
+  </g>
+</svg>

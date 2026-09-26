@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="approval-person-title">
+  <title id="approval-person-title">承認者</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="approval-person-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="approval-person-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="approval-person-skin" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffcf98" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc187" stop-opacity="1" />
+    </linearGradient>
+    <rect id="approval-person-paper" x="117" y="183" width="81" height="51" rx="1" />
+    <clipPath id="approval-person-paper-clip">
+      <use href="#approval-person-paper" />
+    </clipPath>
+    <path id="approval-person-hand" d="M 113 204 C 104 202 98 208 98 216 C 97.5 222.5 100 229.5 105.5 232.5 C 108.3 233.6 112.7 233.6 115.5 232.5 C 118.5 231 119.5 227 120 223 C 120.5 219.5 119.5 217.5 118.5 216 C 118 214.7 121 214 121 211.5 C 121 207.5 118 204 113 204 Z" />
+    <clipPath id="approval-person-hand-clip">
+      <use href="#approval-person-hand" />
+    </clipPath>
+    <path id="approval-person-base-body" d="M144 158 C130 157 116 158 104 161 L98 163 Q93 164 90 169 C77 185 66 205 65 222 C64 231 69 235 78 235 H210 C219 235 224 231 223 222 C222 205 211 185 198 169 Q195 164 190 163 L184 161 C172 158 158 157 144 158Z" />
+    <clipPath id="approval-person-base-body-clip">
+      <use href="#approval-person-base-body" />
+    </clipPath>
+    <path id="approval-person-base-face" d="M144 68 C125 68 110 76 109 111 C108 124 109 140 117 149 C124 157 134 159 144 159 C154 159 164 157 171 149 C179 140 180 124 179 111 C178 76 163 68 144 68 Z" />
+    <path id="approval-person-base-neck" d="M144 144 C138 144 132 145 128 148 C129 153 129 157 126 160 C131 164 138 168 144 168 C150 168 157 164 162 160 C159 157 159 153 160 148 C156 145 150 144 144 144Z" />
+    <path id="approval-person-base-shirt" d="M144 165 C136 165 132 161 129 158 C126 159 124 160 122 162 C125 183 129 208 135 231 C138 231 141 231 144 231 C147 231 150 231 153 231 C159 208 163 183 166 162 C164 160 162 159 159 158 C156 161 152 165 144 165 Z" />
+    <clipPath id="approval-person-base-shirt-clip">
+      <use href="#approval-person-base-shirt" />
+    </clipPath>
+    <path id="approval-person-base-tie" d="M144 181 C141 181 139 185 138 190 C135 203 132 217 136 231 C138 231 141 231 144 231 C147 231 150 231 152 231 C156 217 153 203 150 190 C149 185 147 181 144 181 Z" />
+    <path id="approval-person-base-knot" d="M144 169 L135 177 C138 183 139 185.5 144 185.5 C149 185.5 150 183 153 177 L144 169 Z" />
+    <linearGradient id="approval-person-base-suit-paint" gradientUnits="userSpaceOnUse" x1="82" y1="174" x2="208" y2="225">
+      <stop offset="0" stop-color="#3f5e82" />
+      <stop offset=".3" stop-color="#253d58" />
+      <stop offset="1" stop-color="#1b3049" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-lapel-paint" gradientUnits="userSpaceOnUse" x1="116" y1="163" x2="121" y2="226">
+      <stop offset="0" stop-color="#3d5774" />
+      <stop offset=".5" stop-color="#253b54" />
+      <stop offset="1" stop-color="#355170" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-white-paint" gradientUnits="userSpaceOnUse" x1="128" y1="164" x2="152" y2="223">
+      <stop offset="0" stop-color="#fffefd" />
+      <stop offset="1" stop-color="#edf3fc" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-blue-paint" gradientUnits="userSpaceOnUse" x1="135" y1="196" x2="153" y2="200">
+      <stop offset="0" stop-color="#039bff" />
+      <stop offset=".45" stop-color="#0089fc" />
+      <stop offset="1" stop-color="#0078ea" />
+    </linearGradient>
+    <radialGradient id="approval-person-base-knot-paint" gradientUnits="userSpaceOnUse" cx="143" cy="175" r="11">
+      <stop stop-color="#0094f8" />
+      <stop offset=".55" stop-color="#007bdb" />
+      <stop offset="1" stop-color="#0058a7" />
+    </radialGradient>
+    <linearGradient id="approval-person-base-hair-paint" gradientUnits="userSpaceOnUse" x1="112" y1="65" x2="164" y2="109">
+      <stop offset="0" stop-color="#304762" />
+      <stop offset=".45" stop-color="#2b415b" />
+      <stop offset="1" stop-color="#263d56" />
+    </linearGradient>
+    <path id="approval-person-base-lapel-left" d="M125 157 L118 160 L113 172 L120 178 L114 184 L125 231 H135 C129 207 126 181 125 157Z" />
+    <path id="approval-person-base-collar-left" d="M126 159 Q135 165 144 168 L144 169 L128.25 183 L123 161Z" />
+    <path id="approval-person-base-ear-left" d="M113 124 C109 118 107 116.5 103 118.5 C96 121 96 130 101 134.5 C105 138 109 138 113 134.5 Z" />
+    <linearGradient id="approval-person-base-sweep-bevel" gradientUnits="userSpaceOnUse" x1="108" y1="58" x2="148" y2="112">
+      <stop offset="0" stop-color="#6381a8" stop-opacity="0.95" />
+      <stop offset="0.4" stop-color="#3f5b80" stop-opacity="0.8" />
+      <stop offset="0.75" stop-color="#2a4260" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#102137" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-suit-bevel" gradientUnits="userSpaceOnUse" x1="80" y1="168" x2="80" y2="222">
+      <stop offset="0" stop-color="#88a5cb" stop-opacity=".55" />
+      <stop offset=".65" stop-color="#6584aa" stop-opacity=".35" />
+      <stop offset="1" stop-color="#4d6b8f" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="approval-person-base-ear-bevel" gradientUnits="userSpaceOnUse" x1="101" y1="119" x2="107" y2="132">
+      <stop offset="0" stop-color="#ffe7b5" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#ffd599" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#fdc28a" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="approval-person-base-ear-clip">
+      <use href="#approval-person-base-ear-left" />
+    </clipPath>
+    <path id="approval-person-base-collar-shadow-left" d="M135 177 L128.25 183" />
+    <path id="approval-person-base-lapel-seam-left" d="M125 157 C126 181 129 207 135 231" />
+    <path id="approval-person-base-lapel-rim-left" d="M125 157 L118 160 L113 172 L120 178 L114 184 L125 231 H135" />
+    <path id="approval-person-base-shoulder-left" d="M144 158 C130 157 116 158 104 161 L98 163 Q93 164 90 169 C77 185 66 205 65 222" />
+    <path id="approval-person-base-hem" d="M78 235 H210" />
+    <path id="approval-person-mature-hair" d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117 Q181 116 178 122 Q178 103 174 87 Q169 83 165 79 C154 86 135 90 119 85 Q111 103 110 120 Q105 114 101 117 Z" />
+    <clipPath id="approval-person-mature-hair-clip">
+      <use href="#approval-person-mature-hair" />
+    </clipPath>
+    <path id="approval-person-temple-left" d="M100 96 C100.300000 89.400000 102.220000 83.070000 105.409000 77.415000 Q111 79 119 85 Q111 103 110 120 Q105 114 101 117 Q98 108 100 96 Z" />
+    <clipPath id="approval-person-temple-left-clip">
+      <use href="#approval-person-temple-left" />
+    </clipPath>
+    <path id="approval-person-temple-right" d="M174 87 Q181 89 186.752000 86.640000 C188.480000 91.440000 189.600000 96.600000 190.000000 102.000000 Q190 110 187 117 Q181 116 178 122 Q178 103 174 87 Z" />
+    <clipPath id="approval-person-temple-right-clip">
+      <use href="#approval-person-temple-right" />
+    </clipPath>
+    <linearGradient id="approval-person-temple-paint" gradientUnits="userSpaceOnUse" x1="100" y1="88" x2="110" y2="120">
+      <stop offset="0" stop-color="#c5d1dc" />
+      <stop offset="0.45" stop-color="#a6b9ca" />
+      <stop offset="1" stop-color="#7c91aa" />
+    </linearGradient>
+    <mask id="approval-person-base-neck-continuity" maskUnits="userSpaceOnUse" x="85" y="80" width="120" height="110">
+      <rect x="85" y="80" width="120" height="110" fill="white" />
+      <rect x="130" y="146" width="28" height="35" fill="black" />
+    </mask>
+    <clipPath id="approval-person-supporting-fingers-clip">
+      <use href="#approval-person-supporting-fingers" />
+    </clipPath>
+    <clipPath id="approval-person-arm-seam-clip" clipPathUnits="userSpaceOnUse">
+      <use href="#approval-person-base-body" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g transform="" stroke-linecap="round" stroke-linejoin="round">
+      <g id="approval-person-torso-placement" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
+        <use href="#approval-person-base-body" fill="url(#approval-person-base-suit-paint)" stroke="#050b1d" stroke-width="7" />
+        <use href="#approval-person-base-shoulder-left" fill="none" stroke="url(#approval-person-base-suit-bevel)" stroke-width="15" clip-path="url(#approval-person-base-body-clip)" />
+        <use href="#approval-person-base-body" fill="none" stroke="#050b1d" stroke-width="7" />
+        <use href="#approval-person-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+        <g>
+          <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
+          <use href="#approval-person-base-shirt" fill="url(#approval-person-base-white-paint)" />
+          <use href="#approval-person-base-neck" fill="url(#approval-person-base-neck-paint)" />
+          <use href="#approval-person-base-tie" fill="url(#approval-person-base-blue-paint)" stroke="#005ca9" stroke-width="1" />
+          <use href="#approval-person-base-collar-shadow-left" fill="none" clip-path="url(#approval-person-base-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+          <use href="#approval-person-base-collar-shadow-left" fill="none" transform="translate(288 0) scale(-1 1)" clip-path="url(#approval-person-base-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+          <use href="#approval-person-base-collar-left" fill="url(#approval-person-base-white-paint)" />
+          <use href="#approval-person-base-collar-left" fill="url(#approval-person-base-white-paint)" transform="translate(288 0) scale(-1 1)" />
+          <use href="#approval-person-base-knot" fill="url(#approval-person-base-knot-paint)" stroke="#005893" stroke-width="1.2" />
+          <use href="#approval-person-base-lapel-left" fill="url(#approval-person-base-lapel-paint)" />
+          <use href="#approval-person-base-lapel-left" fill="url(#approval-person-base-lapel-paint)" transform="translate(288 0) scale(-1 1)" />
+          <use href="#approval-person-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" />
+          <use href="#approval-person-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+          <use href="#approval-person-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" />
+          <use href="#approval-person-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+        </g>
+      </g>
+      <g id="approval-person-head-placement" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
+        <path fill="none" stroke="#050b1d" stroke-width="7" d="M109 134 C112 151 126 159 144 159 C162 159 176 151 179 134" mask="url(#approval-person-base-neck-continuity)" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+        <use href="#approval-person-base-face" fill="url(#approval-person-base-skin-paint)" />
+        <g id="approval-person-mature-hairstyle">
+          <use href="#approval-person-mature-hair" fill="url(#approval-person-base-hair-paint)" />
+          <path fill="none" stroke="url(#approval-person-base-sweep-bevel)" stroke-width="8" clip-path="url(#approval-person-mature-hair-clip)" d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" />
+          <use href="#approval-person-temple-left" fill="url(#approval-person-temple-paint)" />
+          <use href="#approval-person-temple-right" fill="url(#approval-person-temple-paint)" />
+          <path d="M100 98 L115 90 M100 104 L112 98" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#approval-person-temple-left-clip)" />
+          <path d="M177 94 L194 105 M180 102 L193 112" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#approval-person-temple-right-clip)" />
+          <path d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" fill="none" stroke="#050b1d" stroke-width="7" />
+          <path id="approval-person-part-highlight" d="M155 61 C160 64 160 71 156 75 C147 81 133 83 124 81" fill="none" stroke="#49617a" stroke-width="2" stroke-opacity=".55" stroke-linecap="round" clip-path="url(#approval-person-mature-hair-clip)" />
+          <path id="approval-person-hair-part-line" d="M163 58 C168 64 169 72 165 79" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="round" clip-path="url(#approval-person-mature-hair-clip)" />
+        </g>
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" />
+        <use href="#approval-person-base-ear-left" fill="url(#approval-person-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+        <use href="#approval-person-base-ear-left" fill="none" stroke="url(#approval-person-base-ear-bevel)" stroke-width="2.5" clip-path="url(#approval-person-base-ear-clip)" />
+      </g>
+    </g>
+    <use href="#approval-person-paper" fill="url(#approval-person-white)" />
+    <use href="#approval-person-paper" fill="none" stroke="url(#approval-person-white-edge)" stroke-width="8" clip-path="url(#approval-person-paper-clip)" />
+    <use href="#approval-person-paper" fill="none" stroke="#050b1d" stroke-width="4" />
+    <path d="M77 207 Q84 202 94 207 M95 194 L97 203" fill="none" stroke="#162b43" stroke-width="2" clip-path="url(#approval-person-arm-seam-clip)" />
+    <g id="approval-person-approval-seal" fill="none" stroke="#c53630" stroke-linecap="round" stroke-linejoin="round" aria-label="認" transform="rotate(10 158 209)">
+      <circle cx="158" cy="209" r="18" stroke-width="3.8" />
+      <path id="approval-person-seal-gonben" d="M148 198 L152 199 M145 202 H154.5 M146 205 H154 M146 208 H154 M146.5 211 H154 V219 H146.5Z" stroke-width="2.8" />
+      <path id="approval-person-seal-nin" d="M158 198 H169 L168 207 Q168 209 164.5 207 M162.5 198 Q162.5 204 157 208 M158 202 L163 205 M157.5 214 L156.8 217.5 M160 212 V218 Q160 220 162.5 220 H167 Q169 220 169 217 M163 211 L165.5 214 M169 212 L171 217" stroke-width="2.8" />
+    </g>
+    <use href="#approval-person-hand" fill="url(#approval-person-skin)" />
+    <path d="M 117 207.5 Q 112 205 107 207" fill="none" stroke="#ffe2b3" stroke-width="1.5" stroke-linecap="round" clip-path="url(#approval-person-hand-clip)" />
+    <path id="approval-person-hand-finger-creases" d="M 117 215 Q 113 216 109 214.5" fill="none" stroke="#ba855a" stroke-width="1.4" stroke-linecap="round" clip-path="url(#approval-person-hand-clip)" stroke-linejoin="round" />
+    <use href="#approval-person-hand" fill="none" stroke="#050b1d" stroke-width="2.8" />
+    <g id="approval-person-hand-right">
+      <path id="approval-person-supporting-fingers" d="M198 204 C193 204 190 207.5 190 211.5 C190 214 193 214.7 192.5 216 C191.5 217.5 190.5 219.5 191 223 C191.5 227 192.5 231 195.5 232.5 Q198.5 234 201.5 232.5 C204.5 231 205.5 227 205.5 222 Q205.8 215 204.5 209 Q203.5 204 198 204Z" fill="url(#approval-person-skin)" />
+      <path d="M194 208.5 Q197 207 200 208" fill="none" stroke="#ffe2b3" stroke-width="1.5" clip-path="url(#approval-person-supporting-fingers-clip)" />
+      <path id="approval-person-hand-finger-creases-right" d="M193 215 Q197 216 200 214.5" fill="none" stroke="#ba855a" stroke-width="1.4" />
+      <path fill="none" stroke="#050b1d" stroke-width="2.8" d="M198 204 C193 204 190 207.5 190 211.5 C190 214 193 214.7 192.5 216 C191.5 217.5 190.5 219.5 191 223 C191.5 227 192.5 231 195.5 232.5 Q198.5 234 201.5 232.5 C204.5 231 205.5 227 205.5 222 Q205.8 215 204.5 209 Q203.5 204 198 204Z" />
+    </g>
+  </g>
+</svg>

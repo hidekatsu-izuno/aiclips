@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="form-screen-title">
+  <title id="form-screen-title">フォーム画面</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="form-screen-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="form-screen-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="form-screen-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="form-screen-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <rect id="form-screen-body" x="58" y="66" width="172" height="155" rx="19" />
+    <clipPath id="form-screen-body-clip">
+      <use href="#form-screen-body" />
+    </clipPath>
+    <path id="form-screen-header" d="M77 66 H211 A19 19 0 0 1 230 85 V106 H58 V85 A19 19 0 0 1 77 66 Z" />
+    <clipPath id="form-screen-header-clip">
+      <use href="#form-screen-header" />
+    </clipPath>
+    <rect id="form-screen-button" x="129" y="177" width="80" height="25" rx="6" />
+    <linearGradient id="form-screen-dot-0-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb8bb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff5359" stop-opacity="1" />
+      <stop offset="1" stop-color="#ff5359" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="form-screen-dot-1-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff292" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ffc400" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc400" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="form-screen-dot-2-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#a9ffd0" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#29d96d" stop-opacity="1" />
+      <stop offset="1" stop-color="#29d96d" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#form-screen-body" fill="url(#form-screen-white)" />
+    <use href="#form-screen-body" fill="none" stroke="url(#form-screen-white-edge)" stroke-width="14" clip-path="url(#form-screen-body-clip)" />
+    <use href="#form-screen-header" fill="url(#form-screen-blue)" />
+    <path d="M58 106 V85 A19 19 0 0 1 77 66 H211 A19 19 0 0 1 230 85 V106" fill="none" stroke="url(#form-screen-blue-edge)" stroke-width="15" clip-path="url(#form-screen-header-clip)" />
+    <path d="M58 106 H230" fill="none" stroke="#27475f" stroke-width="1.5" />
+    <g transform="translate(3 0)">
+      <circle cx="78" cy="91" r="7.5" fill="url(#form-screen-dot-0-paint)" stroke="#050b1d" stroke-width="1.8" />
+      <path d="M74.5 91.5 A4.5 4.5 0 0 1 79 87" fill="none" stroke="#ffb8bb" stroke-width="2.2" />
+      <circle cx="100" cy="91" r="7.5" fill="url(#form-screen-dot-1-paint)" stroke="#050b1d" stroke-width="1.8" />
+      <path d="M96.5 91.5 A4.5 4.5 0 0 1 101 87" fill="none" stroke="#fff292" stroke-width="2.2" />
+      <circle cx="122" cy="91" r="7.5" fill="url(#form-screen-dot-2-paint)" stroke="#050b1d" stroke-width="1.8" />
+      <path d="M118.5 91.5 A4.5 4.5 0 0 1 123 87" fill="none" stroke="#a9ffd0" stroke-width="2.2" />
+    </g>
+    <path d="M80 125 H110" fill="none" stroke="#a4b3c2" stroke-width="9" />
+    <path d="M80 156 H110" fill="none" stroke="#a4b3c2" stroke-width="9" />
+    <path d="M80 187 H110" fill="none" stroke="#a4b3c2" stroke-width="9" />
+    <rect x="129" y="115" width="80" height="21" rx="5" fill="#ffffff" stroke="#a5b4c3" stroke-width="3" />
+    <rect x="129" y="146" width="80" height="21" rx="5" fill="#ffffff" stroke="#a5b4c3" stroke-width="3" />
+    <path d="M190 153 H202 L196 159 Z" fill="#9cabbc" />
+    <use href="#form-screen-button" fill="#009ff3" stroke="#146cb8" stroke-width="2" />
+    <use href="#form-screen-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

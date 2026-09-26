@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="shipping-carton-title">
+  <title id="shipping-carton-title">梱包箱</title>
+  <desc>Editable carton built from three consistent edge directions, shared face vertices and tape aligned to the top and front faces.</desc>
+  <defs>
+    <linearGradient id="shipping-carton-tape-top-paint" gradientUnits="userSpaceOnUse" x1="174" y1="74" x2="120" y2="111">
+      <stop offset="0" stop-color="#dba14e" />
+      <stop offset="1" stop-color="#d19a48" />
+    </linearGradient>
+    <linearGradient id="shipping-carton-top" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#ffe4a1" />
+      <stop offset="1" stop-color="#ffd080" />
+    </linearGradient>
+    <linearGradient id="shipping-carton-carton" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffdb8c" />
+      <stop offset="0.5" stop-color="#f9bb60" />
+      <stop offset="1.0" stop-color="#efa448" />
+    </linearGradient>
+    <linearGradient id="shipping-carton-carton-side" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d5933f" />
+      <stop offset="0.5" stop-color="#c18030" />
+      <stop offset="1.0" stop-color="#ad6d28" />
+    </linearGradient>
+    <linearGradient id="shipping-carton-tape" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dba14e" />
+      <stop offset="0.5" stop-color="#c48937" />
+      <stop offset="1.0" stop-color="#b57629" />
+    </linearGradient>
+    <path id="shipping-carton-top-face" d="M66 106 L120 69 L229 79 L175 116 Z" />
+    <path id="shipping-carton-shape1" d="M66 106 L120 69 L229 79 V183 L175 220 L66 210 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#shipping-carton-shape1" fill="url(#shipping-carton-carton)" />
+    <use href="#shipping-carton-top-face" fill="url(#shipping-carton-top)" />
+    <path d="M175 116 L229 79 V183 L175 220 Z" fill="url(#shipping-carton-carton-side)" stroke="none" stroke-width="0" />
+    <path id="shipping-carton-highlight-edges" d="M69.5 107.844624 L175 116 L225.5 82.193598 M175 116 V220" fill="none" stroke="#ffe6ac" stroke-width="5" stroke-linejoin="round" stroke-linecap="butt" />
+    <path d="M108 110.820756 L162 72.853211 L187 75.146789 L133 112.753310 V144.146789 L108 141.853211 Z" fill="url(#shipping-carton-tape)" />
+    <path id="shipping-carton-tape-top" d="M108 110.820756 L162 72.853211 L187 75.146789 L133 112.753310 Z" fill="url(#shipping-carton-tape-top-paint)" />
+    <path id="shipping-carton-tape-front" d="M108 110.820756 L133 112.753310 V144.146789 L108 141.853211 Z" fill="url(#shipping-carton-tape)" />
+    <path d="M66 106 L120 69 L229 79 V183 L175 220 L66 210 Z" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

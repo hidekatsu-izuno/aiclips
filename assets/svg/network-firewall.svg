@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="network-firewall-title">
+  <title id="network-firewall-title">ファイアーウォール</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="network-firewall-red" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff656a" stop-opacity="1" />
+      <stop offset="1" stop-color="#ef2634" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-firewall-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb2b5" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff666e" stop-opacity="1" />
+      <stop offset="1" stop-color="#be1425" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-firewall-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-firewall-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <rect id="network-firewall-wall" x="67" y="64" width="143" height="154" rx="13" />
+    <rect id="network-firewall-brick-0-0" x="72" y="69" width="44" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-0-0-clip">
+      <use href="#network-firewall-brick-0-0" />
+    </clipPath>
+    <rect id="network-firewall-brick-0-1" x="123" y="69" width="36" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-0-1-clip">
+      <use href="#network-firewall-brick-0-1" />
+    </clipPath>
+    <rect id="network-firewall-brick-0-2" x="166" y="69" width="39" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-0-2-clip">
+      <use href="#network-firewall-brick-0-2" />
+    </clipPath>
+    <rect id="network-firewall-brick-1-0" x="72" y="98" width="20" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-1-0-clip">
+      <use href="#network-firewall-brick-1-0" />
+    </clipPath>
+    <rect id="network-firewall-brick-1-1" x="99" y="98" width="42" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-1-1-clip">
+      <use href="#network-firewall-brick-1-1" />
+    </clipPath>
+    <rect id="network-firewall-brick-1-2" x="148" y="98" width="57" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-1-2-clip">
+      <use href="#network-firewall-brick-1-2" />
+    </clipPath>
+    <rect id="network-firewall-brick-2-0" x="72" y="127" width="44" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-2-0-clip">
+      <use href="#network-firewall-brick-2-0" />
+    </clipPath>
+    <rect id="network-firewall-brick-2-1" x="123" y="127" width="36" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-2-1-clip">
+      <use href="#network-firewall-brick-2-1" />
+    </clipPath>
+    <rect id="network-firewall-brick-2-2" x="166" y="127" width="39" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-2-2-clip">
+      <use href="#network-firewall-brick-2-2" />
+    </clipPath>
+    <rect id="network-firewall-brick-3-0" x="72" y="156" width="20" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-3-0-clip">
+      <use href="#network-firewall-brick-3-0" />
+    </clipPath>
+    <rect id="network-firewall-brick-3-1" x="99" y="156" width="42" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-3-1-clip">
+      <use href="#network-firewall-brick-3-1" />
+    </clipPath>
+    <rect id="network-firewall-brick-3-2" x="148" y="156" width="57" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-3-2-clip">
+      <use href="#network-firewall-brick-3-2" />
+    </clipPath>
+    <rect id="network-firewall-brick-4-0" x="72" y="185" width="44" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-4-0-clip">
+      <use href="#network-firewall-brick-4-0" />
+    </clipPath>
+    <rect id="network-firewall-brick-4-1" x="123" y="185" width="36" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-4-1-clip">
+      <use href="#network-firewall-brick-4-1" />
+    </clipPath>
+    <rect id="network-firewall-brick-4-2" x="166" y="185" width="39" height="23" rx="2" />
+    <clipPath id="network-firewall-brick-4-2-clip">
+      <use href="#network-firewall-brick-4-2" />
+    </clipPath>
+    <path id="network-firewall-shield" d="M176 119 Q193 131 217 135 V169 Q217 207 176 225 Q135 207 135 169 V135 Q159 131 176 119 Z" />
+    <clipPath id="network-firewall-shield-clip">
+      <use href="#network-firewall-shield" />
+    </clipPath>
+    <path id="network-firewall-flame" d="M160 194 C148 184 149 168 159 159 Q162 165 167 157 L174 144 Q176 140 180 145 Q190 154 190 167 L196 160 Q204 182 192 194 Q176 208 160 194 Z" />
+    <clipPath id="network-firewall-flame-clip">
+      <use href="#network-firewall-flame" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#network-firewall-wall" fill="#050b1d" />
+    <use href="#network-firewall-brick-0-0" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-0-0" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-0-0-clip)" />
+    <use href="#network-firewall-brick-0-1" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-0-1" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-0-1-clip)" />
+    <use href="#network-firewall-brick-0-2" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-0-2" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-0-2-clip)" />
+    <use href="#network-firewall-brick-1-0" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-1-0" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-1-0-clip)" />
+    <use href="#network-firewall-brick-1-1" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-1-1" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-1-1-clip)" />
+    <use href="#network-firewall-brick-1-2" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-1-2" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-1-2-clip)" />
+    <use href="#network-firewall-brick-2-0" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-2-0" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-2-0-clip)" />
+    <use href="#network-firewall-brick-2-1" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-2-1" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-2-1-clip)" />
+    <use href="#network-firewall-brick-2-2" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-2-2" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-2-2-clip)" />
+    <use href="#network-firewall-brick-3-0" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-3-0" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-3-0-clip)" />
+    <use href="#network-firewall-brick-3-1" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-3-1" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-3-1-clip)" />
+    <use href="#network-firewall-brick-3-2" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-3-2" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-3-2-clip)" />
+    <use href="#network-firewall-brick-4-0" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-4-0" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-4-0-clip)" />
+    <use href="#network-firewall-brick-4-1" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-4-1" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-4-1-clip)" />
+    <use href="#network-firewall-brick-4-2" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-brick-4-2" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="6" clip-path="url(#network-firewall-brick-4-2-clip)" />
+    <use href="#network-firewall-wall" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#network-firewall-shield" fill="url(#network-firewall-gold)" />
+    <path d="M209 134 H219 V181 Q207 213 176 225 V213 Q207 195 209 169 Z" fill="#e5a00a" clip-path="url(#network-firewall-shield-clip)" />
+    <use href="#network-firewall-shield" fill="none" stroke="url(#network-firewall-gold-edge)" stroke-width="14" clip-path="url(#network-firewall-shield-clip)" />
+    <use href="#network-firewall-shield" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#network-firewall-flame" fill="url(#network-firewall-red)" />
+    <use href="#network-firewall-flame" fill="none" stroke="url(#network-firewall-red-edge)" stroke-width="5" clip-path="url(#network-firewall-flame-clip)" />
+    <use href="#network-firewall-flame" fill="none" stroke="#050b1d" stroke-width="1.5" />
+    <path d="M168 193 Q157 184 164 173 Q171 180 171 171 Q175 159 178 167 L181 180 Q187 171 189 180 Q192 191 181 197 Q174 200 168 193 Z" fill="#ffdf35" stroke="#fff186" stroke-width="1.2" />
+  </g>
+</svg>

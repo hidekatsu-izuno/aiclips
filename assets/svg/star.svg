@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="star-title">
+  <title id="star-title">星</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <path id="star-shape1" d="M135.6425 79.9422 Q144.0000 64.0000 152.3575 79.9422 L166.0246 106.0125 Q169.2748 112.2123 176.1754 113.3875 L205.1932 118.3295 Q222.9377 121.3516 210.3584 134.2264 L189.7874 155.2808 Q184.8954 160.2877 185.9101 167.2138 L190.1770 196.3385 Q192.7862 214.1484 176.6543 206.1634 L150.2735 193.1053 Q144.0000 190.0000 137.7265 193.1053 L111.3457 206.1634 Q95.2138 214.1484 97.8230 196.3385 L102.0899 167.2138 Q103.1046 160.2877 98.2126 155.2808 L77.6416 134.2264 Q65.0623 121.3516 82.8068 118.3295 L111.8246 113.3875 Q118.7252 112.2123 121.9754 106.0125 Z" />
+    <clipPath id="star-shape1-clip">
+      <use href="#star-shape1" />
+    </clipPath>
+    <linearGradient id="star-gold" gradientUnits="userSpaceOnUse" x1="115" y1="91" x2="177" y2="215">
+      <stop offset="0" stop-color="#ffdc27" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ffd51c" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffce13" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="star-bevel" gradientUnits="userSpaceOnUse" x1="83" y1="103" x2="203" y2="210">
+      <stop offset="0" stop-color="#fff18a" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#ffe651" stop-opacity="1" />
+      <stop offset="0.64" stop-color="#ffd428" stop-opacity="1" />
+      <stop offset="1" stop-color="#eeb208" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="star-recess-shadow" gradientUnits="userSpaceOnUse" x1="125" y1="120" x2="174" y2="218">
+      <stop offset="0" stop-color="#eaa800" stop-opacity="0" />
+      <stop offset="0.35" stop-color="#eaa800" stop-opacity="0.1" />
+      <stop offset="1" stop-color="#dba000" stop-opacity="0.65" />
+    </linearGradient>
+    <linearGradient id="star-upper-reflection" gradientUnits="userSpaceOnUse" x1="110" y1="93" x2="129" y2="140">
+      <stop offset="0" stop-color="#fff49a" stop-opacity="0.9" />
+      <stop offset="0.55" stop-color="#ffed75" stop-opacity="0.75" />
+      <stop offset="1" stop-color="#ffe44d" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="star-left-edge-light" gradientUnits="userSpaceOnUse" x1="76" y1="121" x2="120" y2="210">
+      <stop offset="0" stop-color="#fff7ab" stop-opacity="0.8" />
+      <stop offset="0.55" stop-color="#ffe85d" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#ffe04b" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#star-shape1" fill="url(#star-gold)" />
+    <use href="#star-shape1" fill="none" stroke="url(#star-bevel)" stroke-width="21" clip-path="url(#star-shape1-clip)" />
+    <use href="#star-shape1" fill="none" stroke="url(#star-recess-shadow)" stroke-width="19" clip-path="url(#star-shape1-clip)" />
+    <path id="star-upper-left-highlight" d="M77 123 L113 117 Q122 116 126 105 L141 78 Q147 74 144 91 L138 113 Q135 125 124 129 Q115 134 103 130 L82 130 Q75 130 77 123 Z" fill="url(#star-upper-reflection)" clip-path="url(#star-shape1-clip)" />
+    <path d="M72 123 L99 152 Q105 158 102 167 L96 204" fill="none" stroke="url(#star-left-edge-light)" stroke-width="4" clip-path="url(#star-shape1-clip)" />
+    <use href="#star-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

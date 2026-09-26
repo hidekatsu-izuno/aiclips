@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="laptop-open-title">
+  <title id="laptop-open-title">ノートPC</title>
+  <desc>Editable geometry, exact symmetry where applicable, shared component boundaries and gradient-only inset bevels. No raster images, text rendering or blur filters.</desc>
+  <defs>
+    <linearGradient id="laptop-open-frame-paint" gradientUnits="userSpaceOnUse" x1="77" y1="69" x2="214" y2="166">
+      <stop offset="0" stop-color="#8399ae" />
+      <stop offset="0.2" stop-color="#526c85" />
+      <stop offset="0.65" stop-color="#324c63" />
+      <stop offset="1" stop-color="#58758b" />
+    </linearGradient>
+    <linearGradient id="laptop-open-screen-paint" gradientUnits="userSpaceOnUse" x1="82" y1="86" x2="208" y2="162">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="laptop-open-glass-paint" gradientUnits="userSpaceOnUse" x1="90" y1="86" x2="163" y2="145">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="laptop-open-deck-paint" gradientUnits="userSpaceOnUse" x1="130" y1="174.576923" x2="154" y2="218.000000">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.7" stop-color="#f5f7f9" />
+      <stop offset="1" stop-color="#dce3e8" />
+    </linearGradient>
+    <linearGradient id="laptop-open-keys-paint" gradientUnits="userSpaceOnUse" x1="106" y1="177.569230" x2="161" y2="202.169230">
+      <stop offset="0" stop-color="#667f96" />
+      <stop offset="0.6" stop-color="#506880" />
+      <stop offset="1" stop-color="#859aaa" />
+    </linearGradient>
+    <linearGradient id="laptop-open-rim-paint" gradientUnits="userSpaceOnUse" x1="100" y1="67" x2="152" y2="162">
+      <stop offset="0" stop-color="#b9c9d8" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#9cb6cb" stop-opacity="0" />
+    </linearGradient>
+    <path id="laptop-open-screen-frame" d="M85 65 H207 C216 65 224 72 224 82 V173 H68 V82 C68 72 76 65 85 65 Z" />
+    <path id="laptop-open-screen" d="M84 78 H208 Q214 78 214 84 V161 Q214 165 210 165 H82 Q78 165 78 161 V84 Q78 78 84 78 Z" />
+    <clipPath id="laptop-open-screen-clip">
+      <use href="#laptop-open-screen" />
+    </clipPath>
+    <path id="laptop-open-deck" d="M68 173 H224 L238 204.538462 C242 214 236 221 230 221 H62 C56 221 50 214 54 204.538462 Z" />
+    <path id="laptop-open-keyboard" d="M80.630355 177.569230 L211.369645 177.569230 L218.917170 198.384615 L73.082830 198.384615 Z" />
+    <linearGradient id="laptop-open-front-face" gradientUnits="userSpaceOnUse" x1="146" y1="214" x2="146" y2="221">
+      <stop offset="0" stop-color="#b1bfcc" />
+      <stop offset="0.4" stop-color="#8fa2b4" />
+      <stop offset="1" stop-color="#536e85" />
+    </linearGradient>
+    <linearGradient id="laptop-open-key-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#879bac" />
+      <stop offset="1" stop-color="#72899e" />
+    </linearGradient>
+    <path id="laptop-open-deck-top" d="M68 173 H224 L238 204.538462 C240 209.269231 236 214 230 214 H62 C56 214 52 209.269231 54 204.538462 Z" />
+    <path id="laptop-open-trackpad" d="M125 201.384615 H167 Q168 201.384615 168.2 202.961538 L169.104857 210.057692 Q169.204857 211.634615 168.104857 211.634615 H123.895143 Q122.795143 211.634615 122.895143 210.057692 L123.8 202.961538 Q124 201.384615 125 201.384615 Z" />
+    <linearGradient id="laptop-open-trackpad-paint" gradientUnits="userSpaceOnUse" x1="146" y1="201.384615" x2="146" y2="211.634615">
+      <stop offset="0" stop-color="#94a8b9" />
+      <stop offset="1" stop-color="#bac8d2" />
+    </linearGradient>
+    <linearGradient id="laptop-open-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="159" y1="103" x2="214" y2="165">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#laptop-open-screen-frame" fill="url(#laptop-open-frame-paint)" />
+    <path d="M74 169 V83 Q74 71 86 71 H206 Q218 71 218 83 V169" fill="none" stroke="url(#laptop-open-rim-paint)" stroke-width="2" />
+    <path d="M68 173 V82 C68 72 76 65 85 65 H207 C216 65 224 72 224 82 V173" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#laptop-open-screen" fill="url(#laptop-open-screen-paint)" />
+    <path d="M78 78 H167 L78 166 Z" fill="url(#laptop-open-glass-paint)" clip-path="url(#laptop-open-screen-clip)" />
+    <path id="laptop-open-screen-shadow" d="M194 78 H214 V165 H105 Z" fill="url(#laptop-open-screen-shadow-paint)" clip-path="url(#laptop-open-screen-clip)" />
+    <use href="#laptop-open-screen" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#laptop-open-deck" fill="url(#laptop-open-front-face)" />
+    <use href="#laptop-open-deck-top" fill="url(#laptop-open-deck-paint)" />
+    <use href="#laptop-open-keyboard" fill="url(#laptop-open-keys-paint)" />
+    <g data-key="0-0">
+      <path d="M79.234540 183.435385 L91.271446 183.435385 L91.210284 184.665385 L79.159926 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M81.033109 178.420770 L92.745758 178.420770 L91.271446 183.435385 L79.234540 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-1">
+      <path d="M92.733874 183.435385 L104.770782 183.435385 L104.724706 184.665385 L92.674347 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M94.168790 178.420770 L105.881439 178.420770 L104.770782 183.435385 L92.733874 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-2">
+      <path d="M106.233209 183.435385 L118.270116 183.435385 L118.239127 184.665385 L106.188768 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M107.304472 178.420770 L119.017121 178.420770 L118.270116 183.435385 L106.233209 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-3">
+      <path d="M119.732544 183.435385 L131.769451 183.435385 L131.753548 184.665385 L119.703189 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M120.440153 178.420770 L132.152803 178.420770 L131.769451 183.435385 L119.732544 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-4">
+      <path d="M133.231879 183.435385 L145.268786 183.435385 L145.267969 184.665385 L133.217610 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M133.575835 178.420770 L145.288484 178.420770 L145.268786 183.435385 L133.231879 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-5">
+      <path d="M146.731214 183.435385 L158.768121 183.435385 L158.782390 184.665385 L146.732031 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M146.711516 178.420770 L158.424165 178.420770 L158.768121 183.435385 L146.731214 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-6">
+      <path d="M160.230549 183.435385 L172.267456 183.435385 L172.296811 184.665385 L160.246452 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M159.847197 178.420770 L171.559847 178.420770 L172.267456 183.435385 L160.230549 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-7">
+      <path d="M173.729884 183.435385 L185.766791 183.435385 L185.811232 184.665385 L173.760873 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M172.982879 178.420770 L184.695528 178.420770 L185.766791 183.435385 L173.729884 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-8">
+      <path d="M187.229218 183.435385 L199.266126 183.435385 L199.325653 184.665385 L187.275294 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M186.118561 178.420770 L197.831210 178.420770 L199.266126 183.435385 L187.229218 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="0-9">
+      <path d="M200.728554 183.435385 L212.765460 183.435385 L212.840074 184.665385 L200.789716 184.665385 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M199.254242 178.420770 L210.966891 178.420770 L212.765460 183.435385 L200.728554 183.435385 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-0">
+      <path d="M76.723330 190.436923 L89.212973 190.436923 L89.153653 191.666923 L76.650963 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M78.623705 185.138462 L90.770737 185.138462 L89.212973 190.436923 L76.723330 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-1">
+      <path d="M90.730406 190.436923 L103.220051 190.436923 L103.175363 191.666923 L90.672671 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M92.246544 185.138462 L104.393576 185.138462 L103.220051 190.436923 L90.730406 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-2">
+      <path d="M104.737484 190.436923 L117.227129 190.436923 L117.197072 191.666923 L104.694381 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M105.869384 185.138462 L118.016416 185.138462 L117.227129 190.436923 L104.737484 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-3">
+      <path d="M118.744562 190.436923 L131.234206 190.436923 L131.218781 191.666923 L118.716091 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M119.492224 185.138462 L131.639257 185.138462 L131.234206 190.436923 L118.744562 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-4">
+      <path d="M132.751639 190.436923 L145.241283 190.436923 L145.240491 191.666923 L132.737799 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M133.115064 185.138462 L145.262096 185.138462 L145.241283 190.436923 L132.751639 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-5">
+      <path d="M146.758717 190.436923 L159.248361 190.436923 L159.262201 191.666923 L146.759509 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M146.737904 185.138462 L158.884936 185.138462 L159.248361 190.436923 L146.758717 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-6">
+      <path d="M160.765794 190.436923 L173.255438 190.436923 L173.283909 191.666923 L160.781219 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M160.360743 185.138462 L172.507776 185.138462 L173.255438 190.436923 L160.765794 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-7">
+      <path d="M174.772871 190.436923 L187.262516 190.436923 L187.305619 191.666923 L174.802928 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M173.983584 185.138462 L186.130616 185.138462 L187.262516 190.436923 L174.772871 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-8">
+      <path d="M188.779949 190.436923 L201.269594 190.436923 L201.327329 191.666923 L188.824637 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M187.606424 185.138462 L199.753456 185.138462 L201.269594 190.436923 L188.779949 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="1-9">
+      <path d="M202.787027 190.436923 L215.276670 190.436923 L215.349037 191.666923 L202.846347 191.666923 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M201.229263 185.138462 L213.376295 185.138462 L215.276670 190.436923 L202.787027 190.436923 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-0">
+      <path d="M74.212119 197.438462 L87.154500 197.438462 L87.096914 198.668462 L74.141868 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M76.112494 192.140000 L88.712264 192.140000 L87.154500 197.438462 L74.212119 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-1">
+      <path d="M88.726939 197.438462 L101.669320 197.438462 L101.625938 198.668462 L88.670892 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M90.243077 192.140000 L102.842846 192.140000 L101.669320 197.438462 L88.726939 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-2">
+      <path d="M103.241759 197.438462 L116.184140 197.438462 L116.154962 198.668462 L103.199916 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M104.373659 192.140000 L116.973429 192.140000 L116.184140 197.438462 L103.241759 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-3">
+      <path d="M117.756579 197.438462 L130.698960 197.438462 L130.683986 198.668462 L117.728940 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M118.504242 192.140000 L131.104011 192.140000 L130.698960 197.438462 L117.756579 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-4">
+      <path d="M132.271399 197.438462 L145.213781 197.438462 L145.213012 198.668462 L132.257964 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M132.634824 192.140000 L145.234594 192.140000 L145.213781 197.438462 L132.271399 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-5">
+      <path d="M146.786219 197.438462 L159.728601 197.438462 L159.742036 198.668462 L146.786988 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M146.765406 192.140000 L159.365176 192.140000 L159.728601 197.438462 L146.786219 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-6">
+      <path d="M161.301040 197.438462 L174.243421 197.438462 L174.271060 198.668462 L161.316014 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M160.895989 192.140000 L173.495758 192.140000 L174.243421 197.438462 L161.301040 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-7">
+      <path d="M175.815860 197.438462 L188.758241 197.438462 L188.800084 198.668462 L175.845038 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M175.026571 192.140000 L187.626341 192.140000 L188.758241 197.438462 L175.815860 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-8">
+      <path d="M190.330680 197.438462 L203.273061 197.438462 L203.329108 198.668462 L190.374062 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M189.157154 192.140000 L201.756923 192.140000 L203.273061 197.438462 L190.330680 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g data-key="2-9">
+      <path d="M204.845500 197.438462 L217.787881 197.438462 L217.858132 198.668462 L204.903086 198.668462 Z" fill="#3e566d" data-face="front-shadow" />
+      <path d="M203.287736 192.140000 L215.887506 192.140000 L217.787881 197.438462 L204.845500 197.438462 Z" fill="url(#laptop-open-key-face)" stroke="#60798e" stroke-width=".25" data-face="top" />
+    </g>
+    <g id="laptop-open-trackpad-recess">
+      <use href="#laptop-open-trackpad" fill="url(#laptop-open-trackpad-paint)" stroke="#8da1b3" stroke-width=".6" />
+      <path d="M124 202.330769 Q124.4 201.384615 125 201.384615 H167 Q167.6 201.384615 168 202.330769" fill="none" stroke="#536e86" stroke-width=".8" />
+      <path d="M123.895143 211.634615 H168.104857" fill="none" stroke="#dbe5ed" stroke-width=".65" />
+    </g>
+    <path d="M68 173 L54 204.538462 C50 214 56 221 62 221 H230 C236 221 242 214 238 204.538462 L224 173" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M68 173 H224" fill="none" stroke="#050b1d" stroke-width="2.5" id="laptop-open-hinge-line" />
+  </g>
+</svg>

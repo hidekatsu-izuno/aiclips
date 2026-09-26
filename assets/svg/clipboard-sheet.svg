@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="clipboard-sheet-title">
+  <title id="clipboard-sheet-title">クリップボード</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="clipboard-sheet-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-board-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7f8d9c" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#485564" stop-opacity="1" />
+      <stop offset="1" stop-color="#364353" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-board-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d1dce8" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#8396ac" stop-opacity="1" />
+      <stop offset="1" stop-color="#263749" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clipboard-sheet-check" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#6aed9d" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#19c768" stop-opacity="1" />
+      <stop offset="1" stop-color="#069144" stop-opacity="1" />
+    </linearGradient>
+    <rect id="clipboard-sheet-board" x="68" y="74" width="148" height="166" rx="18" />
+    <clipPath id="clipboard-sheet-board-clip">
+      <use href="#clipboard-sheet-board" />
+    </clipPath>
+    <rect id="clipboard-sheet-paper" x="83" y="90" width="118" height="135" rx="8" />
+    <clipPath id="clipboard-sheet-paper-clip">
+      <use href="#clipboard-sheet-paper" />
+    </clipPath>
+    <path id="clipboard-sheet-clip" d="M122 73 V69 A20 20 0 0 1 162 69 V73 H172 Q177 73 177 78 V97 Q177 103 171 103 H113 Q107 103 107 97 V78 Q107 73 112 73 Z" />
+    <clipPath id="clipboard-sheet-clip-clip">
+      <use href="#clipboard-sheet-clip" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#clipboard-sheet-board" fill="url(#clipboard-sheet-board-paint)" />
+    <use href="#clipboard-sheet-board" fill="none" stroke="url(#clipboard-sheet-board-edge)" stroke-width="17" clip-path="url(#clipboard-sheet-board-clip)" />
+    <use href="#clipboard-sheet-board" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#clipboard-sheet-paper" fill="url(#clipboard-sheet-white)" />
+    <use href="#clipboard-sheet-paper" fill="none" stroke="url(#clipboard-sheet-white-edge)" stroke-width="6" clip-path="url(#clipboard-sheet-paper-clip)" />
+    <use href="#clipboard-sheet-paper" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#clipboard-sheet-clip" fill="url(#clipboard-sheet-blue)" />
+    <use href="#clipboard-sheet-clip" fill="none" stroke="url(#clipboard-sheet-blue-edge)" stroke-width="11" clip-path="url(#clipboard-sheet-clip-clip)" />
+    <use href="#clipboard-sheet-clip" fill="none" stroke="#050b1d" stroke-width="6" />
+    <circle cx="142" cy="70" r="5" fill="#050b1d" />
+    <path d="M100 126 L110 135 L125 119" fill="none" stroke="#08321f" stroke-width="11" />
+    <path d="M100 126 L110 135 L125 119" fill="none" stroke="url(#clipboard-sheet-check)" stroke-width="7.5" />
+    <rect x="139" y="123" width="46" height="12" rx="6" fill="#b1bfcd" />
+    <path d="M100 158 L110 167 L125 151" fill="none" stroke="#08321f" stroke-width="11" />
+    <path d="M100 158 L110 167 L125 151" fill="none" stroke="url(#clipboard-sheet-check)" stroke-width="7.5" />
+    <rect x="139" y="155" width="46" height="12" rx="6" fill="#b1bfcd" />
+    <path d="M100 190 L110 199 L125 183" fill="none" stroke="#08321f" stroke-width="11" />
+    <path d="M100 190 L110 199 L125 183" fill="none" stroke="url(#clipboard-sheet-check)" stroke-width="7.5" />
+    <rect x="139" y="187" width="46" height="12" rx="6" fill="#b1bfcd" />
+  </g>
+</svg>

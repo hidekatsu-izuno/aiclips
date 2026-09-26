@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="measurement-ruler-title">
+  <title id="measurement-ruler-title">定規</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="measurement-ruler-gold" gradientUnits="userSpaceOnUse" x1="91" y1="113" x2="164" y2="174">
+      <stop stop-color="#ffdb12"/><stop offset=".55" stop-color="#ffd209"/><stop offset="1" stop-color="#ffcb00"/>
+    </linearGradient>
+    <linearGradient id="measurement-ruler-paper" gradientUnits="userSpaceOnUse" x1="73" y1="147" x2="85" y2="155">
+      <stop stop-color="#f4fbff"/><stop offset=".48" stop-color="#dcebf8"/><stop offset=".65" stop-color="#adc5da"/><stop offset="1" stop-color="#7694b0"/>
+    </linearGradient>
+    <rect id="measurement-ruler-shape1" x="59" y="112" width="173" height="62" rx="7" />
+    <clipPath id="measurement-ruler-shape1-clip">
+      <use href="#measurement-ruler-shape1" />
+    </clipPath>
+    <circle id="measurement-ruler-shape2" cx="78" cy="151" r="8" />
+    <clipPath id="measurement-ruler-shape2-clip">
+      <use href="#measurement-ruler-shape2" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-30 144 144)">
+      <use href="#measurement-ruler-shape1" fill="url(#measurement-ruler-gold)" />
+      <g clip-path="url(#measurement-ruler-shape1-clip)">
+        <path d="M227 115 V165 Q227 169 222 169 H66" fill="none" stroke="#eea500" stroke-width="7" opacity=".6"/>
+        <path d="M226 116 H67 Q63 116 63 120 V165 Q63 169 67 170" fill="none" stroke="#fff28c" stroke-width="3"/>
+      </g>
+      <use href="#measurement-ruler-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#measurement-ruler-shape2" fill="url(#measurement-ruler-paper)" />
+      <path d="M71 152 A8 8 0 0 0 85 155" fill="none" stroke="#fff084" stroke-width="2"/>
+      <path d="M73 151 Q73 146 78 146" fill="none" stroke="#ffffff" stroke-width="1.5" clip-path="url(#measurement-ruler-shape2-clip)"/>
+      <use href="#measurement-ruler-shape2" fill="none" stroke="#050b1d" stroke-width="4" />
+      <path d="M77 113 V133" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M87 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M97 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M107 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M117 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M127 113 V133" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M137 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M147 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M157 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M167 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M177 113 V133" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M187 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M197 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M207 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+      <path d="M217 113 V128" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+    </g>
+  </g>
+</svg>

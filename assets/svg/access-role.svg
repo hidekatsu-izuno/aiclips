@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="access-role-title">
+  <title id="access-role-title">ロール（権限管理）</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="access-role-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="access-role-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="access-role-shape1" x="67" y="80" width="170" height="129" rx="21" />
+    <clipPath id="access-role-shape1-clip">
+      <use href="#access-role-shape1" />
+    </clipPath>
+    <linearGradient id="access-role-key-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-role-key-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <path id="access-role-key-body" d="M121.995023 134.695324 A51.5 51.5 0 1 1 145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80 Q71 217 71 208 V187 Z M194 109 A12 12 0 1 1 170 109 A12 12 0 1 1 194 109 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="access-role-key-body-clip">
+      <use href="#access-role-key-body" />
+    </clipPath>
+    <linearGradient id="access-role-key-contour-shadow" gradientUnits="userSpaceOnUse" x1="126" y1="100" x2="211" y2="167">
+      <stop offset="0" stop-color="#e9a300" stop-opacity="0" />
+      <stop offset=".4" stop-color="#e9a300" stop-opacity=".25" />
+      <stop offset="1" stop-color="#d79200" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-role-key-lower-shadow" gradientUnits="userSpaceOnUse" x1="0" y1="165" x2="0" y2="205">
+      <stop offset="0" stop-color="#d79200" stop-opacity="0" />
+      <stop offset="1" stop-color="#d79200" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-role-key-tip-edge" gradientUnits="userSpaceOnUse" x1="74" y1="208" x2="94" y2="217">
+      <stop offset="0" stop-color="#fff487" />
+      <stop offset="0.3" stop-color="#ffdf35" />
+      <stop offset="1" stop-color="#d79200" />
+    </linearGradient>
+    <linearGradient id="access-role-key-hole-edge" gradientUnits="userSpaceOnUse" x1="172" y1="99" x2="192" y2="119">
+      <stop offset="0" stop-color="#c48700" />
+      <stop offset="0.4" stop-color="#e6a500" />
+      <stop offset="0.6" stop-color="#ffdf35" />
+      <stop offset="1" stop-color="#fff487" />
+    </linearGradient>
+    <path id="access-role-key-outer-contour" d="M121.995023 134.695324 A51.5 51.5 0 1 1 145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80 Q71 217 71 208 V187 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" transform="translate(-7 0)">
+    <use href="#access-role-shape1" fill="url(#access-role-paper)" />
+    <use href="#access-role-shape1" fill="none" stroke="url(#access-role-silver-edge)" stroke-width="10" clip-path="url(#access-role-shape1-clip)" />
+    <use href="#access-role-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M92 112 H143 M92 140 H137 M92 167 H124" fill="none" stroke="#90a4b8" stroke-width="11" />
+    <g stroke-linecap="round" stroke-linejoin="round" transform="translate(122 94) scale(.4)">
+      <use href="#access-role-key-body" fill="url(#access-role-key-gold)" />
+      <use href="#access-role-key-body" fill="none" stroke="url(#access-role-key-gold-edge)" stroke-width="14" clip-path="url(#access-role-key-body-clip)" />
+      <use href="#access-role-key-outer-contour" fill="none" stroke="url(#access-role-key-contour-shadow)" stroke-width="24" clip-path="url(#access-role-key-body-clip)" />
+      <path d="M145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80" fill="none" stroke="url(#access-role-key-lower-shadow)" stroke-width="24" clip-path="url(#access-role-key-body-clip)" />
+      <path d="M71 187 V208 Q71 217 80 217 H102" fill="none" stroke="url(#access-role-key-tip-edge)" stroke-width="14" stroke-linecap="butt" clip-path="url(#access-role-key-body-clip)" />
+      <circle cx="182" cy="109" r="12" fill="none" stroke="url(#access-role-key-hole-edge)" stroke-width="14" clip-path="url(#access-role-key-body-clip)" />
+      <use href="#access-role-key-body" fill="none" stroke="#050b1d" stroke-width="12.5" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="warning-mark-title">
+  <title id="warning-mark-title">警告</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="warning-mark-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="warning-mark-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="warning-mark-metal-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8ba5bc" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4d6882" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a64" stop-opacity="1" />
+    </linearGradient>
+    <path id="warning-mark-body" d="M131 72 C137 63.5 148 63.5 154 72 L224 190 Q229 198 226 206 Q223 215 214 215 H71 Q62 215 59 206 Q56 198 61 190 Z" />
+    <clipPath id="warning-mark-body-clip">
+      <use href="#warning-mark-body" />
+    </clipPath>
+    <path id="warning-mark-mark" d="M132 121 Q131 110 142.5 110 Q154 110 153 121 L149.5 158 Q142.5 166 135.5 158 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#warning-mark-body" fill="url(#warning-mark-gold)" />
+    <use href="#warning-mark-body" fill="none" stroke="url(#warning-mark-gold-edge)" stroke-width="18" clip-path="url(#warning-mark-body-clip)" />
+    <use href="#warning-mark-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#warning-mark-mark" fill="url(#warning-mark-metal-paint)" stroke="#050b1d" stroke-width="3" />
+    <circle cx="142.5" cy="187" r="10" fill="url(#warning-mark-metal-paint)" stroke="#050b1d" stroke-width="3" />
+  </g>
+</svg>

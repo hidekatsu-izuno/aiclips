@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="seedling-title">
+  <title id="seedling-title">苗</title>
+  <desc>Two rounded green leaves, a slender stem and a small mound of soil, with directional highlights and shadows.</desc>
+  <defs>
+    <linearGradient id="seedling-leaf" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#9aef63" />
+      <stop offset=".5" stop-color="#54d94e" />
+      <stop offset="1" stop-color="#00b36b" />
+    </linearGradient>
+    <linearGradient id="seedling-soil" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#c8823b" />
+      <stop offset=".5" stop-color="#a65f2b" />
+      <stop offset="1" stop-color="#79401f" />
+    </linearGradient>
+    <path id="seedling-left" d="M139 143 C98 154 65 128 67 87 Q67 82 74 82 C111 75 142 94 141 130Z" />
+    <path id="seedling-right" d="M144 141 C140 96 169 70 215 77 Q220 77 219 83 C219 125 194 149 144 145Z" />
+    <path id="seedling-mound" d="M93 204 C101 183 118 175 140 175 C162 175 179 184 188 204 Q192 213 183 213 H98 Q89 213 93 204Z" />
+    <clipPath id="seedling-left-clip">
+      <use href="#seedling-left" />
+    </clipPath>
+    <clipPath id="seedling-right-clip">
+      <use href="#seedling-right" />
+    </clipPath>
+    <clipPath id="seedling-mound-clip">
+      <use href="#seedling-mound" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#seedling-mound" fill="url(#seedling-soil)" />
+    <g clip-path="url(#seedling-mound-clip)">
+      <path d="M98 204 C105 186 121 181 135 181" fill="none" stroke="#eaa052" stroke-width="6" />
+      <path d="M158 177 C176 187 181 200 181 208 H94 V216 H194 V186Z" fill="#713b22" opacity=".4" />
+    </g>
+    <use href="#seedling-mound" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#seedling-left" fill="url(#seedling-leaf)" />
+    <g clip-path="url(#seedling-left-clip)">
+      <path d="M74 109 Q70 97 74 89 C103 83 122 96 128 107" fill="none" stroke="#b0f67a" stroke-width="6" />
+      <path d="M74 120 C91 144 117 143 137 135 L143 142 V153 H75Z" fill="#079e58" opacity=".42" />
+    </g>
+    <use href="#seedling-left" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#seedling-right" fill="url(#seedling-leaf)" />
+    <g clip-path="url(#seedling-right-clip)">
+      <path d="M150 117 C158 87 181 79 212 83" fill="none" stroke="#a8f373" stroke-width="6" />
+      <path d="M210 82 C215 119 189 139 150 138 L143 147 H225 V80Z" fill="#049b60" opacity=".45" />
+    </g>
+    <use href="#seedling-right" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M140 177 V151 C135 130 117 114 98 104 M140 151 C150 126 169 109 189 99" fill="none" stroke="#239c40" stroke-width="6" />
+    <path d="M138 148 Q140 152 140 159 V176.5 Q140 178.5 137.5 178 V158 Q137.5 152 138 148Z" fill="#7ad95b" />
+  </g>
+</svg>

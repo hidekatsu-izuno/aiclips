@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="decision-manager-title">
+  <title id="decision-manager-title">上司</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="decision-manager-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="decision-manager-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="decision-manager-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="decision-manager-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="decision-manager-skin" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffcf98" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc187" stop-opacity="1" />
+    </linearGradient>
+    <path id="decision-manager-pen" d="M92 176 Q94 173 97 176 L122 220 L123 227 L118 224 Z" />
+    <clipPath id="decision-manager-pen-clip">
+      <use href="#decision-manager-pen" />
+    </clipPath>
+    <path id="decision-manager-document" d="M160 171 L224 166 Q227 166 226 170 L207 233 H138 Z" />
+    <clipPath id="decision-manager-document-clip">
+      <use href="#decision-manager-document" />
+    </clipPath>
+    <path id="decision-manager-hand-left" d="M 104.73 203 C 94.56 201.2 87.78 206.6 87.78 213.8 C 87.215 219.65 90.04 225.95 96.255 228.65 C 99.419 229.64 104.391 229.64 107.555 228.65 C 110.945 227.3 112.075 223.7 112.64 220.1 C 113.205 216.95 112.075 215.15 110.945 213.8 C 110.38 212.63 113.77 212 113.77 209.75 C 113.77 206.15 110.38 203 104.73 203 Z" />
+    <clipPath id="decision-manager-hand-left-clip">
+      <use href="#decision-manager-hand-left" />
+    </clipPath>
+    <path id="decision-manager-hand-right" d="M 204.6 211 C 215.4 209.14 222.6 214.72 222.6 222.16 C 223.2 228.205 220.2 234.715 213.6 237.505 C 210.24 238.528 204.96 238.528 201.6 237.505 C 198 236.11 196.8 232.39 196.2 228.67 C 195.6 225.415 196.8 223.555 198 222.16 C 198.6 220.951 195 220.3 195 217.975 C 195 214.255 198.6 211 204.6 211 Z" />
+    <clipPath id="decision-manager-hand-right-clip">
+      <use href="#decision-manager-hand-right" />
+    </clipPath>
+    <path id="decision-manager-person-base-body" d="M144 148 C124 148 103 151 92 163 C77 179 66 202 65 222 C64 231 69 235 78 235 H210 C219 235 224 231 223 222 C222 202 211 179 196 163 C185 151 164 148 144 148 Z" />
+    <clipPath id="decision-manager-person-base-body-clip">
+      <use href="#decision-manager-person-base-body" />
+    </clipPath>
+    <path id="decision-manager-person-base-face" d="M144 68 C125 68 110 76 109 111 C108 124 109 140 117 149 C124 157 134 159 144 159 C154 159 164 157 171 149 C179 140 180 124 179 111 C178 76 163 68 144 68 Z" />
+    <path id="decision-manager-person-base-neck" d="M144 144 C139 144 134 145 130 148 C131 153 131 157 128 160 C132 164 139 168 144 168 C149 168 156 164 160 160 C157 157 157 153 158 148 C154 145 149 144 144 144 Z" transform="translate(144 0) scale(1.125 1) translate(-144 0)" />
+    <path id="decision-manager-person-base-shirt" d="M144 165 C136 165 132 161 129 158 C126 159 124 160 122 162 C125 183 129 208 135 231 C138 231 141 231 144 231 C147 231 150 231 153 231 C159 208 163 183 166 162 C164 160 162 159 159 158 C156 161 152 165 144 165 Z" />
+    <clipPath id="decision-manager-person-base-shirt-clip">
+      <use href="#decision-manager-person-base-shirt" />
+    </clipPath>
+    <path id="decision-manager-person-base-tie" d="M144 181 C141 181 139 185 138 190 C135 203 132 217 136 231 C138 231 141 231 144 231 C147 231 150 231 152 231 C156 217 153 203 150 190 C149 185 147 181 144 181 Z" />
+    <path id="decision-manager-person-base-knot" d="M144 169 L135 177 C138 183 139 185.5 144 185.5 C149 185.5 150 183 153 177 L144 169 Z" />
+    <linearGradient id="decision-manager-person-base-suit-paint" gradientUnits="userSpaceOnUse" x1="82" y1="174" x2="208" y2="225">
+      <stop offset="0" stop-color="#3f5e82" />
+      <stop offset=".3" stop-color="#253d58" />
+      <stop offset="1" stop-color="#1b3049" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-lapel-paint" gradientUnits="userSpaceOnUse" x1="116" y1="163" x2="121" y2="226">
+      <stop offset="0" stop-color="#3d5774" />
+      <stop offset=".5" stop-color="#253b54" />
+      <stop offset="1" stop-color="#355170" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-white-paint" gradientUnits="userSpaceOnUse" x1="128" y1="164" x2="152" y2="223">
+      <stop offset="0" stop-color="#fffefd" />
+      <stop offset="1" stop-color="#edf3fc" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-blue-paint" gradientUnits="userSpaceOnUse" x1="135" y1="196" x2="153" y2="200">
+      <stop offset="0" stop-color="#ff5965" />
+      <stop offset=".45" stop-color="#ed283a" />
+      <stop offset="1" stop-color="#c6162b" />
+    </linearGradient>
+    <radialGradient id="decision-manager-person-base-knot-paint" gradientUnits="userSpaceOnUse" cx="143" cy="175" r="11">
+      <stop stop-color="#ff6571" />
+      <stop offset=".55" stop-color="#e82c3e" />
+      <stop offset="1" stop-color="#ae1225" />
+    </radialGradient>
+    <linearGradient id="decision-manager-person-base-hair-paint" gradientUnits="userSpaceOnUse" x1="112" y1="65" x2="164" y2="109">
+      <stop offset="0" stop-color="#304762" />
+      <stop offset=".45" stop-color="#2b415b" />
+      <stop offset="1" stop-color="#263d56" />
+    </linearGradient>
+    <path id="decision-manager-person-base-lapel-left" d="M122 162 L122.74912 157.3 L109.94625 160.8 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135 C129 208 125 183 122 162 Z" />
+    <path id="decision-manager-person-base-collar-left" d="M128 159 Q136 165 144 168 L144 169 L128.25 183 L123 161 Z" />
+    <path id="decision-manager-person-base-ear-left" d="M113 124 C109 118 107 116.5 103 118.5 C96 121 96 130 101 134.5 C105 138 109 138 113 134.5 Z" />
+    <linearGradient id="decision-manager-person-base-sweep-bevel" gradientUnits="userSpaceOnUse" x1="108" y1="58" x2="148" y2="112">
+      <stop offset="0" stop-color="#6381a8" stop-opacity="0.95" />
+      <stop offset="0.4" stop-color="#3f5b80" stop-opacity="0.8" />
+      <stop offset="0.75" stop-color="#2a4260" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#102137" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-suit-bevel" gradientUnits="userSpaceOnUse" x1="80" y1="168" x2="80" y2="222">
+      <stop offset="0" stop-color="#88a5cb" stop-opacity=".55" />
+      <stop offset=".65" stop-color="#6584aa" stop-opacity=".35" />
+      <stop offset="1" stop-color="#4d6b8f" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="decision-manager-person-base-ear-bevel" gradientUnits="userSpaceOnUse" x1="101" y1="119" x2="107" y2="132">
+      <stop offset="0" stop-color="#ffe7b5" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#ffd599" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#fdc28a" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="decision-manager-person-base-ear-clip">
+      <use href="#decision-manager-person-base-ear-left" />
+    </clipPath>
+    <path id="decision-manager-person-base-collar-shadow-left" d="M135 177 L128.25 183" />
+    <path id="decision-manager-person-base-lapel-seam-left" d="M122 162 C125 183 129 208 135 231" />
+    <path id="decision-manager-person-base-lapel-rim-left" d="M122 162 L122.74912 157.3 L109.94625 160.8 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
+    <path id="decision-manager-person-base-shoulder-left" d="M144 148 C124 148 103 151 92 163 C77 179 66 202 65 222" />
+    <path id="decision-manager-person-base-hem" d="M78 235 H210" />
+    <path id="decision-manager-person-mature-hair" d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117 Q181 116 178 122 Q178 103 174 87 Q169 83 165 79 C154 86 135 90 119 85 Q111 103 110 120 Q105 114 101 117 Z" />
+    <clipPath id="decision-manager-person-mature-hair-clip">
+      <use href="#decision-manager-person-mature-hair" />
+    </clipPath>
+    <path id="decision-manager-person-temple-left" d="M100 96 C100.300000 89.400000 102.220000 83.070000 105.409000 77.415000 Q111 79 119 85 Q111 103 110 120 Q105 114 101 117 Q98 108 100 96 Z" />
+    <clipPath id="decision-manager-person-temple-left-clip">
+      <use href="#decision-manager-person-temple-left" />
+    </clipPath>
+    <path id="decision-manager-person-temple-right" d="M174 87 Q181 89 186.752000 86.640000 C188.480000 91.440000 189.600000 96.600000 190.000000 102.000000 Q190 110 187 117 Q181 116 178 122 Q178 103 174 87 Z" />
+    <clipPath id="decision-manager-person-temple-right-clip">
+      <use href="#decision-manager-person-temple-right" />
+    </clipPath>
+    <linearGradient id="decision-manager-person-temple-paint" gradientUnits="userSpaceOnUse" x1="100" y1="88" x2="110" y2="120">
+      <stop offset="0" stop-color="#c5d1dc" />
+      <stop offset="0.45" stop-color="#a6b9ca" />
+      <stop offset="1" stop-color="#7c91aa" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g transform="" stroke-linecap="round" stroke-linejoin="round" id="decision-manager-approval-based-person">
+      <g id="decision-manager-person-torso-placement">
+        <use href="#decision-manager-person-base-body" fill="url(#decision-manager-person-base-suit-paint)" stroke="#050b1d" stroke-width="7" />
+        <use href="#decision-manager-person-base-shoulder-left" fill="none" stroke="url(#decision-manager-person-base-suit-bevel)" stroke-width="15" clip-path="url(#decision-manager-person-base-body-clip)" />
+        <use href="#decision-manager-person-base-body" fill="none" stroke="#050b1d" stroke-width="7" />
+        <use href="#decision-manager-person-base-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+        <g transform="matrix(.97 0 0 1.150684932 4.32 -30.808219178)">
+          <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
+          <use href="#decision-manager-person-base-shirt" fill="url(#decision-manager-person-base-white-paint)" />
+          <use href="#decision-manager-person-base-neck" fill="url(#decision-manager-person-base-neck-paint)" />
+          <use href="#decision-manager-person-base-tie" fill="url(#decision-manager-person-base-blue-paint)" stroke="#a91d30" stroke-width="1" />
+          <use href="#decision-manager-person-base-collar-shadow-left" fill="none" clip-path="url(#decision-manager-person-base-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+          <use href="#decision-manager-person-base-collar-shadow-left" fill="none" transform="translate(288 0) scale(-1 1)" clip-path="url(#decision-manager-person-base-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+          <use href="#decision-manager-person-base-collar-left" fill="url(#decision-manager-person-base-white-paint)" />
+          <use href="#decision-manager-person-base-collar-left" fill="url(#decision-manager-person-base-white-paint)" transform="translate(288 0) scale(-1 1)" />
+          <use href="#decision-manager-person-base-knot" fill="url(#decision-manager-person-base-knot-paint)" stroke="#a91d30" stroke-width="1.2" />
+          <use href="#decision-manager-person-base-lapel-left" fill="url(#decision-manager-person-base-lapel-paint)" />
+          <use href="#decision-manager-person-base-lapel-left" fill="url(#decision-manager-person-base-lapel-paint)" transform="translate(288 0) scale(-1 1)" />
+          <use href="#decision-manager-person-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" />
+          <use href="#decision-manager-person-base-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+          <use href="#decision-manager-person-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" />
+          <use href="#decision-manager-person-base-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+        </g>
+      </g>
+      <g id="decision-manager-person-head-placement" transform="translate(8.64 3) scale(.94)">
+        <path fill="none" stroke="#050b1d" stroke-width="7" d="M109 134 C112 151 126 159 144 159 C162 159 176 151 179 134" />
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" />
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" />
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+        <use href="#decision-manager-person-base-neck" fill="url(#decision-manager-person-base-neck-paint)" />
+        <use href="#decision-manager-person-base-face" fill="url(#decision-manager-person-base-skin-paint)" />
+        <g id="decision-manager-person-mature-hairstyle">
+          <use href="#decision-manager-person-mature-hair" fill="url(#decision-manager-person-base-hair-paint)" />
+          <path fill="none" stroke="url(#decision-manager-person-base-sweep-bevel)" stroke-width="8" clip-path="url(#decision-manager-person-mature-hair-clip)" d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" />
+          <use href="#decision-manager-person-temple-left" fill="url(#decision-manager-person-temple-paint)" />
+          <use href="#decision-manager-person-temple-right" fill="url(#decision-manager-person-temple-paint)" />
+          <path d="M100 98 L115 90 M100 104 L112 98" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#decision-manager-person-temple-left-clip)" />
+          <path d="M177 94 L194 105 M180 102 L193 112" fill="none" stroke="#d5e0e8" stroke-width="1.5" clip-path="url(#decision-manager-person-temple-right-clip)" />
+          <path d="M101 117 Q98 108 100 96 C101 74 120 55 144 54 C168 54 188 75 190 102 Q190 110 187 117" fill="none" stroke="#050b1d" stroke-width="7" />
+          <path id="decision-manager-person-part-highlight" d="M155 61 C160 64 160 71 156 75 C147 81 133 83 124 81" fill="none" stroke="#49617a" stroke-width="2" stroke-opacity=".55" stroke-linecap="round" clip-path="url(#decision-manager-person-mature-hair-clip)" />
+          <path id="decision-manager-person-hair-part-line" d="M163 58 C168 64 169 72 165 79" fill="none" stroke="#050b1d" stroke-width="2" stroke-linecap="round" clip-path="url(#decision-manager-person-mature-hair-clip)" />
+        </g>
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" />
+        <use href="#decision-manager-person-base-ear-left" fill="url(#decision-manager-person-base-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+        <use href="#decision-manager-person-base-ear-left" fill="none" stroke="url(#decision-manager-person-base-ear-bevel)" stroke-width="2.5" clip-path="url(#decision-manager-person-base-ear-clip)" />
+      </g>
+    </g>
+    <use href="#decision-manager-pen" fill="url(#decision-manager-blue)" />
+    <use href="#decision-manager-pen" fill="none" stroke="url(#decision-manager-blue-edge)" stroke-width="2.5" clip-path="url(#decision-manager-pen-clip)" />
+    <use href="#decision-manager-pen" fill="none" stroke="#050b1d" stroke-width="1.6" />
+    <path id="decision-manager-pen-tip" d="M118 224 L122 220 L123 227 Z" fill="#24374b" />
+    <use href="#decision-manager-document" fill="url(#decision-manager-white)" />
+    <use href="#decision-manager-document" fill="none" stroke="url(#decision-manager-white-edge)" stroke-width="8" clip-path="url(#decision-manager-document-clip)" />
+    <use href="#decision-manager-document" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M171 187 L200 186" fill="none" stroke="#9dadbd" stroke-width="6" />
+    <path d="M166 200 L195 199" fill="none" stroke="#9dadbd" stroke-width="6" />
+    <path d="M161 214 L185 213" fill="none" stroke="#9dadbd" stroke-width="6" />
+    <use href="#decision-manager-hand-left" fill="url(#decision-manager-skin)" />
+    <path d="M 109.25 206.15 Q 103.6 203.9 97.95 205.7" fill="none" stroke="#ffe2b3" stroke-width="1.5" stroke-linecap="round" clip-path="url(#decision-manager-hand-left-clip)" />
+    <path id="decision-manager-hand-left-finger-creases" d="M 109.25 212.9 Q 104.73 213.8 100.21 212.45" fill="none" stroke="#ba855a" stroke-width="1.4" stroke-linecap="round" clip-path="url(#decision-manager-hand-left-clip)" stroke-linejoin="round" />
+    <use href="#decision-manager-hand-left" fill="none" stroke="#050b1d" stroke-width="2.8" />
+    <use href="#decision-manager-hand-right" fill="url(#decision-manager-skin)" />
+    <path d="M 199.8 214.255 Q 205.8 211.93 211.8 213.79" fill="none" stroke="#ffe2b3" stroke-width="1.5" stroke-linecap="round" clip-path="url(#decision-manager-hand-right-clip)" />
+    <path id="decision-manager-hand-right-finger-creases" d="M 199.8 221.23 Q 204.6 222.16 209.4 220.765" fill="none" stroke="#ba855a" stroke-width="1.4" stroke-linecap="round" clip-path="url(#decision-manager-hand-right-clip)" stroke-linejoin="round" />
+    <use href="#decision-manager-hand-right" fill="none" stroke="#050b1d" stroke-width="2.8" />
+  </g>
+</svg>

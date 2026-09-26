@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="business-building-title">
+  <title id="business-building-title">オフィス</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="business-building-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="business-building-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="business-building-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <path id="business-building-shape1" d="M77 88 H211 Q218 88 218 95 V225 H70 V95 Q70 88 77 88 Z" />
+    <clipPath id="business-building-shape1-clip">
+      <use href="#business-building-shape1" />
+    </clipPath>
+    <path id="business-building-shape2" d="M109 59 H179 Q188 59 188 68 V225 H100 V68 Q100 59 109 59 Z" />
+    <rect id="business-building-shape3" x="114.0" y="81" width="16" height="20" rx="0" />
+    <rect id="business-building-shape4" x="136.0" y="81" width="16" height="20" rx="0" />
+    <rect id="business-building-shape5" x="158" y="81" width="16" height="20" rx="0" />
+    <rect id="business-building-shape6" x="114.0" y="109" width="16" height="20" rx="0" />
+    <rect id="business-building-shape7" x="136.0" y="109" width="16" height="20" rx="0" />
+    <rect id="business-building-shape8" x="158" y="109" width="16" height="20" rx="0" />
+    <rect id="business-building-shape9" x="114.0" y="137" width="16" height="20" rx="0" />
+    <rect id="business-building-shape10" x="136.0" y="137" width="16" height="20" rx="0" />
+    <rect id="business-building-shape11" x="158" y="137" width="16" height="20" rx="0" />
+    <rect id="business-building-shape12" x="78.5" y="112" width="16" height="20" rx="0" />
+    <rect id="business-building-shape13" x="78.5" y="140" width="16" height="20" rx="0" />
+    <rect id="business-building-shape14" x="78.5" y="168" width="16" height="20" rx="0" />
+    <rect id="business-building-shape15" x="193.5" y="112" width="16" height="20" rx="0" />
+    <rect id="business-building-shape16" x="193.5" y="140" width="16" height="20" rx="0" />
+    <rect id="business-building-shape17" x="193.5" y="168" width="16" height="20" rx="0" />
+    <rect id="business-building-shape18" x="116.0" y="184" width="56" height="41" rx="0" />
+    <linearGradient id="business-building-joint-left" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8296a9" stop-opacity="0" offset="0" />
+      <stop stop-color="#8296a9" stop-opacity="0.65" offset="1" />
+    </linearGradient>
+    <linearGradient id="business-building-joint-right" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8296a9" stop-opacity="0.65" offset="0" />
+      <stop stop-color="#8296a9" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient id="business-building-foliage" cx=".24" cy=".22" r=".85">
+      <stop stop-color="#75e65d" offset="0" />
+      <stop stop-color="#35c84e" offset=".5" />
+      <stop stop-color="#008c38" offset="1" />
+    </radialGradient>
+    <clipPath id="business-building-ground-clip">
+      <rect x="0" y="0" width="288" height="229.5" />
+    </clipPath>
+    <path id="business-building-tree-crown" d="M-14 8 C-20 2 -16 -8 -9 -9 C-10 -21 7 -23 11 -12 C21 -10 22 4 14 10 Q8 17 0 13 Q-10 18 -14 8Z" />
+    <clipPath id="business-building-tree-clip">
+      <use href="#business-building-tree-crown" />
+    </clipPath>
+    <linearGradient id="business-building-tree-bark" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#c59962" />
+      <stop offset="1" stop-color="#76522e" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" clip-path="url(#business-building-ground-clip)">
+    <use href="#business-building-shape1" fill="url(#business-building-paper)" />
+    <use href="#business-building-shape1" fill="none" stroke="url(#business-building-silver-edge)" stroke-width="10" clip-path="url(#business-building-shape1-clip)" />
+    <use href="#business-building-shape2" fill="url(#business-building-paper)" />
+    <rect x="101" y="88" width="2" height="137" fill="#9baaba" />
+    <rect x="185" y="88" width="2" height="137" fill="#9baaba" />
+    <rect x="97" y="88" width="4" height="137" fill="url(#business-building-joint-left)" />
+    <rect x="187" y="88" width="4" height="137" fill="url(#business-building-joint-right)" />
+    <path id="business-building-outer-outline" d="M70 225 V95 Q70 88 77 88 H100 V68 Q100 59 109 59 H179 Q188 59 188 68 V88 H211 Q218 88 218 95 V225 Z" fill="none" stroke="#050b1d" stroke-width="6" stroke-linejoin="miter" />
+    <use href="#business-building-shape3" fill="url(#business-building-blue)" />
+    <path d="M114.0 81.0 H123.92 L114.0 97.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape4" fill="url(#business-building-blue)" />
+    <path d="M136.0 81.0 H145.92 L136.0 97.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape5" fill="url(#business-building-blue)" />
+    <path d="M158.0 81.0 H167.92 L158.0 97.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape6" fill="url(#business-building-blue)" />
+    <path d="M114.0 109.0 H123.92 L114.0 125.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape7" fill="url(#business-building-blue)" />
+    <path d="M136.0 109.0 H145.92 L136.0 125.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape8" fill="url(#business-building-blue)" />
+    <path d="M158.0 109.0 H167.92 L158.0 125.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape9" fill="url(#business-building-blue)" />
+    <path d="M114.0 137.0 H123.92 L114.0 153.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape10" fill="url(#business-building-blue)" />
+    <path d="M136.0 137.0 H145.92 L136.0 153.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape11" fill="url(#business-building-blue)" />
+    <path d="M158.0 137.0 H167.92 L158.0 153.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape12" fill="url(#business-building-blue)" />
+    <path d="M78.5 112.0 H88.42 L78.5 128.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape13" fill="url(#business-building-blue)" />
+    <path d="M78.5 140.0 H88.42 L78.5 156.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape14" fill="url(#business-building-blue)" />
+    <path d="M78.5 168.0 H88.42 L78.5 184.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape15" fill="url(#business-building-blue)" />
+    <path d="M193.5 112.0 H203.42 L193.5 128.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape16" fill="url(#business-building-blue)" />
+    <path d="M193.5 140.0 H203.42 L193.5 156.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape17" fill="url(#business-building-blue)" />
+    <path d="M193.5 168.0 H203.42 L193.5 184.8 Z" fill="#a2ecff" fill-opacity=".24" />
+    <path d="M115 169 H173" fill="none" stroke="#a5b7c9" stroke-width="4" />
+    <use href="#business-building-shape18" fill="url(#business-building-blue)" />
+    <path d="M116.0 184.0 H150.72 L116.0 218.44 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#business-building-shape18" fill="none" stroke="#050b1d" stroke-width="3" stroke-linejoin="miter" />
+    <path d="M144 184 V224" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M137 201 V211 M151 201 V211" fill="none" stroke="#73dfff" stroke-width="2" />
+    <g transform="translate(74 206)" id="business-building-tree-74">
+      <path d="M-3 8 L-3.5 19 H3.5 L3 8Z" fill="url(#business-building-tree-bark)" stroke="#050b1d" stroke-width="2.5" />
+      <use href="#business-building-tree-crown" fill="url(#business-building-foliage)" />
+      <g clip-path="url(#business-building-tree-clip)">
+        <path d="M9 -14 C23 -2 12 13 -5 10 Q-11 10 -15 6 C-13 21 16 22 22 5Z" fill="#087932" opacity=".5" />
+        <path d="M-12 -1 Q-14 -7 -6 -6 Q-8 -16 2 -16" fill="none" stroke="#a1eb79" stroke-width="2.5" opacity=".75" />
+      </g>
+      <use href="#business-building-tree-crown" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <g transform="translate(214 206)" id="business-building-tree-214">
+      <path d="M-3 8 L-3.5 19 H3.5 L3 8Z" fill="url(#business-building-tree-bark)" stroke="#050b1d" stroke-width="2.5" />
+      <use href="#business-building-tree-crown" fill="url(#business-building-foliage)" />
+      <g clip-path="url(#business-building-tree-clip)">
+        <path d="M9 -14 C23 -2 12 13 -5 10 Q-11 10 -15 6 C-13 21 16 22 22 5Z" fill="#087932" opacity=".5" />
+        <path d="M-12 -1 Q-14 -7 -6 -6 Q-8 -16 2 -16" fill="none" stroke="#a1eb79" stroke-width="2.5" opacity=".75" />
+      </g>
+      <use href="#business-building-tree-crown" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <path d="M58 226 H230" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+  </g>
+</svg>

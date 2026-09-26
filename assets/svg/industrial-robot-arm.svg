@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="industrial-robot-arm-title">
+  <title id="industrial-robot-arm-title">産業用アーム</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="industrial-robot-arm-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="industrial-robot-arm-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="industrial-robot-arm-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#48688e" />
+      <stop offset="0.5" stop-color="#29435f" />
+      <stop offset="1.0" stop-color="#1d304b" />
+    </linearGradient>
+    <path id="industrial-robot-arm-shape1" d="M164 204 L188 137 L214 128 L225 204 Z" />
+    <clipPath id="industrial-robot-arm-shape1-clip">
+      <use href="#industrial-robot-arm-shape1" />
+    </clipPath>
+    <path id="industrial-robot-arm-shape2" d="M103 123 L88 96 L174 63 L187 91 Z" />
+    <clipPath id="industrial-robot-arm-shape2-clip">
+      <use href="#industrial-robot-arm-shape2" />
+    </clipPath>
+    <path id="industrial-robot-arm-shape3" d="M168 79 Q165 60 181 57 Q195 55 203 73 L233 133 L203 146 Z" />
+    <clipPath id="industrial-robot-arm-shape3-clip">
+      <use href="#industrial-robot-arm-shape3" />
+    </clipPath>
+    <rect id="industrial-robot-arm-shape4" x="154" y="197" width="90" height="27" rx="12" />
+    <clipPath id="industrial-robot-arm-shape4-clip">
+      <use href="#industrial-robot-arm-shape4" />
+    </clipPath>
+    <circle id="industrial-robot-arm-shape5" cx="113" cy="109" r="21" />
+    <clipPath id="industrial-robot-arm-shape5-clip">
+      <use href="#industrial-robot-arm-shape5" />
+    </clipPath>
+    <circle id="industrial-robot-arm-shape6" cx="113" cy="109" r="9" />
+    <clipPath id="industrial-robot-arm-shape6-clip">
+      <use href="#industrial-robot-arm-shape6" />
+    </clipPath>
+    <circle id="industrial-robot-arm-shape7" cx="222" cy="139" r="22" />
+    <clipPath id="industrial-robot-arm-shape7-clip">
+      <use href="#industrial-robot-arm-shape7" />
+    </clipPath>
+    <circle id="industrial-robot-arm-shape8" cx="222" cy="139" r="9" />
+    <clipPath id="industrial-robot-arm-shape8-clip">
+      <use href="#industrial-robot-arm-shape8" />
+    </clipPath>
+    <circle id="industrial-robot-arm-shape9" cx="186" cy="75" r="8" />
+    <clipPath id="industrial-robot-arm-shape9-clip">
+      <use href="#industrial-robot-arm-shape9" />
+    </clipPath>
+    <rect id="industrial-robot-arm-shape10" x="102" y="128" width="20" height="36" rx="1" />
+    <clipPath id="industrial-robot-arm-shape10-clip">
+      <use href="#industrial-robot-arm-shape10" />
+    </clipPath>
+    <path id="industrial-robot-arm-shape11" d="M112 151 L89 151 Q80 151 80 163 L80 179 L98 195 L106 180 L98 173 L98 163 L112 163 L126 163 L126 173 L118 180 L126 195 L144 179 L144 163 Q144 151 135 151 L112 151 Z" />
+    <clipPath id="industrial-robot-arm-shape11-clip">
+      <use href="#industrial-robot-arm-shape11" />
+    </clipPath>
+    <rect id="industrial-robot-arm-shape12" x="101" y="168" width="22" height="36" rx="1" />
+    <clipPath id="industrial-robot-arm-shape12-clip">
+      <use href="#industrial-robot-arm-shape12" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#industrial-robot-arm-shape1" fill="url(#industrial-robot-arm-gold)" />
+    <g clip-path="url(#industrial-robot-arm-shape1-clip)">
+      <path d="M174 197 L193 145" fill="none" stroke="#fff38b" stroke-width="5" />
+      <path d="M211 146 L218 198 H181" fill="none" stroke="#d99908" stroke-width="7" />
+    </g>
+    <use href="#industrial-robot-arm-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#industrial-robot-arm-shape2" fill="url(#industrial-robot-arm-gold)" />
+    <g clip-path="url(#industrial-robot-arm-shape2-clip)">
+      <path d="M99 98 L172 70" fill="none" stroke="#fff38b" stroke-width="4.5" />
+      <path d="M108 116 L179 89" fill="none" stroke="#d99908" stroke-width="6" />
+    </g>
+    <use href="#industrial-robot-arm-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#industrial-robot-arm-shape3" fill="url(#industrial-robot-arm-gold)" />
+    <g clip-path="url(#industrial-robot-arm-shape3-clip)">
+      <path d="M174 84 Q168 64 182 63" fill="none" stroke="#fff38b" stroke-width="5" />
+      <path d="M199 78 L226 131 L206 140" fill="none" stroke="#d99908" stroke-width="6" />
+    </g>
+    <use href="#industrial-robot-arm-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#industrial-robot-arm-shape4" fill="url(#industrial-robot-arm-steel)" />
+    <g clip-path="url(#industrial-robot-arm-shape4-clip)">
+      <path d="M160 212 V209 Q160 203 167 203 H230" fill="none" stroke="#c4dcee" stroke-width="4" />
+      <path d="M238 208 V213 Q238 218 231 218 H168" fill="none" stroke="#385874" stroke-width="5" />
+    </g>
+    <use href="#industrial-robot-arm-shape4" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#industrial-robot-arm-shape5" fill="url(#industrial-robot-arm-steel)" />
+    <g clip-path="url(#industrial-robot-arm-shape5-clip)">
+      <path d="M98 110 A15 15 0 0 1 114 94" fill="none" stroke="#c4dcee" stroke-width="4" />
+      <path d="M128 108 A15 15 0 0 1 112 124" fill="none" stroke="#385874" stroke-width="5" />
+    </g>
+    <use href="#industrial-robot-arm-shape5" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#industrial-robot-arm-shape6" fill="url(#industrial-robot-arm-suit)" />
+    <g clip-path="url(#industrial-robot-arm-shape6-clip)">
+      <path d="M107 109 A6 6 0 0 1 113 103" fill="none" stroke="#c4dcee" stroke-width="2" />
+      <path d="M119 109 A6 6 0 0 1 113 115" fill="none" stroke="#385874" stroke-width="2" />
+    </g>
+    <use href="#industrial-robot-arm-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#industrial-robot-arm-shape7" fill="url(#industrial-robot-arm-steel)" />
+    <g clip-path="url(#industrial-robot-arm-shape7-clip)">
+      <path d="M206 140 A16 16 0 0 1 223 123" fill="none" stroke="#c4dcee" stroke-width="4" />
+      <path d="M238 138 A16 16 0 0 1 221 155" fill="none" stroke="#385874" stroke-width="5" />
+    </g>
+    <use href="#industrial-robot-arm-shape7" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#industrial-robot-arm-shape8" fill="url(#industrial-robot-arm-suit)" />
+    <g clip-path="url(#industrial-robot-arm-shape8-clip)">
+      <path d="M216 139 A6 6 0 0 1 222 133" fill="none" stroke="#c4dcee" stroke-width="2" />
+      <path d="M228 139 A6 6 0 0 1 222 145" fill="none" stroke="#385874" stroke-width="2" />
+    </g>
+    <use href="#industrial-robot-arm-shape8" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#industrial-robot-arm-shape9" fill="url(#industrial-robot-arm-suit)" />
+    <g clip-path="url(#industrial-robot-arm-shape9-clip)">
+      <path d="M181 75 A5 5 0 0 1 186 70" fill="none" stroke="#c4dcee" stroke-width="2" />
+      <path d="M191 75 A5 5 0 0 1 186 80" fill="none" stroke="#385874" stroke-width="2" />
+    </g>
+    <use href="#industrial-robot-arm-shape9" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#industrial-robot-arm-shape10" fill="url(#industrial-robot-arm-steel)" />
+    <g clip-path="url(#industrial-robot-arm-shape10-clip)">
+      <path d="M105 159 V132 H118" fill="none" stroke="#c4dcee" stroke-width="2.5" />
+      <path d="M119 133 V161 H107" fill="none" stroke="#385874" stroke-width="3" />
+    </g>
+    <use href="#industrial-robot-arm-shape10" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#industrial-robot-arm-shape11" fill="url(#industrial-robot-arm-gold)" />
+    <g clip-path="url(#industrial-robot-arm-shape11-clip)">
+      <path d="M85 177 V164 Q85 156 91 156 H133" fill="none" stroke="#fff38b" stroke-width="4" />
+      <path d="M138 161 V177 L126 187 M101 176 L102 181 L98 188" fill="none" stroke="#d99908" stroke-width="5" />
+    </g>
+    <use href="#industrial-robot-arm-shape11" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#industrial-robot-arm-shape12" fill="url(#industrial-robot-arm-steel)" />
+    <g clip-path="url(#industrial-robot-arm-shape12-clip)">
+      <path d="M105 198 V172 H117" fill="none" stroke="#c4dcee" stroke-width="3" />
+      <path d="M119 172 V200 H107" fill="none" stroke="#385874" stroke-width="3.5" />
+    </g>
+    <use href="#industrial-robot-arm-shape12" fill="none" stroke="#050b1d" stroke-width="4" />
+  </g>
+</svg>

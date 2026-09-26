@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="business-briefcase-title">
+  <title id="business-briefcase-title">ブリーフケース</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="business-briefcase-leather" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#cf7738" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#bd602b" stop-opacity="1" />
+      <stop offset="1" stop-color="#ad4c23" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-briefcase-leather-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffd095" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#df9156" stop-opacity="1" />
+      <stop offset="1" stop-color="#853b20" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-briefcase-flap-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#cc7135" stop-opacity="1" />
+      <stop offset="1" stop-color="#b65a29" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-briefcase-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-briefcase-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <path id="business-briefcase-handle" d="M109 97 V89 Q109 68 130 68 H158 Q179 68 179 89 V97 H162 V89 Q162 85 158 85 H130 Q126 85 126 89 V97 Z" />
+    <clipPath id="business-briefcase-handle-clip">
+      <use href="#business-briefcase-handle" />
+    </clipPath>
+    <rect id="business-briefcase-body" x="59" y="97" width="170" height="121" rx="18" />
+    <clipPath id="business-briefcase-body-clip">
+      <use href="#business-briefcase-body" />
+    </clipPath>
+    <path id="business-briefcase-flap" d="M77 97 H211 A18 18 0 0 1 229 115 V144 A15 14 0 0 1 214 158 H74 A15 14 0 0 1 59 144 V115 A18 18 0 0 1 77 97 Z" />
+    <clipPath id="business-briefcase-flap-clip">
+      <use href="#business-briefcase-flap" />
+    </clipPath>
+    <rect id="business-briefcase-latch" x="127" y="148" width="34" height="33" rx="6" />
+    <clipPath id="business-briefcase-latch-clip">
+      <use href="#business-briefcase-latch" />
+    </clipPath>
+    <linearGradient id="business-briefcase-handle-light" gradientUnits="userSpaceOnUse" x1="114" y1="73" x2="177" y2="97">
+      <stop offset="0" stop-color="#ffcf94" />
+      <stop offset=".5" stop-color="#f3aa6a" />
+      <stop offset="1" stop-color="#d17b41" />
+    </linearGradient>
+    <linearGradient id="business-briefcase-flap-edge" gradientUnits="userSpaceOnUse" x1="59" y1="97" x2="110" y2="158">
+      <stop offset="0" stop-color="#ffd095" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#df9156" stop-opacity="1" />
+      <stop offset="1" stop-color="#853b20" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path id="business-briefcase-handle-back" d="M126 85 H162 V97 H126 Z" fill="#080b10" />
+    <path d="M130 90 H158" fill="none" stroke="#a44926" stroke-width="2" />
+    <use href="#business-briefcase-handle" fill="url(#business-briefcase-leather)" />
+    <path d="M115 97 V89 Q115 74 130 74 H158 Q173 74 173 89 V97" fill="none" stroke="url(#business-briefcase-handle-light)" stroke-width="4" clip-path="url(#business-briefcase-handle-clip)" />
+    <path d="M120 97 V89 Q120 79 130 79 H158 Q168 79 168 89 V97" fill="none" stroke="#9d4724" stroke-width="4" clip-path="url(#business-briefcase-handle-clip)" />
+    <use href="#business-briefcase-handle" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#business-briefcase-body" fill="url(#business-briefcase-leather)" />
+    <use href="#business-briefcase-body" fill="none" stroke="url(#business-briefcase-leather-edge)" stroke-width="15" clip-path="url(#business-briefcase-body-clip)" />
+    <use href="#business-briefcase-flap" fill="url(#business-briefcase-flap-paint)" />
+    <path id="business-briefcase-upper-bevel" d="M59 144 V115 A18 18 0 0 1 77 97 H211 A18 18 0 0 1 229 115 V144" fill="none" stroke="url(#business-briefcase-flap-edge)" stroke-width="15" stroke-linecap="butt" clip-path="url(#business-briefcase-flap-clip)" />
+    <path id="business-briefcase-lower-bevel" d="M59 144 A15 14 0 0 0 74 158 H214 A15 14 0 0 0 229 144" fill="none" stroke="url(#business-briefcase-flap-edge)" stroke-width="10.5" stroke-linecap="butt" clip-path="url(#business-briefcase-flap-clip)" />
+    <path d="M59 144 A15 14 0 0 0 74 158 H214 A15 14 0 0 0 229 144" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    <use href="#business-briefcase-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#business-briefcase-latch" fill="url(#business-briefcase-gold)" />
+    <use href="#business-briefcase-latch" fill="none" stroke="url(#business-briefcase-gold-edge)" stroke-width="9" clip-path="url(#business-briefcase-latch-clip)" />
+    <use href="#business-briefcase-latch" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    <path d="M127 165 H161" fill="none" stroke="#2d260b" stroke-width="2" clip-path="url(#business-briefcase-latch-clip)" />
+  </g>
+</svg>

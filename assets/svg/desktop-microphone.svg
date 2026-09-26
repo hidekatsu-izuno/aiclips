@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="desktop-microphone-title">
+  <title id="desktop-microphone-title">マイク</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="desktop-microphone-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-microphone-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-microphone-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-microphone-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <path id="desktop-microphone-foot" d="M93 210 C93 200 101 196 114 194 Q145 187 176 194 C189 196 197 200 197 210 V215 C197 226 174 231 145 231 C116 231 93 226 93 215 Z" />
+    <clipPath id="desktop-microphone-foot-clip">
+      <use href="#desktop-microphone-foot" />
+    </clipPath>
+    <rect id="desktop-microphone-stem" x="131" y="168" width="28" height="35" rx="4" />
+    <clipPath id="desktop-microphone-stem-clip">
+      <use href="#desktop-microphone-stem" />
+    </clipPath>
+    <path id="desktop-microphone-mesh" d="M105 125 V97 A40 42 0 0 1 185 97 V125 Z" />
+    <clipPath id="desktop-microphone-mesh-clip">
+      <use href="#desktop-microphone-mesh" />
+    </clipPath>
+    <linearGradient id="desktop-microphone-mesh-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#e5eef5" stop-opacity="1" />
+      <stop offset="1" stop-color="#a4b9cc" stop-opacity="1" />
+    </linearGradient>
+    <path id="desktop-microphone-cup" d="M100 121 Q145 135 190 121 V141 Q190 178 145 178 Q100 178 100 141 Z" />
+    <clipPath id="desktop-microphone-cup-clip">
+      <use href="#desktop-microphone-cup" />
+    </clipPath>
+    <linearGradient id="desktop-microphone-lamp" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#65f49a" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#23db66" stop-opacity="1" />
+      <stop offset="1" stop-color="#0eaa46" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#desktop-microphone-foot" fill="url(#desktop-microphone-steel)" />
+    <use href="#desktop-microphone-foot" fill="none" stroke="url(#desktop-microphone-steel-edge)" stroke-width="13" clip-path="url(#desktop-microphone-foot-clip)" />
+    <use href="#desktop-microphone-foot" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#desktop-microphone-stem" fill="url(#desktop-microphone-blue)" />
+    <use href="#desktop-microphone-stem" fill="none" stroke="url(#desktop-microphone-blue-edge)" stroke-width="10" clip-path="url(#desktop-microphone-stem-clip)" />
+    <use href="#desktop-microphone-stem" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#desktop-microphone-mesh" fill="url(#desktop-microphone-mesh-paint)" />
+    <path d="M55 57 L133 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M55 57 L-23 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M64 57 L142 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M64 57 L-14 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M73 57 L151 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M73 57 L-5 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M82 57 L160 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M82 57 L4 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M91 57 L169 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M91 57 L13 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M100 57 L178 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M100 57 L22 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M109 57 L187 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M109 57 L31 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M118 57 L196 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M118 57 L40 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M127 57 L205 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M127 57 L49 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M136 57 L214 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M136 57 L58 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M145 57 L223 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M145 57 L67 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M154 57 L232 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M154 57 L76 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M163 57 L241 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M163 57 L85 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M172 57 L250 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M172 57 L94 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M181 57 L259 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M181 57 L103 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M190 57 L268 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M190 57 L112 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M199 57 L277 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M199 57 L121 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M208 57 L286 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M208 57 L130 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M217 57 L295 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M217 57 L139 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M226 57 L304 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <path d="M226 57 L148 135" fill="none" stroke="#849db4" stroke-width="1.5" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <use href="#desktop-microphone-mesh" fill="none" stroke="#eef5fa" stroke-width="9" clip-path="url(#desktop-microphone-mesh-clip)" />
+    <use href="#desktop-microphone-mesh" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#desktop-microphone-cup" fill="url(#desktop-microphone-steel)" />
+    <use href="#desktop-microphone-cup" fill="none" stroke="url(#desktop-microphone-steel-edge)" stroke-width="14" clip-path="url(#desktop-microphone-cup-clip)" />
+    <use href="#desktop-microphone-cup" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="145" cy="150" r="8" fill="url(#desktop-microphone-lamp)" stroke="#050b1d" stroke-width="2" />
+    <path d="M141.0 150 A4.4 4.4 0 0 1 146.2 145.6" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+  </g>
+</svg>

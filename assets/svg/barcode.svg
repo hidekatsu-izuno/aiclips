@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="barcode-title">
+  <title id="barcode-title">バーコード</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="barcode-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="barcode-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="barcode-shape1" x="56" y="82" width="176" height="128" rx="19" />
+    <clipPath id="barcode-shape1-clip">
+      <use href="#barcode-shape1" />
+    </clipPath>
+    <rect id="barcode-shape2" x="74.0" y="103" width="8.4" height="85" rx="0" />
+    <rect id="barcode-shape3" x="88.4" y="103" width="3.5999999999999996" height="85" rx="0" />
+    <rect id="barcode-shape4" x="98.0" y="103" width="14.399999999999999" height="85" rx="0" />
+    <rect id="barcode-shape5" x="118.4" y="103" width="6.0" height="85" rx="0" />
+    <rect id="barcode-shape6" x="131.6" y="103" width="9.6" height="85" rx="0" />
+    <rect id="barcode-shape7" x="147.2" y="103" width="12.0" height="85" rx="0" />
+    <rect id="barcode-shape8" x="165.2" y="103" width="3.5999999999999996" height="85" rx="0" />
+    <rect id="barcode-shape9" x="174.8" y="103" width="7.199999999999999" height="85" rx="0" />
+    <rect id="barcode-shape10" x="188.0" y="103" width="4.8" height="85" rx="0" />
+    <rect id="barcode-shape11" x="198.8" y="103" width="14.399999999999999" height="85" rx="0" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#barcode-shape1" fill="url(#barcode-paper)" />
+    <use href="#barcode-shape1" fill="none" stroke="url(#barcode-silver-edge)" stroke-width="10" clip-path="url(#barcode-shape1-clip)" />
+    <use href="#barcode-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#barcode-shape2" fill="#050b1d" />
+    <use href="#barcode-shape3" fill="#050b1d" />
+    <use href="#barcode-shape4" fill="#050b1d" />
+    <use href="#barcode-shape5" fill="#050b1d" />
+    <use href="#barcode-shape6" fill="#050b1d" />
+    <use href="#barcode-shape7" fill="#050b1d" />
+    <use href="#barcode-shape8" fill="#050b1d" />
+    <use href="#barcode-shape9" fill="#050b1d" />
+    <use href="#barcode-shape10" fill="#050b1d" />
+    <use href="#barcode-shape11" fill="#050b1d" />
+  </g>
+</svg>

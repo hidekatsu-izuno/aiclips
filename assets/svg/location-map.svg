@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="location-map-title">
+  <title id="location-map-title">折り畳み地図</title>
+  <desc>Editable folded countryside map with large green mountains, a southwest coastline, lake and road expressed as broad color areas without feature outlines.</desc>
+  <defs>
+    <clipPath id="location-map-left">
+      <rect width="52" height="134" />
+    </clipPath>
+    <clipPath id="location-map-center">
+      <rect x="52" width="52" height="134" />
+    </clipPath>
+    <clipPath id="location-map-right">
+      <rect x="104" width="52" height="134" />
+    </clipPath>
+    <linearGradient id="location-map-fold" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#33414d" stop-opacity=".20" />
+      <stop offset=".28" stop-color="#33414d" stop-opacity=".04" />
+      <stop offset="1" stop-color="#33414d" stop-opacity=".13" />
+    </linearGradient>
+    <linearGradient id="location-map-paper" x1="0" x2=".4" y1="0" y2="1">
+      <stop stop-color="#fffbea" />
+      <stop offset="1" stop-color="#e7dfc8" />
+    </linearGradient>
+    <g id="location-map-content">
+      <rect width="156" height="134" fill="url(#location-map-paper)" />
+      <path d="M0 0 H156 V26 C134 20 122 36 104 32 C88 29 89 45 69 49 C47 54 37 43 20 55 Q8 61 0 53Z" fill="#b3d693" />
+      <path d="M0 97 Q16 84 40 88 C61 90 64 110 85 113 Q108 117 119 134 H0Z" fill="#b3d693" />
+      <path d="M132 44 Q141 33 156 36 V134 H141 C132 116 145 106 139 90 Q125 68 132 44Z" fill="#c8df9e" />
+      <g id="location-map-sea">
+        <path d="M0 96 C12 92 24 100 28 108 C32 117 45 116 48 125 L52 134 H0Z" fill="#8dcee5" />
+        <path d="M0 102 C11 100 20 106 22 113 C26 123 38 123 43 134 H0Z" fill="#62b4d8" />
+      </g>
+      <g id="location-map-mountains" transform="translate(45 62) scale(1.25) translate(-45 -62)">
+        <path d="M14 57 L34 20 Q36 17 38 20 L58 57Z" fill="#77a477" stroke-linejoin="round" />
+        <path d="M36 20 L58 57 H37Z" fill="#547d58" />
+        <path d="M40 61 L58 31 Q60 28 62 31 L80 61Z" fill="#83ae7d" stroke-linejoin="round" />
+        <path d="M60 30 L80 61 H61Z" fill="#628c61" />
+      </g>
+      <path d="M111 93 C106 109 116 117 112 138" fill="none" stroke="#7cc8e3" stroke-width="8" />
+      <path d="M98 53 C104 44 125 45 132 56 C139 66 128 74 131 83 C135 96 121 106 109 100 C96 94 84 101 82 88 C80 78 91 76 90 66 Q89 58 98 53Z" fill="#7cc8e3" />
+      <path d="M-5 76 C20 61 38 81 62 73 C77 68 76 99 66 107 Q59 119 70 140" fill="none" stroke="#cba873" stroke-width="7" stroke-linecap="round" />
+    </g>
+  </defs>
+  <g stroke-linejoin="round">
+    <g transform="matrix(1 -.25 0 1 66 90)" clip-path="url(#location-map-left)">
+      <use href="#location-map-content" />
+      <path d="M3 132 V3 H51" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="2" />
+    </g>
+    <g transform="matrix(1 .25 0 1 66 64)" clip-path="url(#location-map-center)">
+      <use href="#location-map-content" />
+      <rect x="52" width="52" height="134" fill="url(#location-map-fold)" />
+    </g>
+    <g transform="matrix(1 -.25 0 1 66 116)" clip-path="url(#location-map-right)">
+      <use href="#location-map-content" />
+      <path d="M106 132 V2 H154" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="2" />
+    </g>
+    <path d="M66 90 L118 77 L170 90 L222 77 V211 L170 224 L118 211 L66 224Z" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M118 80 V209 M170 93 V221" fill="none" stroke="#756f60" stroke-opacity=".4" stroke-width="1.5" />
+  </g>
+</svg>

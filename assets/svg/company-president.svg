@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="company-president-title">
+  <title id="company-president-title">社長</title>
+  <desc>Editable silver-haired president seated in a padded brown leather chair, wearing a tailored navy suit, satin red tie and gold lapel pin.</desc>
+  <defs>
+    <path id="company-president-outfit-body" d="M122 156 C110 159 96 165 86 171 Q78 175 74 184 C66 199 61 215 58 231 H230 C227 215 222 199 214 184 Q210 175 202 171 C192 165 178 159 166 156 L144 168Z" />
+    <clipPath id="company-president-outfit-body-clip">
+      <use href="#company-president-outfit-body" />
+    </clipPath>
+    <path id="company-president-outfit-neck" d="M144 144 C136 144 130 145 126 148 C127 151 125 154 122 156 L144 168 L166 156 C163 154 161 151 162 148 C158 145 152 144 144 144Z" />
+    <path id="company-president-outfit-shirt" d="M144 168 L128 158 L124 154 L122 156 C125 181 129 208 135 231 H153 C159 208 163 181 166 156 L164 154 L160 158Z" />
+    <clipPath id="company-president-outfit-shirt-clip">
+      <use href="#company-president-outfit-shirt" />
+    </clipPath>
+    <path id="company-president-outfit-tie" d="M144 181 C141 181 139 185 138 190 C135 203 132 217 136 231 C138 231 141 231 144 231 C147 231 150 231 152 231 C156 217 153 203 150 190 C149 185 147 181 144 181 Z" />
+    <path id="company-president-outfit-knot" d="M144 169 L135 177 C138 183 139 185.5 144 185.5 C149 185.5 150 183 153 177 L144 169 Z" />
+    <linearGradient id="company-president-outfit-suit-paint" gradientUnits="userSpaceOnUse" x1="82" y1="174" x2="208" y2="225">
+      <stop offset="0" stop-color="#3f5e82" />
+      <stop offset=".3" stop-color="#253d58" />
+      <stop offset="1" stop-color="#1b3049" />
+    </linearGradient>
+    <linearGradient id="company-president-outfit-lapel-paint" gradientUnits="userSpaceOnUse" x1="116" y1="163" x2="121" y2="226">
+      <stop offset="0" stop-color="#3d5774" />
+      <stop offset=".5" stop-color="#253b54" />
+      <stop offset="1" stop-color="#355170" />
+    </linearGradient>
+    <linearGradient id="company-president-outfit-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="company-president-outfit-white-paint" gradientUnits="userSpaceOnUse" x1="128" y1="164" x2="152" y2="223">
+      <stop offset="0" stop-color="#fffefd" />
+      <stop offset="1" stop-color="#edf3fc" />
+    </linearGradient>
+    <linearGradient id="company-president-outfit-blue-paint" gradientUnits="userSpaceOnUse" x1="135" y1="196" x2="153" y2="200">
+      <stop offset="0" stop-color="#ff5e66" />
+      <stop offset=".45" stop-color="#f02035" />
+      <stop offset="1" stop-color="#bb1027" />
+    </linearGradient>
+    <radialGradient id="company-president-outfit-knot-paint" gradientUnits="userSpaceOnUse" cx="143" cy="175" r="11">
+      <stop stop-color="#ff626b" />
+      <stop offset=".55" stop-color="#ec2438" />
+      <stop offset="1" stop-color="#a90c24" />
+    </radialGradient>
+    <path id="company-president-outfit-lapel-left" d="M122 156 L112 160 L99 178 L110 184 L99 190 L117 231 H135 C129 208 125 181 122 156Z" />
+    <path id="company-president-outfit-collar-left" d="M124 154 L128 158 L144 168 V169 L128.25 181 L122 156Z" />
+    <linearGradient id="company-president-outfit-suit-bevel" gradientUnits="userSpaceOnUse" x1="80" y1="168" x2="80" y2="222">
+      <stop offset="0" stop-color="#88a5cb" stop-opacity=".55" />
+      <stop offset=".65" stop-color="#6584aa" stop-opacity=".35" />
+      <stop offset="1" stop-color="#4d6b8f" stop-opacity="0" />
+    </linearGradient>
+    <path id="company-president-outfit-collar-shadow-left" d="M135 176 L128.25 181" />
+    <path id="company-president-outfit-lapel-seam-left" d="M122 156 C125 181 129 208 135 231" />
+    <path id="company-president-outfit-lapel-rim-left" d="M122 156 L112 160 L99 178 L110 184 L99 190 L117 231 H135" />
+    <path id="company-president-reference-base-face" d="M119 85 C135 91 155 90 170 83 C176 94 178 105 179 120 C181 116 184 114 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116 C103 114 106 116 109 120 C112 109 114 98 119 85Z" />
+    <linearGradient id="company-president-reference-base-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="company-president-silver-hair" gradientUnits="userSpaceOnUse" x1="112" y1="62" x2="175" y2="115">
+      <stop stop-color="#d7e1ec" offset="0" />
+      <stop stop-color="#bacadb" offset="0.5" />
+      <stop stop-color="#8fa5bd" offset="1" />
+    </linearGradient>
+    <path id="company-president-silver-hair-shape" d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C155 90 135 91 119 85 C114 98 112 109 109 120 C106 116 103 114 99 116Z" />
+    <clipPath id="company-president-silver-hair-clip">
+      <use href="#company-president-silver-hair-shape" />
+    </clipPath>
+    <clipPath id="company-president-face-clip">
+      <use href="#company-president-reference-base-face" />
+    </clipPath>
+    <linearGradient id="company-president-cheek-shadow" gradientUnits="userSpaceOnUse" x1="176" y1="116" x2="157" y2="160">
+      <stop stop-color="#c48b5b" stop-opacity="0" />
+      <stop offset=".3" stop-color="#c48b5b" stop-opacity=".25" />
+      <stop offset=".55" stop-color="#c48b5b" stop-opacity=".28" />
+      <stop offset="1" stop-color="#c48b5b" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="company-president-side-hair" gradientUnits="userSpaceOnUse" x1="176" y1="73" x2="192" y2="117">
+      <stop stop-color="#b5c8da" />
+      <stop offset=".5" stop-color="#9db3c9" />
+      <stop offset="1" stop-color="#859fb9" />
+    </linearGradient>
+    <linearGradient id="company-president-part-shadow" gradientUnits="userSpaceOnUse" x1="171" y1="75" x2="180" y2="83">
+      <stop stop-color="#657f9d" stop-opacity=".65" />
+      <stop offset="1" stop-color="#657f9d" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="company-president-hairline-shadow" gradientUnits="userSpaceOnUse" x1="144" y1="85" x2="144" y2="122">
+      <stop stop-color="#b77d52" stop-opacity=".2" />
+      <stop offset=".55" stop-color="#b77d52" stop-opacity=".12" />
+      <stop offset="1" stop-color="#b77d52" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="company-president-gold-pin" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#ffea8e" />
+      <stop offset="1" stop-color="#d99822" />
+    </linearGradient>
+    <linearGradient id="company-president-hair-sweep" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#f1f7fc" />
+      <stop offset=".55" stop-color="#d4e1ec" />
+      <stop offset="1" stop-color="#aabfd2" />
+    </linearGradient>
+    <clipPath id="company-president-tie-clip">
+      <use href="#company-president-outfit-tie" />
+    </clipPath>
+    <radialGradient id="company-president-chair-cushion" cx=".36" cy=".26" r=".85">
+      <stop stop-color="#b27d5c" />
+      <stop offset=".4" stop-color="#855237" />
+      <stop offset=".78" stop-color="#543020" />
+      <stop offset="1" stop-color="#352018" />
+    </radialGradient>
+    <radialGradient id="company-president-chair-bolster" cx=".35" cy=".22" r=".86">
+      <stop stop-color="#bb896a" />
+      <stop offset=".32" stop-color="#9a6648" />
+      <stop offset=".7" stop-color="#74442d" />
+      <stop offset="1" stop-color="#43271c" />
+    </radialGradient>
+    <linearGradient id="company-president-chair-piping" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#dbab86" stop-opacity=".8" />
+      <stop offset=".65" stop-color="#af7852" stop-opacity=".35" />
+      <stop offset="1" stop-color="#75452e" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="company-president-lapel-clip">
+      <use href="#company-president-outfit-lapel-left" />
+    </clipPath>
+    <linearGradient id="company-president-lapel-edge-light" gradientUnits="userSpaceOnUse" x1="112" y1="160" x2="118" y2="228">
+      <stop stop-color="#9aabc2" stop-opacity=".8" />
+      <stop offset=".45" stop-color="#6b819d" stop-opacity=".5" />
+      <stop offset="1" stop-color="#6b819d" stop-opacity="0" />
+    </linearGradient>
+    <path id="company-president-lapel-edge" d="M122 156 L112 160 L99 178 L110 184 M99 190 L117 231" />
+    <mask id="company-president-neck-continuity" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect x="0" y="0" width="288" height="288" fill="white" />
+      <rect x="129" y="146" width="30" height="35" fill="black" />
+    </mask>
+    <clipPath id="company-president-garment-hem-clip">
+      <rect x="0" y="0" width="288" height="231" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="company-president-chair" transform="translate(11.52 0) scale(.92 1)" stroke-linejoin="round">
+      <path d="M68 207 C61 189 58 151 62 128 C66 103 83 97 106 96 H182 C205 97 222 103 226 128 C230 151 227 189 220 207Z" fill="url(#company-president-chair-cushion)" stroke="#17151a" stroke-width="4" />
+      <path d="M71 193 C67 178 65 149 70 128 C74 112 85 107 103 106 C109 107 112 116 110 131 L105 179 Q91 191 71 193Z" fill="url(#company-president-chair-bolster)" />
+      <path d="M217 193 C221 178 223 149 218 128 C214 112 203 107 185 106 C179 107 176 116 178 131 L183 179 Q197 191 217 193Z" fill="url(#company-president-chair-bolster)" />
+      <path d="M67 169 C65 151 67 127 76 116 Q84 106 103 104 M185 104 Q204 106 212 116 C221 127 223 151 221 169" fill="none" stroke="url(#company-president-chair-piping)" stroke-width="1.6" />
+      <path d="M109 112 C104 133 105 155 108 175 M179 112 C184 133 183 155 180 175" fill="none" stroke="#3e251c" stroke-width="1.5" opacity=".5" />
+    </g>
+    <g id="company-president-outfit" transform="translate(144 166.6) scale(.92 .86) translate(-144 -158)">
+      <use href="#company-president-outfit-body" fill="url(#company-president-outfit-suit-paint)" />
+      <use href="#company-president-outfit-neck" fill="url(#company-president-outfit-neck-paint)" />
+      <g clip-path="url(#company-president-garment-hem-clip)">
+        <g clip-path="url(#company-president-outfit-body-clip)">
+          <path d="M122 156 C110 159 96 165 86 171 Q78 175 74 184 C66 199 61 215 58 231" fill="none" stroke="url(#company-president-outfit-suit-bevel)" stroke-width="12" />
+          <path d="M166 156 C178 159 192 165 202 171 Q210 175 214 184 C222 199 227 215 230 231" fill="none" stroke="#425b78" stroke-width="8" />
+          <path d="M83 187 C82 202 83 217 84 231 M205 187 C206 202 205 217 204 231" fill="none" stroke="#0d1d32" stroke-width="2.5" />
+          <path d="M72 207 L66 231 M216 207 L222 231" fill="none" stroke="#4c6683" stroke-width="1.8" opacity=".55" />
+        </g>
+        <use href="#company-president-outfit-shirt" fill="url(#company-president-outfit-white-paint)" />
+        <use href="#company-president-outfit-tie" fill="url(#company-president-outfit-blue-paint)" stroke="#a91528" stroke-width="1" />
+        <g clip-path="url(#company-president-tie-clip)" fill="none" stroke="#ff7080" stroke-width="2.5" opacity=".22">
+          <path d="M132 203 L156 182 M131 216 L157 193 M132 229 L158 205 M140 234 L158 218" />
+        </g>
+        <use href="#company-president-outfit-collar-shadow-left" fill="none" clip-path="url(#company-president-outfit-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+        <use href="#company-president-outfit-collar-shadow-left" fill="none" transform="translate(288 0) scale(-1 1)" clip-path="url(#company-president-outfit-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+        <use href="#company-president-outfit-collar-left" fill="url(#company-president-outfit-white-paint)" clip-path="url(#company-president-outfit-shirt-clip)" />
+        <use href="#company-president-outfit-collar-left" fill="url(#company-president-outfit-white-paint)" transform="translate(288 0) scale(-1 1)" clip-path="url(#company-president-outfit-shirt-clip)" />
+        <use href="#company-president-outfit-knot" fill="url(#company-president-outfit-knot-paint)" stroke="#a91528" stroke-width="1.2" />
+        <use href="#company-president-outfit-lapel-left" fill="url(#company-president-outfit-lapel-paint)" />
+        <use href="#company-president-outfit-lapel-left" fill="url(#company-president-outfit-lapel-paint)" transform="translate(288 0) scale(-1 1)" />
+        <g clip-path="url(#company-president-lapel-clip)">
+          <use href="#company-president-lapel-edge" fill="none" stroke="url(#company-president-lapel-edge-light)" stroke-width="6" />
+        </g>
+        <g transform="translate(288 0) scale(-1 1)">
+          <use href="#company-president-lapel-edge" fill="none" stroke="url(#company-president-lapel-edge-light)" stroke-width="5" opacity=".65" clip-path="url(#company-president-lapel-clip)" />
+        </g>
+        <use href="#company-president-outfit-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" />
+        <use href="#company-president-outfit-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+        <use href="#company-president-outfit-lapel-seam-left" fill="none" stroke="#050b1d" stroke-width="3" />
+        <use href="#company-president-outfit-lapel-seam-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+        <path d="M177 191 L187 193 L186 198 L176 196Z" fill="url(#company-president-gold-pin)" stroke="#0d1a2c" stroke-width="1.5" />
+      </g>
+      <path id="company-president-neck-shoulder-outline" d="M126 148 C127 151 125 154 122 156 C110 159 96 165 86 171 Q78 175 74 184 C66 199 61 215 58 231 H230 C227 215 222 199 214 184 Q210 175 202 171 C192 165 178 159 166 156 C163 154 161 151 162 148" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    </g>
+    <g id="company-president-head" transform="translate(144 164) scale(1.04) translate(-144 -159)">
+      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#company-president-reference-base-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#company-president-neck-continuity)" />
+      <use href="#company-president-reference-base-face" fill="url(#company-president-reference-base-skin-paint)" />
+      <g clip-path="url(#company-president-face-clip)">
+        <path d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="url(#company-president-hairline-shadow)" stroke-width="7" />
+        <path d="M178 123 C181 146 162 159 144 159" fill="none" stroke="url(#company-president-cheek-shadow)" stroke-width="8" />
+        <path d="M97 121 Q98 116 104 118" fill="none" stroke="#ffe7b5" stroke-width="2" opacity=".7" />
+      </g>
+      <g id="company-president-hairstyle">
+        <use href="#company-president-silver-hair-shape" fill="url(#company-president-silver-hair)" />
+        <g clip-path="url(#company-president-silver-hair-clip)">
+          <path d="M173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C173 79 173.5 75 173 70Z" fill="url(#company-president-side-hair)" />
+          <path d="M173 70 C173.5 75 173 79 170 83 L174 88 Q180 78 173 70Z" fill="url(#company-president-part-shadow)" />
+          <path d="M100 102 C99 88 109 74 121 68 C137 59 154 61 166 68 C153 64 138 66 125 74 C110 83 104 92 100 102Z" fill="url(#company-president-hair-sweep)" />
+          <path d="M117 80 C137 84 159 77 170 69 C168 80 147 90 128 87Z" fill="#8fa9c1" opacity=".45" />
+          <path d="M115 77 C133 81 152 74 165 68 C154 79 132 85 121 82Z" fill="url(#company-president-hair-sweep)" />
+          <path d="M100 102 Q103 92 109 88 L108 110 L109 120 Q101 113 100 102Z" fill="#a0b7cd" opacity=".65" />
+          <path d="M177 74 C187 78 193 91 190 105 C188 94 182 88 176 84Z" fill="url(#company-president-hair-sweep)" opacity=".75" />
+          <path d="M178 87 Q189 98 188 113 L181 118 Q184 104 178 87Z" fill="#6f8ba7" opacity=".3" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="qr-code-title">
+  <title id="qr-code-title">QRコード</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="qr-code-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="qr-code-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="qr-code-shape1" x="66" y="66" width="156" height="156" rx="20" />
+    <clipPath id="qr-code-shape1-clip">
+      <use href="#qr-code-shape1" />
+    </clipPath>
+    <rect id="qr-code-shape2" x="84" y="84" width="42" height="42" rx="0" />
+    <rect id="qr-code-shape3" x="91" y="91" width="28" height="28" rx="0" />
+    <rect id="qr-code-shape4" x="97" y="97" width="16" height="16" rx="0" />
+    <rect id="qr-code-shape5" x="162" y="84" width="42" height="42" rx="0" />
+    <rect id="qr-code-shape6" x="169" y="91" width="28" height="28" rx="0" />
+    <rect id="qr-code-shape7" x="175" y="97" width="16" height="16" rx="0" />
+    <rect id="qr-code-shape8" x="84" y="162" width="42" height="42" rx="0" />
+    <rect id="qr-code-shape9" x="91" y="169" width="28" height="28" rx="0" />
+    <rect id="qr-code-shape10" x="97" y="175" width="16" height="16" rx="0" />
+    <rect id="qr-code-shape11" x="133" y="84" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape12" x="147" y="84" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape14" x="147" y="91" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape17" x="133" y="98" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape18" x="147" y="98" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape20" x="140" y="105" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape22" x="133" y="112" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape23" x="140" y="112" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape24" x="147" y="112" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape32" x="140" y="126" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape33" x="147" y="126" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape38" x="91" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape39" x="105" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape40" x="112" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape41" x="126" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape42" x="133" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape43" x="154" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape44" x="168" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape45" x="175" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape46" x="189" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape47" x="196" y="133" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape48" x="84" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape49" x="91" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape50" x="112" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape51" x="119" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape52" x="133" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape53" x="140" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape54" x="147" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape55" x="154" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape56" x="175" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape57" x="182" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape58" x="196" y="140" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape59" x="84" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape60" x="98" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape61" x="105" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape62" x="112" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape63" x="133" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape64" x="147" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape65" x="161" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape66" x="168" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape67" x="175" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape68" x="196" y="147" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape73" x="133" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape74" x="140" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape75" x="154" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape76" x="161" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape77" x="175" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape78" x="189" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape79" x="196" y="154" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape80" x="140" y="161" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape81" x="147" y="161" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape82" x="154" y="161" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape83" x="175" y="161" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape84" x="182" y="161" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape86" x="133" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape87" x="161" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape88" x="168" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape89" x="182" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape90" x="189" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape91" x="196" y="168" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape92" x="133" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape93" x="140" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape94" x="147" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape95" x="154" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape96" x="161" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape97" x="182" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape98" x="196" y="175" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape100" x="140" y="182" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape101" x="147" y="182" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape102" x="168" y="182" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape103" x="175" y="182" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape104" x="189" y="182" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape105" x="133" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape106" x="147" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape107" x="154" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape108" x="175" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape109" x="182" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape110" x="196" y="189" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape111" x="133" y="196" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape112" x="140" y="196" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape113" x="161" y="196" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape114" x="168" y="196" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape115" x="182" y="196" width="7" height="7" rx="0" />
+    <rect id="qr-code-shape116" x="196" y="196" width="7" height="7" rx="0" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#qr-code-shape1" fill="url(#qr-code-paper)" />
+    <use href="#qr-code-shape1" fill="none" stroke="url(#qr-code-silver-edge)" stroke-width="10" clip-path="url(#qr-code-shape1-clip)" />
+    <use href="#qr-code-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#qr-code-shape2" fill="#050b1d" />
+    <use href="#qr-code-shape3" fill="url(#qr-code-paper)" />
+    <use href="#qr-code-shape4" fill="#050b1d" />
+    <use href="#qr-code-shape5" fill="#050b1d" />
+    <use href="#qr-code-shape6" fill="url(#qr-code-paper)" />
+    <use href="#qr-code-shape7" fill="#050b1d" />
+    <use href="#qr-code-shape8" fill="#050b1d" />
+    <use href="#qr-code-shape9" fill="url(#qr-code-paper)" />
+    <use href="#qr-code-shape10" fill="#050b1d" />
+    <use href="#qr-code-shape11" fill="#050b1d" />
+    <use href="#qr-code-shape12" fill="#050b1d" />
+    <use href="#qr-code-shape14" fill="#050b1d" />
+    <use href="#qr-code-shape17" fill="#050b1d" />
+    <use href="#qr-code-shape18" fill="#050b1d" />
+    <use href="#qr-code-shape20" fill="#050b1d" />
+    <use href="#qr-code-shape22" fill="#050b1d" />
+    <use href="#qr-code-shape23" fill="#050b1d" />
+    <use href="#qr-code-shape24" fill="#050b1d" />
+    <use href="#qr-code-shape32" fill="#050b1d" />
+    <use href="#qr-code-shape33" fill="#050b1d" />
+    <use href="#qr-code-shape38" fill="#050b1d" />
+    <use href="#qr-code-shape39" fill="#050b1d" />
+    <use href="#qr-code-shape40" fill="#050b1d" />
+    <use href="#qr-code-shape41" fill="#050b1d" />
+    <use href="#qr-code-shape42" fill="#050b1d" />
+    <use href="#qr-code-shape43" fill="#050b1d" />
+    <use href="#qr-code-shape44" fill="#050b1d" />
+    <use href="#qr-code-shape45" fill="#050b1d" />
+    <use href="#qr-code-shape46" fill="#050b1d" />
+    <use href="#qr-code-shape47" fill="#050b1d" />
+    <use href="#qr-code-shape48" fill="#050b1d" />
+    <use href="#qr-code-shape49" fill="#050b1d" />
+    <use href="#qr-code-shape50" fill="#050b1d" />
+    <use href="#qr-code-shape51" fill="#050b1d" />
+    <use href="#qr-code-shape52" fill="#050b1d" />
+    <use href="#qr-code-shape53" fill="#050b1d" />
+    <use href="#qr-code-shape54" fill="#050b1d" />
+    <use href="#qr-code-shape55" fill="#050b1d" />
+    <use href="#qr-code-shape56" fill="#050b1d" />
+    <use href="#qr-code-shape57" fill="#050b1d" />
+    <use href="#qr-code-shape58" fill="#050b1d" />
+    <use href="#qr-code-shape59" fill="#050b1d" />
+    <use href="#qr-code-shape60" fill="#050b1d" />
+    <use href="#qr-code-shape61" fill="#050b1d" />
+    <use href="#qr-code-shape62" fill="#050b1d" />
+    <use href="#qr-code-shape63" fill="#050b1d" />
+    <use href="#qr-code-shape64" fill="#050b1d" />
+    <use href="#qr-code-shape65" fill="#050b1d" />
+    <use href="#qr-code-shape66" fill="#050b1d" />
+    <use href="#qr-code-shape67" fill="#050b1d" />
+    <use href="#qr-code-shape68" fill="#050b1d" />
+    <use href="#qr-code-shape73" fill="#050b1d" />
+    <use href="#qr-code-shape74" fill="#050b1d" />
+    <use href="#qr-code-shape75" fill="#050b1d" />
+    <use href="#qr-code-shape76" fill="#050b1d" />
+    <use href="#qr-code-shape77" fill="#050b1d" />
+    <use href="#qr-code-shape78" fill="#050b1d" />
+    <use href="#qr-code-shape79" fill="#050b1d" />
+    <use href="#qr-code-shape80" fill="#050b1d" />
+    <use href="#qr-code-shape81" fill="#050b1d" />
+    <use href="#qr-code-shape82" fill="#050b1d" />
+    <use href="#qr-code-shape83" fill="#050b1d" />
+    <use href="#qr-code-shape84" fill="#050b1d" />
+    <use href="#qr-code-shape86" fill="#050b1d" />
+    <use href="#qr-code-shape87" fill="#050b1d" />
+    <use href="#qr-code-shape88" fill="#050b1d" />
+    <use href="#qr-code-shape89" fill="#050b1d" />
+    <use href="#qr-code-shape90" fill="#050b1d" />
+    <use href="#qr-code-shape91" fill="#050b1d" />
+    <use href="#qr-code-shape92" fill="#050b1d" />
+    <use href="#qr-code-shape93" fill="#050b1d" />
+    <use href="#qr-code-shape94" fill="#050b1d" />
+    <use href="#qr-code-shape95" fill="#050b1d" />
+    <use href="#qr-code-shape96" fill="#050b1d" />
+    <use href="#qr-code-shape97" fill="#050b1d" />
+    <use href="#qr-code-shape98" fill="#050b1d" />
+    <use href="#qr-code-shape100" fill="#050b1d" />
+    <use href="#qr-code-shape101" fill="#050b1d" />
+    <use href="#qr-code-shape102" fill="#050b1d" />
+    <use href="#qr-code-shape103" fill="#050b1d" />
+    <use href="#qr-code-shape104" fill="#050b1d" />
+    <use href="#qr-code-shape105" fill="#050b1d" />
+    <use href="#qr-code-shape106" fill="#050b1d" />
+    <use href="#qr-code-shape107" fill="#050b1d" />
+    <use href="#qr-code-shape108" fill="#050b1d" />
+    <use href="#qr-code-shape109" fill="#050b1d" />
+    <use href="#qr-code-shape110" fill="#050b1d" />
+    <use href="#qr-code-shape111" fill="#050b1d" />
+    <use href="#qr-code-shape112" fill="#050b1d" />
+    <use href="#qr-code-shape113" fill="#050b1d" />
+    <use href="#qr-code-shape114" fill="#050b1d" />
+    <use href="#qr-code-shape115" fill="#050b1d" />
+    <use href="#qr-code-shape116" fill="#050b1d" />
+    <rect id="qr-code-between-finders-dot" x="133" y="119" width="7" height="7" fill="#050b1d" />
+  </g>
+</svg>

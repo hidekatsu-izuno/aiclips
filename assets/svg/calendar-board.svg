@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="calendar-board-title">
+  <title id="calendar-board-title">カレンダー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="calendar-board-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="calendar-board-red" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff5158" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ff323d" stop-opacity="1" />
+      <stop offset="1" stop-color="#f91a27" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffa0a5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#ff636a" stop-opacity="1" />
+      <stop offset="1" stop-color="#cf111b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-cell" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#bac8d5" stop-opacity="1" />
+      <stop offset="1" stop-color="#9eafc0" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calendar-board-cell-inset" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#93a5b7" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#b5c4d1" stop-opacity="1" />
+      <stop offset="1" stop-color="#e6edf4" stop-opacity="1" />
+    </linearGradient>
+    <rect id="calendar-board-body" x="62" y="82" width="164" height="142" rx="20" />
+    <clipPath id="calendar-board-body-clip">
+      <use href="#calendar-board-body" />
+    </clipPath>
+    <path id="calendar-board-header" d="M82 82 H206 A20 20 0 0 1 226 102 V122 H62 V102 A20 20 0 0 1 82 82 Z" />
+    <clipPath id="calendar-board-header-clip">
+      <use href="#calendar-board-header" />
+    </clipPath>
+    <rect id="calendar-board-binding-0" x="90.5" y="67" width="19" height="35" rx="9.5" />
+    <clipPath id="calendar-board-binding-0-clip">
+      <use href="#calendar-board-binding-0" />
+    </clipPath>
+    <rect id="calendar-board-binding-1" x="134.5" y="67" width="19" height="35" rx="9.5" />
+    <clipPath id="calendar-board-binding-1-clip">
+      <use href="#calendar-board-binding-1" />
+    </clipPath>
+    <rect id="calendar-board-binding-2" x="178.5" y="67" width="19" height="35" rx="9.5" />
+    <clipPath id="calendar-board-binding-2-clip">
+      <use href="#calendar-board-binding-2" />
+    </clipPath>
+    <rect id="calendar-board-cell-0-0" x="85.5" y="132" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-0-0-clip">
+      <use href="#calendar-board-cell-0-0" />
+    </clipPath>
+    <rect id="calendar-board-cell-0-1" x="116.5" y="132" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-0-1-clip">
+      <use href="#calendar-board-cell-0-1" />
+    </clipPath>
+    <rect id="calendar-board-cell-0-2" x="147.5" y="132" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-0-2-clip">
+      <use href="#calendar-board-cell-0-2" />
+    </clipPath>
+    <rect id="calendar-board-cell-0-3" x="178.5" y="132" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-0-3-clip">
+      <use href="#calendar-board-cell-0-3" />
+    </clipPath>
+    <rect id="calendar-board-cell-1-0" x="85.5" y="159" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-1-0-clip">
+      <use href="#calendar-board-cell-1-0" />
+    </clipPath>
+    <rect id="calendar-board-cell-1-1" x="116.5" y="159" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-1-1-clip">
+      <use href="#calendar-board-cell-1-1" />
+    </clipPath>
+    <rect id="calendar-board-cell-1-2" x="147.5" y="159" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-1-2-clip">
+      <use href="#calendar-board-cell-1-2" />
+    </clipPath>
+    <rect id="calendar-board-cell-1-3" x="178.5" y="159" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-1-3-clip">
+      <use href="#calendar-board-cell-1-3" />
+    </clipPath>
+    <rect id="calendar-board-cell-2-0" x="85.5" y="186" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-2-0-clip">
+      <use href="#calendar-board-cell-2-0" />
+    </clipPath>
+    <rect id="calendar-board-cell-2-1" x="116.5" y="186" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-2-1-clip">
+      <use href="#calendar-board-cell-2-1" />
+    </clipPath>
+    <rect id="calendar-board-cell-2-2" x="147.5" y="186" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-2-2-clip">
+      <use href="#calendar-board-cell-2-2" />
+    </clipPath>
+    <rect id="calendar-board-cell-2-3" x="178.5" y="186" width="24" height="21" rx="3" />
+    <clipPath id="calendar-board-cell-2-3-clip">
+      <use href="#calendar-board-cell-2-3" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#calendar-board-body" fill="url(#calendar-board-white)" />
+    <use href="#calendar-board-body" fill="none" stroke="url(#calendar-board-white-edge)" stroke-width="15" clip-path="url(#calendar-board-body-clip)" />
+    <use href="#calendar-board-header" fill="url(#calendar-board-red)" />
+    <path d="M67.25 122 V102 A14.75 14.75 0 0 1 82 87.25 H206 A14.75 14.75 0 0 1 220.75 102 V122" fill="none" stroke="url(#calendar-board-red-edge)" stroke-width="2.5" clip-path="url(#calendar-board-header-clip)" stroke-linecap="butt" />
+    <use href="#calendar-board-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#calendar-board-binding-0" fill="url(#calendar-board-blue)" />
+    <use href="#calendar-board-binding-0" fill="none" stroke="url(#calendar-board-blue-edge)" stroke-width="12" clip-path="url(#calendar-board-binding-0-clip)" />
+    <use href="#calendar-board-binding-0" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#calendar-board-binding-1" fill="url(#calendar-board-blue)" />
+    <use href="#calendar-board-binding-1" fill="none" stroke="url(#calendar-board-blue-edge)" stroke-width="12" clip-path="url(#calendar-board-binding-1-clip)" />
+    <use href="#calendar-board-binding-1" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#calendar-board-binding-2" fill="url(#calendar-board-blue)" />
+    <use href="#calendar-board-binding-2" fill="none" stroke="url(#calendar-board-blue-edge)" stroke-width="12" clip-path="url(#calendar-board-binding-2-clip)" />
+    <use href="#calendar-board-binding-2" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#calendar-board-cell-0-0" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-0-0" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-0-0-clip)" />
+    <use href="#calendar-board-cell-0-1" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-0-1" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-0-1-clip)" />
+    <use href="#calendar-board-cell-0-2" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-0-2" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-0-2-clip)" />
+    <use href="#calendar-board-cell-0-3" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-0-3" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-0-3-clip)" />
+    <use href="#calendar-board-cell-1-0" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-1-0" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-1-0-clip)" />
+    <use href="#calendar-board-cell-1-1" fill="url(#calendar-board-red)" />
+    <use href="#calendar-board-cell-1-1" fill="none" stroke="url(#calendar-board-red-edge)" stroke-width="1.2" clip-path="url(#calendar-board-cell-1-1-clip)" />
+    <use href="#calendar-board-cell-1-2" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-1-2" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-1-2-clip)" />
+    <use href="#calendar-board-cell-1-3" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-1-3" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-1-3-clip)" />
+    <use href="#calendar-board-cell-2-0" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-2-0" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-2-0-clip)" />
+    <use href="#calendar-board-cell-2-1" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-2-1" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-2-1-clip)" />
+    <use href="#calendar-board-cell-2-2" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-2-2" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-2-2-clip)" />
+    <use href="#calendar-board-cell-2-3" fill="url(#calendar-board-cell)" />
+    <use href="#calendar-board-cell-2-3" fill="none" stroke="url(#calendar-board-cell-inset)" stroke-width="1.2" clip-path="url(#calendar-board-cell-2-3-clip)" />
+  </g>
+</svg>

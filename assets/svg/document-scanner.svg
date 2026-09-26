@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="document-scanner-title">
+  <title id="document-scanner-title">スキャナー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="document-scanner-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="document-scanner-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="document-scanner-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <path id="document-scanner-lid" d="M83 62 H207 Q222 62 228 74 Q232 80 226 93 L206 126 H84 L64 93 Q58 80 62 74 Q68 62 83 62 Z" />
+    <clipPath id="document-scanner-lid-clip">
+      <use href="#document-scanner-lid" />
+    </clipPath>
+    <path id="document-scanner-lid-glass" d="M84 77 H206 Q216 77 212 86 L200 112 Q198 117 193 117 H97 Q92 117 90 112 L78 86 Q74 77 84 77 Z" />
+    <path id="document-scanner-base" d="M84 126 H206 L237 191 Q247 219 222 223 H68 Q43 219 53 191 Z" />
+    <clipPath id="document-scanner-base-clip">
+      <use href="#document-scanner-base" />
+    </clipPath>
+    <path id="document-scanner-glass" d="M91 137 H199 L220 180 Q222 185 216 185 H74 Q68 185 70 180 Z" />
+    <clipPath id="document-scanner-glass-clip">
+      <use href="#document-scanner-glass" />
+    </clipPath>
+    <linearGradient id="document-scanner-lamp" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#65f49a" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#23db66" stop-opacity="1" />
+      <stop offset="1" stop-color="#0eaa46" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#document-scanner-lid" fill="url(#document-scanner-steel)" />
+    <use href="#document-scanner-lid" fill="none" stroke="url(#document-scanner-steel-edge)" stroke-width="15" clip-path="url(#document-scanner-lid-clip)" />
+    <use href="#document-scanner-lid-glass" fill="#e4ebf1" stroke="#050b1d" stroke-width="3" />
+    <use href="#document-scanner-base" fill="url(#document-scanner-steel)" />
+    <use href="#document-scanner-base" fill="none" stroke="url(#document-scanner-steel-edge)" stroke-width="15" clip-path="url(#document-scanner-base-clip)" />
+    <path d="M84 126 H206" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" />
+    <path id="document-scanner-outer-outline" d="M84 126 L64 93 Q58 80 62 74 Q68 62 83 62 H207 Q222 62 228 74 Q232 80 226 93 L206 126 L237 191 Q247 219 222 223 H68 Q43 219 53 191 Z" fill="none" stroke="#050b1d" stroke-width="7" stroke-linejoin="round" />
+    <use href="#document-scanner-glass" fill="url(#document-scanner-white)" stroke="#050b1d" stroke-width="3" />
+    <g fill="#cfdee9" clip-path="url(#document-scanner-glass-clip)">
+      <path d="M58 190 H78 L138 132 H118 Z" />
+      <path d="M94 190 H130 L190 132 H154 Z" />
+      <path d="M146 190 H168 L228 132 H206 Z" />
+    </g>
+    <use href="#document-scanner-glass" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="208" cy="204" r="8" fill="url(#document-scanner-lamp)" stroke="#050b1d" stroke-width="2" />
+    <path d="M204.0 204 A4.4 4.4 0 0 1 209.2 199.6" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+  </g>
+</svg>

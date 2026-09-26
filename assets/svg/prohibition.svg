@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="prohibition-title">
+  <title id="prohibition-title">禁止</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="prohibition-red-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff676b" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#ff353d" stop-opacity="1" />
+      <stop offset="1" stop-color="#f61d2b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="prohibition-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb0b1" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#ff6a70" stop-opacity="1" />
+      <stop offset="1" stop-color="#c61225" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="prohibition-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <circle id="prohibition-rim" cx="142.5" cy="144" r="78.5" />
+    <path id="prohibition-symbol" d="M221 144 A78.5 78.5 0 1 1 64 144 A78.5 78.5 0 1 1 221 144 Z M109.776969106 94.306406357 A59.5 59.5 0 0 1 192.193593643 176.723030894 Z M175.223030894 193.693593643 A59.5 59.5 0 0 1 92.806406357 111.276969106 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="prohibition-symbol-clip">
+      <use href="#prohibition-symbol" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#prohibition-rim" fill="url(#prohibition-white)" />
+    <use href="#prohibition-symbol" fill="url(#prohibition-red-paint)" />
+    <use href="#prohibition-symbol" fill="none" stroke="url(#prohibition-red-edge)" stroke-width="9" clip-path="url(#prohibition-symbol-clip)" />
+    <use href="#prohibition-rim" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="calculator-title">
+  <title id="calculator-title">電卓</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="calculator-body-paint" gradientUnits="userSpaceOnUse" x1="87" y1="76" x2="206" y2="215">
+      <stop offset="0" stop-color="#7696b5" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#496786" stop-opacity="1" />
+      <stop offset="1" stop-color="#385475" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-body-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c1d4e5" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#7d9fbc" stop-opacity="1" />
+      <stop offset="1" stop-color="#263f60" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-screen-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#89f0c4" stop-opacity="1" />
+      <stop offset="1" stop-color="#4eddb0" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-screen-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d2ffe8" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#87f1c6" stop-opacity="1" />
+      <stop offset="1" stop-color="#29b58a" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-key-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#d1e0ed" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-key-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#e4f0fa" stop-opacity="1" />
+      <stop offset="1" stop-color="#9fb8ce" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-enter-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffc300" stop-opacity="1" />
+      <stop offset="1" stop-color="#ff9800" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="calculator-enter-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffe55a" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#ffc325" stop-opacity="1" />
+      <stop offset="1" stop-color="#d97600" stop-opacity="1" />
+    </linearGradient>
+    <rect id="calculator-body" x="76" y="63" width="139" height="160" rx="20" />
+    <clipPath id="calculator-body-clip">
+      <use href="#calculator-body" />
+    </clipPath>
+    <rect id="calculator-screen" x="98.5" y="87" width="94" height="33" rx="5" />
+    <clipPath id="calculator-screen-clip">
+      <use href="#calculator-screen" />
+    </clipPath>
+    <rect id="calculator-key-0-0" x="96.5" y="132" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-0-0-clip">
+      <use href="#calculator-key-0-0" />
+    </clipPath>
+    <rect id="calculator-key-0-1" x="132.5" y="132" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-0-1-clip">
+      <use href="#calculator-key-0-1" />
+    </clipPath>
+    <rect id="calculator-key-0-2" x="168.5" y="132" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-0-2-clip">
+      <use href="#calculator-key-0-2" />
+    </clipPath>
+    <rect id="calculator-key-1-0" x="96.5" y="160" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-1-0-clip">
+      <use href="#calculator-key-1-0" />
+    </clipPath>
+    <rect id="calculator-key-1-1" x="132.5" y="160" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-1-1-clip">
+      <use href="#calculator-key-1-1" />
+    </clipPath>
+    <rect id="calculator-key-2-0" x="96.5" y="188" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-2-0-clip">
+      <use href="#calculator-key-2-0" />
+    </clipPath>
+    <rect id="calculator-key-2-1" x="132.5" y="188" width="26" height="19" rx="4" />
+    <clipPath id="calculator-key-2-1-clip">
+      <use href="#calculator-key-2-1" />
+    </clipPath>
+    <rect id="calculator-enter" x="168.5" y="160" width="26" height="47" rx="5" />
+    <clipPath id="calculator-enter-clip">
+      <use href="#calculator-enter" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#calculator-body" fill="url(#calculator-body-paint)" />
+    <use href="#calculator-body" fill="none" stroke="url(#calculator-body-edge)" stroke-width="19" clip-path="url(#calculator-body-clip)" />
+    <use href="#calculator-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#calculator-screen" fill="url(#calculator-screen-paint)" />
+    <use href="#calculator-screen" fill="none" stroke="url(#calculator-screen-edge)" stroke-width="11" clip-path="url(#calculator-screen-clip)" />
+    <use href="#calculator-screen" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#calculator-key-0-0" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-0-0" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-0-0-clip)" />
+    <use href="#calculator-key-0-0" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-0-1" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-0-1" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-0-1-clip)" />
+    <use href="#calculator-key-0-1" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-0-2" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-0-2" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-0-2-clip)" />
+    <use href="#calculator-key-0-2" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-1-0" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-1-0" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-1-0-clip)" />
+    <use href="#calculator-key-1-0" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-1-1" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-1-1" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-1-1-clip)" />
+    <use href="#calculator-key-1-1" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-2-0" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-2-0" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-2-0-clip)" />
+    <use href="#calculator-key-2-0" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-key-2-1" fill="url(#calculator-key-paint)" />
+    <use href="#calculator-key-2-1" fill="none" stroke="url(#calculator-key-edge)" stroke-width="8" clip-path="url(#calculator-key-2-1-clip)" />
+    <use href="#calculator-key-2-1" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#calculator-enter" fill="url(#calculator-enter-paint)" />
+    <use href="#calculator-enter" fill="none" stroke="url(#calculator-enter-edge)" stroke-width="9" clip-path="url(#calculator-enter-clip)" />
+    <use href="#calculator-enter" fill="none" stroke="#050b1d" stroke-width="2.5" />
+  </g>
+</svg>

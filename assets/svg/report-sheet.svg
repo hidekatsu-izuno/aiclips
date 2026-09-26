@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="report-sheet-title">
+  <title id="report-sheet-title">レポート</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="report-sheet-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="report-sheet-metal-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8ba5bc" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4d6882" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a64" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="report-sheet-metal-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d1e2ef" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7b99b3" stop-opacity="1" />
+      <stop offset="1" stop-color="#213c56" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="report-sheet-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <path id="report-sheet-paper" d="M87 61 H176 L216 101 V208 Q216 225 199 225 H86 Q69 225 69 208 V78 Q69 61 87 61 Z" />
+    <path id="report-sheet-fold" d="M174.343146 65 L212 102.656854 H184.343146 Q174.343146 102.656854 174.343146 92.656854 Z" />
+    <clipPath id="report-sheet-fold-clip">
+      <use href="#report-sheet-fold" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#report-sheet-paper" fill="url(#report-sheet-white)" />
+    <use href="#report-sheet-fold" fill="url(#report-sheet-metal-paint)" />
+    <use href="#report-sheet-fold" fill="none" stroke="url(#report-sheet-metal-edge)" stroke-width="3" clip-path="url(#report-sheet-fold-clip)" />
+    <rect x="89" y="85" width="70" height="14" rx="4" fill="url(#report-sheet-blue)" />
+    <rect x="89" y="109" width="106" height="14" rx="4" fill="url(#report-sheet-blue)" />
+    <rect x="159" y="197" width="36" height="14" rx="4" fill="url(#report-sheet-blue)" />
+    <rect x="89" y="133" width="106" height="13" rx="5" fill="#a6b6c5" />
+    <rect x="109" y="133" width="7" height="13" fill="#f7f9fb" />
+    <rect x="158" y="133" width="7" height="13" fill="#f7f9fb" />
+    <rect x="89" y="154" width="106" height="13" rx="5" fill="#a6b6c5" />
+    <rect x="109" y="154" width="7" height="13" fill="#f7f9fb" />
+    <rect x="158" y="154" width="7" height="13" fill="#f7f9fb" />
+    <rect x="89" y="175" width="106" height="13" rx="5" fill="#a6b6c5" />
+    <rect x="109" y="175" width="7" height="13" fill="#f7f9fb" />
+    <rect x="158" y="175" width="7" height="13" fill="#f7f9fb" />
+    <rect x="89" y="197" width="60" height="13" rx="5" fill="#a6b6c5" />
+    <use href="#report-sheet-paper" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

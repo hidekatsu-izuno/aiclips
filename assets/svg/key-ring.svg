@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="key-ring-title">
+  <title id="key-ring-title">鍵束</title>
+  <desc>Three copies of the access-key geometry, threaded onto a metal ring through their actual holes. Editable paths and crisp gradients.</desc>
+  <defs>
+    <linearGradient id="key-ring-key-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="key-ring-key-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <path id="key-ring-key-body" d="M121.995023 134.695324 A51.5 51.5 0 1 1 145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80 Q71 217 71 208 V187 Z M194 109 A12 12 0 1 1 170 109 A12 12 0 1 1 194 109 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="key-ring-key-body-clip">
+      <use href="#key-ring-key-body" />
+    </clipPath>
+    <linearGradient id="key-ring-key-contour-shadow" gradientUnits="userSpaceOnUse" x1="126" y1="100" x2="211" y2="167">
+      <stop offset="0" stop-color="#e9a300" stop-opacity="0" />
+      <stop offset=".4" stop-color="#e9a300" stop-opacity=".25" />
+      <stop offset="1" stop-color="#d79200" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="key-ring-key-lower-shadow" gradientUnits="userSpaceOnUse" x1="0" y1="165" x2="0" y2="205">
+      <stop offset="0" stop-color="#d79200" stop-opacity="0" />
+      <stop offset="1" stop-color="#d79200" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="key-ring-key-tip-edge" gradientUnits="userSpaceOnUse" x1="74" y1="208" x2="94" y2="217">
+      <stop offset="0" stop-color="#fff487" />
+      <stop offset="0.3" stop-color="#ffdf35" />
+      <stop offset="1" stop-color="#d79200" />
+    </linearGradient>
+    <linearGradient id="key-ring-key-hole-edge" gradientUnits="userSpaceOnUse" x1="172" y1="99" x2="192" y2="119">
+      <stop offset="0" stop-color="#c48700" />
+      <stop offset="0.4" stop-color="#e6a500" />
+      <stop offset="0.6" stop-color="#ffdf35" />
+      <stop offset="1" stop-color="#fff487" />
+    </linearGradient>
+    <path id="key-ring-key-outer-contour" d="M121.995023 134.695324 A51.5 51.5 0 1 1 145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80 Q71 217 71 208 V187 Z" />
+    <g stroke-linecap="round" stroke-linejoin="round" id="key-ring-key-drawing">
+      <use href="#key-ring-key-body" fill="url(#key-ring-key-gold)" />
+      <use href="#key-ring-key-body" fill="none" stroke="url(#key-ring-key-gold-edge)" stroke-width="14" clip-path="url(#key-ring-key-body-clip)" />
+      <use href="#key-ring-key-outer-contour" fill="none" stroke="url(#key-ring-key-contour-shadow)" stroke-width="24" clip-path="url(#key-ring-key-body-clip)" />
+      <path d="M145.75 165.100308 L139 172 H134 V186 Q134 194 124 194 H113 V205 Q113 217 102 217 H80" fill="none" stroke="url(#key-ring-key-lower-shadow)" stroke-width="24" clip-path="url(#key-ring-key-body-clip)" />
+      <path d="M71 187 V208 Q71 217 80 217 H102" fill="none" stroke="url(#key-ring-key-tip-edge)" stroke-width="14" stroke-linecap="butt" clip-path="url(#key-ring-key-body-clip)" />
+      <circle cx="182" cy="109" r="12" fill="none" stroke="url(#key-ring-key-hole-edge)" stroke-width="14" clip-path="url(#key-ring-key-body-clip)" />
+      <use href="#key-ring-key-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    </g>
+    <linearGradient id="key-ring-metal" gradientUnits="userSpaceOnUse" x1="112" y1="71" x2="174" y2="139">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".45" stop-color="#d7e4ef" />
+      <stop offset="1" stop-color="#829aae" />
+    </linearGradient>
+    <mask id="key-ring-wire-occlusion" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288" style="mask-type:luminance">
+      <rect width="288" height="288" fill="white" />
+      <circle cx="185.99622408148664" cy="131.6393947623427" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-right)" />
+      <circle cx="144.3889087296526" cy="150.55599205235723" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-middle)" />
+      <circle cx="102.6409266803869" cy="132.08553252878264" r="30.250000000000004" fill="black" clip-path="url(#key-ring-far-half-left)" />
+      <circle cx="180.77013326971095" cy="124.85380526495388" r="4.675" fill="white" />
+      <circle cx="144.0" cy="142.0" r="4.675" fill="white" />
+      <circle cx="107.22986673028906" cy="124.85380526495389" r="4.675" fill="white" />
+    </mask>
+    <clipPath id="key-ring-far-half-right">
+      <polygon points="410.58346620540436,317.69008817091566 -49.043199665982456,-67.9824776410079 143.79308323997932,-297.79581057670134 603.4197491113662,87.87675523522225" />
+    </clipPath>
+    <clipPath id="key-ring-far-half-middle">
+      <polygon points="144.00000000000003,442.0 143.99999999999997,-158.0 444.0,-158.00000000000003 444.0,442.0" />
+    </clipPath>
+    <clipPath id="key-ring-far-half-left">
+      <polygon points="-122.58346620540432,317.6900881709157 337.04319966598246,-67.98247764100795 529.8794825719443,161.83085529468542 70.25281670055752,547.503421106609" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="9.5" />
+    <circle cx="144" cy="94" r="48" fill="none" stroke="url(#key-ring-metal)" stroke-width="4.5" />
+    <circle id="key-ring-hole-depth-right" cx="180.77013326971095" cy="124.85380526495388" r="6.6" fill="#050b1d" />
+    <g id="key-ring-right" transform="translate(180.770133270 124.853805265) rotate(-80) scale(0.55) translate(-182 -109)">
+      <use href="#key-ring-key-drawing" />
+    </g>
+    <circle id="key-ring-hole-depth-middle" cx="144.0" cy="142.0" r="6.6" fill="#050b1d" />
+    <g id="key-ring-middle" transform="translate(144.000000000 142.000000000) rotate(-45) scale(0.55) translate(-182 -109)">
+      <use href="#key-ring-key-drawing" />
+    </g>
+    <circle id="key-ring-hole-depth-left" cx="107.22986673028906" cy="124.85380526495389" r="6.6" fill="#050b1d" />
+    <g id="key-ring-left" transform="translate(107.229866730 124.853805265) rotate(-10) scale(0.55) translate(-182 -109)">
+      <use href="#key-ring-key-drawing" />
+    </g>
+    <g mask="url(#key-ring-wire-occlusion)">
+      <circle cx="144" cy="94" r="48" fill="none" stroke="#050b1d" stroke-width="9.5" />
+      <circle cx="144" cy="94" r="48" fill="none" stroke="url(#key-ring-metal)" stroke-width="4.5" />
+    </g>
+    <path id="key-ring-hole-lip-right" d="M175.7142399451257 120.61140704102272 A6.6 6.6 0 0 1 185.8260265942962 129.09620348888504" fill="none" stroke="#050b1d" stroke-width="3.85" stroke-linecap="butt" />
+    <path id="key-ring-hole-lip-middle" d="M144.0 135.4 A6.6 6.6 0 0 1 144.0 148.6" fill="none" stroke="#050b1d" stroke-width="3.85" stroke-linecap="butt" />
+    <path id="key-ring-hole-lip-left" d="M112.28576005487432 120.61140704102273 A6.6 6.6 0 0 1 102.1739734057038 129.09620348888504" fill="none" stroke="#050b1d" stroke-width="3.85" stroke-linecap="butt" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="rdbms-table-title">
+  <title id="rdbms-table-title">RDBMSテーブル</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="rdbms-table-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="rdbms-table-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="rdbms-table-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="rdbms-table-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <rect id="rdbms-table-body" x="57" y="68" width="173" height="151" rx="19" />
+    <clipPath id="rdbms-table-body-clip">
+      <use href="#rdbms-table-body" />
+    </clipPath>
+    <path id="rdbms-table-header" d="M76 68 H211 A19 19 0 0 1 230 87 V104 H57 V87 A19 19 0 0 1 76 68 Z" />
+    <clipPath id="rdbms-table-header-clip">
+      <use href="#rdbms-table-header" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#rdbms-table-body" fill="url(#rdbms-table-white)" />
+    <use href="#rdbms-table-body" fill="none" stroke="url(#rdbms-table-white-edge)" stroke-width="14" clip-path="url(#rdbms-table-body-clip)" />
+    <use href="#rdbms-table-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#rdbms-table-header" fill="url(#rdbms-table-blue)" />
+    <path d="M57 104 V87 A19 19 0 0 1 76 68 H211 A19 19 0 0 1 230 87 V104" fill="none" stroke="url(#rdbms-table-blue-edge)" stroke-width="14" clip-path="url(#rdbms-table-header-clip)" />
+    <path d="M57 104 H230" fill="none" stroke="#668597" stroke-width="1.5" />
+    <rect x="75" y="114" width="41" height="17" rx="1.5" fill="#009ff2" />
+    <rect x="124" y="114" width="41" height="17" rx="1.5" fill="#009ff2" />
+    <rect x="173" y="114" width="41" height="17" rx="1.5" fill="#009ff2" />
+    <rect x="75" y="138" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="124" y="138" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="173" y="138" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="75" y="162" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="124" y="162" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="173" y="162" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="75" y="186" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="124" y="186" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <rect x="173" y="186" width="41" height="17" rx="0" fill="#bdcbd8" />
+    <use href="#rdbms-table-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

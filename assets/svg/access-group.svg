@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="access-group-title">
+  <title id="access-group-title">グループ（権限管理）</title>
+  <desc>Editable vector paths with continuous outlines, clipped highlights and gradient shading. Transparent background; no raster images or filters.</desc>
+  <defs>
+    <linearGradient id="access-group-gold-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-group-gold" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-group-green-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#9af5b5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#51e58b" stop-opacity="1" />
+      <stop offset="1" stop-color="#088a37" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-group-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="access-group-blue-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="access-group-blue" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <circle id="access-group-shape1" cx="77" cy="126" r="24.4" />
+    <clipPath id="access-group-shape1-clip">
+      <use href="#access-group-shape1" />
+    </clipPath>
+    <path id="access-group-shape2" d="M37.96 186.39 C37.96 141.25 116.03999999999999 141.25 116.03999999999999 186.39 Q116.03999999999999 190.05 111.77 190.05 H42.230000000000004 Q37.96 190.05 37.96 186.39 Z" />
+    <clipPath id="access-group-shape2-clip">
+      <use href="#access-group-shape2" />
+    </clipPath>
+    <circle id="access-group-shape3" cx="211" cy="126" r="24.4" />
+    <clipPath id="access-group-shape3-clip">
+      <use href="#access-group-shape3" />
+    </clipPath>
+    <path id="access-group-shape4" d="M171.96 186.39 C171.96 141.25 250.04 141.25 250.04 186.39 Q250.04 190.05 245.76999999999998 190.05 H176.23000000000002 Q171.96 190.05 171.96 186.39 Z" />
+    <clipPath id="access-group-shape4-clip">
+      <use href="#access-group-shape4" />
+    </clipPath>
+    <circle id="access-group-shape5" cx="144" cy="103" r="34.8" />
+    <clipPath id="access-group-shape5-clip">
+      <use href="#access-group-shape5" />
+    </clipPath>
+    <path id="access-group-shape6" d="M88.32 189.13 C88.32 124.75 199.68 124.75 199.68 189.13 Q199.68 194.35 193.59 194.35 H94.41 Q88.32 194.35 88.32 189.13 Z" />
+    <clipPath id="access-group-shape6-clip">
+      <use href="#access-group-shape6" />
+    </clipPath>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <g id="access-group-left-person" transform="translate(12 0)">
+      <use href="#access-group-shape1" fill="url(#access-group-green)" />
+      <use href="#access-group-shape1" fill="none" stroke="url(#access-group-green-edge)" stroke-width="12.344" clip-path="url(#access-group-shape1-clip)" />
+      <use href="#access-group-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+      <use href="#access-group-shape2" fill="url(#access-group-green)" />
+      <use href="#access-group-shape2" fill="none" stroke="url(#access-group-green-edge)" stroke-width="12.344" clip-path="url(#access-group-shape2-clip)" />
+      <use href="#access-group-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <g id="access-group-right-person" transform="translate(-12 0)">
+      <use href="#access-group-shape3" fill="url(#access-group-gold)" />
+      <use href="#access-group-shape3" fill="none" stroke="url(#access-group-gold-edge)" stroke-width="12.344" clip-path="url(#access-group-shape3-clip)" />
+      <use href="#access-group-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+      <use href="#access-group-shape4" fill="url(#access-group-gold)" />
+      <use href="#access-group-shape4" fill="none" stroke="url(#access-group-gold-edge)" stroke-width="12.344" clip-path="url(#access-group-shape4-clip)" />
+      <use href="#access-group-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <use href="#access-group-shape5" fill="url(#access-group-blue)" />
+    <use href="#access-group-shape5" fill="none" stroke="url(#access-group-blue-edge)" stroke-width="16.048000000000002" clip-path="url(#access-group-shape5-clip)" />
+    <use href="#access-group-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#access-group-shape6" fill="url(#access-group-blue)" />
+    <use href="#access-group-shape6" fill="none" stroke="url(#access-group-blue-edge)" stroke-width="16.048000000000002" clip-path="url(#access-group-shape6-clip)" />
+    <use href="#access-group-shape6" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

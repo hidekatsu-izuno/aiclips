@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="navigation-compass-title">
+  <title id="navigation-compass-title">コンパス</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="navigation-compass-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="navigation-compass-red" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ff625b" />
+      <stop offset="0.5" stop-color="#ff292f" />
+      <stop offset="1.0" stop-color="#d8101d" />
+    </linearGradient>
+    <circle id="navigation-compass-shape1" cx="144" cy="144" r="80" />
+    <clipPath id="navigation-compass-shape1-clip">
+      <use href="#navigation-compass-shape1" />
+    </clipPath>
+    <circle id="navigation-compass-shape2" cx="144" cy="144" r="61" />
+    <clipPath id="navigation-compass-shape2-clip">
+      <use href="#navigation-compass-shape2" />
+    </clipPath>
+    <circle id="navigation-compass-shape3" cx="144" cy="97" r="4.5" />
+    <circle id="navigation-compass-shape4" cx="192" cy="144" r="4.5" />
+    <circle id="navigation-compass-shape5" cx="144" cy="192" r="4.5" />
+    <circle id="navigation-compass-shape6" cx="96" cy="144" r="4.5" />
+    <path id="navigation-compass-shape7" d="M131 132 L176 108 Q179 107 178 111 L156 158 L110 181 Q107 182 109 178 Z" />
+    <clipPath id="navigation-compass-shape7-clip">
+      <use href="#navigation-compass-shape7" />
+    </clipPath>
+    <linearGradient id="navigation-compass-red-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ed2538" />
+      <stop offset="1" stop-color="#a90d21" />
+    </linearGradient>
+    <linearGradient id="navigation-compass-blue-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#007acb" />
+      <stop offset="1" stop-color="#064784" />
+    </linearGradient>
+    <linearGradient id="navigation-compass-ring" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#00b4ff" />
+      <stop offset=".5" stop-color="#009bff" />
+      <stop offset="1" stop-color="#0079ee" />
+    </linearGradient>
+    <linearGradient id="navigation-compass-ring-light" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7fdfff" stop-opacity=".85" />
+      <stop offset="1" stop-color="#28bfff" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="navigation-compass-dial" cx=".52" cy=".54" r=".69">
+      <stop stop-color="#ffffff" />
+      <stop offset=".78" stop-color="#fafcfe" />
+      <stop offset="1" stop-color="#d6e2ed" />
+    </radialGradient>
+    <linearGradient id="navigation-compass-inset" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#8aa7bf" stop-opacity=".4" />
+      <stop offset="1" stop-color="#b6cadb" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#navigation-compass-shape1" fill="url(#navigation-compass-ring)" />
+    <g clip-path="url(#navigation-compass-shape1-clip)">
+      <path d="M72 157 A74 74 0 0 1 163 72" fill="none" stroke="url(#navigation-compass-ring-light)" stroke-width="5" />
+      <path d="M216 123 A75 75 0 0 1 123 216" fill="none" stroke="#0069d5" stroke-width="5" opacity=".45" />
+    </g>
+    <use href="#navigation-compass-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#navigation-compass-shape2" fill="url(#navigation-compass-dial)" />
+    <g clip-path="url(#navigation-compass-shape2-clip)">
+      <path d="M90 163 A57 57 0 0 1 166 91" fill="none" stroke="url(#navigation-compass-inset)" stroke-width="4" />
+      <path d="M195 161 A55 55 0 0 1 126 195" fill="none" stroke="#ffffff" stroke-width="3" />
+    </g>
+    <use href="#navigation-compass-shape2" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#navigation-compass-shape3" fill="#8b9db1" />
+    <use href="#navigation-compass-shape4" fill="#8b9db1" />
+    <use href="#navigation-compass-shape5" fill="#8b9db1" />
+    <use href="#navigation-compass-shape6" fill="#8b9db1" />
+    <use href="#navigation-compass-shape7" transform="translate(1 2)" fill="#71879a" opacity=".18" />
+    <use href="#navigation-compass-shape7" fill="url(#navigation-compass-blue)" />
+    <g clip-path="url(#navigation-compass-shape7-clip)">
+      <path d="M131 132 L177 109 L143.5 145Z" fill="url(#navigation-compass-red)" />
+      <path d="M177 109 L179 108 L156 158 L143.5 145Z" fill="url(#navigation-compass-red-shadow)" />
+      <path d="M131 132 L143.5 145 L109 181Z" fill="url(#navigation-compass-blue)" />
+      <path d="M143.5 145 L156 158 L109 181Z" fill="url(#navigation-compass-blue-shadow)" />
+    </g>
+    <use href="#navigation-compass-shape7" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M131 132 L156 158" fill="none" stroke="#050b1d" stroke-width="3" />
+  </g>
+</svg>

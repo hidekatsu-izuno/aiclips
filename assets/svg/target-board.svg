@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="target-board-title">
+  <title id="target-board-title">的</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="target-board-red-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff676b" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#ff353d" stop-opacity="1" />
+      <stop offset="1" stop-color="#f61d2b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="target-board-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb0b1" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#ff6a70" stop-opacity="1" />
+      <stop offset="1" stop-color="#c61225" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="target-board-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <circle id="target-board-body" cx="156" cy="127" r="80" />
+    <clipPath id="target-board-body-clip">
+      <use href="#target-board-body" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#target-board-body" fill="url(#target-board-red-paint)" />
+    <use href="#target-board-body" fill="none" stroke="url(#target-board-red-edge)" stroke-width="13" clip-path="url(#target-board-body-clip)" />
+    <use href="#target-board-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="156" cy="127" r="56.5" fill="url(#target-board-white)" />
+    <circle cx="156" cy="127" r="40" fill="url(#target-board-red-paint)" />
+    <circle cx="156" cy="127" r="20" fill="url(#target-board-white)" />
+  </g>
+</svg>

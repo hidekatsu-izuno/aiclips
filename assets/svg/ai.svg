@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="ai-title">
+  <title id="ai-title">AI</title>
+  <desc>A blue human profile with a large shaded circuit brain. The forehead sits lower and the front brain lobe sits higher to keep a clear blue gap between their contours.</desc>
+  <defs>
+    <linearGradient id="ai-blue" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#12c5f5" />
+      <stop offset=".55" stop-color="#079fff" />
+      <stop offset="1" stop-color="#087bee" />
+    </linearGradient>
+    <linearGradient id="ai-light" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#9af5ff" />
+      <stop offset="1" stop-color="#2cccf7" />
+    </linearGradient>
+    <linearGradient id="ai-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#047eee" />
+      <stop offset="1" stop-color="#0055d1" />
+    </linearGradient>
+    <path id="ai-head" d="M269 552 C231 432 288 301 386 225 C471 159 572 124 664 130 C826 133 957 246 1027 391 C1097 539 1075 674 969 790 C935 827 898 856 876 900 C852 949 856 1004 879 1060 H559 C558 1027 542 1005 518 993 C481 975 443 990 396 996 C344 1003 300 995 279 966 C261 941 270 915 268 893 C267 876 250 859 246 838 C241 817 247 794 247 780 C248 765 241 759 228 753 C207 744 192 734 193 714 C194 694 215 674 238 648 C259 625 276 611 279 590 C282 574 275 563 269 552Z" />
+    <clipPath id="ai-head-clip">
+      <use href="#ai-head" />
+    </clipPath>
+    <path id="ai-brain" d="M367 391 C347 354 381 315 434 308 C453 261 516 229 572 248 C622 176 756 181 803 269 C872 249 946 298 948 381 C1006 403 1037 477 1008 545 C1048 610 1018 667 957 691 C958 762 903 810 830 808 C797 807 814 840 786 839 C735 838 711 806 696 771 C684 739 658 739 629 733 C574 726 544 690 544 643 C489 647 441 600 440 542 C370 548 318 504 340 450 Q350 417 367 391Z" />
+    <clipPath id="ai-brain-clip">
+      <use href="#ai-brain" />
+    </clipPath>
+    <radialGradient id="ai-brain-fill" cx=".28" cy=".22" r=".9">
+      <stop offset="0" stop-color="#23879b" />
+      <stop offset=".48" stop-color="#09576f" />
+      <stop offset="1" stop-color="#002b40" />
+    </radialGradient>
+    <linearGradient id="ai-brain-bevel" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#92f5f3" />
+      <stop offset=".32" stop-color="#41adbe" />
+      <stop offset=".65" stop-color="#12647b" />
+      <stop offset="1" stop-color="#001e34" />
+    </linearGradient>
+    <radialGradient id="ai-node-fill" cx=".3" cy=".25" r=".8">
+      <stop offset="0" stop-color="#d2ffff" />
+      <stop offset=".4" stop-color="#8bf3f7" />
+      <stop offset="1" stop-color="#32b9cf" />
+    </radialGradient>
+  </defs>
+  <g transform="translate(35 35) scale(.17)" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#ai-head" fill="url(#ai-blue)" />
+    <g clip-path="url(#ai-head-clip)">
+      <path d="M220 744 C200 733 197 721 207 704 C217 686 239 665 259 642 C283 615 299 607 299 588 C299 574 290 553 284 534 C253 418 314 299 410 230 C498 165 599 135 701 147" fill="none" stroke="url(#ai-light)" stroke-width="29" />
+      <path d="M1002 360 C1116 583 1006 735 877 853 C790 930 748 1063 552 1129 L922 1161 L1074 815 L1124 448Z" fill="url(#ai-shadow)" />
+    </g>
+    <use href="#ai-head" fill="none" stroke="#050b1d" stroke-width="40" />
+    <g transform="translate(21 0) scale(.94 1)">
+      <use href="#ai-brain" fill="url(#ai-brain-fill)" stroke="#050b1d" stroke-width="32" />
+      <use href="#ai-brain" fill="none" stroke="url(#ai-brain-bevel)" stroke-width="47" clip-path="url(#ai-brain-clip)" />
+      <g transform="translate(3 6)" opacity=".42" clip-path="url(#ai-brain-clip)">
+        <g fill="none" stroke="#001b30" stroke-width="13">
+          <path d="M610 312 Q610 324 628 338 Q655 353 655 375 V421" />
+          <path d="M455 355 V377 Q455 397 475 397 H609 Q629 397 651 419 L678 444 Q697 462 697 487 V590" />
+          <path d="M535 320 V344 Q535 397 588 397" />
+          <path d="M687 271 V355 Q687 377 706 396 L733 422 Q752 440 750 470" />
+          <path d="M771 350 H834 Q880 350 880 397 V409 Q880 452 839 452 H793 Q765 452 742 473 L718 496 Q697 516 697 545" />
+          <path d="M584 476 H610 Q654 476 654 520 V590" />
+          <path d="M410 470 Q430 470 445 485 H480 Q520 485 520 525 V550 M475 397 V450 Q475 471 480 485" />
+          <path d="M594 565 Q612 590 642 590 H700 Q725 590 747 615 Q767 639 792 639 H849 Q893 639 893 678 V711" />
+          <path d="M749 618 V574 Q749 522 801 522 H866 Q891 522 911 501 L941 469" />
+          <path d="M798 639 V612 Q798 576 834 576 H909 Q929 576 951 583" />
+          <path d="M653 667 H707 Q724 667 740 684 L801 753 M707 667 Q749 667 749 625 V618" />
+        </g>
+        <g fill="#001b30">
+          <circle cx="455" cy="355" r="27" />
+          <circle cx="535" cy="320" r="27" />
+          <circle cx="687" cy="271" r="27" />
+          <circle cx="771" cy="350" r="27" />
+          <circle cx="584" cy="476" r="27" />
+          <circle cx="520" cy="550" r="27" />
+          <circle cx="941" cy="469" r="27" />
+          <circle cx="951" cy="583" r="27" />
+          <circle cx="653" cy="667" r="27" />
+          <circle cx="893" cy="711" r="27" />
+          <circle cx="801" cy="753" r="27" />
+          <circle cx="610" cy="312" r="27" />
+          <circle cx="410" cy="470" r="27" />
+          <circle cx="594" cy="565" r="27" />
+        </g>
+      </g>
+      <g fill="none" stroke="#8bf3f7" stroke-width="13">
+        <path d="M610 312 Q610 324 628 338 Q655 353 655 375 V421" />
+        <path d="M455 355 V377 Q455 397 475 397 H609 Q629 397 651 419 L678 444 Q697 462 697 487 V590" />
+        <path d="M535 320 V344 Q535 397 588 397" />
+        <path d="M687 271 V355 Q687 377 706 396 L733 422 Q752 440 750 470" />
+        <path d="M771 350 H834 Q880 350 880 397 V409 Q880 452 839 452 H793 Q765 452 742 473 L718 496 Q697 516 697 545" />
+        <path d="M584 476 H610 Q654 476 654 520 V590" />
+        <path d="M410 470 Q430 470 445 485 H480 Q520 485 520 525 V550 M475 397 V450 Q475 471 480 485" />
+        <path d="M594 565 Q612 590 642 590 H700 Q725 590 747 615 Q767 639 792 639 H849 Q893 639 893 678 V711" />
+        <path d="M749 618 V574 Q749 522 801 522 H866 Q891 522 911 501 L941 469" />
+        <path d="M798 639 V612 Q798 576 834 576 H909 Q929 576 951 583" />
+        <path d="M653 667 H707 Q724 667 740 684 L801 753 M707 667 Q749 667 749 625 V618" />
+      </g>
+      <g fill="url(#ai-node-fill)">
+        <circle cx="455" cy="355" r="27" />
+        <circle cx="535" cy="320" r="27" />
+        <circle cx="687" cy="271" r="27" />
+        <circle cx="771" cy="350" r="27" />
+        <circle cx="584" cy="476" r="27" />
+        <circle cx="520" cy="550" r="27" />
+        <circle cx="941" cy="469" r="27" />
+        <circle cx="951" cy="583" r="27" />
+        <circle cx="653" cy="667" r="27" />
+        <circle cx="893" cy="711" r="27" />
+        <circle cx="801" cy="753" r="27" />
+        <circle cx="610" cy="312" r="27" />
+        <circle cx="410" cy="470" r="27" />
+        <circle cx="594" cy="565" r="27" />
+      </g>
+    </g>
+  </g>
+</svg>

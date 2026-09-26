@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="service-robot-title">
+  <title id="service-robot-title">ロボット</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="service-robot-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="service-robot-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="service-robot-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="service-robot-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="service-robot-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d3ecff" />
+      <stop offset="0.5" stop-color="#6d92b9" />
+      <stop offset="1.0" stop-color="#294766" />
+    </linearGradient>
+    <linearGradient id="service-robot-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="service-robot-shape1" x="122.5" y="218" width="43" height="21" rx="10" />
+    <clipPath id="service-robot-shape1-clip">
+      <use href="#service-robot-shape1" />
+    </clipPath>
+    <path id="service-robot-shape2" d="M89 166 Q60 166 52 201 Q48 221 62 224 Q75 222 75 207 Q76 187 94 185 Z" />
+    <clipPath id="service-robot-shape2-clip">
+      <use href="#service-robot-shape2" />
+    </clipPath>
+    <circle id="service-robot-shape3" cx="64" cy="212" r="11" />
+    <clipPath id="service-robot-shape3-clip">
+      <use href="#service-robot-shape3" />
+    </clipPath>
+    <path id="service-robot-shape4" d="M89 166 Q60 166 52 201 Q48 221 62 224 Q75 222 75 207 Q76 187 94 185 Z" />
+    <clipPath id="service-robot-shape4-clip">
+      <use href="#service-robot-shape4" />
+    </clipPath>
+    <circle id="service-robot-shape5" cx="64" cy="212" r="11" />
+    <clipPath id="service-robot-shape5-clip">
+      <use href="#service-robot-shape5" />
+    </clipPath>
+    <path id="service-robot-shape6" d="M144 151 L112 151 Q94 151 95 175 L90 194 Q87 228 118 231 L144 231 L170 231 Q201 228 198 194 L193 175 Q194 151 176 151 L144 151 Z" />
+    <clipPath id="service-robot-shape6-clip">
+      <use href="#service-robot-shape6" />
+    </clipPath>
+    <rect id="service-robot-shape7" x="89" y="160" width="14" height="32" rx="4" />
+    <clipPath id="service-robot-shape7-clip">
+      <use href="#service-robot-shape7" />
+    </clipPath>
+    <rect id="service-robot-shape8" x="185" y="160" width="14" height="32" rx="4" />
+    <clipPath id="service-robot-shape8-clip">
+      <use href="#service-robot-shape8" />
+    </clipPath>
+    <rect id="service-robot-shape9" x="127.5" y="180" width="33" height="28" rx="2" />
+    <clipPath id="service-robot-shape9-clip">
+      <use href="#service-robot-shape9" />
+    </clipPath>
+    <rect id="service-robot-shape10" x="126.5" y="156" width="35" height="10" rx="5" />
+    <clipPath id="service-robot-shape10-clip">
+      <use href="#service-robot-shape10" />
+    </clipPath>
+    <circle id="service-robot-shape11" cx="144" cy="65" r="14" />
+    <clipPath id="service-robot-shape11-clip">
+      <use href="#service-robot-shape11" />
+    </clipPath>
+    <rect id="service-robot-shape12" x="75" y="111" width="21" height="35" rx="9" />
+    <clipPath id="service-robot-shape12-clip">
+      <use href="#service-robot-shape12" />
+    </clipPath>
+    <rect id="service-robot-shape13" x="192" y="111" width="21" height="35" rx="9" />
+    <clipPath id="service-robot-shape13-clip">
+      <use href="#service-robot-shape13" />
+    </clipPath>
+    <rect id="service-robot-shape14" x="88.0" y="86" width="112" height="77" rx="32" />
+    <clipPath id="service-robot-shape14-clip">
+      <use href="#service-robot-shape14" />
+    </clipPath>
+    <rect id="service-robot-shape15" x="101.0" y="103" width="86" height="46" rx="18" />
+    <clipPath id="service-robot-shape15-clip">
+      <use href="#service-robot-shape15" />
+    </clipPath>
+    <linearGradient id="service-robot-screen" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#173b4b" />
+      <stop offset=".5" stop-color="#061e2a" />
+      <stop offset="1" stop-color="#03121d" />
+    </linearGradient>
+    <radialGradient id="service-robot-eye-glow">
+      <stop stop-color="#13bfff" stop-opacity=".65" />
+      <stop offset="1" stop-color="#13bfff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="service-robot-eye" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#8beaff" />
+      <stop offset=".45" stop-color="#20c9ff" />
+      <stop offset="1" stop-color="#008ded" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#service-robot-shape1" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#service-robot-shape1" fill="url(#service-robot-steel)" />
+    <use href="#service-robot-shape1" fill="none" stroke="url(#service-robot-edge)" stroke-width="5" clip-path="url(#service-robot-shape1-clip)" />
+    <g>
+      <use href="#service-robot-shape2" fill="none" stroke="#050b1d" stroke-width="12" />
+      <use href="#service-robot-shape2" fill="url(#service-robot-paper)" />
+      <use href="#service-robot-shape2" fill="none" stroke="url(#service-robot-silver-edge)" stroke-width="7" clip-path="url(#service-robot-shape2-clip)" />
+      <use href="#service-robot-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#service-robot-shape3" fill="url(#service-robot-blue)" />
+      <g clip-path="url(#service-robot-shape3-clip)">
+        <path d="M57 213 A7.5 7.5 0 0 1 66 205" fill="none" stroke="#85e6ff" stroke-width="3" />
+        <path d="M71 211 A7.5 7.5 0 0 1 62 219" fill="none" stroke="#0064c9" stroke-width="3" />
+      </g>
+    </g>
+    <g transform="translate(288 0) scale(-1 1)">
+      <use href="#service-robot-shape4" fill="none" stroke="#050b1d" stroke-width="12" />
+      <use href="#service-robot-shape4" fill="url(#service-robot-paper)" />
+      <use href="#service-robot-shape4" fill="none" stroke="url(#service-robot-silver-edge)" stroke-width="7" clip-path="url(#service-robot-shape4-clip)" />
+      <use href="#service-robot-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#service-robot-shape5" fill="url(#service-robot-blue)" />
+      <g clip-path="url(#service-robot-shape5-clip)">
+        <path d="M71 213 A7.5 7.5 0 0 0 62 205" fill="none" stroke="#85e6ff" stroke-width="3" />
+        <path d="M57 211 A7.5 7.5 0 0 0 66 219" fill="none" stroke="#0064c9" stroke-width="3" />
+      </g>
+    </g>
+    <use href="#service-robot-shape6" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#service-robot-shape6" fill="url(#service-robot-paper)" />
+    <use href="#service-robot-shape6" fill="none" stroke="url(#service-robot-silver-edge)" stroke-width="10" clip-path="url(#service-robot-shape6-clip)" />
+    <use href="#service-robot-shape9" fill="none" stroke="#0864af" stroke-width="2" />
+    <use href="#service-robot-shape9" fill="url(#service-robot-blue)" />
+    <use href="#service-robot-shape9" fill="none" stroke="url(#service-robot-cyan)" stroke-width="5" clip-path="url(#service-robot-shape9-clip)" />
+    <use href="#service-robot-shape10" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#service-robot-shape10" fill="url(#service-robot-steel)" />
+    <use href="#service-robot-shape10" fill="none" stroke="url(#service-robot-edge)" stroke-width="3" clip-path="url(#service-robot-shape10-clip)" />
+    <path d="M144 87 V66" fill="none" stroke="#050b1d" stroke-width="11" />
+    <path d="M144 86 V69" fill="none" stroke="#809ab4" stroke-width="4" />
+    <use href="#service-robot-shape11" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#service-robot-shape11" fill="url(#service-robot-blue)" />
+    <g clip-path="url(#service-robot-shape11-clip)">
+      <path d="M135 67 A9.5 9.5 0 0 1 146 56" fill="none" stroke="#85e6ff" stroke-width="3" />
+      <path d="M153 63 A9.5 9.5 0 0 1 142 74" fill="none" stroke="#0064c9" stroke-width="3" />
+    </g>
+    <use href="#service-robot-shape12" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#service-robot-shape12" fill="url(#service-robot-blue)" />
+    <g clip-path="url(#service-robot-shape12-clip)">
+      <path d="M79 135 V121 Q79 115 84 115" fill="none" stroke="#85e6ff" stroke-width="3" />
+      <path d="M84 141 H86 Q91 141 91 136" fill="none" stroke="#0064c9" stroke-width="3" />
+    </g>
+    <use href="#service-robot-shape13" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#service-robot-shape13" fill="url(#service-robot-blue)" />
+    <g clip-path="url(#service-robot-shape13-clip)">
+      <path d="M201 115 H204 Q209 115 209 121" fill="none" stroke="#85e6ff" stroke-width="3" />
+      <path d="M209 123 V136 Q209 142 204 142" fill="none" stroke="#0064c9" stroke-width="3" />
+    </g>
+    <path d="M104 158.713 A32 32 0 0 0 120 163 H168 A32 32 0 0 0 184 158.713" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M104 158.713 A32 32 0 0 1 88 131 V118 A32 32 0 0 1 120 86 H168 A32 32 0 0 1 200 118 V131 A32 32 0 0 1 184 158.713" fill="none" stroke="#050b1d" stroke-width="14" />
+    <use href="#service-robot-shape14" fill="url(#service-robot-paper)" />
+    <use href="#service-robot-shape14" fill="none" stroke="url(#service-robot-silver-edge)" stroke-width="10" clip-path="url(#service-robot-shape14-clip)" />
+    <use href="#service-robot-shape15" fill="url(#service-robot-screen)" stroke="#08202c" stroke-width="2" />
+    <path d="M106 121 Q106 107 120 107 H168" fill="none" stroke="#527b8b" stroke-width="2" opacity=".4" />
+    <g clip-path="url(#service-robot-shape15-clip)">
+      <circle cx="125" cy="125" r="13" fill="url(#service-robot-eye-glow)" />
+      <circle cx="163" cy="125" r="13" fill="url(#service-robot-eye-glow)" />
+      <circle cx="125" cy="125" r="7.5" fill="url(#service-robot-eye)" />
+      <circle cx="163" cy="125" r="7.5" fill="url(#service-robot-eye)" />
+    </g>
+    <g id="service-robot-shoulders">
+      <use href="#service-robot-shape7" fill="none" stroke="#050b1d" stroke-width="4" />
+      <use href="#service-robot-shape7" fill="url(#service-robot-blue)" />
+      <g clip-path="url(#service-robot-shape7-clip)">
+        <path d="M92.5 181 V166 Q92.5 163.5 95 163.5 H98.5" fill="none" stroke="#85e6ff" stroke-width="3" />
+        <path d="M99.5 170 V186 Q99.5 188.5 97 188.5 H93.5" fill="none" stroke="#0064c9" stroke-width="3" />
+      </g>
+      <use href="#service-robot-shape8" fill="none" stroke="#050b1d" stroke-width="4" />
+      <use href="#service-robot-shape8" fill="url(#service-robot-blue)" />
+      <g clip-path="url(#service-robot-shape8-clip)">
+        <path d="M188.5 181 V166 Q188.5 163.5 191 163.5 H194.5" fill="none" stroke="#85e6ff" stroke-width="3" />
+        <path d="M195.5 170 V186 Q195.5 188.5 193 188.5 H189.5" fill="none" stroke="#0064c9" stroke-width="3" />
+      </g>
+    </g>
+  </g>
+</svg>

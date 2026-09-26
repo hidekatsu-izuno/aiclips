@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="storefront-title">
+  <title id="storefront-title">店舗</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="storefront-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="storefront-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="storefront-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="storefront-shape1" x="67.5" y="120" width="153" height="107" rx="1" />
+    <clipPath id="storefront-shape1-clip">
+      <use href="#storefront-shape1" />
+    </clipPath>
+    <rect id="storefront-shape2" x="112.5" y="166" width="63" height="61" rx="0" />
+    <rect id="storefront-shape3" x="82" y="166" width="22" height="39" rx="0" />
+    <rect id="storefront-shape4" x="184" y="166" width="22" height="39" rx="0" />
+    <rect id="storefront-shape5" x="74.0" y="79" width="140" height="23" rx="9" />
+    <clipPath id="storefront-shape5-clip">
+      <use href="#storefront-shape5" />
+    </clipPath>
+    <path id="storefront-shape6" d="M144 100 L73 100 L57 132 C47 152 74 166 86 148 Q100.5 164 115 148 Q129.5 164 144 148 Q158.5 164 173 148 Q187.5 164 202 148 C214 166 241 152 231 132 L215 100 L144 100 Z" />
+    <clipPath id="storefront-shape6-clip">
+      <use href="#storefront-shape6" />
+    </clipPath>
+    <linearGradient id="storefront-awning-red" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="157">
+      <stop offset="0" stop-color="#ff655c" />
+      <stop offset="0.14" stop-color="#ff3b36" />
+      <stop offset="0.66" stop-color="#ff322f" />
+      <stop offset="0.67" stop-color="#ce2524" />
+      <stop offset="1" stop-color="#a91d20" />
+    </linearGradient>
+    <linearGradient id="storefront-awning-cream" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="157">
+      <stop offset="0" stop-color="#fffbed" />
+      <stop offset="0.66" stop-color="#fff7e4" />
+      <stop offset="0.67" stop-color="#ddc9ad" />
+      <stop offset="1" stop-color="#c4ad8e" />
+    </linearGradient>
+    <linearGradient id="storefront-roof-bevel" x1="0" y1="0" x2=".1" y2="1">
+      <stop stop-color="#71e2ff" offset="0" />
+      <stop stop-color="#1db8f8" offset="0.3" />
+      <stop stop-color="#0089d7" offset="0.6" />
+      <stop stop-color="#005b95" offset="1" />
+    </linearGradient>
+    <linearGradient id="storefront-awning-edge" x1="0" y1="0" x2=".2" y2="1">
+      <stop stop-color="#ff9d84" offset="0" />
+      <stop stop-color="#ff6857" offset="0.6" />
+      <stop stop-color="#ee4439" offset="1" />
+    </linearGradient>
+    <radialGradient id="storefront-foliage" cx=".24" cy=".22" r=".85">
+      <stop stop-color="#75e65d" offset="0" />
+      <stop stop-color="#35c84e" offset=".5" />
+      <stop stop-color="#008c38" offset="1" />
+    </radialGradient>
+    <clipPath id="storefront-wall-interior-clip">
+      <rect x="70.5" y="123" width="147" height="101" />
+    </clipPath>
+    <path id="storefront-tree-crown" d="M-14 8 C-20 2 -16 -8 -9 -9 C-10 -21 7 -23 11 -12 C21 -10 22 4 14 10 Q8 17 0 13 Q-10 18 -14 8Z" />
+    <clipPath id="storefront-tree-clip">
+      <use href="#storefront-tree-crown" />
+    </clipPath>
+    <linearGradient id="storefront-tree-bark" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#c59962" />
+      <stop offset="1" stop-color="#76522e" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#storefront-shape1" fill="url(#storefront-paper)" />
+    <use href="#storefront-shape1" fill="none" stroke="url(#storefront-silver-edge)" stroke-width="8" clip-path="url(#storefront-shape1-clip)" />
+    <use href="#storefront-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#storefront-shape2" fill="url(#storefront-blue)" />
+    <path d="M112.5 166 H151.56 L112.5 217.24 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#storefront-shape2" fill="none" stroke="#050b1d" stroke-width="4" />
+    <path d="M144 166 V226" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M137 188 V198 M151 188 V198" fill="none" stroke="#7cddff" stroke-width="3" />
+    <use href="#storefront-shape3" fill="url(#storefront-blue)" />
+    <path d="M82 166 H95.64 L82 198.76 Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#storefront-shape4" fill="url(#storefront-blue)" />
+    <path d="M184 166 H197.64 L184 198.76 Z" fill="#a2ecff" fill-opacity=".24" />
+    <g id="storefront-awning-cast-shadow" clip-path="url(#storefront-wall-interior-clip)">
+      <use href="#storefront-shape6" transform="translate(0 8)" fill="#61758a" fill-opacity=".60" />
+    </g>
+    <use href="#storefront-shape5" fill="url(#storefront-blue)" />
+    <use href="#storefront-shape5" fill="none" stroke="url(#storefront-roof-bevel)" stroke-width="11" clip-path="url(#storefront-shape5-clip)" />
+    <path d="M74 100 V88 Q74 79 83 79 H205 Q214 79 214 88 V100" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#storefront-shape6" fill="url(#storefront-awning-cream)" />
+    <path d="M73 100 H96.666667 L86 148 C74 166 47 152 57 132Z" fill="url(#storefront-awning-red)" stroke="none" stroke-width="0" clip-path="url(#storefront-shape6-clip)" />
+    <path d="M120.333333 100 H144 V148 Q129.5 164 115 148 Z" fill="url(#storefront-awning-red)" stroke="none" stroke-width="0" clip-path="url(#storefront-shape6-clip)" />
+    <path d="M167.666667 100 H191.333333 L202 148 Q187.5 164 173 148 Z" fill="url(#storefront-awning-red)" stroke="none" stroke-width="0" clip-path="url(#storefront-shape6-clip)" />
+    <path d="M76 104 L63 131" fill="none" stroke="url(#storefront-awning-edge)" stroke-width="3" clip-path="url(#storefront-shape6-clip)" />
+    <path d="M73 100 L57 132 C47 152 74 166 86 148 Q100.5 164 115 148 Q129.5 164 144 148 Q158.5 164 173 148 Q187.5 164 202 148 C214 166 241 152 231 132 L215 100" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M73 100 H215" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <g transform="translate(71 208)">
+      <path d="M-3 8 L-3.5 19 H3.5 L3 8Z" fill="url(#storefront-tree-bark)" stroke="#050b1d" stroke-width="2.5" />
+      <use href="#storefront-tree-crown" fill="url(#storefront-foliage)" />
+      <g clip-path="url(#storefront-tree-clip)">
+        <path d="M9 -14 C23 -2 12 13 -5 10 Q-11 10 -15 6 C-13 21 16 22 22 5Z" fill="#087932" opacity=".5" />
+        <path d="M-12 -1 Q-14 -7 -6 -6 Q-8 -16 2 -16" fill="none" stroke="#a1eb79" stroke-width="2.5" opacity=".75" />
+      </g>
+      <use href="#storefront-tree-crown" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <g transform="translate(217 208)">
+      <path d="M-3 8 L-3.5 19 H3.5 L3 8Z" fill="url(#storefront-tree-bark)" stroke="#050b1d" stroke-width="2.5" />
+      <use href="#storefront-tree-crown" fill="url(#storefront-foliage)" />
+      <g clip-path="url(#storefront-tree-clip)">
+        <path d="M9 -14 C23 -2 12 13 -5 10 Q-11 10 -15 6 C-13 21 16 22 22 5Z" fill="#087932" opacity=".5" />
+        <path d="M-12 -1 Q-14 -7 -6 -6 Q-8 -16 2 -16" fill="none" stroke="#a1eb79" stroke-width="2.5" opacity=".75" />
+      </g>
+      <use href="#storefront-tree-crown" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    </g>
+    <path d="M67.5 228 H220.5" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

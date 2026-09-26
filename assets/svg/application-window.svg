@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="application-window-title">
+  <title id="application-window-title">アプリ画面</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="application-window-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="application-window-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="application-window-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="application-window-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <rect id="application-window-body" x="55" y="66" width="174" height="155" rx="19" />
+    <clipPath id="application-window-body-clip">
+      <use href="#application-window-body" />
+    </clipPath>
+    <path id="application-window-header" d="M74 66 H210 A19 19 0 0 1 229 85 V106 H55 V85 A19 19 0 0 1 74 66 Z" />
+    <clipPath id="application-window-header-clip">
+      <use href="#application-window-header" />
+    </clipPath>
+    <linearGradient id="application-window-dot-0-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb8bb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff5359" stop-opacity="1" />
+      <stop offset="1" stop-color="#ff5359" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="application-window-dot-1-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff292" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ffc400" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc400" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="application-window-dot-2-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#a9ffd0" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#29d96d" stop-opacity="1" />
+      <stop offset="1" stop-color="#29d96d" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#application-window-body" fill="url(#application-window-white)" />
+    <use href="#application-window-body" fill="none" stroke="url(#application-window-white-edge)" stroke-width="14" clip-path="url(#application-window-body-clip)" />
+    <use href="#application-window-header" fill="url(#application-window-blue)" />
+    <path d="M55 106 V85 A19 19 0 0 1 74 66 H210 A19 19 0 0 1 229 85 V106" fill="none" stroke="url(#application-window-blue-edge)" stroke-width="15" clip-path="url(#application-window-header-clip)" />
+    <rect x="55" y="106" width="59" height="115" fill="#dce5ed" clip-path="url(#application-window-body-clip)" />
+    <path d="M55 106 H229" fill="none" stroke="#27475f" stroke-width="1.5" />
+    <circle cx="78" cy="91" r="7.5" fill="url(#application-window-dot-0-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M74.5 91.5 A4.5 4.5 0 0 1 79 87" fill="none" stroke="#ffb8bb" stroke-width="2.2" />
+    <circle cx="100" cy="91" r="7.5" fill="url(#application-window-dot-1-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M96.5 91.5 A4.5 4.5 0 0 1 101 87" fill="none" stroke="#fff292" stroke-width="2.2" />
+    <circle cx="122" cy="91" r="7.5" fill="url(#application-window-dot-2-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M118.5 91.5 A4.5 4.5 0 0 1 123 87" fill="none" stroke="#a9ffd0" stroke-width="2.2" />
+    <path d="M77 128 H99" fill="none" stroke="#a0b2c1" stroke-width="10" />
+    <path d="M77 148 H99" fill="none" stroke="#a0b2c1" stroke-width="10" />
+    <path d="M77 168 H99" fill="none" stroke="#a0b2c1" stroke-width="10" />
+    <path d="M77 188 H99" fill="none" stroke="#a0b2c1" stroke-width="10" />
+    <rect x="130" y="121" width="36" height="35" rx="5" fill="#00a8f6" />
+    <rect x="176" y="121" width="36" height="35" rx="5" fill="#18c95c" />
+    <rect x="130" y="165" width="36" height="35" rx="5" fill="#ffcd32" />
+    <rect x="176" y="165" width="36" height="35" rx="5" fill="#ff5359" />
+    <use href="#application-window-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="clock-title">
+  <title id="clock-title">時計</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="clock-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clock-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="clock-blue-shadow" gradientUnits="userSpaceOnUse" x1="154" y1="122" x2="202" y2="204">
+      <stop offset="0" stop-color="#0086ec" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#0060d1" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="clock-face-paint" gradientUnits="userSpaceOnUse" x1="99" y1="97" x2="193" y2="192">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf3f8" stop-opacity="1" />
+    </linearGradient>
+    <circle id="clock-rim" cx="143.5" cy="143.5" r="83" />
+    <clipPath id="clock-rim-clip">
+      <use href="#clock-rim" />
+    </clipPath>
+    <linearGradient id="clock-upright-hand" gradientUnits="userSpaceOnUse" x1="140.5" y1="125" x2="146.5" y2="125">
+      <stop offset="0" stop-color="#91a6b8" stop-opacity="1" />
+      <stop offset="0.18" stop-color="#4d6980" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#26455e" stop-opacity="1" />
+      <stop offset="0.8" stop-color="#142e44" stop-opacity="1" />
+      <stop offset="1" stop-color="#0b1d2c" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clock-diagonal-hand" gradientUnits="userSpaceOnUse" x1="160.887" y1="125.899" x2="164.613" y2="130.601">
+      <stop offset="0" stop-color="#91a6b8" stop-opacity="1" />
+      <stop offset="0.18" stop-color="#4d6980" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#26455e" stop-opacity="1" />
+      <stop offset="0.8" stop-color="#142e44" stop-opacity="1" />
+      <stop offset="1" stop-color="#0b1d2c" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="clock-hub" gradientUnits="userSpaceOnUse" x1="137" y1="137" x2="151" y2="151">
+      <stop offset="0" stop-color="#688299" stop-opacity="1" />
+      <stop offset="0.25" stop-color="#38566f" stop-opacity="1" />
+      <stop offset="1" stop-color="#152d42" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#clock-rim" fill="url(#clock-blue)" />
+    <use href="#clock-rim" fill="none" stroke="url(#clock-blue-edge)" stroke-width="15" clip-path="url(#clock-rim-clip)" />
+    <path d="M206 90 A83 83 0 0 1 89 206 C157 223 217 166 206 90 Z" fill="url(#clock-blue-shadow)" clip-path="url(#clock-rim-clip)" />
+    <use href="#clock-rim" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="143.5" cy="143.5" r="65.5" fill="url(#clock-face-paint)" stroke="#050b1d" stroke-width="3" />
+    <circle cx="143.5" cy="91.5" r="4.5" fill="#4c6d86" />
+    <circle cx="91.5" cy="143.5" r="4.5" fill="#4c6d86" />
+    <circle cx="195.5" cy="143.5" r="4.5" fill="#4c6d86" />
+    <circle cx="143.5" cy="195.5" r="4.5" fill="#4c6d86" />
+    <path d="M143.5 143.5 V108" fill="none" stroke="#050b1d" stroke-width="10" />
+    <path d="M143.5 143.5 V108" fill="none" stroke="url(#clock-upright-hand)" stroke-width="6" />
+    <path d="M143.5 143.5 L182 113" fill="none" stroke="#050b1d" stroke-width="10" />
+    <path d="M143.5 143.5 L182 113" fill="none" stroke="url(#clock-diagonal-hand)" stroke-width="6" />
+    <circle cx="143.5" cy="143.5" r="10" fill="url(#clock-hub)" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

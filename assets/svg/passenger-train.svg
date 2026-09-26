@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="passenger-train-title">
+  <title id="passenger-train-title">電車</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="passenger-train-green" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#57de95" />
+      <stop offset="0.5" stop-color="#20b76a" />
+      <stop offset="1.0" stop-color="#148647" />
+    </linearGradient>
+    <linearGradient id="passenger-train-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="passenger-train-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="passenger-train-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#b8cede" />
+      <stop offset="0.5" stop-color="#7e9db6" />
+      <stop offset="1.0" stop-color="#3d5e7d" />
+    </linearGradient>
+    <linearGradient id="passenger-train-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#19374d" />
+      <stop offset="0.5" stop-color="#14354b" />
+      <stop offset="1.0" stop-color="#0c2238" />
+    </linearGradient>
+    <path id="passenger-train-shape1" d="M144.5 205 L113 205 L74 242 L144.5 242 L215 242 L176 205 L144.5 205 Z" />
+    <clipPath id="passenger-train-shape1-clip">
+      <use href="#passenger-train-shape1" />
+    </clipPath>
+    <rect id="passenger-train-shape2" x="125.5" y="66" width="38" height="23" rx="11" />
+    <rect id="passenger-train-shape3" x="78.0" y="82" width="133" height="128" rx="29" />
+    <clipPath id="passenger-train-shape3-clip">
+      <use href="#passenger-train-shape3" />
+    </clipPath>
+    <path id="passenger-train-shape4" d="M108 93 H181 A21 21 0 0 1 202 114 V161 Q202 168 195 168 H94 Q87 168 87 161 V114 A21 21 0 0 1 108 93 Z" />
+    <clipPath id="passenger-train-shape4-clip">
+      <use href="#passenger-train-shape4" />
+    </clipPath>
+    <rect id="passenger-train-shape5" x="92" y="118" width="49" height="43" rx="3" />
+    <clipPath id="passenger-train-shape5-clip">
+      <use href="#passenger-train-shape5" />
+    </clipPath>
+    <rect id="passenger-train-shape6" x="148" y="118" width="49" height="43" rx="3" />
+    <clipPath id="passenger-train-shape6-clip">
+      <use href="#passenger-train-shape6" />
+    </clipPath>
+    <rect id="passenger-train-shape7" x="134.0" y="102" width="21" height="10" rx="2" />
+    <rect id="passenger-train-shape8" x="78" y="175" width="133" height="24" rx="0" />
+    <ellipse id="passenger-train-shape9" cx="105" cy="187" rx="8" ry="8" />
+    <clipPath id="passenger-train-shape9-clip">
+      <use href="#passenger-train-shape9" />
+    </clipPath>
+    <ellipse id="passenger-train-shape10" cx="184" cy="187" rx="8" ry="8" />
+    <clipPath id="passenger-train-shape10-clip">
+      <use href="#passenger-train-shape10" />
+    </clipPath>
+    <linearGradient id="passenger-train-body-shade" x1="0" y1="0" x2="1" y2=".2">
+      <stop stop-color="#809bb5" stop-opacity="0" />
+      <stop offset="1" stop-color="#809bb5" stop-opacity=".5" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass5-screen-paint" gradientUnits="userSpaceOnUse" x1="93.441176" y1="121.954023" x2="138.838235" y2="159.517241">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass5-glass-paint" gradientUnits="userSpaceOnUse" x1="96.323529" y1="121.954023" x2="122.625000" y2="151.114943">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass5-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="121.183824" y1="130.356322" x2="141.000000" y2="161.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass6-screen-paint" gradientUnits="userSpaceOnUse" x1="149.441176" y1="121.954023" x2="194.838235" y2="159.517241">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass6-glass-paint" gradientUnits="userSpaceOnUse" x1="152.323529" y1="121.954023" x2="178.625000" y2="151.114943">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="passenger-train-glass6-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="177.183824" y1="130.356322" x2="197.000000" y2="161.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 -12)" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#passenger-train-shape1" fill="url(#passenger-train-paper)" />
+    <g clip-path="url(#passenger-train-shape1-clip)">
+      <path d="M111 210 H179 L189 220 H100Z" fill="#304860" opacity=".55" />
+      <path d="M111 216 L88 239 M179 217 L201 238 M106 233 H183" fill="none" stroke="#ffffff" stroke-width="3" />
+      <path d="M117 210 L92 241 M172 210 L197 241 M101 230 H188" fill="none" stroke="#233951" stroke-width="4" />
+    </g>
+    <use href="#passenger-train-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-train-shape2" fill="url(#passenger-train-steel)" />
+    <path d="M131 79 Q132 71 140 71 H154" fill="none" stroke="#edf7ff" stroke-width="3" />
+    <use href="#passenger-train-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#passenger-train-shape3" fill="url(#passenger-train-paper)" />
+    <g clip-path="url(#passenger-train-shape3-clip)">
+      <path d="M83 195 V109 Q83 87 106 87 H185" fill="none" stroke="#ffffff" stroke-width="5" />
+      <path d="M194 82 H215 V210 H194Z" fill="url(#passenger-train-body-shade)" />
+      <path d="M78 202 Q143 207 214 202 V210 H78Z" fill="#8aa3ba" opacity=".45" />
+    </g>
+    <use href="#passenger-train-shape4" fill="url(#passenger-train-suit)" />
+    <path d="M93 117 Q93 97 113 97 H180" fill="none" stroke="#557185" stroke-width="3" opacity=".35" clip-path="url(#passenger-train-shape4-clip)" />
+    <use href="#passenger-train-shape5" fill="url(#passenger-train-glass5-screen-paint)" />
+    <path d="M92 118 H124.066176 L92 161 Z" fill="url(#passenger-train-glass5-glass-paint)" clip-path="url(#passenger-train-shape5-clip)" />
+    <path d="M133.794118 118 H141 V161 H101.727941 Z" fill="url(#passenger-train-glass5-screen-shadow-paint)" clip-path="url(#passenger-train-shape5-clip)" />
+    <use href="#passenger-train-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#passenger-train-shape6" fill="url(#passenger-train-glass6-screen-paint)" />
+    <path d="M148 118 H180.066176 L148 161 Z" fill="url(#passenger-train-glass6-glass-paint)" clip-path="url(#passenger-train-shape6-clip)" />
+    <path d="M189.794118 118 H197 V161 H157.727941 Z" fill="url(#passenger-train-glass6-screen-shadow-paint)" clip-path="url(#passenger-train-shape6-clip)" />
+    <use href="#passenger-train-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#passenger-train-shape7" fill="url(#passenger-train-gold)" />
+    <use href="#passenger-train-shape7" fill="none" stroke="#050b1d" stroke-width="2" />
+    <g clip-path="url(#passenger-train-shape3-clip)">
+      <use href="#passenger-train-shape8" fill="url(#passenger-train-green)" />
+      <path d="M78 177 H211" fill="none" stroke="#9af0bc" stroke-width="2" />
+      <path d="M78 196 H211" fill="none" stroke="#117344" stroke-width="2" opacity=".5" />
+      <use href="#passenger-train-shape9" fill="url(#passenger-train-gold)" />
+      <path d="M100 188 Q100 183 105 182 H108" fill="none" stroke="#fff8b0" stroke-width="2" clip-path="url(#passenger-train-shape9-clip)" />
+      <use href="#passenger-train-shape9" fill="none" stroke="#177b42" stroke-width="3" />
+      <use href="#passenger-train-shape10" fill="url(#passenger-train-gold)" />
+      <path d="M179 188 Q179 183 184 182 H187" fill="none" stroke="#fff8b0" stroke-width="2" clip-path="url(#passenger-train-shape10-clip)" />
+      <use href="#passenger-train-shape10" fill="none" stroke="#177b42" stroke-width="3" />
+    </g>
+    <use href="#passenger-train-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

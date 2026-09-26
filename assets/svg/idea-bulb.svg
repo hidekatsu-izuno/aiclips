@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="idea-bulb-title">
+  <title id="idea-bulb-title">電球</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="idea-bulb-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="idea-bulb-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="idea-bulb-gold-shadow" gradientUnits="userSpaceOnUse" x1="160" y1="125" x2="202" y2="183">
+      <stop offset="0" stop-color="#ffb900" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#e99d00" stop-opacity="0.8" />
+    </linearGradient>
+    <path id="idea-bulb-glass" d="M146 61 C113 61 87 87 87 117 C87 141 104 155 111 166 Q117 173 117 183 H175 Q175 173 181 166 C188 155 205 141 205 117 C205 87 179 61 146 61 Z" />
+    <clipPath id="idea-bulb-glass-clip">
+      <use href="#idea-bulb-glass" />
+    </clipPath>
+    <path id="idea-bulb-tip" d="M126 209 H166 V212 Q166 228 146 228 Q126 228 126 212 Z" />
+    <clipPath id="idea-bulb-tip-clip">
+      <use href="#idea-bulb-tip" />
+    </clipPath>
+    <rect id="idea-bulb-upper-band" x="116" y="180" width="60" height="17" rx="8.5" />
+    <clipPath id="idea-bulb-upper-band-clip">
+      <use href="#idea-bulb-upper-band" />
+    </clipPath>
+    <rect id="idea-bulb-lower-band" x="119" y="196" width="54" height="17" rx="8.5" />
+    <clipPath id="idea-bulb-lower-band-clip">
+      <use href="#idea-bulb-lower-band" />
+    </clipPath>
+    <linearGradient id="idea-bulb-upper-band-paint" gradientUnits="userSpaceOnUse" x1="146" y1="180" x2="146" y2="197">
+      <stop offset="0" stop-color="#10b7ff" />
+      <stop offset="1" stop-color="#009df4" />
+    </linearGradient>
+    <linearGradient id="idea-bulb-lower-band-paint" gradientUnits="userSpaceOnUse" x1="146" y1="196" x2="146" y2="213">
+      <stop offset="0" stop-color="#10b7ff" />
+      <stop offset="1" stop-color="#009df4" />
+    </linearGradient>
+    <linearGradient id="idea-bulb-tip-paint" gradientUnits="userSpaceOnUse" x1="137" y1="212" x2="157" y2="228">
+      <stop offset="0" stop-color="#10b7ff" />
+      <stop offset="1" stop-color="#009df4" />
+    </linearGradient>
+    <linearGradient id="idea-bulb-base-contour" x1="0" y1="0" x2=".25" y2="1">
+      <stop offset="0" stop-color="#9ceaff" />
+      <stop offset=".3" stop-color="#42ccff" />
+      <stop offset=".52" stop-color="#009ef2" />
+      <stop offset=".75" stop-color="#0074d2" />
+      <stop offset="1" stop-color="#0052aa" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#idea-bulb-glass" fill="url(#idea-bulb-gold)" />
+    <path d="M180 65 C198 104 176 138 159 160 Q150 174 150 183 H220 V60 Z" fill="url(#idea-bulb-gold-shadow)" clip-path="url(#idea-bulb-glass-clip)" />
+    <use href="#idea-bulb-glass" fill="none" stroke="url(#idea-bulb-gold-edge)" stroke-width="11" clip-path="url(#idea-bulb-glass-clip)" />
+    <use href="#idea-bulb-glass" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M111 100 Q120 85 133 81" fill="none" stroke="#fff38b" stroke-width="11" />
+    <path d="M130 135 Q138 147 138 161 V183 M162 135 Q154 147 154 161 V183 M130 135 Q146 157 162 135" fill="none" stroke="#c48d00" stroke-width="6" />
+    <use href="#idea-bulb-tip" fill="url(#idea-bulb-tip-paint)" />
+    <use href="#idea-bulb-tip" fill="none" stroke="url(#idea-bulb-base-contour)" stroke-width="10" clip-path="url(#idea-bulb-tip-clip)" />
+    <use href="#idea-bulb-tip" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#idea-bulb-upper-band" fill="url(#idea-bulb-upper-band-paint)" />
+    <use href="#idea-bulb-upper-band" fill="none" stroke="url(#idea-bulb-base-contour)" stroke-width="7" clip-path="url(#idea-bulb-upper-band-clip)" />
+    <use href="#idea-bulb-upper-band" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#idea-bulb-lower-band" fill="url(#idea-bulb-lower-band-paint)" />
+    <use href="#idea-bulb-lower-band" fill="none" stroke="url(#idea-bulb-base-contour)" stroke-width="7" clip-path="url(#idea-bulb-lower-band-clip)" />
+    <use href="#idea-bulb-lower-band" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

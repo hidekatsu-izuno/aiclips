@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="algorithm-logic-title">
+  <title id="algorithm-logic-title">ロジック</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="algorithm-logic-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <path id="algorithm-logic-shape1" d="M108.4 96 H84 V130 H70 L93 154 L116 130 H102 V114 H108.4 Z" />
+    <path id="algorithm-logic-shape2" d="M108.4 96 H84 V130 H70 L93 154 L116 130 H102 V114 H108.4 Z" />
+    <path id="algorithm-logic-shape3" d="M140.4 74.6 Q144 71.4 147.6 74.6 L180 101.8 Q183.6 105 180 108.2 L147.6 135.4 Q144 138.6 140.4 135.4 L108 108.2 Q104.4 105 108 101.8 Z" />
+    <clipPath id="algorithm-logic-shape3-clip">
+      <use href="#algorithm-logic-shape3" />
+    </clipPath>
+    <rect id="algorithm-logic-shape4" x="56" y="166" width="74" height="47" rx="10.34" />
+    <clipPath id="algorithm-logic-shape4-clip">
+      <use href="#algorithm-logic-shape4" />
+    </clipPath>
+    <rect id="algorithm-logic-shape5" x="158" y="166" width="74" height="47" rx="10.34" />
+    <clipPath id="algorithm-logic-shape5-clip">
+      <use href="#algorithm-logic-shape5" />
+    </clipPath>
+    <linearGradient id="algorithm-logic-box4-paint" gradientUnits="userSpaceOnUse" x1="56" y1="166" x2="70.1" y2="213">
+      <stop offset="0" stop-color="#0bc5ff" />
+      <stop offset=".5" stop-color="#0099ff" />
+      <stop offset="1" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="algorithm-logic-box4-edge" gradientUnits="userSpaceOnUse" x1="56" y1="166" x2="70.1" y2="213">
+      <stop offset="0" stop-color="#82e2ff" />
+      <stop offset=".5" stop-color="#1ac0ff" />
+      <stop offset="1" stop-color="#0565bd" />
+    </linearGradient>
+    <linearGradient id="algorithm-logic-box5-paint" gradientUnits="userSpaceOnUse" x1="158" y1="166" x2="172.1" y2="213">
+      <stop offset="0" stop-color="#53d967" />
+      <stop offset=".5" stop-color="#1cc555" />
+      <stop offset="1" stop-color="#00a64c" />
+    </linearGradient>
+    <linearGradient id="algorithm-logic-box5-edge" gradientUnits="userSpaceOnUse" x1="158" y1="166" x2="172.1" y2="213">
+      <stop offset="0" stop-color="#99f183" />
+      <stop offset=".5" stop-color="#49da6c" />
+      <stop offset="1" stop-color="#079849" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#algorithm-logic-shape1" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    <g transform="translate(288 0) scale(-1 1)">
+      <use href="#algorithm-logic-shape2" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+    </g>
+    <use href="#algorithm-logic-shape3" fill="url(#algorithm-logic-gold)" />
+    <use href="#algorithm-logic-shape3" fill="none" stroke="#fff47d" stroke-width="16.0" clip-path="url(#algorithm-logic-shape3-clip)" />
+    <use href="#algorithm-logic-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-logic-shape4" fill="url(#algorithm-logic-box4-paint)" />
+    <use href="#algorithm-logic-shape4" fill="none" stroke="url(#algorithm-logic-box4-edge)" stroke-width="16.4" clip-path="url(#algorithm-logic-shape4-clip)" />
+    <use href="#algorithm-logic-shape4" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-logic-shape5" fill="url(#algorithm-logic-box5-paint)" />
+    <use href="#algorithm-logic-shape5" fill="none" stroke="url(#algorithm-logic-box5-edge)" stroke-width="16.4" clip-path="url(#algorithm-logic-shape5-clip)" />
+    <use href="#algorithm-logic-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="hard-disk-title">
+  <title id="hard-disk-title">ディスクHDD</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="hard-disk-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="hard-disk-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="hard-disk-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="hard-disk-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="hard-disk-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="hard-disk-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <rect id="hard-disk-case" x="78" y="63" width="137" height="164" rx="16" />
+    <clipPath id="hard-disk-case-clip">
+      <use href="#hard-disk-case" />
+    </clipPath>
+    <circle id="hard-disk-platter" cx="146.5" cy="129" r="56.5" />
+    <clipPath id="hard-disk-platter-clip">
+      <use href="#hard-disk-platter" />
+    </clipPath>
+    <circle id="hard-disk-hub" cx="146.5" cy="129" r="19" />
+    <clipPath id="hard-disk-hub-clip">
+      <use href="#hard-disk-hub" />
+    </clipPath>
+    <circle id="hard-disk-screw0" cx="94" cy="79" r="6" />
+    <clipPath id="hard-disk-screw0-clip">
+      <use href="#hard-disk-screw0" />
+    </clipPath>
+    <circle id="hard-disk-screw1" cx="199" cy="79" r="6" />
+    <clipPath id="hard-disk-screw1-clip">
+      <use href="#hard-disk-screw1" />
+    </clipPath>
+    <circle id="hard-disk-screw2" cx="94" cy="213" r="6" />
+    <clipPath id="hard-disk-screw2-clip">
+      <use href="#hard-disk-screw2" />
+    </clipPath>
+    <circle id="hard-disk-screw3" cx="199" cy="213" r="6" />
+    <clipPath id="hard-disk-screw3-clip">
+      <use href="#hard-disk-screw3" />
+    </clipPath>
+    <circle id="hard-disk-screw4" cx="94" cy="170" r="5" />
+    <clipPath id="hard-disk-screw4-clip">
+      <use href="#hard-disk-screw4" />
+    </clipPath>
+    <circle id="hard-disk-screw5" cx="199" cy="174" r="5" />
+    <clipPath id="hard-disk-screw5-clip">
+      <use href="#hard-disk-screw5" />
+    </clipPath>
+    <circle id="hard-disk-screw6" cx="129" cy="205" r="5" />
+    <clipPath id="hard-disk-screw6-clip">
+      <use href="#hard-disk-screw6" />
+    </clipPath>
+    <rect id="hard-disk-status" x="160" y="188" width="34" height="20" rx="3" />
+    <clipPath id="hard-disk-status-clip">
+      <use href="#hard-disk-status" />
+    </clipPath>
+    <path id="hard-disk-arm" d="M104 171 L163 154 Q172 152 167 161 L123 199 Q115 207 105 200 Q94 192 99 181 Z" />
+    <clipPath id="hard-disk-arm-clip">
+      <use href="#hard-disk-arm" />
+    </clipPath>
+    <circle id="hard-disk-arm-pivot" cx="112" cy="187" r="7" />
+    <clipPath id="hard-disk-arm-pivot-clip">
+      <use href="#hard-disk-arm-pivot" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#hard-disk-case" fill="url(#hard-disk-steel)" />
+    <use href="#hard-disk-case" fill="none" stroke="url(#hard-disk-steel-edge)" stroke-width="17" clip-path="url(#hard-disk-case-clip)" />
+    <use href="#hard-disk-case" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#hard-disk-platter" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-platter" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="13" clip-path="url(#hard-disk-platter-clip)" />
+    <use href="#hard-disk-platter" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M177 81 A56.5 56.5 0 0 1 194 160 L126 184 Z" fill="#dce5ed" clip-path="url(#hard-disk-platter-clip)" />
+    <use href="#hard-disk-platter" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#hard-disk-hub" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-hub" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="7" clip-path="url(#hard-disk-hub-clip)" />
+    <use href="#hard-disk-hub" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <circle cx="146.5" cy="140.0" r="2.1" fill="#3a4c5c" />
+    <circle cx="156.02627944162882" cy="134.5" r="2.1" fill="#3a4c5c" />
+    <circle cx="156.02627944162882" cy="123.5" r="2.1" fill="#3a4c5c" />
+    <circle cx="146.5" cy="118.0" r="2.1" fill="#3a4c5c" />
+    <circle cx="136.97372055837118" cy="123.5" r="2.1" fill="#3a4c5c" />
+    <circle cx="136.97372055837118" cy="134.5" r="2.1" fill="#3a4c5c" />
+    <circle cx="146.5" cy="129" r="2.8" fill="#233647" />
+    <use href="#hard-disk-screw0" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw0" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw0-clip)" />
+    <use href="#hard-disk-screw0" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw1" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw1" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw1-clip)" />
+    <use href="#hard-disk-screw1" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw2" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw2" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw2-clip)" />
+    <use href="#hard-disk-screw2" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw3" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw3" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw3-clip)" />
+    <use href="#hard-disk-screw3" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw4" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw4" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw4-clip)" />
+    <use href="#hard-disk-screw4" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw5" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw5" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw5-clip)" />
+    <use href="#hard-disk-screw5" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-screw6" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-screw6" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="4" clip-path="url(#hard-disk-screw6-clip)" />
+    <use href="#hard-disk-screw6" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-status" fill="url(#hard-disk-blue)" />
+    <use href="#hard-disk-status" fill="none" stroke="url(#hard-disk-blue-edge)" stroke-width="7" clip-path="url(#hard-disk-status-clip)" />
+    <use href="#hard-disk-status" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#hard-disk-arm" fill="url(#hard-disk-white)" />
+    <use href="#hard-disk-arm" fill="none" stroke="url(#hard-disk-white-edge)" stroke-width="8" clip-path="url(#hard-disk-arm-clip)" />
+    <use href="#hard-disk-arm" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#hard-disk-arm-pivot" fill="url(#hard-disk-blue)" />
+    <use href="#hard-disk-arm-pivot" fill="none" stroke="url(#hard-disk-blue-edge)" stroke-width="4" clip-path="url(#hard-disk-arm-pivot-clip)" />
+    <use href="#hard-disk-arm-pivot" fill="none" stroke="#050b1d" stroke-width="1.5" />
+  </g>
+</svg>

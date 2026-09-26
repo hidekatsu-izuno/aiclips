@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="data-download-title">
+  <title id="data-download-title">ダウンロード</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="data-download-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-download-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-download-arrow-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#08c6f7" stop-opacity="1" />
+      <stop offset="1" stop-color="#00a6ed" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-download-arrow-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#83edff" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#1dd0ff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0083d5" stop-opacity="1" />
+    </linearGradient>
+    <path id="data-download-tray" d="M70 160 A14 14 0 0 1 98 160 V178 H188 V160 A14 14 0 0 1 216 160 V194 Q216 211 199 211 H87 Q70 211 70 194 Z" />
+    <clipPath id="data-download-tray-clip">
+      <use href="#data-download-tray" />
+    </clipPath>
+    <path id="data-download-arrow" d="M127 70 H159 Q171 70 171 82 V120 H183 Q198 120 189 131 L149 173 Q143 179 137 173 L97 131 Q88 120 103 120 H115 V82 Q115 70 127 70 Z" />
+    <clipPath id="data-download-arrow-clip">
+      <use href="#data-download-arrow" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#data-download-tray" fill="url(#data-download-white)" />
+    <use href="#data-download-tray" fill="none" stroke="url(#data-download-white-edge)" stroke-width="17" clip-path="url(#data-download-tray-clip)" />
+    <use href="#data-download-tray" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#data-download-arrow" fill="url(#data-download-arrow-paint)" />
+    <use href="#data-download-arrow" fill="none" stroke="url(#data-download-arrow-edge)" stroke-width="18" clip-path="url(#data-download-arrow-clip)" />
+    <use href="#data-download-arrow" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

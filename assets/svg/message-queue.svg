@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="message-queue-title">
+  <title id="message-queue-title">メッセージキュー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="message-queue-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="message-queue-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="message-queue-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="message-queue-green-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#9af5b5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#51e58b" stop-opacity="1" />
+      <stop offset="1" stop-color="#088a37" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="message-queue-red" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff656a" stop-opacity="1" />
+      <stop offset="1" stop-color="#ef2634" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="message-queue-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb2b5" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff666e" stop-opacity="1" />
+      <stop offset="1" stop-color="#be1425" stop-opacity="1" />
+    </linearGradient>
+    <rect id="message-queue-body" x="59" y="104" width="170" height="81" rx="19" />
+    <clipPath id="message-queue-body-clip">
+      <use href="#message-queue-body" />
+    </clipPath>
+    <rect id="message-queue-well" x="70" y="117" width="148" height="54" rx="8" />
+    <path id="message-queue-input" d="M19 134 H39 V125 Q39 117 45 122 L71 145 L45 169 Q39 175 39 166 V158 H19 Z" />
+    <clipPath id="message-queue-input-clip">
+      <use href="#message-queue-input" />
+    </clipPath>
+    <path id="message-queue-output" d="M218 134 H237 V124 Q237 116 243 123 L269 145 L243 169 Q237 175 237 166 V158 H218 Z" />
+    <clipPath id="message-queue-output-clip">
+      <use href="#message-queue-output" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#message-queue-body" fill="url(#message-queue-blue)" />
+    <use href="#message-queue-body" fill="none" stroke="url(#message-queue-blue-edge)" stroke-width="15" clip-path="url(#message-queue-body-clip)" />
+    <use href="#message-queue-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#message-queue-well" fill="#102132" stroke="#050b1d" stroke-width="3" />
+    <rect x="111" y="123" width="28" height="42" rx="4" fill="#00b9f0" />
+    <rect x="146" y="123" width="28" height="42" rx="4" fill="#00b9f0" />
+    <rect x="181" y="123" width="28" height="42" rx="4" fill="#00b9f0" />
+    <use href="#message-queue-input" fill="url(#message-queue-green)" />
+    <use href="#message-queue-input" fill="none" stroke="url(#message-queue-green-edge)" stroke-width="11" clip-path="url(#message-queue-input-clip)" />
+    <use href="#message-queue-input" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#message-queue-output" fill="url(#message-queue-red)" />
+    <use href="#message-queue-output" fill="none" stroke="url(#message-queue-red-edge)" stroke-width="11" clip-path="url(#message-queue-output-clip)" />
+    <use href="#message-queue-output" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

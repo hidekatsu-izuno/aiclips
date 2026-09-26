@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="medical-doctor-title">
+  <title id="medical-doctor-title">医師</title>
+  <desc>Doctor in a white coat with unobstructed neck and shirt collar, simplified stethoscope earpieces, and a front-facing chestpiece overlapping a rounded raised hand on the left.</desc>
+  <defs>
+    <linearGradient id="medical-doctor-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <path id="medical-doctor-reference-face" d="M144 86 C125 86 110 93 109 111 C110 124 111 139 119 149 C126 156 135 158 144 158 C153 158 162 156 169 149 C177 139 178 124 179 111 C178 93 163 86 144 86 Z" />
+    <path id="medical-doctor-reference-neck" d="M144 144 C138 144 132 145 128 148 C129 153 129 157 126 160 C131 164 138 168 144 168 C150 168 157 164 162 160 C159 157 159 153 160 148 C156 145 150 144 144 144Z" />
+    <path id="medical-doctor-reference-tie" d="M144 181 C141 181 139 185 138 190 C135 203 132 217 136 231 C138 231 141 231 144 231 C147 231 150 231 152 231 C156 217 153 203 150 190 C149 185 147 181 144 181 Z" />
+    <path id="medical-doctor-reference-knot" d="M144 169 L135 177 C138 183 139 185.5 144 185.5 C149 185.5 150 183 153 177 L144 169 Z" />
+    <path id="medical-doctor-reference-hair" d="M98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119 C185 114 181 116 178 122 C178 106 174 95 166 86 C157 104 137 109 113 109 L111 123 C106 115 102 114 98 119 C88 113 86 101 94 88 Z" />
+    <linearGradient id="medical-doctor-reference-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-reference-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-reference-blue-paint" gradientUnits="userSpaceOnUse" x1="135" y1="196" x2="153" y2="200">
+      <stop offset="0" stop-color="#039bff" />
+      <stop offset=".45" stop-color="#0089fc" />
+      <stop offset="1" stop-color="#0078ea" />
+    </linearGradient>
+    <radialGradient id="medical-doctor-reference-knot-paint" gradientUnits="userSpaceOnUse" cx="143" cy="175" r="11">
+      <stop stop-color="#0094f8" />
+      <stop offset=".55" stop-color="#007bdb" />
+      <stop offset="1" stop-color="#0058a7" />
+    </radialGradient>
+    <linearGradient id="medical-doctor-reference-hair-paint" gradientUnits="userSpaceOnUse" x1="112" y1="65" x2="164" y2="109">
+      <stop offset="0" stop-color="#293e5b" />
+      <stop offset=".45" stop-color="#243752" />
+      <stop offset="1" stop-color="#1b2d45" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-reference-side-hair-paint" gradientUnits="userSpaceOnUse" x1="172" y1="76" x2="195" y2="103">
+      <stop offset="0" stop-color="#354d6c" />
+      <stop offset=".5" stop-color="#253951" />
+      <stop offset="1" stop-color="#1d2e45" />
+    </linearGradient>
+    <path id="medical-doctor-reference-sweep" d="M97 75 C112 75 112 64 131 58 C146 53 163 54 169 65 C173 72 167 86 160 93 C149 104 131 108 114 108 Q112 113 112 124 C107 117 103 114 100 116 C93 113 92 106 94 97 C96 87 103 81 108 76 C103 78 99 78 97 75 Z" />
+    <clipPath id="medical-doctor-reference-sweep-clip">
+      <use href="#medical-doctor-reference-sweep" />
+    </clipPath>
+    <path id="medical-doctor-reference-collar-left" d="M126 159 Q135 165 144 168 L144 169 L128.25 183 L123 161Z" />
+    <path id="medical-doctor-reference-ear-left" d="M113 124 C109 118 107 116.5 103 118.5 C96 121 96 130 101 134.5 C105 138 109 138 113 134.5 Z" />
+    <linearGradient id="medical-doctor-reference-sweep-bevel" gradientUnits="userSpaceOnUse" x1="108" y1="58" x2="148" y2="112">
+      <stop offset="0" stop-color="#6381a8" stop-opacity="0.95" />
+      <stop offset="0.4" stop-color="#3f5b80" stop-opacity="0.8" />
+      <stop offset="0.75" stop-color="#2a4260" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#102137" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-reference-side-bevel" gradientUnits="userSpaceOnUse" x1="175" y1="70" x2="193" y2="116">
+      <stop offset="0" stop-color="#587392" stop-opacity="0.7" />
+      <stop offset="0.5" stop-color="#354e6c" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#14273e" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-reference-ear-bevel" gradientUnits="userSpaceOnUse" x1="101" y1="119" x2="107" y2="132">
+      <stop offset="0" stop-color="#ffe7b5" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#ffd599" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#fdc28a" stop-opacity="0" />
+    </linearGradient>
+    <path id="medical-doctor-reference-side-hair" d="M170 68 C184 68 194 80 194 94 C196 104 191 111 187 115 C183 114 179 119 176.5 124 C177 106 173 94 165.5 86 C166 79 168 73 170 68 Z" />
+    <clipPath id="medical-doctor-reference-side-hair-clip">
+      <use href="#medical-doctor-reference-side-hair" />
+    </clipPath>
+    <clipPath id="medical-doctor-reference-ear-clip">
+      <use href="#medical-doctor-reference-ear-left" />
+    </clipPath>
+    <linearGradient id="medical-doctor-reference-fringe-shadow" gradientUnits="userSpaceOnUse" x1="156" y1="94" x2="124" y2="110">
+      <stop offset="0" stop-color="#13243a" stop-opacity=".3" />
+      <stop offset="1" stop-color="#101c2b" stop-opacity=".9" />
+    </linearGradient>
+    <mask id="medical-doctor-reference-neck-continuity" maskUnits="userSpaceOnUse" x="85" y="80" width="120" height="110">
+      <rect x="85" y="80" width="120" height="110" fill="white" />
+      <rect x="130" y="146" width="28" height="35" fill="black" />
+    </mask>
+    <path id="medical-doctor-coat-body" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 C96 231 120 231 144 231 C168 231 192 231 216 231 C223 231 227 229 227 222 C227 212 223 197 215 186 C196 165 169 157 144 158 Z" />
+    <clipPath id="medical-doctor-coat-body-clip">
+      <use href="#medical-doctor-coat-body" />
+    </clipPath>
+    <path id="medical-doctor-coat-shirt" d="M144 165 C136 165 132 161 129 158 C126 159 124 160 122 162 C125 183 129 208 135 231 C138 231 141 231 144 231 C147 231 150 231 153 231 C159 208 163 183 166 162 C164 160 162 159 159 158 C156 161 152 165 144 165 Z" />
+    <clipPath id="medical-doctor-coat-shirt-clip">
+      <use href="#medical-doctor-coat-shirt" />
+    </clipPath>
+    <path id="medical-doctor-coat-lapel-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135 C129 208 125 183 122 162 Z" />
+    <path id="medical-doctor-coat-lapel-rim-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
+    <path id="medical-doctor-coat-lapel-seam-left" d="M122 162 C125 183 129 208 135 231" />
+    <path id="medical-doctor-holding-hand" d="M113 204 C104 202 98 208 98 216 C97.5 222.5 100 229.5 105.5 232.5 C108.3 233.6 112.7 233.6 115.5 232.5 C119 230 121 223 121 216 C121 209 119 205 113 204Z" />
+    <clipPath id="medical-doctor-holding-hand-clip">
+      <use href="#medical-doctor-holding-hand" />
+    </clipPath>
+    <mask id="medical-doctor-ear-tube-highlight-mask" maskUnits="userSpaceOnUse" x="90" y="120" width="108" height="80">
+      <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 C116 176 129 191 144 191 C159 191 172 176 178 166 C184 156 188 146 188 136 C188 133 187 131 184 131 H182" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    </mask>
+    <linearGradient id="medical-doctor-chestpiece-rim-paint" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#f2f8fc" />
+      <stop offset=".45" stop-color="#c5d6e2" />
+      <stop offset="1" stop-color="#7892a7" />
+    </linearGradient>
+    <linearGradient id="medical-doctor-chestpiece-face-paint" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#657f94" />
+      <stop offset="1" stop-color="#bdd0de" />
+    </linearGradient>
+    <clipPath id="medical-doctor-chestpiece-clip">
+      <circle cx="107" cy="199" r="9" />
+    </clipPath>
+    <mask id="medical-doctor-ear-insertion-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="white" />
+      <path d="M104 127 Q102 130 104 134 H114 V127Z" fill="black" />
+      <path d="M104 127 Q102 130 104 134 H114 V127Z" fill="black" transform="translate(288 0) scale(-1 1)" />
+    </mask>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="medical-doctor-torso-proportions" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
+      <use href="#medical-doctor-coat-body" fill="url(#medical-doctor-paper)" />
+      <g clip-path="url(#medical-doctor-coat-body-clip)" fill="none">
+        <path d="M122 163 C103 165 84 178 76 190 Q66 207 66 224" stroke="#ffffff" stroke-width="8" />
+        <path d="M188 174 Q221 193 222 229" stroke="#afc1d3" stroke-width="8" />
+        <path d="M198 209 L201 231" stroke="#b6c6d5" stroke-width="2" />
+      </g>
+      <path d="M126 160 C108 162 88 170 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 H216 C223 231 227 229 227 222 C227 212 223 197 215 186 C200 170 180 162 162 160" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#medical-doctor-coat-shirt" fill="#dcebf6" />
+      <use href="#medical-doctor-reference-neck" fill="url(#medical-doctor-reference-neck-paint)" />
+      <use href="#medical-doctor-reference-tie" fill="url(#medical-doctor-reference-blue-paint)" clip-path="url(#medical-doctor-coat-shirt-clip)" />
+      <use href="#medical-doctor-reference-collar-left" fill="#ffffff" />
+      <path d="M123 161 L128.25 183 L135 177" fill="none" stroke="#8fa8c2" stroke-width="1.5" />
+      <use href="#medical-doctor-coat-lapel-left" fill="#f9fcff" />
+      <use href="#medical-doctor-coat-lapel-rim-left" fill="none" stroke="#8599ae" stroke-width="2" />
+      <use href="#medical-doctor-coat-lapel-seam-left" fill="none" stroke="#8096ab" stroke-width="1.6" />
+      <use href="#medical-doctor-reference-collar-left" fill="#ffffff" transform="translate(288 0) scale(-1 1)" />
+      <path d="M123 161 L128.25 183 L135 177" fill="none" stroke="#8fa8c2" stroke-width="1.5" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-coat-lapel-left" fill="#f9fcff" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-coat-lapel-rim-left" fill="none" stroke="#8599ae" stroke-width="2" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-coat-lapel-seam-left" fill="none" stroke="#8096ab" stroke-width="1.6" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-reference-knot" fill="url(#medical-doctor-reference-knot-paint)" />
+      <path d="M72 231 H216" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    </g>
+    <g id="medical-doctor-scaled-head" transform="translate(144 108) scale(1.1 1.1) translate(-144 -108)">
+      <use href="#medical-doctor-reference-face" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#medical-doctor-reference-neck-continuity)" />
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="14" />
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" />
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-reference-face" fill="url(#medical-doctor-reference-skin-paint)" />
+      <use href="#medical-doctor-reference-hair" fill="#061025" />
+      <path d="M98 119 C88 113 86 101 94 88 L98 79 C94 79 92 75 92 72 C107 74 111 61 124 55 C144 46 163 48 172 62 C183 62 197 75 198 90 C201 102 195 111 190 119" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#medical-doctor-reference-side-hair" fill="url(#medical-doctor-reference-side-hair-paint)" />
+      <use href="#medical-doctor-reference-side-hair" fill="none" stroke="url(#medical-doctor-reference-side-bevel)" stroke-width="5" clip-path="url(#medical-doctor-reference-side-hair-clip)" />
+      <use href="#medical-doctor-reference-sweep" fill="url(#medical-doctor-reference-hair-paint)" />
+      <g clip-path="url(#medical-doctor-reference-sweep-clip)">
+        <use href="#medical-doctor-reference-sweep" fill="none" stroke="url(#medical-doctor-reference-sweep-bevel)" stroke-width="7" />
+        <path d="M160 93 C149 104 131 108 114 108 Q112 113 112 124" fill="none" stroke="url(#medical-doctor-reference-fringe-shadow)" stroke-width="4" />
+      </g>
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" />
+      <use href="#medical-doctor-reference-ear-left" fill="url(#medical-doctor-reference-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#medical-doctor-reference-ear-left" fill="none" stroke="url(#medical-doctor-reference-ear-bevel)" stroke-width="2.5" clip-path="url(#medical-doctor-reference-ear-clip)" />
+    </g>
+    <g id="medical-doctor-stethoscope-in-use">
+      <path d="M78 225 L93 211 Q98 210 103 213 L111 225Z" fill="#f8fcff" />
+      <path d="M78 225 L93 211 M103 213 L111 225" fill="none" stroke="#a1b5c7" stroke-width="2" />
+      <g id="medical-doctor-binaural-assembly" mask="url(#medical-doctor-ear-insertion-mask)">
+        <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 C116 176 129 191 144 191 C159 191 172 176 178 166 C184 156 188 146 188 136 C188 133 187 131 184 131 H182" fill="none" stroke="#aebfcd" stroke-width="5" />
+        <g mask="url(#medical-doctor-ear-tube-highlight-mask)">
+          <path d="M106 131 H104 C101 131 100 133 100 136 C100 146 104 156 110 166 M182 131 H184 C187 131 188 133 188 136 C188 146 184 156 178 166" fill="none" stroke="#dce6ee" stroke-width="1.1" transform="translate(-.6 -.6)" />
+        </g>
+        <path d="M110 166 C116 176 129 191 144 191 C159 191 172 176 178 166" fill="none" stroke="#303b46" stroke-width="5" stroke-linecap="butt" />
+      </g>
+      <g id="medical-doctor-hand-grip" transform="translate(99 205) scale(.92 .92) translate(-110 -218)">
+        <use href="#medical-doctor-holding-hand" fill="url(#medical-doctor-reference-skin-paint)" />
+        <path d="M117 207.5 Q112 205 107 207" fill="none" stroke="#ffe2b3" stroke-width="1.5" clip-path="url(#medical-doctor-holding-hand-clip)" />
+        <use href="#medical-doctor-holding-hand" fill="none" stroke="#050b1d" stroke-width="2.8" />
+      </g>
+      <path d="M144 191 V203 C144 222 118 227 108 216 Q107 213 107 208 V199" fill="none" stroke="#303b46" stroke-width="4.5" id="medical-doctor-chestpiece-tube" />
+      <circle cx="107" cy="199" r="9" fill="url(#medical-doctor-chestpiece-rim-paint)" stroke="#536e84" stroke-width="1.4" />
+      <circle cx="107" cy="199" r="6.2" fill="url(#medical-doctor-chestpiece-face-paint)" stroke="#748fa4" stroke-width=".7" />
+      <g clip-path="url(#medical-doctor-chestpiece-clip)" fill="none">
+        <path d="M99.3 199 A7.7 7.7 0 0 1 110 191.9" stroke="#f7fcff" stroke-width="1.6" />
+        <path d="M114.6 200 A7.7 7.7 0 0 1 104 206.1" stroke="#607f97" stroke-width="1.5" />
+        <path d="M101.6 199 A5.4 5.4 0 0 1 108 193.7" stroke="#526e84" stroke-width="1.2" />
+        <path d="M112.3 199.8 A5.4 5.4 0 0 1 105.7 204.2" stroke="#e4eff6" stroke-width="1.1" />
+      </g>
+    </g>
+  </g>
+</svg>

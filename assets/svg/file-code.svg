@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-code-title">
+  <title id="file-code-title">CODE</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="file-code-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="file-code-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <linearGradient id="file-code-sheet" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#fcfcfe" />
+      <stop offset="1.0" stop-color="#edf0f5" />
+    </linearGradient>
+    <path id="file-code-shape1" d="M92 64 H169 L212 106 V208 Q212 224 196 224 H92 Q76 224 76 208 V80 Q76 64 92 64 Z" />
+    <clipPath id="file-code-shape1-clip">
+      <use href="#file-code-shape1" />
+    </clipPath>
+    <circle id="file-code-shape2" cx="106" cy="174" r="7" />
+    <circle id="file-code-shape3" cx="106" cy="196" r="7" />
+    <linearGradient id="file-code-line-paint1" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#445b71" />
+      <stop offset="0.5" stop-color="#33495f" />
+      <stop offset="1.0" stop-color="#273c52" />
+    </linearGradient>
+    <linearGradient id="file-code-line-paint2" x1="96" y1="90" x2="190" y2="218" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0" stop-color="#445b71" />
+      <stop offset="0.5" stop-color="#33495f" />
+      <stop offset="1.0" stop-color="#273c52" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-code-shape1" fill="url(#file-code-sheet)" />
+    <use href="#file-code-shape1" fill="none" stroke="url(#file-code-silver-edge)" stroke-width="5" clip-path="url(#file-code-shape1-clip)" />
+    <use href="#file-code-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-code-blue)" stroke="none" stroke-width="0" />
+    <path d="M116 120 L101 134 L116 148 M168 120 L183 134 L168 148 M150 110 L134 153" fill="none" stroke="#0063dc" stroke-width="11" />
+    <use href="#file-code-shape2" fill="url(#file-code-blue)" />
+    <path d="M127 174 H186" fill="none" stroke="url(#file-code-line-paint1)" stroke-width="11" />
+    <use href="#file-code-shape3" fill="url(#file-code-blue)" />
+    <path d="M127 196 H171" fill="none" stroke="url(#file-code-line-paint2)" stroke-width="11" />
+  </g>
+</svg>

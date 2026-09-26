@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="algorithm-merge-title">
+  <title id="algorithm-merge-title">マージ</title>
+  <desc>Editable merge illustration with vertically mirrored incoming branches, flat dark-gray shafts and a gold output arrow centered on the same horizontal axis.</desc>
+  <defs>
+    <linearGradient id="algorithm-merge-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <path id="algorithm-merge-shape1" d="M79 84 H96 Q119 84 132.7 107.8 L149 133 H174 V151 H149 L132.7 176.2 Q119 200 96 200 H79 A9 9 0 0 1 79 182 H96 Q108 182 117.3 166.8 L136 142 L117.3 117.2 Q108 102 96 102 H79 A9 9 0 0 1 79 84 Z" />
+    <path id="algorithm-merge-shape2" d="M182 115 L213 139 Q217 142 213 145 L182 169 V151 H142 A9 9 0 0 1 142 133 H182 Z" />
+    <clipPath id="algorithm-merge-shape2-clip">
+      <use href="#algorithm-merge-shape2" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#algorithm-merge-shape1" fill="#343a40" />
+    <use href="#algorithm-merge-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-merge-shape2" fill="url(#algorithm-merge-gold)" />
+    <use href="#algorithm-merge-shape2" fill="none" stroke="#fff47d" stroke-width="13" stroke-linejoin="miter" clip-path="url(#algorithm-merge-shape2-clip)" />
+    <use href="#algorithm-merge-shape2" fill="none" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+  </g>
+</svg>

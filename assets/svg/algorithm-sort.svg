@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="algorithm-sort-title">
+  <title id="algorithm-sort-title">ソート</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <rect id="algorithm-sort-shape1" x="77" y="59" width="140" height="40" rx="8.8" />
+    <clipPath id="algorithm-sort-shape1-clip">
+      <use href="#algorithm-sort-shape1" />
+    </clipPath>
+    <rect id="algorithm-sort-shape2" x="77" y="107" width="103" height="40" rx="8.8" />
+    <clipPath id="algorithm-sort-shape2-clip">
+      <use href="#algorithm-sort-shape2" />
+    </clipPath>
+    <rect id="algorithm-sort-shape3" x="77" y="155" width="76" height="40" rx="8.8" />
+    <clipPath id="algorithm-sort-shape3-clip">
+      <use href="#algorithm-sort-shape3" />
+    </clipPath>
+    <path id="algorithm-sort-shape4" d="M201.5 120 H219.5 V169.441505 H233.5 L210.5 193.441505 L187.5 169.441505 H201.5 Z" />
+    <linearGradient id="algorithm-sort-box1-paint" gradientUnits="userSpaceOnUse" x1="77" y1="59" x2="89" y2="99">
+      <stop offset="0" stop-color="#0bc5ff" />
+      <stop offset=".5" stop-color="#0099ff" />
+      <stop offset="1" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="algorithm-sort-box1-edge" gradientUnits="userSpaceOnUse" x1="77" y1="59" x2="89" y2="99">
+      <stop offset="0" stop-color="#82e2ff" />
+      <stop offset=".5" stop-color="#1ac0ff" />
+      <stop offset="1" stop-color="#0565bd" />
+    </linearGradient>
+    <linearGradient id="algorithm-sort-box2-paint" gradientUnits="userSpaceOnUse" x1="77" y1="107" x2="89" y2="147">
+      <stop offset="0" stop-color="#53d967" />
+      <stop offset=".5" stop-color="#1cc555" />
+      <stop offset="1" stop-color="#00a64c" />
+    </linearGradient>
+    <linearGradient id="algorithm-sort-box2-edge" gradientUnits="userSpaceOnUse" x1="77" y1="107" x2="89" y2="147">
+      <stop offset="0" stop-color="#99f183" />
+      <stop offset=".5" stop-color="#49da6c" />
+      <stop offset="1" stop-color="#079849" />
+    </linearGradient>
+    <linearGradient id="algorithm-sort-box3-paint" gradientUnits="userSpaceOnUse" x1="77" y1="155" x2="89" y2="195">
+      <stop offset="0" stop-color="#fff071" />
+      <stop offset=".5" stop-color="#ffd51c" />
+      <stop offset="1" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="algorithm-sort-box3-edge" gradientUnits="userSpaceOnUse" x1="77" y1="155" x2="89" y2="195">
+      <stop offset="0" stop-color="#fff68b" />
+      <stop offset=".5" stop-color="#f9d94b" />
+      <stop offset="1" stop-color="#d89c13" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#algorithm-sort-shape1" fill="url(#algorithm-sort-box1-paint)" />
+    <use href="#algorithm-sort-shape1" fill="none" stroke="url(#algorithm-sort-box1-edge)" stroke-width="15" clip-path="url(#algorithm-sort-shape1-clip)" />
+    <use href="#algorithm-sort-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-sort-shape2" fill="url(#algorithm-sort-box2-paint)" />
+    <use href="#algorithm-sort-shape2" fill="none" stroke="url(#algorithm-sort-box2-edge)" stroke-width="15" clip-path="url(#algorithm-sort-shape2-clip)" />
+    <use href="#algorithm-sort-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-sort-shape3" fill="url(#algorithm-sort-box3-paint)" />
+    <use href="#algorithm-sort-shape3" fill="none" stroke="url(#algorithm-sort-box3-edge)" stroke-width="15" clip-path="url(#algorithm-sort-shape3-clip)" />
+    <use href="#algorithm-sort-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#algorithm-sort-shape4" fill="#343a40" stroke="#050b1d" stroke-width="7" stroke-linejoin="miter" />
+  </g>
+</svg>

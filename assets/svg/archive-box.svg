@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="archive-box-title">
+  <title id="archive-box-title">書類ボックス</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="archive-box-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="archive-box-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="archive-box-cardboard" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffe1a2" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#f8cc7d" stop-opacity="1" />
+      <stop offset="1" stop-color="#efb763" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="archive-box-cardboard-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff2c7" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#ffdd98" stop-opacity="1" />
+      <stop offset="1" stop-color="#cc833b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="archive-box-side-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#efb25b" stop-opacity="1" />
+      <stop offset="1" stop-color="#d99039" stop-opacity="1" />
+    </linearGradient>
+    <path id="archive-box-rim" d="M58 123 H204 L236 84 Q236 79 231 79 H94 Q90 79 88 82 Z" />
+    <rect id="archive-box-paper-back" x="104" y="65" width="97" height="69" rx="5" />
+    <clipPath id="archive-box-paper-back-clip">
+      <use href="#archive-box-paper-back" />
+    </clipPath>
+    <rect id="archive-box-paper-front" x="90" y="83" width="99" height="60" rx="4" />
+    <clipPath id="archive-box-paper-front-clip">
+      <use href="#archive-box-paper-front" />
+    </clipPath>
+    <path id="archive-box-case" d="M58 123 H204 L236 84 V175 Q236 179 233 183 L208 217 Q204 221 196 221 H72 Q58 221 58 207 Z" />
+    <rect id="archive-box-handle" x="104" y="145" width="54" height="19" rx="8" />
+    <linearGradient id="archive-box-rim-paint" gradientUnits="userSpaceOnUse" x1="90" y1="79" x2="110" y2="123">
+      <stop offset="0" stop-color="#ffe8aa" />
+      <stop offset="1" stop-color="#ffdc8c" />
+    </linearGradient>
+    <linearGradient id="archive-box-interior-paint" gradientUnits="userSpaceOnUse" x1="90" y1="79" x2="110" y2="123">
+      <stop offset="0" stop-color="#76532c" />
+      <stop offset="1" stop-color="#47351f" />
+    </linearGradient>
+    <path id="archive-box-front-face" d="M58 123 H204 V213 Q204 221 196 221 H72 Q58 221 58 207 Z" />
+    <clipPath id="archive-box-front-face-clip">
+      <use href="#archive-box-front-face" />
+    </clipPath>
+    <path id="archive-box-side-face" d="M204 123 L236 84 V175 Q236 179 233 183 L208 217 Q204 221 196 221 Q204 221 204 213 Z" />
+    <clipPath id="archive-box-side-face-clip">
+      <use href="#archive-box-side-face" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#archive-box-rim" fill="url(#archive-box-rim-paint)" />
+    <path id="archive-box-opening" d="M71.528342 118 H201.453877 L223.999332 87 H94.073797 Z" fill="url(#archive-box-interior-paint)" stroke="#050b1d" stroke-width="2" />
+    <path d="M94 79 H231 Q236 79 236 84" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#archive-box-paper-back" fill="url(#archive-box-white)" />
+    <use href="#archive-box-paper-back" fill="none" stroke="url(#archive-box-white-edge)" stroke-width="9" clip-path="url(#archive-box-paper-back-clip)" />
+    <use href="#archive-box-paper-back" fill="none" stroke="#050b1d" stroke-width="5" />
+    <rect x="111" y="73" width="82" height="38" rx="2" fill="#c4ced8" />
+    <use href="#archive-box-paper-front" fill="url(#archive-box-white)" />
+    <use href="#archive-box-paper-front" fill="none" stroke="url(#archive-box-white-edge)" stroke-width="9" clip-path="url(#archive-box-paper-front-clip)" />
+    <use href="#archive-box-paper-front" fill="none" stroke="#050b1d" stroke-width="5" />
+    <g fill="none" stroke="#a5b2be" stroke-width="5" stroke-linecap="round" clip-path="url(#archive-box-paper-front-clip)">
+      <path d="M107 97 H172" />
+      <path d="M107 108 H155" />
+    </g>
+    <use href="#archive-box-case" fill="url(#archive-box-cardboard)" />
+    <use href="#archive-box-front-face" fill="none" stroke="url(#archive-box-cardboard-edge)" stroke-width="10" clip-path="url(#archive-box-front-face-clip)" />
+    <use href="#archive-box-side-face" fill="url(#archive-box-side-paint)" />
+    <path d="M236 84 V175 Q236 179 233 183 L208 217 Q204 221 196 221" fill="none" stroke="url(#archive-box-cardboard-edge)" stroke-width="10" clip-path="url(#archive-box-side-face-clip)" />
+    <path d="M204 123 V213 Q204 221 196 221" fill="none" stroke="#d28738" stroke-width="2" />
+    <path id="archive-box-front-rim" d="M58 123 H204 L236 84 Q236 79 231 79 L223.999332 87 L201.453877 118 H71.528342 Z" fill="url(#archive-box-rim-paint)" />
+    <path d="M71.528342 118 H201.453877 L223.999332 87" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M94 79 Q90 79 88 82 L58 123 V207 Q58 221 72 221 H196 Q204 221 208 217 L233 183 Q236 179 236 175 V84 Q236 79 231 79 H217" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#archive-box-handle" fill="#0e1d29" />
+    <use href="#archive-box-handle" fill="none" stroke="#ffe9b0" stroke-width="3" />
+    <path d="M112 150 H150" fill="none" stroke="#2c4353" stroke-width="4" />
+  </g>
+</svg>

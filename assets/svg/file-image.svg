@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-image-title">
+  <title id="file-image-title">画像ファイル</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="file-image-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="file-image-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="file-image-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <path id="file-image-paper" d="M93 69 H173 L213 109 V205 Q213 222 196 222 H92 Q75 222 75 205 V86 Q75 69 93 69 Z" />
+    <path id="file-image-fold" d="M171.343146 73 L209 110.656854 H181.343146 Q171.343146 110.656854 171.343146 100.656854 Z" />
+    <clipPath id="file-image-fold-clip">
+      <use href="#file-image-fold" />
+    </clipPath>
+    <rect id="file-image-picture" x="93" y="123" width="100" height="77" rx="7" />
+    <clipPath id="file-image-picture-clip">
+      <use href="#file-image-picture" />
+    </clipPath>
+    <linearGradient id="file-image-hill-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#46df72" stop-opacity="1" />
+      <stop offset="1" stop-color="#0bbb4c" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-image-paper" fill="url(#file-image-white)" />
+    <use href="#file-image-fold" fill="url(#file-image-blue)" />
+    <use href="#file-image-fold" fill="none" stroke="url(#file-image-blue-edge)" stroke-width="3" clip-path="url(#file-image-fold-clip)" />
+    <use href="#file-image-picture" fill="url(#file-image-blue)" />
+    <circle cx="169" cy="146" r="13" fill="#ffdf16" />
+    <path d="M93 194 L122 159 Q126 154 130 159 L154 183 L165 173 Q170 168 174 173 L193 192 V200 H93 Z" fill="url(#file-image-hill-paint)" clip-path="url(#file-image-picture-clip)" />
+    <path d="M93 194 L122 159 Q126 154 130 159 L154 183 L165 173 Q170 168 174 173 L193 192" fill="none" stroke="#129641" stroke-width="5" clip-path="url(#file-image-picture-clip)" />
+    <use href="#file-image-paper" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

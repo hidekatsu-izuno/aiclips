@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="console-terminal-title">
+  <title id="console-terminal-title">ターミナル</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="console-terminal-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="console-terminal-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="console-terminal-display-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#243f52" stop-opacity="1" />
+      <stop offset="1" stop-color="#172b3a" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="console-terminal-display-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#091c2a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#244358" stop-opacity="1" />
+      <stop offset="1" stop-color="#577186" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="console-terminal-prompt-paint" gradientUnits="userSpaceOnUse" x1="81" y1="126" x2="94" y2="146">
+      <stop offset="0" stop-color="#83f4a9" stop-opacity="1" />
+      <stop offset="1" stop-color="#19c565" stop-opacity="1" />
+    </linearGradient>
+    <rect id="console-terminal-body" x="52" y="64" width="181" height="160" rx="21" />
+    <clipPath id="console-terminal-body-clip">
+      <use href="#console-terminal-body" />
+    </clipPath>
+    <linearGradient id="console-terminal-dot-0-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb8bb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff5359" stop-opacity="1" />
+      <stop offset="1" stop-color="#ff5359" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="console-terminal-dot-1-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#fff292" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ffc400" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc400" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="console-terminal-dot-2-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#a9ffd0" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#29d96d" stop-opacity="1" />
+      <stop offset="1" stop-color="#29d96d" stop-opacity="1" />
+    </linearGradient>
+    <path id="console-terminal-display" d="M56 106 H229 V203 A17 17 0 0 1 212 220 H73 A17 17 0 0 1 56 203 Z" />
+    <clipPath id="console-terminal-display-clip">
+      <use href="#console-terminal-display" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#console-terminal-body" fill="url(#console-terminal-blue)" />
+    <use href="#console-terminal-body" fill="none" stroke="url(#console-terminal-blue-edge)" stroke-width="16" clip-path="url(#console-terminal-body-clip)" />
+    <circle cx="76" cy="89" r="7.5" fill="url(#console-terminal-dot-0-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M72.5 89.5 A4.5 4.5 0 0 1 77 85" fill="none" stroke="#ffb8bb" stroke-width="2.2" />
+    <circle cx="98" cy="89" r="7.5" fill="url(#console-terminal-dot-1-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M94.5 89.5 A4.5 4.5 0 0 1 99 85" fill="none" stroke="#fff292" stroke-width="2.2" />
+    <circle cx="120" cy="89" r="7.5" fill="url(#console-terminal-dot-2-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M116.5 89.5 A4.5 4.5 0 0 1 121 85" fill="none" stroke="#a9ffd0" stroke-width="2.2" />
+    <use href="#console-terminal-display" fill="url(#console-terminal-display-paint)" clip-path="url(#console-terminal-body-clip)" />
+    <use href="#console-terminal-display" fill="none" stroke="url(#console-terminal-display-edge)" stroke-width="8" clip-path="url(#console-terminal-display-clip)" />
+    <path d="M82 126 L94 135 L82 144" fill="none" stroke="url(#console-terminal-prompt-paint)" stroke-width="6" />
+    <path d="M106 144 H122" fill="none" stroke="url(#console-terminal-prompt-paint)" stroke-width="6" />
+    <path d="M81 167 H89" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M81 184 H89" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M81 201 H89" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M107 167 H169" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M107 184 H145" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M161 184 H197" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <path d="M107 201 H145" fill="none" stroke="#b7c9d8" stroke-width="6" />
+    <use href="#console-terminal-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

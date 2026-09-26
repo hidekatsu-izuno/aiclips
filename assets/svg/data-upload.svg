@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="data-upload-title">
+  <title id="data-upload-title">アップロード</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="data-upload-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-upload-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-upload-arrow-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#3add74" stop-opacity="1" />
+      <stop offset="1" stop-color="#20c660" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="data-upload-arrow-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#98ffc0" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#4eea8c" stop-opacity="1" />
+      <stop offset="1" stop-color="#119d4c" stop-opacity="1" />
+    </linearGradient>
+    <path id="data-upload-tray" d="M68 163 A14 14 0 0 1 96 163 V181 H191 V163 A14 14 0 0 1 219 163 V198 Q219 216 201 216 H86 Q68 216 68 198 Z" />
+    <clipPath id="data-upload-tray-clip">
+      <use href="#data-upload-tray" />
+    </clipPath>
+    <path id="data-upload-arrow" d="M137 69 Q143.5 64 150 69 L188 107 Q199 120 185 120 H169 V159 Q169 169 159 169 H128 Q118 169 118 159 V120 H102 Q88 120 99 107 Z" />
+    <clipPath id="data-upload-arrow-clip">
+      <use href="#data-upload-arrow" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#data-upload-tray" fill="url(#data-upload-white)" />
+    <use href="#data-upload-tray" fill="none" stroke="url(#data-upload-white-edge)" stroke-width="17" clip-path="url(#data-upload-tray-clip)" />
+    <use href="#data-upload-tray" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#data-upload-arrow" fill="url(#data-upload-arrow-paint)" />
+    <use href="#data-upload-arrow" fill="none" stroke="url(#data-upload-arrow-edge)" stroke-width="18" clip-path="url(#data-upload-arrow-clip)" />
+    <use href="#data-upload-arrow" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

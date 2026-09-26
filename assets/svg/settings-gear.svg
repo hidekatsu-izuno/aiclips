@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="settings-gear-title">
+  <title id="settings-gear-title">歯車</title>
+  <desc>Eight wide trapezoidal teeth with rounded tips, a transparent central bore and directional metallic edge lighting.</desc>
+  <defs>
+    <path id="settings-gear-outer" d="M124.000 82.000 L128.350 64.600 Q129.000 62.000 131.700 62.000 L156.300 62.000 Q159.000 62.000 159.650 64.600 L164.000 82.000 Q169.000 84.500 173.698 86.017 L173.698 86.017 L189.078 76.790 Q191.376 75.411 193.285 77.320 L210.680 94.715 Q212.589 96.624 211.210 98.922 L201.983 114.302 Q203.751 119.605 206.000 124.000 L206.000 124.000 L223.400 128.350 Q226.000 129.000 226.000 131.700 L226.000 156.300 Q226.000 159.000 223.400 159.650 L206.000 164.000 Q203.500 169.000 201.983 173.698 L201.983 173.698 L211.210 189.078 Q212.589 191.376 210.680 193.285 L193.285 210.680 Q191.376 212.589 189.078 211.210 L173.698 201.983 Q168.395 203.751 164.000 206.000 L164.000 206.000 L159.650 223.400 Q159.000 226.000 156.300 226.000 L131.700 226.000 Q129.000 226.000 128.350 223.400 L124.000 206.000 Q119.000 203.500 114.302 201.983 L114.302 201.983 L98.922 211.210 Q96.624 212.589 94.715 210.680 L77.320 193.285 Q75.411 191.376 76.790 189.078 L86.017 173.698 Q84.249 168.395 82.000 164.000 L82.000 164.000 L64.600 159.650 Q62.000 159.000 62.000 156.300 L62.000 131.700 Q62.000 129.000 64.600 128.350 L82.000 124.000 Q84.500 119.000 86.017 114.302 L86.017 114.302 L76.790 98.922 Q75.411 96.624 77.320 94.715 L94.715 77.320 Q96.624 75.411 98.922 76.790 L114.302 86.017 Q119.605 84.249 124.000 82.000Z" />
+    <path id="settings-gear-body" d="M124.000 82.000 L128.350 64.600 Q129.000 62.000 131.700 62.000 L156.300 62.000 Q159.000 62.000 159.650 64.600 L164.000 82.000 Q169.000 84.500 173.698 86.017 L173.698 86.017 L189.078 76.790 Q191.376 75.411 193.285 77.320 L210.680 94.715 Q212.589 96.624 211.210 98.922 L201.983 114.302 Q203.751 119.605 206.000 124.000 L206.000 124.000 L223.400 128.350 Q226.000 129.000 226.000 131.700 L226.000 156.300 Q226.000 159.000 223.400 159.650 L206.000 164.000 Q203.500 169.000 201.983 173.698 L201.983 173.698 L211.210 189.078 Q212.589 191.376 210.680 193.285 L193.285 210.680 Q191.376 212.589 189.078 211.210 L173.698 201.983 Q168.395 203.751 164.000 206.000 L164.000 206.000 L159.650 223.400 Q159.000 226.000 156.300 226.000 L131.700 226.000 Q129.000 226.000 128.350 223.400 L124.000 206.000 Q119.000 203.500 114.302 201.983 L114.302 201.983 L98.922 211.210 Q96.624 212.589 94.715 210.680 L77.320 193.285 Q75.411 191.376 76.790 189.078 L86.017 173.698 Q84.249 168.395 82.000 164.000 L82.000 164.000 L64.600 159.650 Q62.000 159.000 62.000 156.300 L62.000 131.700 Q62.000 129.000 64.600 128.350 L82.000 124.000 Q84.500 119.000 86.017 114.302 L86.017 114.302 L76.790 98.922 Q75.411 96.624 77.320 94.715 L94.715 77.320 Q96.624 75.411 98.922 76.790 L114.302 86.017 Q119.605 84.249 124.000 82.000Z M170 144 A26 26 0 1 0 118 144 A26 26 0 1 0 170 144Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="settings-gear-clip">
+      <use href="#settings-gear-body" clip-rule="evenodd" />
+    </clipPath>
+    <linearGradient id="settings-gear-silver" gradientUnits="userSpaceOnUse" x1="100" y1="86" x2="194" y2="216">
+      <stop stop-color="#c8d8e7" />
+      <stop offset=".45" stop-color="#b5c9dd" />
+      <stop offset="1" stop-color="#c3d5e5" />
+    </linearGradient>
+    <linearGradient id="settings-gear-highlight" gradientUnits="userSpaceOnUse" x1="100" y1="80" x2="193" y2="213">
+      <stop stop-color="#f2f9ff" />
+      <stop offset=".55" stop-color="#e3eff8" />
+      <stop offset="1" stop-color="#d7e8f5" />
+    </linearGradient>
+    <linearGradient id="settings-gear-shadow" gradientUnits="userSpaceOnUse" x1="97" y1="84" x2="197" y2="213">
+      <stop stop-color="#8ba6be" stop-opacity=".3" />
+      <stop offset="1" stop-color="#7e9bb5" stop-opacity=".7" />
+    </linearGradient>
+    <linearGradient id="settings-gear-bore" gradientUnits="userSpaceOnUse" x1="129" y1="113" x2="160" y2="176">
+      <stop stop-color="#213c59" />
+      <stop offset=".45" stop-color="#3c5b7a" />
+      <stop offset="1" stop-color="#7e9db8" />
+    </linearGradient>
+    <linearGradient id="settings-gear-bore-rim" gradientUnits="userSpaceOnUse" x1="120" y1="120" x2="168" y2="168">
+      <stop stop-color="#7f9bb5" />
+      <stop offset=".45" stop-color="#a0bbd2" />
+      <stop offset="1" stop-color="#eaf5fd" />
+    </linearGradient>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#settings-gear-body" fill="url(#settings-gear-silver)" />
+    <g clip-path="url(#settings-gear-clip)">
+      <use href="#settings-gear-outer" transform="translate(-4 -4)" fill="none" stroke="url(#settings-gear-shadow)" stroke-width="9" />
+      <use href="#settings-gear-outer" transform="translate(4 4)" fill="none" stroke="url(#settings-gear-highlight)" stroke-width="7" />
+      <path d="M178 144 A34 34 0 1 0 110 144 A34 34 0 1 0 178 144Z M170 144 A26 26 0 1 0 118 144 A26 26 0 1 0 170 144Z" fill="url(#settings-gear-bore)" fill-rule="evenodd" />
+      <circle cx="144" cy="144" r="34" fill="none" stroke="url(#settings-gear-bore-rim)" stroke-width="4" />
+      <circle cx="144" cy="144" r="26" fill="none" stroke="#050b1d" stroke-width="3" />
+    </g>
+    <use href="#settings-gear-outer" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

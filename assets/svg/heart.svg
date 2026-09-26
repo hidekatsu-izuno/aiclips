@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="heart-title">
+  <title id="heart-title">ハート</title>
+  <desc>Outline is exactly symmetric about x=145. Crisp gradient-only highlights and shadows share the structural boundary; no blur or filters.</desc>
+  <defs>
+    <path id="heart-boundary" d="M145 99 C131.5 87.5 119 76 106 78 C86 79 65.5 97 65.15 120 C65.6 147.67 85.55 175.33 130.1 203 C136 207 142 210 145 210 C148 210 154 207 159.9 203 C204.45 175.33 224.4 147.67 224.85 120 C224.5 97 204 79 184 78 C171 76 158.5 87.5 145 99 Z" />
+    <clipPath id="heart-face-clip">
+      <use href="#heart-boundary" />
+    </clipPath>
+    <linearGradient id="heart-face" x1="83" y1="85" x2="197" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff4546" />
+      <stop offset=".5" stop-color="#ff3033" />
+      <stop offset="1" stop-color="#fa2027" />
+    </linearGradient>
+    <linearGradient id="heart-edge-light" gradientUnits="userSpaceOnUse" x1="95" y1="90" x2="110" y2="138">
+      <stop offset="0" stop-color="#ff8a80" stop-opacity="0.9" />
+      <stop offset="0.4" stop-color="#ff544e" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#ff3837" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="heart-edge-shadow" gradientUnits="userSpaceOnUse" x1="177" y1="111" x2="198" y2="185">
+      <stop offset="0" stop-color="#df1420" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#dd1420" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#d5111c" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="heart-upper-left-glint" gradientUnits="userSpaceOnUse" x1="100" y1="91" x2="84" y2="119">
+      <stop offset="0" stop-color="#fd8782" />
+      <stop offset="1" stop-color="#fd7a76" />
+    </linearGradient>
+  </defs>
+  <g>
+    <use id="heart-outline" href="#heart-boundary" fill="url(#heart-face)" />
+    <use id="heart-highlight" href="#heart-boundary" fill="none" stroke="url(#heart-edge-light)" stroke-width="15" clip-path="url(#heart-face-clip)" />
+    <path id="heart-shadow" d="M184 78 C204 79 224.5 97 224.85 120 C224.4 147.67 204.45 175.33 159.9 203 C154 207 148 210 145 210 C148 210 154 203 160 199 C177 187 193 169 201 151 C217 127 221 108 214 96 C205 82 192 79 184 78 Z" fill="url(#heart-edge-shadow)" clip-path="url(#heart-face-clip)" />
+    <use href="#heart-boundary" fill="none" stroke="#080b1e" stroke-width="7.5" stroke-linejoin="round" />
+    <path id="heart-upper-left-highlight" d="M100 97 C92 99 85 105 85 113" fill="none" clip-path="url(#heart-face-clip)" stroke="url(#heart-upper-left-glint)" stroke-width="12" stroke-linecap="round" />
+  </g>
+</svg>

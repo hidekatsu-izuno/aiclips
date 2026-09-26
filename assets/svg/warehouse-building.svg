@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="warehouse-building-title">
+  <title id="warehouse-building-title">倉庫</title>
+  <desc>Editable illustration with flat front-facing cartons, warm colors, tape and directional highlights matching shipping-carton.</desc>
+  <defs>
+    <path id="warehouse-building-wall" d="M66 120 L145 82 L224 120 V216 H66Z" />
+    <clipPath id="warehouse-building-wall-clip">
+      <use href="#warehouse-building-wall" />
+    </clipPath>
+    <path id="warehouse-building-roof" d="M63 122 L145 84 L226 122 Q233 125 235 119 Q238 114 231 110 L149 69 Q145 67 141 69 L59 110 Q52 114 55 120 Q58 125 63 122Z" />
+    <clipPath id="warehouse-building-roof-clip">
+      <use href="#warehouse-building-roof" />
+    </clipPath>
+    <rect id="warehouse-building-door" x="92" y="139" width="106" height="77" rx="3" />
+    <clipPath id="warehouse-building-door-clip">
+      <use href="#warehouse-building-door" />
+    </clipPath>
+    <linearGradient id="warehouse-building-wall-paint" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#e4edf6" />
+      <stop offset="1" stop-color="#d7e2ed" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-roof-paint" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#25bbfa" />
+      <stop offset="1" stop-color="#0096ef" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-roof-light" x1="0" y1="0" x2="1" y2=".5">
+      <stop stop-color="#b3eeff" />
+      <stop offset=".55" stop-color="#63d6fb" stop-opacity=".6" />
+      <stop offset="1" stop-color="#63d6fb" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="warehouse-building-interior" cx=".4" cy=".4" r=".8">
+      <stop stop-color="#21485f" />
+      <stop offset=".65" stop-color="#11334a" />
+      <stop offset="1" stop-color="#091e30" />
+    </radialGradient>
+    <linearGradient id="warehouse-building-steel" x1="0" y1="0" x2=".15" y2="1">
+      <stop stop-color="#20384e" />
+      <stop offset=".38" stop-color="#506e8d" />
+      <stop offset=".6" stop-color="#728eac" />
+      <stop offset="1" stop-color="#385572" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-plate" x1="0" y1="0" x2="1" y2=".3">
+      <stop stop-color="#859eb9" />
+      <stop offset=".4" stop-color="#4e6c8b" />
+      <stop offset="1" stop-color="#2c4865" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-door-shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#051927" stop-opacity=".65" />
+      <stop offset="1" stop-color="#051927" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-matched-carton" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffdb8c" />
+      <stop offset="0.5" stop-color="#f9bb60" />
+      <stop offset="1.0" stop-color="#efa448" />
+    </linearGradient>
+    <linearGradient id="warehouse-building-matched-tape" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dba14e" />
+      <stop offset="0.5" stop-color="#c48937" />
+      <stop offset="1.0" stop-color="#b57629" />
+    </linearGradient>
+    <rect id="warehouse-building-flat-carton-0" x="102" y="194" width="19" height="20" rx="0.5625" />
+    <clipPath id="warehouse-building-flat-carton-0-clip">
+      <use href="#warehouse-building-flat-carton-0" />
+    </clipPath>
+    <rect id="warehouse-building-flat-carton-1" x="121" y="194" width="19" height="20" rx="0.5625" />
+    <clipPath id="warehouse-building-flat-carton-1-clip">
+      <use href="#warehouse-building-flat-carton-1" />
+    </clipPath>
+    <rect id="warehouse-building-flat-carton-2" x="110" y="176" width="23" height="18" rx="0.5625" />
+    <clipPath id="warehouse-building-flat-carton-2-clip">
+      <use href="#warehouse-building-flat-carton-2" />
+    </clipPath>
+    <rect id="warehouse-building-flat-carton-3" x="151" y="186" width="30" height="28" rx="0.5625" />
+    <clipPath id="warehouse-building-flat-carton-3-clip">
+      <use href="#warehouse-building-flat-carton-3" />
+    </clipPath>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#warehouse-building-wall" fill="url(#warehouse-building-wall-paint)" />
+    <g id="warehouse-building-corrugated-wall" clip-path="url(#warehouse-building-wall-clip)" fill="none" stroke-linecap="butt">
+      <path d="M77.45 82 V216 M90.7 82 V216 M103.95 82 V216 M117.2 82 V216 M130.45 82 V216 M143.7 82 V216 M156.95 82 V216 M170.2 82 V216 M183.45 82 V216 M196.7 82 V216 M209.95 82 V216" stroke="#ffffff" stroke-width="1.4" opacity=".85" />
+      <path d="M78.75 82 V216 M92 82 V216 M105.25 82 V216 M118.5 82 V216 M131.75 82 V216 M145 82 V216 M158.25 82 V216 M171.5 82 V216 M184.75 82 V216 M198 82 V216 M211.25 82 V216" stroke="#9cb0c2" stroke-width="1.3" opacity=".65" />
+    </g>
+    <g clip-path="url(#warehouse-building-wall-clip)">
+      <path d="M66 119 L145 81 L224 119 V131 L145 92 L66 131Z" fill="#8ba2ba" opacity=".4" />
+      <path d="M71 135 V212" fill="none" stroke="#ffffff" stroke-width="4" opacity=".8" />
+      <path d="M217 128 V215" fill="none" stroke="#b7c8d9" stroke-width="6" opacity=".45" />
+    </g>
+    <use href="#warehouse-building-wall" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#warehouse-building-roof" fill="url(#warehouse-building-roof-paint)" />
+    <path d="M61 113 L145 71 L230 113" fill="none" stroke="url(#warehouse-building-roof-light)" stroke-width="3" clip-path="url(#warehouse-building-roof-clip)" />
+    <use href="#warehouse-building-roof" fill="none" stroke="#050b1d" stroke-width="6" />
+    <rect x="130" y="117" width="29" height="8" rx="1.5" fill="url(#warehouse-building-plate)" stroke="#243b54" stroke-width="1.5" />
+    <path d="M132 123 V119 H156" fill="none" stroke="#a3b9d0" stroke-width="1" opacity=".65" />
+    <use href="#warehouse-building-door" fill="url(#warehouse-building-interior)" />
+    <g clip-path="url(#warehouse-building-door-clip)">
+      <path d="M92 139 H198 V157 H92Z" fill="url(#warehouse-building-steel)" />
+      <path d="M92 158 H198 V165 H92Z" fill="url(#warehouse-building-steel)" />
+      <path d="M97 150 H193 M97 161 H193" fill="none" stroke="#9ab3cd" stroke-width="1.5" opacity=".55" />
+      <path d="M93 157 H197 M93 165 H197" fill="none" stroke="#0c2439" stroke-width="2.5" />
+      <path d="M92 167 H198 V179 H92Z" fill="url(#warehouse-building-door-shadow)" />
+      <path d="M95 144 V214 M196 144 V214" fill="none" stroke="#071c2c" stroke-width="3" opacity=".5" />
+    </g>
+    <use href="#warehouse-building-door" fill="none" stroke="#050b1d" stroke-width="3.5" />
+    <g id="warehouse-building-flat-carton-0-art" transform="translate(5 0)">
+      <use href="#warehouse-building-flat-carton-0" fill="url(#warehouse-building-matched-carton)" />
+      <g clip-path="url(#warehouse-building-flat-carton-0-clip)">
+        <path d="M102 194 H121 V195.625 H102Z" fill="#ffe6ac" />
+        <path d="M119.375 194 H121 V214 H119.375Z" fill="#cf8e3b" />
+        <path d="M102 212.725 H121 V214 H102Z" fill="#df993f" />
+        <rect x="109.6" y="194" width="3.8000000000000003" height="7.0" fill="url(#warehouse-building-matched-tape)" />
+      </g>
+      <use href="#warehouse-building-flat-carton-0" fill="none" stroke="#050b1d" stroke-width="1.25" />
+    </g>
+    <g id="warehouse-building-flat-carton-1-art" transform="translate(5 0)">
+      <use href="#warehouse-building-flat-carton-1" fill="url(#warehouse-building-matched-carton)" />
+      <g clip-path="url(#warehouse-building-flat-carton-1-clip)">
+        <path d="M121 194 H140 V195.625 H121Z" fill="#ffe6ac" />
+        <path d="M138.375 194 H140 V214 H138.375Z" fill="#cf8e3b" />
+        <path d="M121 212.725 H140 V214 H121Z" fill="#df993f" />
+        <rect x="128.6" y="194" width="3.8000000000000003" height="7.0" fill="url(#warehouse-building-matched-tape)" />
+      </g>
+      <use href="#warehouse-building-flat-carton-1" fill="none" stroke="#050b1d" stroke-width="1.25" />
+    </g>
+    <g id="warehouse-building-flat-carton-2-art" transform="translate(5 0)">
+      <use href="#warehouse-building-flat-carton-2" fill="url(#warehouse-building-matched-carton)" />
+      <g clip-path="url(#warehouse-building-flat-carton-2-clip)">
+        <path d="M110 176 H133 V177.625 H110Z" fill="#ffe6ac" />
+        <path d="M131.375 176 H133 V194 H131.375Z" fill="#cf8e3b" />
+        <path d="M110 192.725 H133 V194 H110Z" fill="#df993f" />
+        <rect x="119.2" y="176" width="4.6000000000000005" height="6.3" fill="url(#warehouse-building-matched-tape)" />
+      </g>
+      <use href="#warehouse-building-flat-carton-2" fill="none" stroke="#050b1d" stroke-width="1.25" />
+    </g>
+    <g id="warehouse-building-flat-carton-3-art" transform="translate(5 0)">
+      <use href="#warehouse-building-flat-carton-3" fill="url(#warehouse-building-matched-carton)" />
+      <g clip-path="url(#warehouse-building-flat-carton-3-clip)">
+        <path d="M151 186 H181 V187.625 H151Z" fill="#ffe6ac" />
+        <path d="M179.375 186 H181 V214 H179.375Z" fill="#cf8e3b" />
+        <path d="M151 212.725 H181 V214 H151Z" fill="#df993f" />
+        <rect x="163.0" y="186" width="6.0" height="9.799999999999999" fill="url(#warehouse-building-matched-tape)" />
+      </g>
+      <use href="#warehouse-building-flat-carton-3" fill="none" stroke="#050b1d" stroke-width="1.25" />
+    </g>
+    <path d="M62 216 H228" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

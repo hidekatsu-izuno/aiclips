@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-spreadsheet-title">
+  <title id="file-spreadsheet-title">SPREADSHEET</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="file-spreadsheet-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="file-spreadsheet-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <linearGradient id="file-spreadsheet-sheet" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#fcfcfe" />
+      <stop offset="1.0" stop-color="#edf0f5" />
+    </linearGradient>
+    <path id="file-spreadsheet-shape1" d="M92 64 H169 L212 106 V208 Q212 224 196 224 H92 Q76 224 76 208 V80 Q76 64 92 64 Z" />
+    <clipPath id="file-spreadsheet-shape1-clip">
+      <use href="#file-spreadsheet-shape1" />
+    </clipPath>
+    <linearGradient id="file-spreadsheet-cells" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#70df7b" />
+      <stop offset="0.5" stop-color="#e6fae7" />
+      <stop offset="1.0" stop-color="#ffffff" />
+    </linearGradient>
+    <rect id="file-spreadsheet-shape2" x="97" y="122" width="94" height="75" rx="5" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-spreadsheet-shape1" fill="url(#file-spreadsheet-sheet)" />
+    <use href="#file-spreadsheet-shape1" fill="none" stroke="url(#file-spreadsheet-silver-edge)" stroke-width="5" clip-path="url(#file-spreadsheet-shape1-clip)" />
+    <use href="#file-spreadsheet-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-spreadsheet-blue)" stroke="none" stroke-width="0" />
+    <use href="#file-spreadsheet-shape2" fill="url(#file-spreadsheet-cells)" />
+    <path d="M98 123 H190 V196 H98 Z M128 125 V195 M160 125 V195 M100 146 H188 M100 171 H188" fill="none" stroke="#0a9b3c" stroke-width="8" />
+  </g>
+</svg>

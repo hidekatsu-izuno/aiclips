@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="business-wallet-title">
+  <title id="business-wallet-title">財布</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="business-wallet-leather" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#cf7738" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#bd602b" stop-opacity="1" />
+      <stop offset="1" stop-color="#ad4c23" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-leather-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffd095" stop-opacity="1" />
+      <stop offset="0.35" stop-color="#df9156" stop-opacity="1" />
+      <stop offset="1" stop-color="#853b20" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-flap-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#cc7135" stop-opacity="1" />
+      <stop offset="1" stop-color="#b65a29" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-note-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#299367" stop-opacity="1" />
+      <stop offset="1" stop-color="#0d794d" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="business-wallet-note-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#80d8a7" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#39a77a" stop-opacity="1" />
+      <stop offset="1" stop-color="#095a35" stop-opacity="1" />
+    </linearGradient>
+    <rect id="business-wallet-back" x="67" y="91" width="157" height="122" rx="14" />
+    <clipPath id="business-wallet-back-clip">
+      <use href="#business-wallet-back" />
+    </clipPath>
+    <path id="business-wallet-note-back" d="M76 78 L195 61 Q198 60.6 198 64 V116 H74 V81 Q74 78.3 76 78 Z" />
+    <clipPath id="business-wallet-note-back-clip">
+      <use href="#business-wallet-note-back" />
+    </clipPath>
+    <path id="business-wallet-note-back-panel" d="M86 89.812 L185 77 V110 H86 Z" />
+    <clipPath id="business-wallet-note-back-panel-clip">
+      <use href="#business-wallet-note-back-panel" />
+    </clipPath>
+    <path id="business-wallet-note-front" d="M88 94 Q88 89 94 89 L210 82 Q217 82 217 90 V128 H88 Z" />
+    <clipPath id="business-wallet-note-front-clip">
+      <use href="#business-wallet-note-front" />
+    </clipPath>
+    <path id="business-wallet-note-front-panel" d="M99 100 L204 93 V121 H99 Z" />
+    <clipPath id="business-wallet-note-front-panel-clip">
+      <use href="#business-wallet-note-front-panel" />
+    </clipPath>
+    <rect id="business-wallet-front" x="54" y="106" width="159" height="116" rx="17" />
+    <clipPath id="business-wallet-front-clip">
+      <use href="#business-wallet-front" />
+    </clipPath>
+    <path id="business-wallet-strap" d="M193 143 H226 Q233 143 233 151 V177 Q233 186 224 186 H193 Q171 186 171 164.5 Q171 143 193 143 Z" />
+    <clipPath id="business-wallet-strap-clip">
+      <use href="#business-wallet-strap" />
+    </clipPath>
+    <circle id="business-wallet-stud" cx="192" cy="164.5" r="10.5" />
+    <clipPath id="business-wallet-stud-clip">
+      <use href="#business-wallet-stud" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#business-wallet-back" fill="url(#business-wallet-leather)" />
+    <use href="#business-wallet-back" fill="none" stroke="url(#business-wallet-leather-edge)" stroke-width="12" clip-path="url(#business-wallet-back-clip)" />
+    <use href="#business-wallet-back" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#business-wallet-note-back" fill="url(#business-wallet-white)" />
+    <use href="#business-wallet-note-back" fill="none" stroke="url(#business-wallet-white-edge)" stroke-width="11" clip-path="url(#business-wallet-note-back-clip)" />
+    <use href="#business-wallet-note-back" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#business-wallet-note-back-panel" fill="url(#business-wallet-note-green)" />
+    <use href="#business-wallet-note-back-panel" fill="none" stroke="url(#business-wallet-note-edge)" stroke-width="3" clip-path="url(#business-wallet-note-back-panel-clip)" />
+    <use href="#business-wallet-note-front" fill="url(#business-wallet-white)" />
+    <use href="#business-wallet-note-front" fill="none" stroke="url(#business-wallet-white-edge)" stroke-width="10" clip-path="url(#business-wallet-note-front-clip)" />
+    <use href="#business-wallet-note-front" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#business-wallet-note-front-panel" fill="url(#business-wallet-note-green)" />
+    <use href="#business-wallet-note-front-panel" fill="none" stroke="url(#business-wallet-note-edge)" stroke-width="3" clip-path="url(#business-wallet-note-front-panel-clip)" />
+    <path d="M145 96 L156 96 L139 121 H128 Z" fill="#d0eee1" clip-path="url(#business-wallet-note-front-panel-clip)" />
+    <use href="#business-wallet-front" fill="url(#business-wallet-leather)" />
+    <use href="#business-wallet-front" fill="none" stroke="url(#business-wallet-leather-edge)" stroke-width="15" clip-path="url(#business-wallet-front-clip)" />
+    <use href="#business-wallet-front" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#business-wallet-strap" fill="url(#business-wallet-flap-paint)" />
+    <use href="#business-wallet-strap" fill="none" stroke="url(#business-wallet-leather-edge)" stroke-width="12" clip-path="url(#business-wallet-strap-clip)" />
+    <use href="#business-wallet-strap" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#business-wallet-stud" fill="url(#business-wallet-gold)" />
+    <use href="#business-wallet-stud" fill="none" stroke="url(#business-wallet-gold-edge)" stroke-width="7" clip-path="url(#business-wallet-stud-clip)" />
+    <use href="#business-wallet-stud" fill="none" stroke="#050b1d" stroke-width="2.5" />
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="padlock-title">
+  <title id="padlock-title">南京錠</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="padlock-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="padlock-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="padlock-gold-shadow" gradientUnits="userSpaceOnUse" x1="160" y1="125" x2="202" y2="183">
+      <stop offset="0" stop-color="#ffb900" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#e99d00" stop-opacity="0.8" />
+    </linearGradient>
+    <path id="padlock-shackle" d="M95 124 V111 A49 51 0 0 1 193 111 V124 H164 V111 A20 22 0 0 0 124 111 V124 Z" />
+    <clipPath id="padlock-shackle-clip">
+      <use href="#padlock-shackle" />
+    </clipPath>
+    <rect id="padlock-body" x="78" y="124" width="132" height="102" rx="21" />
+    <clipPath id="padlock-body-clip">
+      <use href="#padlock-body" />
+    </clipPath>
+    <linearGradient id="padlock-keyhole-paint" gradientUnits="userSpaceOnUse" x1="135" y1="157" x2="154" y2="202">
+      <stop offset="0" stop-color="#35576b" stop-opacity="1" />
+      <stop offset="1" stop-color="#172d3c" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="padlock-shackle-paint" gradientUnits="userSpaceOnUse" x1="108" y1="75" x2="184" y2="114">
+      <stop offset="0" stop-color="#ffe942" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc500" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="padlock-shackle-shadow" gradientUnits="userSpaceOnUse" x1="115" y1="93" x2="177" y2="108">
+      <stop offset="0" stop-color="#dba000" stop-opacity="0.15" />
+      <stop offset="0.48" stop-color="#e8a300" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#efad00" stop-opacity="0.32" />
+    </linearGradient>
+    <linearGradient id="padlock-shackle-light" gradientUnits="userSpaceOnUse" x1="102" y1="108" x2="145" y2="66">
+      <stop offset="0" stop-color="#fff599" stop-opacity="0.6" />
+      <stop offset="0.6" stop-color="#fff184" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#fff184" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#padlock-shackle" fill="url(#padlock-shackle-paint)" />
+    <path d="M113 124 V111 A31 34 0 0 1 175 111 V124 H164 V111 A20 22 0 0 0 124 111 V124 Z" fill="url(#padlock-shackle-shadow)" clip-path="url(#padlock-shackle-clip)" />
+    <path d="M99 122 V111 A45 47 0 0 1 144 64" fill="none" stroke="url(#padlock-shackle-light)" stroke-width="4" clip-path="url(#padlock-shackle-clip)" />
+    <use href="#padlock-shackle" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#padlock-body" fill="url(#padlock-gold)" />
+    <path d="M193 125 C195 166 172 207 121 226 H210 V124 Z" fill="url(#padlock-gold-shadow)" clip-path="url(#padlock-body-clip)" />
+    <use href="#padlock-body" fill="none" stroke="url(#padlock-gold-edge)" stroke-width="15" clip-path="url(#padlock-body-clip)" />
+    <use href="#padlock-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M87 147 Q84 134 97 132 L108 136 Q94 136 91 150 Z" fill="#fff27b" />
+    <path d="M137 175 C123 169 128 150 144 150 C160 150 165 169 151 175 L157 202 Q157 204 154 204 H134 Q131 204 131 202 Z" fill="url(#padlock-keyhole-paint)" stroke="#050b1d" stroke-width="3.5" />
+  </g>
+</svg>

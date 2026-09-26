@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="virus-title">
+  <title id="virus-title">ウイルス</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="virus-germ" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#56da64" />
+      <stop offset="0.5" stop-color="#16ba60" />
+      <stop offset="1.0" stop-color="#00944c" />
+    </linearGradient>
+    <linearGradient id="virus-germ-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#8eeb79" />
+      <stop offset="0.5" stop-color="#39d66b" />
+      <stop offset="1.0" stop-color="#007d43" />
+    </linearGradient>
+    <ellipse id="virus-shape1" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape1-clip">
+      <use href="#virus-shape1" />
+    </clipPath>
+    <ellipse id="virus-shape2" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape2-clip">
+      <use href="#virus-shape2" />
+    </clipPath>
+    <ellipse id="virus-shape3" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape3-clip">
+      <use href="#virus-shape3" />
+    </clipPath>
+    <ellipse id="virus-shape4" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape4-clip">
+      <use href="#virus-shape4" />
+    </clipPath>
+    <ellipse id="virus-shape5" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape5-clip">
+      <use href="#virus-shape5" />
+    </clipPath>
+    <ellipse id="virus-shape6" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape6-clip">
+      <use href="#virus-shape6" />
+    </clipPath>
+    <ellipse id="virus-shape7" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape7-clip">
+      <use href="#virus-shape7" />
+    </clipPath>
+    <ellipse id="virus-shape8" cx="144" cy="66" rx="18" ry="13" />
+    <clipPath id="virus-shape8-clip">
+      <use href="#virus-shape8" />
+    </clipPath>
+    <circle id="virus-shape9" cx="144" cy="144" r="59" />
+    <clipPath id="virus-shape9-clip">
+      <use href="#virus-shape9" />
+    </clipPath>
+    <circle id="virus-shape10" cx="121" cy="124" r="9" />
+    <clipPath id="virus-shape10-clip">
+      <use href="#virus-shape10" />
+    </clipPath>
+    <circle id="virus-shape11" cx="163" cy="119" r="8" />
+    <clipPath id="virus-shape11-clip">
+      <use href="#virus-shape11" />
+    </clipPath>
+    <circle id="virus-shape12" cx="145" cy="148" r="10" />
+    <clipPath id="virus-shape12-clip">
+      <use href="#virus-shape12" />
+    </clipPath>
+    <circle id="virus-shape13" cx="113" cy="166" r="8" />
+    <clipPath id="virus-shape13-clip">
+      <use href="#virus-shape13" />
+    </clipPath>
+    <circle id="virus-shape14" cx="167" cy="174" r="8" />
+    <clipPath id="virus-shape14-clip">
+      <use href="#virus-shape14" />
+    </clipPath>
+    <circle id="virus-shape15" cx="184" cy="145" r="7" />
+    <clipPath id="virus-shape15-clip">
+      <use href="#virus-shape15" />
+    </clipPath>
+    <circle id="virus-shape16" cx="145" cy="194" r="6" />
+    <clipPath id="virus-shape16-clip">
+      <use href="#virus-shape16" />
+    </clipPath>
+    <linearGradient id="virus-light-45-fill" gradientUnits="userSpaceOnUse" x1="129.02783423039025" y1="57.938064585594745" x2="158.97216576960975" y2="74.06193541440526">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-45-edge" gradientUnits="userSpaceOnUse" x1="129.02783423039025" y1="57.938064585594745" x2="158.97216576960975" y2="74.06193541440526">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-45-stem" gradientUnits="userSpaceOnUse" x1="135.22153019780737" y1="80.2731316449732" x2="152.77846980219263" y2="89.7268683550268">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-135-fill" gradientUnits="userSpaceOnUse" x1="137.2311652421216" y1="78.57069312177421" x2="150.7688347578784" y2="53.429306878225795">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-135-edge" gradientUnits="userSpaceOnUse" x1="137.2311652421216" y1="78.57069312177421" x2="150.7688347578784" y2="53.429306878225795">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-135-stem" gradientUnits="userSpaceOnUse" x1="135.61439252039827" y1="100.57327103354609" x2="152.38560747960173" y2="69.42672896645391">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-225-fill" gradientUnits="userSpaceOnUse" x1="158.97216576960975" y1="74.06193541440526" x2="129.02783423039025" y2="57.938064585594745">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-225-edge" gradientUnits="userSpaceOnUse" x1="158.97216576960975" y1="74.06193541440526" x2="129.02783423039025" y2="57.938064585594745">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-225-stem" gradientUnits="userSpaceOnUse" x1="152.77846980219263" y1="89.7268683550268" x2="135.22153019780737" y2="80.2731316449732">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-315-fill" gradientUnits="userSpaceOnUse" x1="150.76883475787844" y1="53.429306878225795" x2="137.23116524212156" y2="78.57069312177421">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-315-edge" gradientUnits="userSpaceOnUse" x1="150.76883475787844" y1="53.429306878225795" x2="137.23116524212156" y2="78.57069312177421">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-315-stem" gradientUnits="userSpaceOnUse" x1="152.38560747960173" y1="69.42672896645391" x2="135.61439252039827" y2="100.57327103354609">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-0-fill" gradientUnits="userSpaceOnUse" x1="140.12561518794104" y1="53.085383959803465" x2="147.87438481205896" y2="78.91461604019653">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-0-edge" gradientUnits="userSpaceOnUse" x1="140.12561518794104" y1="53.085383959803465" x2="147.87438481205896" y2="78.91461604019653">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-0-stem" gradientUnits="userSpaceOnUse" x1="141.3693990339393" y1="65.73133011313098" x2="146.6306009660607" y2="83.26866988686902">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-90-fill" gradientUnits="userSpaceOnUse" x1="127.10306919834404" y1="71.06907924049679" x2="160.89693080165597" y2="60.930920759503216">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-90-edge" gradientUnits="userSpaceOnUse" x1="127.10306919834404" y1="71.06907924049679" x2="160.89693080165597" y2="60.930920759503216">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-90-stem" gradientUnits="userSpaceOnUse" x1="139.85909120327156" y1="75.74227263901854" x2="148.14090879672844" y2="73.25772736098146">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-180-fill" gradientUnits="userSpaceOnUse" x1="147.87438481205896" y1="78.91461604019653" x2="140.12561518794104" y2="53.08538395980347">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-180-edge" gradientUnits="userSpaceOnUse" x1="147.87438481205896" y1="78.91461604019653" x2="140.12561518794104" y2="53.08538395980347">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-180-stem" gradientUnits="userSpaceOnUse" x1="146.6306009660607" y1="83.26866988686902" x2="141.3693990339393" y2="65.73133011313098">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-270-fill" gradientUnits="userSpaceOnUse" x1="160.89693080165597" y1="60.930920759503216" x2="127.10306919834404" y2="71.06907924049679">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+    <linearGradient id="virus-light-270-edge" gradientUnits="userSpaceOnUse" x1="160.89693080165597" y1="60.930920759503216" x2="127.10306919834404" y2="71.06907924049679">
+      <stop offset="0.0" stop-color="#ffb18e" />
+      <stop offset="0.5" stop-color="#ff7353" />
+      <stop offset="1.0" stop-color="#c72b1a" />
+    </linearGradient>
+    <linearGradient id="virus-light-270-stem" gradientUnits="userSpaceOnUse" x1="148.14090879672844" y1="73.25772736098146" x2="139.85909120327156" y2="75.74227263901854">
+      <stop offset="0.0" stop-color="#ff8b68" />
+      <stop offset="0.5" stop-color="#ff5335" />
+      <stop offset="1.0" stop-color="#d82316" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#virus-shape9" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g id="virus-background-spikes">
+      <g transform="rotate(45 144 144)">
+        <path d="M144 105 V65" fill="none" stroke="#050b1d" stroke-width="14" />
+        <path d="M144 105 V65" fill="none" stroke="url(#virus-light-45-stem)" stroke-width="7" />
+        <use href="#virus-shape2" fill="url(#virus-light-45-fill)" />
+        <use href="#virus-shape2" fill="none" stroke="url(#virus-light-45-edge)" stroke-width="11" clip-path="url(#virus-shape2-clip)" />
+        <use href="#virus-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(135 144 144)">
+        <path d="M144 105 V65" fill="none" stroke="#050b1d" stroke-width="14" />
+        <path d="M144 105 V65" fill="none" stroke="url(#virus-light-135-stem)" stroke-width="7" />
+        <use href="#virus-shape4" fill="url(#virus-light-135-fill)" />
+        <use href="#virus-shape4" fill="none" stroke="url(#virus-light-135-edge)" stroke-width="11" clip-path="url(#virus-shape4-clip)" />
+        <use href="#virus-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(225 144 144)">
+        <path d="M144 105 V65" fill="none" stroke="#050b1d" stroke-width="14" />
+        <path d="M144 105 V65" fill="none" stroke="url(#virus-light-225-stem)" stroke-width="7" />
+        <use href="#virus-shape6" fill="url(#virus-light-225-fill)" />
+        <use href="#virus-shape6" fill="none" stroke="url(#virus-light-225-edge)" stroke-width="11" clip-path="url(#virus-shape6-clip)" />
+        <use href="#virus-shape6" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(315 144 144)">
+        <path d="M144 105 V65" fill="none" stroke="#050b1d" stroke-width="14" />
+        <path d="M144 105 V65" fill="none" stroke="url(#virus-light-315-stem)" stroke-width="7" />
+        <use href="#virus-shape8" fill="url(#virus-light-315-fill)" />
+        <use href="#virus-shape8" fill="none" stroke="url(#virus-light-315-edge)" stroke-width="11" clip-path="url(#virus-shape8-clip)" />
+        <use href="#virus-shape8" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <path d="M144 91 V75" transform="rotate(45 144 144)" fill="none" stroke="url(#virus-light-45-stem)" stroke-width="7" />
+      <path d="M144 91 V75" transform="rotate(135 144 144)" fill="none" stroke="url(#virus-light-135-stem)" stroke-width="7" />
+      <path d="M144 91 V75" transform="rotate(225 144 144)" fill="none" stroke="url(#virus-light-225-stem)" stroke-width="7" />
+      <path d="M144 91 V75" transform="rotate(315 144 144)" fill="none" stroke="url(#virus-light-315-stem)" stroke-width="7" />
+    </g>
+    <use href="#virus-shape9" fill="url(#virus-germ)" />
+    <use href="#virus-shape9" fill="none" stroke="url(#virus-germ-edge)" stroke-width="14" clip-path="url(#virus-shape9-clip)" />
+    <use href="#virus-shape10" fill="url(#virus-germ)" />
+    <use href="#virus-shape10" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape10-clip)" />
+    <use href="#virus-shape11" fill="url(#virus-germ)" />
+    <use href="#virus-shape11" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape11-clip)" />
+    <use href="#virus-shape12" fill="url(#virus-germ)" />
+    <use href="#virus-shape12" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape12-clip)" />
+    <use href="#virus-shape13" fill="url(#virus-germ)" />
+    <use href="#virus-shape13" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape13-clip)" />
+    <use href="#virus-shape14" fill="url(#virus-germ)" />
+    <use href="#virus-shape14" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape14-clip)" />
+    <use href="#virus-shape15" fill="url(#virus-germ)" />
+    <use href="#virus-shape15" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape15-clip)" />
+    <use href="#virus-shape16" fill="url(#virus-germ)" />
+    <use href="#virus-shape16" fill="none" stroke="#109e4b" stroke-width="4" clip-path="url(#virus-shape16-clip)" />
+    <g clip-path="url(#virus-shape9-clip)">
+      <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(0 144 144)" fill="#067d40" opacity=".4" />
+      <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(90 144 144)" fill="#067d40" opacity=".4" />
+      <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(180 144 144)" fill="#067d40" opacity=".4" />
+      <ellipse cx="144" cy="94" rx="8" ry="6" transform="rotate(270 144 144)" fill="#067d40" opacity=".4" />
+    </g>
+    <g id="virus-foreground-spikes">
+      <g transform="rotate(0 144 144) translate(0 8)">
+        <path d="M144 84 V65" fill="none" stroke="#050b1d" stroke-width="10" />
+        <path d="M144 84 V65" fill="none" stroke="url(#virus-light-0-stem)" stroke-width="7" />
+        <use href="#virus-shape1" fill="url(#virus-light-0-fill)" />
+        <use href="#virus-shape1" fill="none" stroke="url(#virus-light-0-edge)" stroke-width="11" clip-path="url(#virus-shape1-clip)" />
+        <use href="#virus-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(90 144 144) translate(0 8)">
+        <path d="M144 84 V65" fill="none" stroke="#050b1d" stroke-width="10" />
+        <path d="M144 84 V65" fill="none" stroke="url(#virus-light-90-stem)" stroke-width="7" />
+        <use href="#virus-shape3" fill="url(#virus-light-90-fill)" />
+        <use href="#virus-shape3" fill="none" stroke="url(#virus-light-90-edge)" stroke-width="11" clip-path="url(#virus-shape3-clip)" />
+        <use href="#virus-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(180 144 144) translate(0 8)">
+        <path d="M144 84 V65" fill="none" stroke="#050b1d" stroke-width="10" />
+        <path d="M144 84 V65" fill="none" stroke="url(#virus-light-180-stem)" stroke-width="7" />
+        <use href="#virus-shape5" fill="url(#virus-light-180-fill)" />
+        <use href="#virus-shape5" fill="none" stroke="url(#virus-light-180-edge)" stroke-width="11" clip-path="url(#virus-shape5-clip)" />
+        <use href="#virus-shape5" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+      <g transform="rotate(270 144 144) translate(0 8)">
+        <path d="M144 84 V65" fill="none" stroke="#050b1d" stroke-width="10" />
+        <path d="M144 84 V65" fill="none" stroke="url(#virus-light-270-stem)" stroke-width="7" />
+        <use href="#virus-shape7" fill="url(#virus-light-270-fill)" />
+        <use href="#virus-shape7" fill="none" stroke="url(#virus-light-270-edge)" stroke-width="11" clip-path="url(#virus-shape7-clip)" />
+        <use href="#virus-shape7" fill="none" stroke="#050b1d" stroke-width="6" />
+      </g>
+    </g>
+  </g>
+</svg>

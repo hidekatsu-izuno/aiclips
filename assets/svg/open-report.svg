@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="open-report-title">
+  <title id="open-report-title">開いた冊子</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="open-report-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="open-report-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="open-report-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="open-report-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <path id="open-report-cover" d="M64 80 Q48 80 48 96 V188 Q48 205 67 203 Q104 198 145 218 Q186 198 223 203 Q242 205 242 188 V96 Q242 80 226 80 Z" />
+    <clipPath id="open-report-cover-clip">
+      <use href="#open-report-cover" />
+    </clipPath>
+    <path id="open-report-left" d="M145 88 Q112 67 79 67 H73 Q63 67 63 78 V177 Q63 185 73 184 Q112 183 145 202 Z" />
+    <clipPath id="open-report-left-clip">
+      <use href="#open-report-left" />
+    </clipPath>
+    <path id="open-report-right" d="M145 88 Q112 67 79 67 H73 Q63 67 63 78 V177 Q63 185 73 184 Q112 183 145 202 Z" transform="translate(290 0) scale(-1 1)" />
+    <clipPath id="open-report-right-clip">
+      <use href="#open-report-right" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#open-report-cover" fill="url(#open-report-blue)" />
+    <use href="#open-report-cover" fill="none" stroke="url(#open-report-blue-edge)" stroke-width="15" clip-path="url(#open-report-cover-clip)" />
+    <use href="#open-report-cover" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#open-report-left" fill="url(#open-report-white)" />
+    <use href="#open-report-left" fill="none" stroke="url(#open-report-white-edge)" stroke-width="9" clip-path="url(#open-report-left-clip)" />
+    <path fill="none" stroke="#050b1d" stroke-width="4" d="M145 88 Q112 67 79 67 H73 Q63 67 63 78 V177 Q63 185 73 184 Q112 183 145 202" />
+    <use href="#open-report-right" fill="url(#open-report-white)" />
+    <use href="#open-report-right" fill="none" stroke="url(#open-report-white-edge)" stroke-width="9" clip-path="url(#open-report-right-clip)" />
+    <path fill="none" stroke="#050b1d" stroke-width="4" d="M145 88 Q112 67 79 67 H73 Q63 67 63 78 V177 Q63 185 73 184 Q112 183 145 202" transform="translate(290 0) scale(-1 1)" />
+    <path d="M84 97 Q106 98 123 105" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M84 116 Q106 117 123 124" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M84 135 Q106 136 123 143" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M84 154 Q106 155 123 162" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M160 101 Q180 94 199 92 Q207 91 207 98 V120 Q207 125 201 126 Q180 129 160 137 Z" fill="#00b8f1" />
+    <path d="M163 146 Q183 140 204 139" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M163 165 Q183 159 204 158" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M145 89 V201" fill="none" stroke="#526b80" stroke-width="2.5" />
+  </g>
+</svg>

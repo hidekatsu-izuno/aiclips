@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="female-employee-title">
+  <title id="female-employee-title">女性社員</title>
+  <desc>Female office employee paired with the male employee: matching proportions, skin, navy suit, white collar and directional shading, with long swept hair.</desc>
+  <defs>
+    <path id="female-employee-body" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 C96 231 120 231 144 231 C168 231 192 231 216 231 C223 231 227 229 227 222 C227 212 223 197 215 186 C196 165 169 157 144 158 Z" />
+    <clipPath id="female-employee-body-clip">
+      <use href="#female-employee-body" />
+    </clipPath>
+    <path id="female-employee-face" d="M144 86 C125 86 110 93 109 111 C110 124 111 139 119 149 C126 156 135 158 144 158 C153 158 162 156 169 149 C177 139 178 124 179 111 C178 93 163 86 144 86 Z" />
+    <path id="female-employee-neck" d="M144 144 C139 144 134 145 130 148 C131 153 131 157 128 160 C132 164 139 168 144 168 C149 168 156 164 160 160 C157 157 157 153 158 148 C154 145 149 144 144 144 Z" />
+    <path id="female-employee-shirt" d="M144 165 C136 165 132 161 129 158 C126 159 124 160 122 162 C125 183 129 208 135 231 C138 231 141 231 144 231 C147 231 150 231 153 231 C159 208 163 183 166 162 C164 160 162 159 159 158 C156 161 152 165 144 165 Z" />
+    <clipPath id="female-employee-shirt-clip">
+      <use href="#female-employee-shirt" />
+    </clipPath>
+    <linearGradient id="female-employee-suit-paint" gradientUnits="userSpaceOnUse" x1="82" y1="174" x2="208" y2="225">
+      <stop offset="0" stop-color="#3f5e82" />
+      <stop offset=".3" stop-color="#253d58" />
+      <stop offset="1" stop-color="#1b3049" />
+    </linearGradient>
+    <linearGradient id="female-employee-lapel-paint" gradientUnits="userSpaceOnUse" x1="116" y1="163" x2="121" y2="226">
+      <stop offset="0" stop-color="#3d5774" />
+      <stop offset=".5" stop-color="#253b54" />
+      <stop offset="1" stop-color="#355170" />
+    </linearGradient>
+    <linearGradient id="female-employee-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="female-employee-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="female-employee-white-paint" gradientUnits="userSpaceOnUse" x1="128" y1="164" x2="152" y2="223">
+      <stop offset="0" stop-color="#fffefd" />
+      <stop offset="1" stop-color="#edf3fc" />
+    </linearGradient>
+    <linearGradient id="female-employee-hair-paint" gradientUnits="userSpaceOnUse" x1="112" y1="65" x2="164" y2="109">
+      <stop offset="0" stop-color="#293e5b" />
+      <stop offset=".45" stop-color="#243752" />
+      <stop offset="1" stop-color="#1b2d45" />
+    </linearGradient>
+    <path id="female-employee-lapel-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135 C129 208 125 183 122 162 Z" />
+    <path id="female-employee-collar-left" d="M128 159 Q136 165 144 168 L144 169 L128.25 183 L123 161 Z" />
+    <path id="female-employee-ear-left" d="M113 124 C109 118 107 116.5 103 118.5 C96 121 96 130 101 134.5 C105 138 109 138 113 134.5 Z" />
+    <linearGradient id="female-employee-suit-bevel" gradientUnits="userSpaceOnUse" x1="80" y1="168" x2="80" y2="222">
+      <stop offset="0" stop-color="#88a5cb" stop-opacity=".55" />
+      <stop offset=".65" stop-color="#6584aa" stop-opacity=".35" />
+      <stop offset="1" stop-color="#4d6b8f" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="female-employee-ear-bevel" gradientUnits="userSpaceOnUse" x1="101" y1="119" x2="107" y2="132">
+      <stop offset="0" stop-color="#ffe7b5" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#ffd599" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#fdc28a" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="female-employee-ear-clip">
+      <use href="#female-employee-ear-left" />
+    </clipPath>
+    <path id="female-employee-collar-shadow-left" d="M135 177 L128.25 183" />
+    <path id="female-employee-lapel-seam-left" d="M122 162 C125 183 129 208 135 231" />
+    <path id="female-employee-lapel-rim-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
+    <path id="female-employee-shoulder-left" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222" />
+    <path id="female-employee-hem" d="M72 231 H216" />
+    <path id="female-employee-long-hair" d="M96 113 C94 77 112 54 143 54 C175 53 193 77 192 113 L198 169 Q201 181 189 184 H99 Q87 181 90 169Z" />
+    <clipPath id="female-employee-long-hair-clip">
+      <use href="#female-employee-long-hair" />
+    </clipPath>
+    <path id="female-employee-fringe" d="M97 119 C94 77 112 54 143 54 C175 53 193 77 192 119 Q184 112 178 122 L176 108 C152 107 134 95 128 82 C126 95 118 106 112 111 L111 123 Q105 114 97 119Z" />
+    <clipPath id="female-employee-fringe-clip">
+      <use href="#female-employee-fringe" />
+    </clipPath>
+    <mask id="female-employee-neck-join" maskUnits="userSpaceOnUse" x="90" y="80" width="110" height="100">
+      <rect x="90" y="80" width="110" height="100" fill="white" />
+      <path d="M132 146 H156 V173 H132Z" fill="black" />
+    </mask>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="female-employee-back-hair-size" transform="translate(144 108) scale(1.1) translate(-144 -108)">
+      <use href="#female-employee-long-hair" fill="url(#female-employee-hair-paint)" stroke="#050b1d" stroke-width="7" />
+      <g clip-path="url(#female-employee-long-hair-clip)">
+        <path d="M102 107 C99 135 95 157 97 171 Q97 177 110 177" fill="none" stroke="#425d7f" stroke-width="6" />
+        <path d="M187 112 L191 169 Q193 178 182 179" fill="none" stroke="#102137" stroke-width="7" />
+      </g>
+    </g>
+    <g id="female-employee-body-size" transform="translate(144 231) scale(.86 .88) translate(-144 -231)">
+      <use href="#female-employee-body" fill="url(#female-employee-suit-paint)" stroke="#050b1d" stroke-width="7" />
+      <use href="#female-employee-shoulder-left" fill="none" stroke="url(#female-employee-suit-bevel)" stroke-width="15" clip-path="url(#female-employee-body-clip)" />
+      <use href="#female-employee-body" fill="none" stroke="#050b1d" stroke-width="7" />
+      <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
+      <use href="#female-employee-shirt" fill="url(#female-employee-white-paint)" />
+      <use href="#female-employee-neck" fill="url(#female-employee-neck-paint)" />
+      <use href="#female-employee-collar-shadow-left" fill="none" clip-path="url(#female-employee-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+      <use href="#female-employee-collar-shadow-left" fill="none" transform="translate(288 0) scale(-1 1)" clip-path="url(#female-employee-shirt-clip)" stroke="#a2b5d3" stroke-width="3" stroke-linecap="butt" />
+      <use href="#female-employee-collar-left" fill="url(#female-employee-white-paint)" />
+      <use href="#female-employee-collar-left" fill="url(#female-employee-white-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-lapel-left" fill="url(#female-employee-lapel-paint)" />
+      <use href="#female-employee-lapel-left" fill="url(#female-employee-lapel-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#female-employee-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" />
+      <use href="#female-employee-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="3" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-hem" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    </g>
+    <g id="female-employee-head-size" transform="translate(144 108) scale(1.1) translate(-144 -108)">
+      <use href="#female-employee-face" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#female-employee-neck-join)" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="14" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-face" fill="url(#female-employee-skin-paint)" />
+      <use href="#female-employee-fringe" fill="url(#female-employee-hair-paint)" />
+      <g clip-path="url(#female-employee-fringe-clip)">
+        <path d="M100 114 C99 82 116 59 143 59 Q164 58 177 75 C154 59 130 66 118 87 Q108 105 100 114Z" fill="#476384" opacity=".8" />
+        <path d="M129 80 C135 99 155 109 179 111" fill="none" stroke="#102137" stroke-width="5" />
+        <path d="M178 80 Q187 95 187 112" fill="none" stroke="#344c6a" stroke-width="4" />
+      </g>
+      <path d="M97 119 C94 77 112 54 143 54 C175 53 193 77 192 119" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" />
+      <use href="#female-employee-ear-left" fill="url(#female-employee-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#female-employee-ear-left" fill="none" stroke="url(#female-employee-ear-bevel)" stroke-width="2.5" clip-path="url(#female-employee-ear-clip)" />
+    </g>
+  </g>
+</svg>

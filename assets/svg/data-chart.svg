@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="data-chart-title">
+  <title id="data-chart-title">グラフ</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="data-chart-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="data-chart-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="data-chart-green" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#53d967" />
+      <stop offset="0.5" stop-color="#1cc555" />
+      <stop offset="1.0" stop-color="#00a64c" />
+    </linearGradient>
+    <rect id="data-chart-shape1" x="86" y="144" width="34" height="52" rx="8" />
+    <clipPath id="data-chart-shape1-clip">
+      <use href="#data-chart-shape1" />
+    </clipPath>
+    <rect id="data-chart-shape2" x="130" y="116" width="34" height="80" rx="8" />
+    <clipPath id="data-chart-shape2-clip">
+      <use href="#data-chart-shape2" />
+    </clipPath>
+    <rect id="data-chart-shape3" x="174" y="87" width="34" height="109" rx="8" />
+    <clipPath id="data-chart-shape3-clip">
+      <use href="#data-chart-shape3" />
+    </clipPath>
+    <path id="data-chart-shape4" d="M72 203 V92 H64 L78 72 L92 92 H84 V190 H225 V183 L238 197 L225 211 V203 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#data-chart-shape1" fill="url(#data-chart-blue)" />
+    <path d="M91.5 188 V152 Q91.5 149.5 94 149.5 H112" fill="none" stroke="#82e2ff" stroke-width="4" clip-path="url(#data-chart-shape1-clip)" />
+    <path d="M114.5 152 V188 Q114.5 190.5 112 190.5 H94" fill="none" stroke="#0565bd" stroke-width="4" clip-path="url(#data-chart-shape1-clip)" />
+    <use href="#data-chart-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#data-chart-shape2" fill="url(#data-chart-green)" />
+    <path d="M135.5 188 V124 Q135.5 121.5 138 121.5 H156" fill="none" stroke="#99f183" stroke-width="4" clip-path="url(#data-chart-shape2-clip)" />
+    <path d="M158.5 124 V188 Q158.5 190.5 156 190.5 H138" fill="none" stroke="#078440" stroke-width="4" clip-path="url(#data-chart-shape2-clip)" />
+    <use href="#data-chart-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#data-chart-shape3" fill="url(#data-chart-gold)" />
+    <path d="M179.5 188 V95 Q179.5 92.5 182 92.5 H200" fill="none" stroke="#fff47d" stroke-width="4" clip-path="url(#data-chart-shape3-clip)" />
+    <path d="M202.5 95 V188 Q202.5 190.5 200 190.5 H182" fill="none" stroke="#cf910b" stroke-width="4" clip-path="url(#data-chart-shape3-clip)" />
+    <use href="#data-chart-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#data-chart-shape4" fill="#ffffff" />
+    <use href="#data-chart-shape4" fill="none" stroke="#050b1d" stroke-width="6" stroke-linejoin="miter" />
+  </g>
+</svg>

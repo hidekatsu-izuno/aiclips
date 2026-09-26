@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="maintenance-wrench-title">
+  <title id="maintenance-wrench-title">レンチ</title>
+  <desc>Editable wrench with a blue grip and a simplified adjustment wheel indicated by three grooves.</desc>
+  <defs>
+    <path id="maintenance-wrench-body" d="M182 65 C160 64 140 79 134 98 C132 106 134 115 132 120 Q131 124 126 129 L76 179 C65 190 65 203 74 213 C83 223 96 222 106 212 L155 163 Q164 153 172 153 C182 154 190 153 198 149 C213 141 222 127 222 111 C223 102 221 93 216 92 Q212 89 207 94 L186 113 Q182 117 178 113 L170 105 Q166 101 171 96 L189 77 Q198 66 182 65Z" />
+    <clipPath id="maintenance-wrench-clip">
+      <use href="#maintenance-wrench-body" />
+    </clipPath>
+    <linearGradient id="maintenance-wrench-metal" gradientUnits="userSpaceOnUse" x1="128" y1="92" x2="204" y2="172">
+      <stop stop-color="#b6c4d5" />
+      <stop offset=".45" stop-color="#aabbd0" />
+      <stop offset=".7" stop-color="#b9cada" />
+      <stop offset="1" stop-color="#8fa7c1" />
+    </linearGradient>
+    <linearGradient id="maintenance-wrench-grip" gradientUnits="userSpaceOnUse" x1="87" y1="170" x2="122" y2="203">
+      <stop stop-color="#00b4ff" />
+      <stop offset=".45" stop-color="#009cff" />
+      <stop offset="1" stop-color="#0080ef" />
+    </linearGradient>
+    <linearGradient id="maintenance-wrench-reflection" gradientUnits="userSpaceOnUse" x1="111" y1="163" x2="158" y2="118">
+      <stop stop-color="#dce9f3" stop-opacity="0" />
+      <stop offset=".3" stop-color="#e4f1fa" stop-opacity=".24" />
+      <stop offset=".55" stop-color="#e4f1fa" stop-opacity="0" />
+      <stop offset=".8" stop-color="#dce9f3" stop-opacity=".18" />
+      <stop offset="1" stop-color="#dce9f3" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="maintenance-wrench-edge" gradientUnits="userSpaceOnUse" x1="136" y1="72" x2="196" y2="150">
+      <stop stop-color="#f3f8ff" />
+      <stop offset=".6" stop-color="#e4eef7" />
+      <stop offset="1" stop-color="#bdcede" />
+    </linearGradient>
+    <linearGradient id="maintenance-wrench-hole" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#f0f8ff" />
+      <stop offset=".5" stop-color="#c9deef" />
+      <stop offset="1" stop-color="#a6c4dc" />
+    </linearGradient>
+    <clipPath id="maintenance-wrench-grip-clip">
+      <path d="M0 34 L254 288 H0Z" />
+    </clipPath>
+    <path id="maintenance-wrench-lower-edge" d="M217 99 C222 120 210 140 192 147 Q185 150 171 148 Q161 147 152 159 L103 208 Q90 220 79 210" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#maintenance-wrench-body" fill="url(#maintenance-wrench-metal)" />
+    <g clip-path="url(#maintenance-wrench-clip)">
+      <path d="M107 153 L138 124 L167 150 L138 179Z" fill="url(#maintenance-wrench-reflection)" />
+      <use href="#maintenance-wrench-body" fill="url(#maintenance-wrench-grip)" clip-path="url(#maintenance-wrench-grip-clip)" />
+      <use href="#maintenance-wrench-lower-edge" fill="none" stroke="#7894b2" stroke-width="6" opacity=".45" />
+      <use href="#maintenance-wrench-lower-edge" fill="none" stroke="#0065d4" stroke-width="6" opacity=".5" clip-path="url(#maintenance-wrench-grip-clip)" />
+      <path d="M183 71 C159 70 141 87 139 104 C138 112 141 118 135 125 L115 145" fill="none" stroke="url(#maintenance-wrench-edge)" stroke-width="3.5" />
+      <path d="M115 145 L77 182 Q67 193 73 206" fill="none" stroke="#66dcff" stroke-width="4" />
+      <path d="M171 107 L178 114 Q183 120 190 114 L211 96" fill="none" stroke="url(#maintenance-wrench-edge)" stroke-width="3.5" />
+    </g>
+    <use href="#maintenance-wrench-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g id="maintenance-wrench-adjustment-wheel" transform="rotate(45 155 132)">
+      <rect x="143" y="122" width="24" height="20" rx="3" fill="#405a73" />
+      <rect x="146" y="125" width="18" height="14" rx="2" fill="#9eb4c8" />
+      <path d="M148 127 H162" fill="none" stroke="#dbe7f0" stroke-width="1.5" />
+      <path d="M150 127 V137 M155 127 V137 M160 127 V137" fill="none" stroke="#526f8a" stroke-width="1.5" />
+    </g>
+    <circle cx="91" cy="194" r="10" fill="url(#maintenance-wrench-hole)" stroke="#050b1d" stroke-width="3.5" />
+    <path d="M84 194 Q84 187 91 187 H93" fill="none" stroke="#f5fbff" stroke-width="2" />
+    <path d="M97 190 Q101 199 92 202" fill="none" stroke="#7294b0" stroke-width="1.7" opacity=".65" />
+  </g>
+</svg>

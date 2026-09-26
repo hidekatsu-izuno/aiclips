@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="audio-speaker-title">
+  <title id="audio-speaker-title">スピーカー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="audio-speaker-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="audio-speaker-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="audio-speaker-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="audio-speaker-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <rect id="audio-speaker-body" x="77" y="54" width="133" height="173" rx="28" />
+    <clipPath id="audio-speaker-body-clip">
+      <use href="#audio-speaker-body" />
+    </clipPath>
+    <circle id="audio-speaker-tweeter" cx="143.5" cy="91" r="22" />
+    <clipPath id="audio-speaker-tweeter-clip">
+      <use href="#audio-speaker-tweeter" />
+    </clipPath>
+    <circle id="audio-speaker-woofer" cx="143.5" cy="164" r="49" />
+    <clipPath id="audio-speaker-woofer-clip">
+      <use href="#audio-speaker-woofer" />
+    </clipPath>
+    <circle id="audio-speaker-cone" cx="143.5" cy="164" r="37" />
+    <clipPath id="audio-speaker-cone-clip">
+      <use href="#audio-speaker-cone" />
+    </clipPath>
+    <circle id="audio-speaker-hub" cx="143.5" cy="164" r="14" />
+    <clipPath id="audio-speaker-hub-clip">
+      <use href="#audio-speaker-hub" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#audio-speaker-body" fill="url(#audio-speaker-steel)" />
+    <use href="#audio-speaker-body" fill="none" stroke="url(#audio-speaker-steel-edge)" stroke-width="17" clip-path="url(#audio-speaker-body-clip)" />
+    <use href="#audio-speaker-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#audio-speaker-tweeter" fill="url(#audio-speaker-steel)" />
+    <use href="#audio-speaker-tweeter" fill="none" stroke="url(#audio-speaker-steel-edge)" stroke-width="10" clip-path="url(#audio-speaker-tweeter-clip)" />
+    <use href="#audio-speaker-tweeter" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#audio-speaker-woofer" fill="url(#audio-speaker-steel)" />
+    <use href="#audio-speaker-woofer" fill="none" stroke="url(#audio-speaker-steel-edge)" stroke-width="10" clip-path="url(#audio-speaker-woofer-clip)" />
+    <use href="#audio-speaker-woofer" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="143.5" cy="91" r="10" fill="#102334" stroke="#050b1d" stroke-width="2" />
+    <path d="M138 88 Q141 84 145 85" fill="none" stroke="#7492ad" stroke-width="2" />
+    <use href="#audio-speaker-cone" fill="url(#audio-speaker-gold)" />
+    <use href="#audio-speaker-cone" fill="none" stroke="url(#audio-speaker-gold-edge)" stroke-width="12" clip-path="url(#audio-speaker-cone-clip)" />
+    <use href="#audio-speaker-cone" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#audio-speaker-hub" fill="url(#audio-speaker-steel)" />
+    <use href="#audio-speaker-hub" fill="none" stroke="url(#audio-speaker-steel-edge)" stroke-width="8" clip-path="url(#audio-speaker-hub-clip)" />
+    <use href="#audio-speaker-hub" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="stopwatch-title">
+  <title id="stopwatch-title">ストップウォッチ</title>
+  <desc>Stopwatch with the same blue ring, recessed white dial, directional highlights, shadows and red needle facets as navigation-compass. The single needle retains its original dimensions.</desc>
+  <defs>
+    <linearGradient id="stopwatch-metal-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8ba5bc" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4d6882" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a64" stop-opacity="1" />
+    </linearGradient>
+    <rect id="stopwatch-top-button" x="123" y="51" width="40" height="22" rx="5" />
+    <clipPath id="stopwatch-top-button-clip">
+      <use href="#stopwatch-top-button" />
+    </clipPath>
+    <circle id="stopwatch-body" cx="143" cy="156" r="77" />
+    <clipPath id="stopwatch-body-clip">
+      <use href="#stopwatch-body" />
+    </clipPath>
+    <path id="stopwatch-needle" d="M137 151 L177 121 L149 163Z" />
+    <linearGradient id="stopwatch-needle-red" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ff625b" />
+      <stop offset="0.5" stop-color="#ff292f" />
+      <stop offset="1.0" stop-color="#d8101d" />
+    </linearGradient>
+    <linearGradient id="stopwatch-needle-red-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ed2538" />
+      <stop offset="1" stop-color="#a90d21" />
+    </linearGradient>
+    <clipPath id="stopwatch-needle-clip">
+      <use href="#stopwatch-needle" />
+    </clipPath>
+    <linearGradient id="stopwatch-ring" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#00b4ff" />
+      <stop offset=".5" stop-color="#009bff" />
+      <stop offset="1" stop-color="#0079ee" />
+    </linearGradient>
+    <linearGradient id="stopwatch-ring-light" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7fdfff" stop-opacity=".85" />
+      <stop offset="1" stop-color="#28bfff" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="stopwatch-dial" cx=".52" cy=".54" r=".69">
+      <stop stop-color="#ffffff" />
+      <stop offset=".78" stop-color="#fafcfe" />
+      <stop offset="1" stop-color="#d6e2ed" />
+    </radialGradient>
+    <linearGradient id="stopwatch-inset" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#8aa7bf" stop-opacity=".4" />
+      <stop offset="1" stop-color="#b6cadb" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="stopwatch-dial-clip">
+      <circle cx="143" cy="156" r="59" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="130" y="70" width="26" height="22" rx="3" fill="url(#stopwatch-ring)" stroke="#050b1d" stroke-width="5" />
+    <use href="#stopwatch-top-button" fill="url(#stopwatch-ring)" />
+    <g clip-path="url(#stopwatch-top-button-clip)">
+      <path d="M127 67 V58 Q127 55 130 55 H157" fill="none" stroke="#7fdfff" stroke-width="4" opacity=".85" />
+      <path d="M159 57 V66 Q159 69 156 69 H129" fill="none" stroke="#0069d5" stroke-width="4" opacity=".45" />
+    </g>
+    <use href="#stopwatch-top-button" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g transform="rotate(-35 91 94)">
+      <rect x="84" y="97" width="14" height="19" fill="#345875" stroke="#050b1d" stroke-width="3" />
+      <rect x="78" y="84" width="26" height="20" rx="4" fill="url(#stopwatch-ring)" />
+      <path d="M82.0 99.0 V90.0 Q82.0 88.0 84.0 88.0 H99.0" fill="none" stroke="#7fdfff" stroke-width="3" />
+      <path d="M100.0 89.0 V98.0 Q100.0 100.0 98.0 100.0 H83.0" fill="none" stroke="#0069d5" stroke-width="3" />
+      <rect x="78.0" y="84.0" width="26.0" height="20.0" rx="4" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <g transform="rotate(35 198 89)">
+      <rect x="191" y="92" width="14" height="19" fill="#345875" stroke="#050b1d" stroke-width="3" />
+      <rect x="185" y="79" width="26" height="20" rx="4" fill="url(#stopwatch-needle-red)" />
+      <path d="M189.0 94.0 V85.0 Q189.0 83.0 191.0 83.0 H206.0" fill="none" stroke="#ff9293" stroke-width="3" />
+      <path d="M207.0 84.0 V93.0 Q207.0 95.0 205.0 95.0 H190.0" fill="none" stroke="#be1425" stroke-width="3" />
+      <rect x="185.0" y="79.0" width="26.0" height="20.0" rx="4" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <use href="#stopwatch-body" fill="url(#stopwatch-ring)" />
+    <g clip-path="url(#stopwatch-body-clip)">
+      <path d="M72 157 A74 74 0 0 1 163 72" fill="none" stroke="url(#stopwatch-ring-light)" stroke-width="5" opacity="1" transform="translate(4.4 17.4) scale(.9625)" />
+      <path d="M216 123 A75 75 0 0 1 123 216" fill="none" stroke="#0069d5" stroke-width="5" opacity=".45" transform="translate(4.4 17.4) scale(.9625)" />
+    </g>
+    <use href="#stopwatch-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="143" cy="156" r="59" fill="url(#stopwatch-dial)" />
+    <g clip-path="url(#stopwatch-dial-clip)">
+      <path d="M90 163 A57 57 0 0 1 166 91" fill="none" stroke="url(#stopwatch-inset)" stroke-width="4" transform="translate(4.4 17.4) scale(.9625)" />
+      <path d="M195 161 A55 55 0 0 1 126 195" fill="none" stroke="#ffffff" stroke-width="3" transform="translate(4.4 17.4) scale(.9625)" />
+    </g>
+    <circle cx="143" cy="156" r="59" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="143" cy="108" r="4.4" fill="#8b9db1" />
+    <circle cx="95" cy="156" r="4.4" fill="#8b9db1" />
+    <circle cx="191" cy="156" r="4.4" fill="#8b9db1" />
+    <circle cx="143" cy="204" r="4.4" fill="#8b9db1" />
+    <g id="stopwatch-faceted-needle">
+      <use href="#stopwatch-needle" transform="translate(1 2)" fill="#71879a" opacity=".18" />
+      <use href="#stopwatch-needle" fill="url(#stopwatch-needle-red)" />
+      <g clip-path="url(#stopwatch-needle-clip)">
+        <path d="M137 151 L177 121 L143 157Z" fill="url(#stopwatch-needle-red)" />
+        <path d="M177 121 L149 163 L143 157Z" fill="url(#stopwatch-needle-red-shadow)" />
+      </g>
+      <use href="#stopwatch-needle" fill="none" stroke="#050b1d" stroke-width="3" />
+    </g>
+    <circle cx="143" cy="156" r="10" fill="url(#stopwatch-metal-paint)" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

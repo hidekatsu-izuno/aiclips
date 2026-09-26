@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="neural-network-title">
+  <title id="neural-network-title">ニューラルネット</title>
+  <desc>Editable vector paths with continuous outlines, clipped highlights and gradient shading. Transparent background; no raster images or filters.</desc>
+  <defs>
+    <radialGradient id="neural-network-blue" cx=".36" cy=".31" r=".76"><stop offset="0" stop-color="#12b1ff"/><stop offset=".7" stop-color="#0092ff"/><stop offset="1" stop-color="#0072df"/></radialGradient>
+    <radialGradient id="neural-network-cyan" cx=".36" cy=".31" r=".76"><stop offset="0" stop-color="#14e5ec"/><stop offset=".7" stop-color="#00d0d9"/><stop offset="1" stop-color="#00a6b7"/></radialGradient>
+    <radialGradient id="neural-network-green" cx=".36" cy=".31" r=".76"><stop offset="0" stop-color="#85d849"/><stop offset=".7" stop-color="#4ec335"/><stop offset="1" stop-color="#24a12f"/></radialGradient>
+    <circle id="neural-network-shape1" cx="78" cy="113" r="22" />
+    <clipPath id="neural-network-shape1-clip">
+      <use href="#neural-network-shape1" />
+    </clipPath>
+    <circle id="neural-network-shape2" cx="78" cy="180" r="22" />
+    <clipPath id="neural-network-shape2-clip">
+      <use href="#neural-network-shape2" />
+    </clipPath>
+    <circle id="neural-network-shape3" cx="144" cy="82" r="22" />
+    <clipPath id="neural-network-shape3-clip">
+      <use href="#neural-network-shape3" />
+    </clipPath>
+    <circle id="neural-network-shape4" cx="144" cy="145" r="22" />
+    <clipPath id="neural-network-shape4-clip">
+      <use href="#neural-network-shape4" />
+    </clipPath>
+    <circle id="neural-network-shape5" cx="144" cy="208" r="22" />
+    <clipPath id="neural-network-shape5-clip">
+      <use href="#neural-network-shape5" />
+    </clipPath>
+    <circle id="neural-network-shape6" cx="210" cy="113" r="22" />
+    <clipPath id="neural-network-shape6-clip">
+      <use href="#neural-network-shape6" />
+    </clipPath>
+    <circle id="neural-network-shape7" cx="210" cy="180" r="22" />
+    <clipPath id="neural-network-shape7-clip">
+      <use href="#neural-network-shape7" />
+    </clipPath>
+    <linearGradient id="neural-network-blue-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#81dcff" stop-opacity=".65"/><stop offset="1" stop-color="#81dcff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="neural-network-cyan-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e5ffff" stop-opacity=".95"/><stop offset="1" stop-color="#e5ffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="neural-network-green-glint" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ccf77a" stop-opacity=".5"/><stop offset="1" stop-color="#ccf77a" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M78 113 L144 82" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M78 113 L144 145" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M78 113 L144 208" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M78 180 L144 82" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M78 180 L144 145" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M78 180 L144 208" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 82 L210 113" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 82 L210 180" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 145 L210 113" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 145 L210 180" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 208 L210 113" fill="none" stroke="#050b1d" stroke-width="18" />
+    <path d="M144 208 L210 180" fill="none" stroke="#050b1d" stroke-width="18" />
+    <use href="#neural-network-shape1" fill="url(#neural-network-blue)" />
+    <g clip-path="url(#neural-network-shape1-clip)">
+      <g transform="translate(78 113)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#0064d4" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-blue-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape2" fill="url(#neural-network-blue)" />
+    <g clip-path="url(#neural-network-shape2-clip)">
+      <g transform="translate(78 180)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#0064d4" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-blue-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape3" fill="url(#neural-network-cyan)" />
+    <g clip-path="url(#neural-network-shape3-clip)">
+      <g transform="translate(144 82)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#008ea3" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-cyan-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape4" fill="url(#neural-network-cyan)" />
+    <g clip-path="url(#neural-network-shape4-clip)">
+      <g transform="translate(144 145)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#008ea3" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-cyan-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape5" fill="url(#neural-network-cyan)" />
+    <g clip-path="url(#neural-network-shape5-clip)">
+      <g transform="translate(144 208)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#008ea3" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-cyan-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape5" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape6" fill="url(#neural-network-green)" />
+    <g clip-path="url(#neural-network-shape6-clip)">
+      <g transform="translate(210 113)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#1d9b29" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-green-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape6" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#neural-network-shape7" fill="url(#neural-network-green)" />
+    <g clip-path="url(#neural-network-shape7-clip)">
+      <g transform="translate(210 180)">
+        <path d="M12 -17 C29 -2 21 22 0 22 Q-10 22 -16 14 C6 24 25 3 12 -17Z" fill="#1d9b29" opacity=".38"/>
+        <path d="M-16 -4 C-19 -14 -7 -22 4 -17 C-5 -15 -10 -10 -12 -5 Q-15 -1 -16 -4Z" fill="url(#neural-network-green-glint)"/>
+      </g>
+    </g>
+    <use href="#neural-network-shape7" fill="none" stroke="#050b1d" stroke-width="6" />
+    <g id="neural-network-connector-faces" fill="none" stroke="#23354c" stroke-width="6" stroke-linecap="butt">
+      <path d="M95.0164 105.0074 L126.9836 89.9926"/>
+      <path d="M94.9165 121.2019 L127.0835 136.7981"/>
+      <path d="M88.7265 128.4396 L133.2735 192.5604"/>
+      <path d="M88.5017 164.4066 L133.4983 97.5934"/>
+      <path d="M94.6091 171.1922 L127.3909 153.8078"/>
+      <path d="M95.3069 187.3423 L126.6931 200.6577"/>
+      <path d="M161.0164 89.9926 L192.9836 105.0074"/>
+      <path d="M154.5017 97.5934 L199.4983 164.4066"/>
+      <path d="M160.9165 136.7981 L193.0835 121.2019"/>
+      <path d="M160.6091 153.8078 L193.3909 171.1922"/>
+      <path d="M154.7265 192.5604 L199.2735 128.4396"/>
+      <path d="M161.3069 200.6577 L192.6931 187.3423"/>
+    </g>
+  </g>
+</svg>

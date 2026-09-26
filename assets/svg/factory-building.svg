@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="factory-building-title">
+  <title id="factory-building-title">工場</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="factory-building-wall" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#f1f6fb" />
+      <stop offset="1" stop-color="#dce6f0" />
+    </linearGradient>
+    <linearGradient id="factory-building-wall-shadow" x1="0" y1="0" x2="1" y2=".2">
+      <stop stop-color="#7896b0" stop-opacity="0" />
+      <stop offset="1" stop-color="#7896b0" stop-opacity=".25" />
+    </linearGradient>
+    <linearGradient id="factory-building-stack-red" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff886f" />
+      <stop offset=".35" stop-color="#ff4230" />
+      <stop offset="1" stop-color="#d91e13" />
+    </linearGradient>
+    <linearGradient id="factory-building-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <path id="factory-building-shape1" d="M182 151 L186 68 Q186 61 193 61 H204 Q211 61 211 68 L216 151 Z" />
+    <clipPath id="factory-building-shape1-clip">
+      <use href="#factory-building-shape1" />
+    </clipPath>
+    <path id="factory-building-shape2" d="M63 145 Q63 139 68 136 L113 107 Q119 102 119 109 V143 L169 108 Q175 105 175 111 V145 L219 119 Q227 114 227 122 V226 H63 Z" />
+    <clipPath id="factory-building-shape2-clip">
+      <use href="#factory-building-shape2" />
+    </clipPath>
+    <rect id="factory-building-shape3" x="78.5" y="164" width="25" height="18" rx="1" />
+    <clipPath id="factory-building-shape3-clip">
+      <use href="#factory-building-shape3" />
+    </clipPath>
+    <rect id="factory-building-shape4" x="114.5" y="164" width="25" height="18" rx="1" />
+    <clipPath id="factory-building-shape4-clip">
+      <use href="#factory-building-shape4" />
+    </clipPath>
+    <rect id="factory-building-shape5" x="150.5" y="164" width="25" height="18" rx="1" />
+    <clipPath id="factory-building-shape5-clip">
+      <use href="#factory-building-shape5" />
+    </clipPath>
+    <rect id="factory-building-shape6" x="186.5" y="164" width="25" height="18" rx="1" />
+    <clipPath id="factory-building-shape6-clip">
+      <use href="#factory-building-shape6" />
+    </clipPath>
+    <rect id="factory-building-shape7" x="116" y="196" width="58" height="30" rx="2" />
+    <clipPath id="factory-building-shape7-clip">
+      <use href="#factory-building-shape7" />
+    </clipPath>
+    <linearGradient id="factory-building-glass3-screen-paint" gradientUnits="userSpaceOnUse" x1="79.235294" y1="165.655172" x2="102.397059" y2="181.379310">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass3-glass-paint" gradientUnits="userSpaceOnUse" x1="80.705882" y1="165.655172" x2="94.125000" y2="177.862069">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass3-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="93.389706" y1="169.172414" x2="103.500000" y2="182.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass4-screen-paint" gradientUnits="userSpaceOnUse" x1="115.235294" y1="165.655172" x2="138.397059" y2="181.379310">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass4-glass-paint" gradientUnits="userSpaceOnUse" x1="116.705882" y1="165.655172" x2="130.125000" y2="177.862069">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass4-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="129.389706" y1="169.172414" x2="139.500000" y2="182.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass5-screen-paint" gradientUnits="userSpaceOnUse" x1="151.235294" y1="165.655172" x2="174.397059" y2="181.379310">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass5-glass-paint" gradientUnits="userSpaceOnUse" x1="152.705882" y1="165.655172" x2="166.125000" y2="177.862069">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass5-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="165.389706" y1="169.172414" x2="175.500000" y2="182.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass6-screen-paint" gradientUnits="userSpaceOnUse" x1="187.235294" y1="165.655172" x2="210.397059" y2="181.379310">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass6-glass-paint" gradientUnits="userSpaceOnUse" x1="188.705882" y1="165.655172" x2="202.125000" y2="177.862069">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="factory-building-glass6-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="201.389706" y1="169.172414" x2="211.500000" y2="182.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#factory-building-shape1" fill="url(#factory-building-paper)" />
+    <g clip-path="url(#factory-building-shape1-clip)">
+      <path d="M183 66 H214 V81 H183Z M182 94 H215 V108 H182Z" fill="url(#factory-building-stack-red)" />
+      <path d="M189 68 L187 145" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".5" />
+      <path d="M204 62 H216 V151 H205Z" fill="url(#factory-building-wall-shadow)" />
+    </g>
+    <use href="#factory-building-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#factory-building-shape2" fill="url(#factory-building-wall)" />
+    <g clip-path="url(#factory-building-shape2-clip)">
+      <path d="M69 220 V146 L114 116 M120 147 L170 116 M175 149 L222 123" fill="none" stroke="#ffffff" stroke-width="4" />
+      <path d="M105 114 H120 V147 H105Z M161 114 H176 V149 H161Z M211 122 H227 V226 H211Z" fill="url(#factory-building-wall-shadow)" />
+      <path d="M64 218 H226 V226 H64Z" fill="#b8c9da" opacity=".3" />
+    </g>
+    <use href="#factory-building-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#factory-building-shape3" fill="url(#factory-building-glass3-screen-paint)" />
+    <path d="M78.5 164 H94.860294 L78.5 182 Z" fill="url(#factory-building-glass3-glass-paint)" clip-path="url(#factory-building-shape3-clip)" />
+    <path d="M99.823529 164 H103.5 V182 H83.463235 Z" fill="url(#factory-building-glass3-screen-shadow-paint)" clip-path="url(#factory-building-shape3-clip)" />
+    <use href="#factory-building-shape3" fill="none" stroke="#0878b9" stroke-width="1" />
+    <use href="#factory-building-shape4" fill="url(#factory-building-glass4-screen-paint)" />
+    <path d="M114.5 164 H130.860294 L114.5 182 Z" fill="url(#factory-building-glass4-glass-paint)" clip-path="url(#factory-building-shape4-clip)" />
+    <path d="M135.823529 164 H139.5 V182 H119.463235 Z" fill="url(#factory-building-glass4-screen-shadow-paint)" clip-path="url(#factory-building-shape4-clip)" />
+    <use href="#factory-building-shape4" fill="none" stroke="#0878b9" stroke-width="1" />
+    <use href="#factory-building-shape5" fill="url(#factory-building-glass5-screen-paint)" />
+    <path d="M150.5 164 H166.860294 L150.5 182 Z" fill="url(#factory-building-glass5-glass-paint)" clip-path="url(#factory-building-shape5-clip)" />
+    <path d="M171.823529 164 H175.5 V182 H155.463235 Z" fill="url(#factory-building-glass5-screen-shadow-paint)" clip-path="url(#factory-building-shape5-clip)" />
+    <use href="#factory-building-shape5" fill="none" stroke="#0878b9" stroke-width="1" />
+    <use href="#factory-building-shape6" fill="url(#factory-building-glass6-screen-paint)" />
+    <path d="M186.5 164 H202.860294 L186.5 182 Z" fill="url(#factory-building-glass6-glass-paint)" clip-path="url(#factory-building-shape6-clip)" />
+    <path d="M207.823529 164 H211.5 V182 H191.463235 Z" fill="url(#factory-building-glass6-screen-shadow-paint)" clip-path="url(#factory-building-shape6-clip)" />
+    <use href="#factory-building-shape6" fill="none" stroke="#0878b9" stroke-width="1" />
+    <use href="#factory-building-shape7" fill="#91a6b9" />
+    <g clip-path="url(#factory-building-shape7-clip)">
+      <path d="M116 196 H174 V200 H116Z" fill="#526c82" />
+      <path d="M119 200 H171 M119 205 H171 M119 210 H171 M119 215 H171 M119 220 H171" fill="none" stroke="#c3d2de" stroke-width="1.4" />
+      <path d="M119 202 H171 M119 207 H171 M119 212 H171 M119 217 H171 M119 222 H171" fill="none" stroke="#627c93" stroke-width="1.4" />
+      <path d="M116 199 H120 V226 H116Z M170 199 H174 V226 H170Z" fill="#516b82" />
+      <path d="M120 224 H170" fill="none" stroke="#3e576e" stroke-width="2" />
+      <path d="M141 220 H149" fill="none" stroke="#30485f" stroke-width="2" />
+    </g>
+    <path d="M114 225 V198 Q114 194 118 194 H172 Q176 194 176 198 V225" fill="none" stroke="#607b92" stroke-width="3" />
+    <use href="#factory-building-shape7" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M63 226 H227" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

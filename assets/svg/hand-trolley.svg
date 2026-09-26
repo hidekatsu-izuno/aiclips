@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="hand-trolley-title">
+  <title id="hand-trolley-title">台車</title>
+  <desc>Editable illustration with flat front-facing cartons, warm colors, tape and directional highlights matching shipping-carton.</desc>
+  <defs>
+    <linearGradient id="hand-trolley-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="hand-trolley-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="hand-trolley-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="hand-trolley-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <rect id="hand-trolley-shape2" x="63" y="185" width="140" height="22" rx="10" />
+    <clipPath id="hand-trolley-shape2-clip">
+      <use href="#hand-trolley-shape2" />
+    </clipPath>
+    <circle id="hand-trolley-shape3" cx="85" cy="210" r="16" />
+    <clipPath id="hand-trolley-shape3-clip">
+      <use href="#hand-trolley-shape3" />
+    </clipPath>
+    <circle id="hand-trolley-shape4" cx="181" cy="210" r="16" />
+    <clipPath id="hand-trolley-shape4-clip">
+      <use href="#hand-trolley-shape4" />
+    </clipPath>
+    <linearGradient id="hand-trolley-matched-carton" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffdb8c" />
+      <stop offset="0.5" stop-color="#f9bb60" />
+      <stop offset="1.0" stop-color="#efa448" />
+    </linearGradient>
+    <linearGradient id="hand-trolley-matched-tape" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dba14e" />
+      <stop offset="0.5" stop-color="#c48937" />
+      <stop offset="1.0" stop-color="#b57629" />
+    </linearGradient>
+    <rect id="hand-trolley-flat-carton-0" x="72" y="107" width="110" height="82" rx="2.25" />
+    <clipPath id="hand-trolley-flat-carton-0-clip">
+      <use href="#hand-trolley-flat-carton-0" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="hand-trolley-flat-carton-0-art">
+      <use href="#hand-trolley-flat-carton-0" fill="url(#hand-trolley-matched-carton)" />
+      <g clip-path="url(#hand-trolley-flat-carton-0-clip)">
+        <path d="M72 107 H182 V113.5 H72Z" fill="#ffe6ac" />
+        <path d="M175.5 107 H182 V189 H175.5Z" fill="#cf8e3b" />
+        <path d="M72 183.9 H182 V189 H72Z" fill="#df993f" />
+        <rect x="116.0" y="107" width="22.0" height="28.7" fill="url(#hand-trolley-matched-tape)" />
+      </g>
+      <use href="#hand-trolley-flat-carton-0" fill="none" stroke="#050b1d" stroke-width="5" />
+    </g>
+    <path d="M193 188 L197 78 Q197 72 205 72 H222" fill="none" stroke="#050b1d" stroke-width="21" />
+    <path d="M193 188 L197 78 Q197 72 205 72 H222" fill="none" stroke="#049efa" stroke-width="11" />
+    <path d="M197 187 L200 81 Q200 77 207 77 H222" fill="none" stroke="#4fd5ff" stroke-width="3" />
+    <use href="#hand-trolley-shape2" fill="url(#hand-trolley-blue)" />
+    <use href="#hand-trolley-shape2" fill="none" stroke="url(#hand-trolley-cyan)" stroke-width="6" clip-path="url(#hand-trolley-shape2-clip)" />
+    <use href="#hand-trolley-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#hand-trolley-shape3" fill="url(#hand-trolley-steel)" />
+    <use href="#hand-trolley-shape3" fill="none" stroke="url(#hand-trolley-silver-edge)" stroke-width="7" clip-path="url(#hand-trolley-shape3-clip)" />
+    <use href="#hand-trolley-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#hand-trolley-shape4" fill="url(#hand-trolley-steel)" />
+    <use href="#hand-trolley-shape4" fill="none" stroke="url(#hand-trolley-silver-edge)" stroke-width="7" clip-path="url(#hand-trolley-shape4-clip)" />
+    <use href="#hand-trolley-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="memory-module-title">
+  <title id="memory-module-title">メモリ</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="memory-module-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="memory-module-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="memory-module-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="memory-module-green-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#9af5b5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#51e58b" stop-opacity="1" />
+      <stop offset="1" stop-color="#088a37" stop-opacity="1" />
+    </linearGradient>
+    <path id="memory-module-pcb" d="M61 100 H227 Q232 100 232 105 V125 H225 V136 H232 V177 Q232 182 227 182 H153 V177 H145 V182 H61 Q56 182 56 177 V151 H63 V140 H56 V105 Q56 100 61 100 Z" />
+    <clipPath id="memory-module-pcb-clip">
+      <use href="#memory-module-pcb" />
+    </clipPath>
+    <rect id="memory-module-chip0" x="74" y="115" width="25" height="38" rx="3" />
+    <clipPath id="memory-module-chip0-clip">
+      <use href="#memory-module-chip0" />
+    </clipPath>
+    <rect id="memory-module-chip1" x="108" y="115" width="25" height="38" rx="3" />
+    <clipPath id="memory-module-chip1-clip">
+      <use href="#memory-module-chip1" />
+    </clipPath>
+    <rect id="memory-module-chip2" x="142" y="115" width="25" height="38" rx="3" />
+    <clipPath id="memory-module-chip2-clip">
+      <use href="#memory-module-chip2" />
+    </clipPath>
+    <rect id="memory-module-chip3" x="176" y="115" width="25" height="38" rx="3" />
+    <clipPath id="memory-module-chip3-clip">
+      <use href="#memory-module-chip3" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-30 144 144) translate(0 -2) scale(.97 1.03)" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#memory-module-pcb" fill="url(#memory-module-green)" />
+      <use href="#memory-module-pcb" fill="none" stroke="url(#memory-module-green-edge)" stroke-width="13" clip-path="url(#memory-module-pcb-clip)" />
+      <use href="#memory-module-pcb" fill="none" stroke="#050b1d" stroke-width="7" />
+      <path d="M67 164 H220 V179 H153 V175 H145 V179 H67 Z" fill="#ffd235" stroke="#050b1d" stroke-width="2" />
+      <path d="M73 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M82 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M91 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M100 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M109 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M118 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M127 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M136 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M145 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M154 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M163 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M172 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M181 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M190 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M199 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M208 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <path d="M217 166 V176" fill="none" stroke="#fff29b" stroke-width="3" />
+      <use href="#memory-module-chip0" fill="url(#memory-module-steel)" />
+      <use href="#memory-module-chip0" fill="none" stroke="url(#memory-module-steel-edge)" stroke-width="7" clip-path="url(#memory-module-chip0-clip)" />
+      <use href="#memory-module-chip0" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#memory-module-chip1" fill="url(#memory-module-steel)" />
+      <use href="#memory-module-chip1" fill="none" stroke="url(#memory-module-steel-edge)" stroke-width="7" clip-path="url(#memory-module-chip1-clip)" />
+      <use href="#memory-module-chip1" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#memory-module-chip2" fill="url(#memory-module-steel)" />
+      <use href="#memory-module-chip2" fill="none" stroke="url(#memory-module-steel-edge)" stroke-width="7" clip-path="url(#memory-module-chip2-clip)" />
+      <use href="#memory-module-chip2" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#memory-module-chip3" fill="url(#memory-module-steel)" />
+      <use href="#memory-module-chip3" fill="none" stroke="url(#memory-module-steel-edge)" stroke-width="7" clip-path="url(#memory-module-chip3-clip)" />
+      <use href="#memory-module-chip3" fill="none" stroke="#050b1d" stroke-width="3" />
+      <path d="M64 158 H224" fill="none" stroke="#165e35" stroke-width="2" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="identity-badge-title">
+  <title id="identity-badge-title">IDカード</title>
+  <desc>Landscape identity card with a blue portrait on the left, three text lines on the right, and a centered blue attachment clip.</desc>
+  <defs>
+    <linearGradient id="identity-badge-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="identity-badge-white" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f2f6fb" />
+      <stop offset="1.0" stop-color="#c9d4e0" />
+    </linearGradient>
+    <linearGradient id="identity-badge-dark" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#3f5b75" />
+      <stop offset="0.5" stop-color="#2b425a" />
+      <stop offset="1.0" stop-color="#1a2e44" />
+    </linearGradient>
+    <linearGradient id="identity-badge-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dcf7ff" />
+      <stop offset="0.5" stop-color="#70c6ec" />
+      <stop offset="1.0" stop-color="#245786" />
+    </linearGradient>
+    <rect id="identity-badge-shape1" x="49" y="100" width="190" height="120" rx="14" />
+    <clipPath id="identity-badge-shape1-clip">
+      <use href="#identity-badge-shape1" />
+    </clipPath>
+    <rect id="identity-badge-shape2" x="128" y="76" width="32" height="38" rx="6" />
+    <clipPath id="identity-badge-shape2-clip">
+      <use href="#identity-badge-shape2" />
+    </clipPath>
+    <circle id="identity-badge-shape3" cx="144" cy="95" r="5" />
+    <circle id="identity-badge-shape4" cx="101" cy="138" r="16" />
+    <clipPath id="identity-badge-shape4-clip">
+      <use href="#identity-badge-shape4" />
+    </clipPath>
+    <path id="identity-badge-shape5" d="M73 187 C73 147 129 147 129 187 V192 H73Z" />
+    <clipPath id="identity-badge-shape5-clip">
+      <use href="#identity-badge-shape5" />
+    </clipPath>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#identity-badge-shape1" fill="url(#identity-badge-white)" />
+    <use href="#identity-badge-shape1" fill="none" stroke="url(#identity-badge-edge)" stroke-width="9" clip-path="url(#identity-badge-shape1-clip)" />
+    <use href="#identity-badge-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#identity-badge-shape2" fill="url(#identity-badge-blue)" />
+    <use href="#identity-badge-shape2" fill="none" stroke="url(#identity-badge-edge)" stroke-width="7" clip-path="url(#identity-badge-shape2-clip)" />
+    <use href="#identity-badge-shape2" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#identity-badge-shape3" fill="url(#identity-badge-dark)" />
+    <use href="#identity-badge-shape4" fill="url(#identity-badge-blue)" />
+    <use href="#identity-badge-shape4" fill="none" stroke="url(#identity-badge-edge)" stroke-width="4" clip-path="url(#identity-badge-shape4-clip)" />
+    <use href="#identity-badge-shape5" fill="url(#identity-badge-blue)" />
+    <use href="#identity-badge-shape5" fill="none" stroke="url(#identity-badge-edge)" stroke-width="4" clip-path="url(#identity-badge-shape5-clip)" />
+    <path d="M149 139 H214 M149 160 H214 M149 181 H195" fill="none" stroke="#8b9eb0" stroke-width="7" />
+  </g>
+</svg>

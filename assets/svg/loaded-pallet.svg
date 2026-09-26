@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="loaded-pallet-title">
+  <title id="loaded-pallet-title">パレット</title>
+  <desc>Editable illustration with flat front-facing cartons, warm colors, tape and directional highlights matching shipping-carton.</desc>
+  <defs>
+    <linearGradient id="loaded-pallet-wood" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d5ac7d" />
+      <stop offset="0.5" stop-color="#bd8b58" />
+      <stop offset="1.0" stop-color="#a87543" />
+    </linearGradient>
+    <path id="loaded-pallet-shape1" d="M144 186 L63 186 Q54 186 54 195 L54 212 Q54 218 60 218 L80 218 Q86 218 86 212 L86 202 L128 202 L128 212 Q128 218 134 218 L144 218 L154 218 Q160 218 160 212 L160 202 L202 202 L202 212 Q202 218 208 218 L228 218 Q234 218 234 212 L234 195 Q234 186 225 186 L144 186 Z" />
+    <clipPath id="loaded-pallet-shape1-clip">
+      <use href="#loaded-pallet-shape1" />
+    </clipPath>
+    <linearGradient id="loaded-pallet-matched-carton" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffdb8c" />
+      <stop offset="0.5" stop-color="#f9bb60" />
+      <stop offset="1.0" stop-color="#efa448" />
+    </linearGradient>
+    <linearGradient id="loaded-pallet-matched-tape" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dba14e" />
+      <stop offset="0.5" stop-color="#c48937" />
+      <stop offset="1.0" stop-color="#b57629" />
+    </linearGradient>
+    <rect id="loaded-pallet-flat-carton-0" x="133" y="126" width="91" height="60" rx="2.25" />
+    <clipPath id="loaded-pallet-flat-carton-0-clip">
+      <use href="#loaded-pallet-flat-carton-0" />
+    </clipPath>
+    <rect id="loaded-pallet-flat-carton-1" x="66" y="131" width="111" height="56" rx="2.25" />
+    <clipPath id="loaded-pallet-flat-carton-1-clip">
+      <use href="#loaded-pallet-flat-carton-1" />
+    </clipPath>
+    <rect id="loaded-pallet-flat-carton-2" x="85" y="75" width="98" height="56" rx="2.25" />
+    <clipPath id="loaded-pallet-flat-carton-2-clip">
+      <use href="#loaded-pallet-flat-carton-2" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#loaded-pallet-shape1" fill="url(#loaded-pallet-wood)" />
+    <g clip-path="url(#loaded-pallet-shape1-clip)">
+      <path d="M54 186 H234 V194 H54Z" fill="#e2bd92" />
+      <path d="M54 194 H234 V198 H54Z" fill="#c99b6c" />
+      <path d="M54 210 H86 V218 H54Z M128 210 H160 V218 H128Z M202 210 H234 V218 H202Z" fill="#805331" />
+      <path d="M79 199 H86 V218 H79Z M153 199 H160 V218 H153Z M227 190 H234 V218 H227Z" fill="#946237" />
+      <path d="M86 202 H128 M160 202 H202" fill="none" stroke="#70492d" stroke-width="6" />
+      <path d="M54 194 H60 V218 H54Z M128 202 H133 V218 H128Z M202 202 H207 V218 H202Z" fill="#e2bd92" />
+    </g>
+    <use href="#loaded-pallet-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <g id="loaded-pallet-flat-carton-0-art" transform="translate(144 -3.5) scale(.84 1) translate(-145 0)">
+      <use href="#loaded-pallet-flat-carton-0" fill="url(#loaded-pallet-matched-carton)" />
+      <g clip-path="url(#loaded-pallet-flat-carton-0-clip)">
+        <path d="M133 126 H224 V132.5 H133Z" fill="#ffe6ac" />
+        <path d="M217.5 126 H224 V186 H217.5Z" fill="#cf8e3b" />
+        <path d="M133 180.9 H224 V186 H133Z" fill="#df993f" />
+        <rect x="169.4" y="126" width="18.2" height="21.0" fill="url(#loaded-pallet-matched-tape)" />
+      </g>
+      <use href="#loaded-pallet-flat-carton-0" fill="none" stroke="#050b1d" stroke-width="5" />
+    </g>
+    <g id="loaded-pallet-flat-carton-1-art" transform="translate(144 -3.5) scale(.84 1) translate(-145 0)">
+      <use href="#loaded-pallet-flat-carton-1" fill="url(#loaded-pallet-matched-carton)" />
+      <g clip-path="url(#loaded-pallet-flat-carton-1-clip)">
+        <path d="M66 131 H177 V137.5 H66Z" fill="#ffe6ac" />
+        <path d="M170.5 131 H177 V187 H170.5Z" fill="#cf8e3b" />
+        <path d="M66 181.9 H177 V187 H66Z" fill="#df993f" />
+        <rect x="110.4" y="131" width="22.200000000000003" height="19.599999999999998" fill="url(#loaded-pallet-matched-tape)" />
+      </g>
+      <use href="#loaded-pallet-flat-carton-1" fill="none" stroke="#050b1d" stroke-width="5" />
+    </g>
+    <g id="loaded-pallet-flat-carton-2-art" transform="translate(144 -3.5) scale(.84 1) translate(-145 0)">
+      <use href="#loaded-pallet-flat-carton-2" fill="url(#loaded-pallet-matched-carton)" />
+      <g clip-path="url(#loaded-pallet-flat-carton-2-clip)">
+        <path d="M85 75 H183 V81.5 H85Z" fill="#ffe6ac" />
+        <path d="M176.5 75 H183 V131 H176.5Z" fill="#cf8e3b" />
+        <path d="M85 125.9 H183 V131 H85Z" fill="#df993f" />
+        <rect x="124.2" y="75" width="19.6" height="19.599999999999998" fill="url(#loaded-pallet-matched-tape)" />
+      </g>
+      <use href="#loaded-pallet-flat-carton-2" fill="none" stroke="#050b1d" stroke-width="5" />
+    </g>
+  </g>
+</svg>

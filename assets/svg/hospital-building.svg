@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="hospital-building-title">
+  <title id="hospital-building-title">病院</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="hospital-building-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="hospital-building-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="hospital-building-red" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ff6970" />
+      <stop offset="0.5" stop-color="#f31c34" />
+      <stop offset="1.0" stop-color="#bb1024" />
+    </linearGradient>
+    <path id="hospital-building-shape1" d="M115 68 H173 Q185 68 185 81 V109 H214 Q227 109 227 122 V229 H61 V122 Q61 109 74 109 H103 V81 Q103 68 115 68Z" />
+    <clipPath id="hospital-building-shape1-clip">
+      <use href="#hospital-building-shape1" />
+    </clipPath>
+    <path id="hospital-building-shape2" d="M140 82 H148 Q151 82 151 85 V96 H162 Q165 96 165 99 V107 Q165 110 162 110 H151 V121 Q151 124 148 124 H140 Q137 124 137 121 V110 H126 Q123 110 123 107 V99 Q123 96 126 96 H137 V85 Q137 82 140 82Z" />
+    <clipPath id="hospital-building-shape2-clip">
+      <use href="#hospital-building-shape2" />
+    </clipPath>
+    <rect id="hospital-building-shape3" x="77" y="135" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape4" x="77" y="162" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape5" x="77" y="189" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape6" x="119" y="135" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape7" x="119" y="162" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape8" x="151" y="135" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape9" x="151" y="162" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape10" x="193" y="135" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape11" x="193" y="162" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape12" x="193" y="189" width="17" height="18" rx="0" />
+    <rect id="hospital-building-shape13" x="111" y="189" width="66" height="40" rx="5" />
+    <clipPath id="hospital-building-shape13-clip">
+      <use href="#hospital-building-shape13" />
+    </clipPath>
+    <rect id="hospital-building-shape14" x="121" y="199" width="46" height="30" rx="0" />
+    <linearGradient id="hospital-building-joint-left" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8296a9" stop-opacity="0" offset="0" />
+      <stop stop-color="#8296a9" stop-opacity="0.65" offset="1" />
+    </linearGradient>
+    <linearGradient id="hospital-building-joint-right" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8296a9" stop-opacity="0.65" offset="0" />
+      <stop stop-color="#8296a9" stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#hospital-building-shape1" fill="url(#hospital-building-paper)" />
+    <path d="M65 216 V122 Q65 113 74 113 H107 V81 Q107 72 115 72 H173" fill="none" stroke="#ffffff" stroke-width="8" clip-path="url(#hospital-building-shape1-clip)" />
+    <path d="M223 121 V229" fill="none" stroke="#aebdce" stroke-width="8" clip-path="url(#hospital-building-shape1-clip)" />
+    <rect x="100" y="109" width="4" height="120" fill="url(#hospital-building-joint-left)" />
+    <rect x="184" y="109" width="4" height="120" fill="url(#hospital-building-joint-right)" />
+    <path id="hospital-building-wing-boundaries" d="M105 109 V229 M183 109 V229" fill="none" stroke="#aabccc" stroke-width="2" stroke-linecap="butt" />
+    <use href="#hospital-building-shape2" fill="url(#hospital-building-red)" />
+    <path d="M139 94 V86 Q139 84 142 84 H147 M125 107 V101 Q125 98 128 98 H137" fill="none" stroke="#ff8e86" stroke-width="2" clip-path="url(#hospital-building-shape2-clip)" />
+    <path d="M149 112 V121 Q149 122 147 122 H140 M163 100 V107 Q163 108 160 108 H151" fill="none" stroke="#ca1429" stroke-width="2" clip-path="url(#hospital-building-shape2-clip)" />
+    <use href="#hospital-building-shape3" fill="url(#hospital-building-blue)" />
+    <path d="M77.0 135.0 H87.53999999999999 L77.0 150.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape4" fill="url(#hospital-building-blue)" />
+    <path d="M77.0 162.0 H87.53999999999999 L77.0 177.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape5" fill="url(#hospital-building-blue)" />
+    <path d="M77.0 189.0 H87.53999999999999 L77.0 204.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape6" fill="url(#hospital-building-blue)" />
+    <path d="M119.0 135.0 H129.54 L119.0 150.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape7" fill="url(#hospital-building-blue)" />
+    <path d="M119.0 162.0 H129.54 L119.0 177.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape8" fill="url(#hospital-building-blue)" />
+    <path d="M151.0 135.0 H161.54 L151.0 150.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape9" fill="url(#hospital-building-blue)" />
+    <path d="M151.0 162.0 H161.54 L151.0 177.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape10" fill="url(#hospital-building-blue)" />
+    <path d="M193.0 135.0 H203.54 L193.0 150.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape11" fill="url(#hospital-building-blue)" />
+    <path d="M193.0 162.0 H203.54 L193.0 177.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape12" fill="url(#hospital-building-blue)" />
+    <path d="M193.0 189.0 H203.54 L193.0 204.12Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape13" fill="url(#hospital-building-paper)" />
+    <path d="M114 226 V195 Q114 192 118 192 H172" fill="none" stroke="#ffffff" stroke-width="4" clip-path="url(#hospital-building-shape13-clip)" />
+    <path d="M174 193 V228" fill="none" stroke="#aebdce" stroke-width="4" clip-path="url(#hospital-building-shape13-clip)" />
+    <use href="#hospital-building-shape13" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#hospital-building-shape14" fill="url(#hospital-building-blue)" />
+    <path d="M121 199 H150 L121 224Z" fill="#a2ecff" fill-opacity=".24" />
+    <use href="#hospital-building-shape14" fill="none" stroke="#050b1d" stroke-width="3" stroke-linejoin="miter" />
+    <path d="M144 199 V227" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M138 211 V219 M150 211 V219" fill="none" stroke="#73dfff" stroke-width="2" />
+    <use href="#hospital-building-shape1" fill="none" stroke="#050b1d" stroke-width="6" stroke-linejoin="miter" />
+  </g>
+</svg>

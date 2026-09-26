@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="field-worker-title">
+  <title id="field-worker-title">現場担当者</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="field-worker-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-skin" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffcf98" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc187" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-uniform" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#91c3ca" stop-opacity="1" />
+      <stop offset="1" stop-color="#76aab5" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="field-worker-uniform-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c2e3e5" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#91c7ce" stop-opacity="1" />
+      <stop offset="1" stop-color="#4c8290" stop-opacity="1" />
+    </linearGradient>
+    <path id="field-worker-body" d="M140 156 C99 154 67 183 66 223 Q65 231 72 231 H208 Q215 231 214 223 C213 183 181 154 140 156 Z" />
+    <clipPath id="field-worker-body-clip">
+      <use href="#field-worker-body" />
+    </clipPath>
+    <path id="field-worker-helmet" d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99 Z" />
+    <clipPath id="field-worker-helmet-clip">
+      <use href="#field-worker-helmet" />
+    </clipPath>
+    <path id="field-worker-brim" d="M95 99 H185 L190 112 Q192 115 188 115 H92 Q88 115 90 112Z" />
+    <path id="field-worker-wrench" d="M176 208 L189 173 C173 156 188 139 201 141 Q207 141 204 149 L199 158 Q205 163 209 159 L218 151 Q222 149 223 157 C225 172 213 182 202 180 L181 215 Q179 218 177 216 Q175 213 176 208 Z" />
+    <clipPath id="field-worker-wrench-clip">
+      <use href="#field-worker-wrench" />
+    </clipPath>
+    <path id="field-worker-hand" d="M179 200 C188 198 194 204 194 212 C194.5 218.5 192 225.5 186.5 228.5 C183.7 229.6 179.3 229.6 176.5 228.5 C173.5 227 172.5 223 172 219 C171.5 215.5 172.5 213.5 173.5 212 C174 210.7 171 210 171 207.5 C171 203.5 174 200 179 200 Z" />
+    <clipPath id="field-worker-hand-clip">
+      <use href="#field-worker-hand" />
+    </clipPath>
+    <path id="field-worker-person-face" d="M144 86 C125 86 110 93 109 111 C110 124 111 139 119 149 C126 156 135 158 144 158 C153 158 162 156 169 149 C177 139 178 124 179 111 C178 93 163 86 144 86 Z" />
+    <path id="field-worker-person-neck" d="M144 144 C139 144 134 145 130 148 C131 153 131 157 128 160 C132 164 139 168 144 168 C149 168 156 164 160 160 C157 157 157 153 158 148 C154 145 149 144 144 144 Z" />
+    <linearGradient id="field-worker-person-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="field-worker-person-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="field-worker-person-hair-paint" gradientUnits="userSpaceOnUse" x1="112" y1="65" x2="164" y2="109">
+      <stop offset="0" stop-color="#293e5b" />
+      <stop offset=".45" stop-color="#243752" />
+      <stop offset="1" stop-color="#1b2d45" />
+    </linearGradient>
+    <path id="field-worker-person-ear-left" d="M113 124 C109 118 107 116.5 103 118.5 C96 121 96 130 101 134.5 C105 138 109 138 113 134.5 Z" />
+    <linearGradient id="field-worker-person-ear-bevel" gradientUnits="userSpaceOnUse" x1="101" y1="119" x2="107" y2="132">
+      <stop offset="0" stop-color="#ffe7b5" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#ffd599" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#fdc28a" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="field-worker-person-ear-clip">
+      <use href="#field-worker-person-ear-left" />
+    </clipPath>
+    <linearGradient id="field-worker-helmet-yellow" gradientUnits="userSpaceOnUse" x1="104" y1="62" x2="177" y2="111">
+      <stop offset="0" stop-color="#ffe348" />
+      <stop offset="0.5" stop-color="#ffd20a" />
+      <stop offset="1" stop-color="#edb000" />
+    </linearGradient>
+    <path id="field-worker-helmet-whole" d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99 L190 112 Q192 115 188 115 H92 Q88 115 90 112Z" />
+    <linearGradient id="field-worker-visor-yellow" gradientUnits="userSpaceOnUse" x1="140" y1="102" x2="140" y2="114">
+      <stop offset="0" stop-color="#ffe45c" />
+      <stop offset="0.4" stop-color="#ffd534" />
+      <stop offset="1" stop-color="#efb600" />
+    </linearGradient>
+    <clipPath id="field-worker-helmet-whole-clip">
+      <use href="#field-worker-helmet-whole" />
+    </clipPath>
+    <mask id="field-worker-person-neck-continuity" maskUnits="userSpaceOnUse" x="85" y="80" width="120" height="110">
+      <rect x="85" y="80" width="120" height="110" fill="white" />
+      <rect x="128" y="146" width="32" height="35" fill="black" />
+    </mask>
+    <mask id="field-worker-tool-exterior" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="white" />
+      <use href="#field-worker-body" fill="black" />
+    </mask>
+    <clipPath id="field-worker-forehead-clip">
+      <use href="#field-worker-person-face" />
+    </clipPath>
+    <linearGradient id="field-worker-brim-cast-shadow" gradientUnits="userSpaceOnUse" x1="144" y1="115" x2="144" y2="124">
+      <stop offset="0" stop-color="#a96937" stop-opacity=".42" />
+      <stop offset=".45" stop-color="#a96937" stop-opacity=".22" />
+      <stop offset="1" stop-color="#a96937" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="field-worker-torso-proportions" transform="translate(140 229) scale(0.94 0.88) translate(-140 -229)">
+      <use href="#field-worker-body" fill="url(#field-worker-uniform)" />
+      <path fill="none" stroke="url(#field-worker-uniform-edge)" stroke-width="12" clip-path="url(#field-worker-body-clip)" d="M123 157 C91 162 67 187 66 223 M214 223 C213 187 189 162 157 157" />
+      <use href="#field-worker-person-neck" fill="url(#field-worker-person-neck-paint)" transform="translate(-4 0)" />
+      <g id="field-worker-uniform-details" clip-path="url(#field-worker-body-clip)">
+        <path d="M124 159 Q140 169 156 159 L140 188 Z" fill="#f8fafc" id="field-worker-shirt-center" />
+        <path d="M140 168 L147 175 L140 188 L133 175 Z" fill="url(#field-worker-blue)" id="field-worker-tie-center" />
+        <path d="M123 158 Q112 159 113 177 Q112 186 119 181 L130 176 L140 188 Z" fill="url(#field-worker-uniform)" stroke="#427681" stroke-width="2.5" id="field-worker-collar-left" />
+        <path d="M123 158 Q112 159 113 177 Q112 186 119 181 L130 176 L140 188 Z" fill="url(#field-worker-uniform)" stroke="#427681" stroke-width="2.5" transform="translate(280 0) scale(-1 1)" id="field-worker-collar-right" />
+        <path d="M140 188 V229" fill="none" stroke="#355f6d" stroke-width="3" />
+        <path d="M93 201 V229 M187 201 V229" fill="none" stroke="#4a7f8d" stroke-width="2" />
+        <rect x="104" y="194" width="22" height="14" rx="2" fill="#96c7cd" stroke="#457987" stroke-width="3" />
+        <rect x="154" y="194" width="22" height="14" rx="2" fill="#96c7cd" stroke="#457987" stroke-width="3" />
+      </g>
+      <path fill="none" stroke="#050b1d" stroke-width="7" d="M123 157 C91 162 67 187 66 223 Q65 231 72 231 H208 Q215 231 214 223 C213 187 189 162 157 157" />
+    </g>
+    <g id="field-worker-employee-head" transform="translate(140 108) scale(1.1 1.1) translate(-140 -108) translate(-4 0)">
+      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="7" mask="url(#field-worker-person-neck-continuity)" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" stroke="#050b1d" stroke-width="14" transform="translate(288 0) scale(-1 1)" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#field-worker-person-face" fill="url(#field-worker-person-skin-paint)" />
+      <rect id="field-worker-forehead-shadow" x="104" y="114" width="80" height="10" fill="url(#field-worker-brim-cast-shadow)" clip-path="url(#field-worker-forehead-clip)" />
+      <path d="M104 108 H114 L112 124 Q109 118 104 118Z" fill="url(#field-worker-person-hair-paint)" transform="" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" transform="" />
+      <use href="#field-worker-person-ear-left" fill="none" stroke="url(#field-worker-person-ear-bevel)" stroke-width="2" clip-path="url(#field-worker-person-ear-clip)" transform="" />
+      <path d="M104 108 H114 L112 124 Q109 118 104 118Z" fill="url(#field-worker-person-hair-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#field-worker-person-ear-left" fill="url(#field-worker-person-skin-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#field-worker-person-ear-left" fill="none" stroke="url(#field-worker-person-ear-bevel)" stroke-width="2" clip-path="url(#field-worker-person-ear-clip)" transform="translate(288 0) scale(-1 1)" />
+    </g>
+    <g id="field-worker-unified-helmet" transform="translate(140 108) scale(1.1 1.1) translate(-140 -108)">
+      <use href="#field-worker-helmet-whole" fill="url(#field-worker-helmet-yellow)" />
+      <path d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99" fill="none" stroke="url(#field-worker-gold-edge)" stroke-width="12" clip-path="url(#field-worker-helmet-clip)" />
+      <path d="M128 102 V65 Q129 54 140 55 Q152 55 152 65 V102" fill="url(#field-worker-helmet-yellow)" stroke="#d49b00" stroke-width="2.5" />
+      <path d="M129 96 V67 Q129 60 135 58" fill="none" stroke="#fff284" stroke-width="3" />
+      <use href="#field-worker-brim" fill="url(#field-worker-visor-yellow)" />
+      <path d="M95 100.75 H185" id="field-worker-helmet-join" fill="none" stroke="#c99508" stroke-width="3.5" stroke-linecap="butt" clip-path="url(#field-worker-helmet-whole-clip)" />
+      <path d="M95 99 Q96 66 127 59 Q140 46 153 59 Q184 66 185 99" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" id="field-worker-helmet-dome-outline" />
+      <path id="field-worker-flared-brim-outline" d="M91.5 99 L86 112 Q84 116 92 116 H188 Q196 116 194 112 L188.5 99 H181.5 L186 112 Q187 114 184 114 H96 Q93 114 94 112 L98.5 99Z" fill="#050b1d" />
+    </g>
+    <g id="field-worker-tools-proportions" transform="translate(140 229) scale(0.94 0.88) translate(-140 -229)">
+      <use href="#field-worker-wrench" fill="none" stroke="#050b1d" stroke-width="11" mask="url(#field-worker-tool-exterior)" />
+      <use href="#field-worker-wrench" fill="url(#field-worker-white)" />
+      <use href="#field-worker-wrench" fill="none" stroke="url(#field-worker-white-edge)" stroke-width="8" clip-path="url(#field-worker-wrench-clip)" />
+      <use href="#field-worker-wrench" fill="none" stroke="#050b1d" stroke-width="3" />
+      <g id="field-worker-hand-grip-angle" transform="rotate(18 181 214)">
+        <use href="#field-worker-hand" fill="url(#field-worker-skin)" />
+        <path d="M175 203.5 Q180 201 185 203" fill="none" stroke="#ffe2b3" stroke-width="1.5" stroke-linecap="round" clip-path="url(#field-worker-hand-clip)" />
+        <path id="field-worker-hand-fold" d="M175 211 Q179 212 183 210.5" fill="none" stroke="#ba855a" stroke-width="1.4" stroke-linecap="round" />
+        <use href="#field-worker-hand" fill="none" stroke="#050b1d" stroke-width="2.8" />
+      </g>
+    </g>
+  </g>
+</svg>

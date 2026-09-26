@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="sensor-node-title">
+  <title id="sensor-node-title">センサー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="sensor-node-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="sensor-node-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="sensor-node-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="sensor-node-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="sensor-node-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="sensor-node-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <rect id="sensor-node-stem" x="124" y="187" width="40" height="31" rx="4" />
+    <clipPath id="sensor-node-stem-clip">
+      <use href="#sensor-node-stem" />
+    </clipPath>
+    <rect id="sensor-node-foot" x="109" y="209" width="70" height="20" rx="10" />
+    <clipPath id="sensor-node-foot-clip">
+      <use href="#sensor-node-foot" />
+    </clipPath>
+    <circle id="sensor-node-signal" cx="144" cy="117" r="8" />
+    <clipPath id="sensor-node-signal-clip">
+      <use href="#sensor-node-signal" />
+    </clipPath>
+    <rect id="sensor-node-body" x="81" y="123" width="126" height="73" rx="22" />
+    <clipPath id="sensor-node-body-clip">
+      <use href="#sensor-node-body" />
+    </clipPath>
+    <circle id="sensor-node-lens-rim" cx="144" cy="159" r="23" />
+    <clipPath id="sensor-node-lens-rim-clip">
+      <use href="#sensor-node-lens-rim" />
+    </clipPath>
+    <circle id="sensor-node-lens" cx="144" cy="159" r="14" />
+    <clipPath id="sensor-node-lens-clip">
+      <use href="#sensor-node-lens" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#sensor-node-stem" fill="url(#sensor-node-steel)" />
+    <use href="#sensor-node-stem" fill="none" stroke="url(#sensor-node-steel-edge)" stroke-width="10" clip-path="url(#sensor-node-stem-clip)" />
+    <use href="#sensor-node-stem" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#sensor-node-foot" fill="url(#sensor-node-blue)" />
+    <use href="#sensor-node-foot" fill="none" stroke="url(#sensor-node-blue-edge)" stroke-width="10" clip-path="url(#sensor-node-foot-clip)" />
+    <use href="#sensor-node-foot" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M99 77 Q144 37 189 77" fill="none" stroke="#050b1d" stroke-width="19" />
+    <path d="M99 77 Q144 37 189 77" fill="none" stroke="url(#sensor-node-blue)" stroke-width="12" />
+    <path d="M99 77 Q144 37 189 77" fill="none" stroke="#74daff" stroke-width="2" />
+    <path d="M117 99 Q144 74 171 99" fill="none" stroke="#050b1d" stroke-width="19" />
+    <path d="M117 99 Q144 74 171 99" fill="none" stroke="url(#sensor-node-blue)" stroke-width="12" />
+    <path d="M117 99 Q144 74 171 99" fill="none" stroke="#74daff" stroke-width="2" />
+    <use href="#sensor-node-signal" fill="url(#sensor-node-blue)" />
+    <use href="#sensor-node-signal" fill="none" stroke="url(#sensor-node-blue-edge)" stroke-width="5" clip-path="url(#sensor-node-signal-clip)" />
+    <use href="#sensor-node-signal" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#sensor-node-body" fill="url(#sensor-node-white)" />
+    <use href="#sensor-node-body" fill="none" stroke="url(#sensor-node-white-edge)" stroke-width="15" clip-path="url(#sensor-node-body-clip)" />
+    <use href="#sensor-node-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#sensor-node-lens-rim" fill="url(#sensor-node-steel)" />
+    <use href="#sensor-node-lens-rim" fill="none" stroke="url(#sensor-node-steel-edge)" stroke-width="9" clip-path="url(#sensor-node-lens-rim-clip)" />
+    <use href="#sensor-node-lens-rim" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#sensor-node-lens" fill="url(#sensor-node-blue)" />
+    <use href="#sensor-node-lens" fill="none" stroke="url(#sensor-node-blue-edge)" stroke-width="7" clip-path="url(#sensor-node-lens-clip)" />
+    <use href="#sensor-node-lens" fill="none" stroke="#050b1d" stroke-width="3" />
+  </g>
+</svg>

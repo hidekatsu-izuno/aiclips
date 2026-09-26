@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="protective-shield-title">
+  <title id="protective-shield-title">保護シールド</title>
+  <desc>Editable geometry, exact symmetry where applicable, shared component boundaries and gradient-only inset bevels. No raster images, text rendering or blur filters.</desc>
+  <defs>
+    <linearGradient id="protective-shield-blue-paint" gradientUnits="userSpaceOnUse" x1="85" y1="74" x2="191" y2="195">
+      <stop offset="0" stop-color="#12baff" />
+      <stop offset="0.45" stop-color="#008ffa" />
+      <stop offset="1" stop-color="#007ef0" />
+    </linearGradient>
+    <linearGradient id="protective-shield-edge-paint" gradientUnits="userSpaceOnUse" x1="82" y1="77" x2="158" y2="187">
+      <stop offset="0" stop-color="#79daff" stop-opacity="0.85" />
+      <stop offset="0.6" stop-color="#15b0ff" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#018fff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="protective-shield-white-paint" gradientUnits="userSpaceOnUse" x1="96" y1="113" x2="141.5" y2="198">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#edf3fa" />
+    </linearGradient>
+    <linearGradient id="protective-shield-inner-blue-paint" gradientUnits="userSpaceOnUse" x1="149" y1="109" x2="187" y2="182">
+      <stop offset="0" stop-color="#009fff" />
+      <stop offset="1" stop-color="#0086f3" />
+    </linearGradient>
+    <path id="protective-shield-outer" d="M141.5 59 C143.5 59 145.5 62 151.5 66 C166.5 76 187.5 84 205.5 88 C211.5 89 215.5 91 215.5 97 C213.62 110.0 226.44 191.15 141.5 226 C56.56 191.15 69.38 110.0 67.5 97 C67.5 91 71.5 89 77.5 88 C95.5 84 116.5 76 131.5 66 C137.5 62 139.5 59 141.5 59 Z" />
+    <clipPath id="protective-shield-outer-clip">
+      <use href="#protective-shield-outer" />
+    </clipPath>
+    <path id="protective-shield-inner" d="M141.5 84 C158.5 96 179.5 103 194.5 106 C196.5 153 178.5 180 141.5 204 C104.5 180 86.5 153 88.5 106 C103.5 103 124.5 96 141.5 84 Z" />
+    <clipPath id="protective-shield-inner-clip">
+      <use href="#protective-shield-inner" />
+    </clipPath>
+    <clipPath id="protective-shield-left-half">
+      <rect x="0" y="0" width="141.5" height="288" shape-rendering="crispEdges" />
+    </clipPath>
+    <linearGradient id="protective-shield-side-shadow" gradientUnits="userSpaceOnUse" x1="141.5" y1="125" x2="215.5" y2="125">
+      <stop offset="0" stop-color="#0080ee" stop-opacity="0" />
+      <stop offset=".55" stop-color="#0077e5" stop-opacity="0" />
+      <stop offset=".8" stop-color="#006dde" stop-opacity=".85" />
+      <stop offset="1" stop-color="#005bc8" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="protective-shield-inner-shadow" gradientUnits="userSpaceOnUse" x1="180" y1="140" x2="195" y2="140">
+      <stop offset="0" stop-color="#0085f3" />
+      <stop offset="1" stop-color="#006ddc" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#protective-shield-outer" fill="url(#protective-shield-blue-paint)" />
+    <use href="#protective-shield-outer" fill="none" stroke="url(#protective-shield-edge-paint)" stroke-width="14" clip-path="url(#protective-shield-outer-clip)" />
+    <use id="protective-shield-side-face" href="#protective-shield-outer" fill="none" stroke="url(#protective-shield-side-shadow)" stroke-width="18" clip-path="url(#protective-shield-outer-clip)" />
+    <use href="#protective-shield-outer" fill="none" stroke="#030b21" stroke-width="7" />
+    <use href="#protective-shield-inner" fill="url(#protective-shield-inner-blue-paint)" />
+    <use href="#protective-shield-inner" fill="url(#protective-shield-white-paint)" clip-path="url(#protective-shield-left-half)" />
+    <path d="M194.5 106 C196.5 153 178.5 180 141.5 204 V198 C176 173 187 148 188 111 Z" fill="url(#protective-shield-inner-shadow)" id="protective-shield-inner-side-face" clip-path="url(#protective-shield-inner-clip)" />
+    <use href="#protective-shield-inner" fill="none" stroke="#05101b" stroke-width="3.5" />
+  </g>
+</svg>

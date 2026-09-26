@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="sea-title">
+  <title id="sea-title">海</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="sea-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="sea-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="sea-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <circle id="sea-shape1" cx="103" cy="103" r="18" />
+    <clipPath id="sea-shape1-clip">
+      <use href="#sea-shape1" />
+    </clipPath>
+    <path id="sea-shape2" d="M162 126 C148 126 143 115 149 105 Q154 97 164 99 C169 82 193 82 198 98 Q216 96 218 112 Q220 126 204 126 Z" />
+    <clipPath id="sea-shape2-clip">
+      <use href="#sea-shape2" />
+    </clipPath>
+    <path id="sea-shape3" d="M64 147 Q78 160 91 154 L111 145 Q119 142 127 147 Q144 159 156 153 L173 145 Q181 142 189 147 Q208 159 224 147 V191 Q224 216 200 216 H88 Q64 216 64 192 Z" />
+    <clipPath id="sea-shape3-clip">
+      <use href="#sea-shape3" />
+    </clipPath>
+    <linearGradient id="sea-cloud-shadow" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#dbe4ed" />
+      <stop offset="1" stop-color="#b6c7d8" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#sea-shape1" fill="url(#sea-gold)" />
+    <use href="#sea-shape1" fill="none" stroke="#fff080" stroke-width="9" clip-path="url(#sea-shape1-clip)" />
+    <use href="#sea-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M132.000 103.000 L141.000 103.000" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M123.506 123.506 L129.870 129.870" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M103.000 132.000 L103.000 141.000" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M82.494 123.506 L76.130 129.870" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M74.000 103.000 L65.000 103.000" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M82.494 82.494 L76.130 76.130" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M103.000 74.000 L103.000 65.000" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M123.506 82.494 L129.870 76.130" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#sea-shape2" fill="url(#sea-paper)" />
+    <g clip-path="url(#sea-shape2-clip)">
+      <path d="M150 113 C152 120 160 122 166 119 C176 124 188 121 194 115 C200 118 207 116 211 112 Q214 109 211 105 C221 108 222 118 216 125 L207 130 H155 L145 123Z" fill="url(#sea-cloud-shadow)" />
+      <path d="M191 91 Q199 101 191 111 Q198 108 198 101Z" fill="#cedbe7" />
+      <path d="M153 110 Q154 103 165 104 Q170 89 182 91" fill="none" stroke="#ffffff" stroke-width="3" />
+    </g>
+    <use href="#sea-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#sea-shape3" fill="url(#sea-blue)" />
+    <path d="M60 162 Q78 175 91 169 L111 160 Q119 157 127 162 Q144 174 156 168 L173 160 Q181 157 189 162 Q208 174 228 160" fill="none" stroke="#40c8ff" stroke-width="8" clip-path="url(#sea-shape3-clip)" />
+    <path d="M60 187 Q78 200 91 194 L111 185 Q119 182 127 187 Q144 199 156 193 L173 185 Q181 182 189 187 Q208 199 228 185" fill="none" stroke="#40c8ff" stroke-width="8" clip-path="url(#sea-shape3-clip)" />
+    <path d="M64 147 Q78 160 91 154 L111 145 Q119 142 127 147 Q144 159 156 153 L173 145 Q181 142 189 147 Q208 159 224 147 V191 Q224 216 200 216 H88 Q64 216 64 192 Z" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="folder-open-title">
+  <title id="folder-open-title">フォルダー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="folder-open-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="folder-open-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="folder-open-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="folder-open-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <path id="folder-open-back" d="M77 91 H206 Q224 91 224 107 V199 H69 V105 Q69 91 77 91 Z" />
+    <clipPath id="folder-open-back-clip">
+      <use href="#folder-open-back" />
+    </clipPath>
+    <rect id="folder-open-paper-back" x="92" y="74" width="113" height="82" rx="7" />
+    <clipPath id="folder-open-paper-back-clip">
+      <use href="#folder-open-paper-back" />
+    </clipPath>
+    <path id="folder-open-paper-front" d="M88 90 H209 Q219 90 218 102 L212 163 H82 V99 Q82 90 88 90 Z" />
+    <clipPath id="folder-open-paper-front-clip">
+      <use href="#folder-open-paper-front" />
+    </clipPath>
+    <path id="folder-open-front" d="M71 106 H121 Q126 106 129 111 L140 130 H222 Q233 130 231 143 L225 207 Q224 222 208 222 H77 Q61 222 60 207 L55 122 Q54 106 71 106 Z" />
+    <clipPath id="folder-open-front-clip">
+      <use href="#folder-open-front" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#folder-open-back" fill="url(#folder-open-gold)" />
+    <use href="#folder-open-back" fill="none" stroke="url(#folder-open-gold-edge)" stroke-width="13" clip-path="url(#folder-open-back-clip)" />
+    <use href="#folder-open-back" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g id="folder-open-back-sheet" transform="rotate(-6.469819985 92 74)">
+      <use href="#folder-open-paper-back" fill="url(#folder-open-white)" />
+      <use href="#folder-open-paper-back" fill="none" stroke="url(#folder-open-white-edge)" stroke-width="9" clip-path="url(#folder-open-paper-back-clip)" />
+      <use href="#folder-open-paper-back" fill="none" stroke="#050b1d" stroke-width="5" />
+      <path d="M105 87 H188" fill="none" stroke="#a4b3c2" stroke-width="6" />
+    </g>
+    <use href="#folder-open-paper-front" fill="url(#folder-open-white)" />
+    <use href="#folder-open-paper-front" fill="none" stroke="url(#folder-open-white-edge)" stroke-width="9" clip-path="url(#folder-open-paper-front-clip)" />
+    <use href="#folder-open-paper-front" fill="none" stroke="#050b1d" stroke-width="5" />
+    <path d="M100 108 H195" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <path d="M100 124 H173" fill="none" stroke="#a4b3c2" stroke-width="7" />
+    <use href="#folder-open-front" fill="url(#folder-open-gold)" />
+    <path d="M154 130 H231 L224 222 H63 Z" fill="#f7af11" fill-opacity=".35" clip-path="url(#folder-open-front-clip)" />
+    <use href="#folder-open-front" fill="none" stroke="url(#folder-open-gold-edge)" stroke-width="14" clip-path="url(#folder-open-front-clip)" />
+    <use href="#folder-open-front" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

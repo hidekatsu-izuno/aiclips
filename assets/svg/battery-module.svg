@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="battery-module-title">
+  <title id="battery-module-title">バッテリー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="battery-module-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-lid-paint" gradientUnits="userSpaceOnUse" x1="82" y1="91" x2="196" y2="122">
+      <stop offset="0" stop-color="#6d88a6" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4c6889" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a6b" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-lid-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#b6cbe0" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#799ab7" stop-opacity="1" />
+      <stop offset="1" stop-color="#304968" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-terminal-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#f9ffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#adc6de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-terminal-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#d7e6f4" stop-opacity="1" />
+      <stop offset="1" stop-color="#7d9dba" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="battery-module-indicator" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".25" y2="1">
+      <stop offset="0" stop-color="#00c453" />
+      <stop offset="1" stop-color="#00bd50" />
+    </linearGradient>
+    <linearGradient id="battery-module-indicator-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".25" y2="1">
+      <stop offset="0" stop-color="#064b2e" />
+      <stop offset=".35" stop-color="#087540" />
+      <stop offset=".65" stop-color="#20ce72" />
+      <stop offset="1" stop-color="#81e7a7" />
+    </linearGradient>
+    <rect id="battery-module-body" x="62" y="88" width="159" height="125" rx="18" />
+    <clipPath id="battery-module-body-clip">
+      <use href="#battery-module-body" />
+    </clipPath>
+    <path id="battery-module-lid" d="M80 88 H203 Q221 88 221 106 V123 H62 V106 Q62 88 80 88 Z" />
+    <clipPath id="battery-module-lid-clip">
+      <use href="#battery-module-lid" />
+    </clipPath>
+    <rect id="battery-module-positive" x="87" y="70" width="29" height="29" rx="5" />
+    <clipPath id="battery-module-positive-clip">
+      <use href="#battery-module-positive" />
+    </clipPath>
+    <rect id="battery-module-negative" x="167" y="70" width="29" height="29" rx="5" />
+    <clipPath id="battery-module-negative-clip">
+      <use href="#battery-module-negative" />
+    </clipPath>
+    <rect id="battery-module-indicator-0" x="165" y="135" width="30" height="14" rx="3" />
+    <clipPath id="battery-module-indicator-0-clip">
+      <use href="#battery-module-indicator-0" />
+    </clipPath>
+    <rect id="battery-module-indicator-1" x="165" y="157" width="30" height="14" rx="3" />
+    <clipPath id="battery-module-indicator-1-clip">
+      <use href="#battery-module-indicator-1" />
+    </clipPath>
+    <rect id="battery-module-indicator-2" x="165" y="179" width="30" height="14" rx="3" />
+    <clipPath id="battery-module-indicator-2-clip">
+      <use href="#battery-module-indicator-2" />
+    </clipPath>
+    <linearGradient id="battery-module-bolt-paint" gradientUnits="userSpaceOnUse" x1="109" y1="143" x2="128" y2="191">
+      <stop offset="0" stop-color="#284b6b" stop-opacity="1" />
+      <stop offset="1" stop-color="#0b2845" stop-opacity="1" />
+    </linearGradient>
+    <path id="battery-module-bolt" d="M129 137 L103 173 H118 L114 195 L141 163 H125 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#battery-module-body" fill="url(#battery-module-gold)" />
+    <use href="#battery-module-body" fill="none" stroke="url(#battery-module-gold-edge)" stroke-width="15" clip-path="url(#battery-module-body-clip)" />
+    <use href="#battery-module-lid" fill="url(#battery-module-lid-paint)" />
+    <use href="#battery-module-lid" fill="none" stroke="url(#battery-module-lid-edge)" stroke-width="11" clip-path="url(#battery-module-lid-clip)" />
+    <path d="M62 123 H221" fill="none" stroke="#050b1d" stroke-width="2" clip-path="url(#battery-module-body-clip)" />
+    <use href="#battery-module-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#battery-module-positive" fill="url(#battery-module-gold)" />
+    <use href="#battery-module-positive" fill="none" stroke="url(#battery-module-gold-edge)" stroke-width="12" clip-path="url(#battery-module-positive-clip)" />
+    <use href="#battery-module-positive" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#battery-module-negative" fill="url(#battery-module-terminal-white)" />
+    <use href="#battery-module-negative" fill="none" stroke="url(#battery-module-terminal-edge)" stroke-width="12" clip-path="url(#battery-module-negative-clip)" />
+    <use href="#battery-module-negative" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#battery-module-indicator-0" fill="url(#battery-module-indicator)" />
+    <use href="#battery-module-indicator-0" fill="none" stroke="url(#battery-module-indicator-edge)" stroke-width="5" clip-path="url(#battery-module-indicator-0-clip)" />
+    <use href="#battery-module-indicator-0" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#battery-module-indicator-1" fill="url(#battery-module-indicator)" />
+    <use href="#battery-module-indicator-1" fill="none" stroke="url(#battery-module-indicator-edge)" stroke-width="5" clip-path="url(#battery-module-indicator-1-clip)" />
+    <use href="#battery-module-indicator-1" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#battery-module-indicator-2" fill="url(#battery-module-indicator)" />
+    <use href="#battery-module-indicator-2" fill="none" stroke="url(#battery-module-indicator-edge)" stroke-width="5" clip-path="url(#battery-module-indicator-2-clip)" />
+    <use href="#battery-module-indicator-2" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#battery-module-bolt" fill="url(#battery-module-bolt-paint)" />
+    <use href="#battery-module-bolt" fill="none" stroke="#122037" stroke-width="4" />
+  </g>
+</svg>

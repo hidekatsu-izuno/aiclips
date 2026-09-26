@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="maintenance-toolkit-title">
+  <title id="maintenance-toolkit-title">工具箱</title>
+  <desc>Editable toolbox with directional upper-left highlights, lower-right edge shadows, a recessed tool compartment, and shaded metal and plastic tools.</desc>
+  <defs>
+    <linearGradient id="maintenance-toolkit-silver" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#e3eaf2" />
+      <stop offset="0.5" stop-color="#c5d0de" />
+      <stop offset="1.0" stop-color="#95a8bf" />
+    </linearGradient>
+    <linearGradient id="maintenance-toolkit-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="maintenance-toolkit-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#16394c" />
+      <stop offset="0.5" stop-color="#17475d" />
+      <stop offset="1.0" stop-color="#12334a" />
+    </linearGradient>
+    <linearGradient id="maintenance-toolkit-red" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ff414a" />
+      <stop offset="0.5" stop-color="#f51c32" />
+      <stop offset="1.0" stop-color="#e5102a" />
+    </linearGradient>
+    <rect id="maintenance-toolkit-shape1" x="108.0" y="66" width="72" height="42" rx="14" />
+    <clipPath id="maintenance-toolkit-shape1-clip">
+      <use href="#maintenance-toolkit-shape1" />
+    </clipPath>
+    <rect id="maintenance-toolkit-shape2" x="127.0" y="83" width="34" height="24" rx="2" />
+    <rect id="maintenance-toolkit-shape3" x="59.0" y="92" width="170" height="129" rx="20" />
+    <clipPath id="maintenance-toolkit-shape3-clip">
+      <use href="#maintenance-toolkit-shape3" />
+    </clipPath>
+    <rect id="maintenance-toolkit-shape4" x="73.5" y="110" width="141" height="85" rx="8" />
+    <clipPath id="maintenance-toolkit-shape4-clip">
+      <use href="#maintenance-toolkit-shape4" />
+    </clipPath>
+    <path id="maintenance-toolkit-shape5" d="M70 144 Q79 126 99 122 L116 119 L123 143 L102 149 Q88 144 82 158 Z" />
+    <clipPath id="maintenance-toolkit-shape5-clip">
+      <use href="#maintenance-toolkit-shape5" />
+    </clipPath>
+    <path id="maintenance-toolkit-shape6" d="M117 120 L128 117 L135 139 L123 143 Z" />
+    <clipPath id="maintenance-toolkit-shape6-clip">
+      <use href="#maintenance-toolkit-shape6" />
+    </clipPath>
+    <rect id="maintenance-toolkit-shape7" x="149" y="113" width="24" height="44" rx="11" />
+    <clipPath id="maintenance-toolkit-shape7-clip">
+      <use href="#maintenance-toolkit-shape7" />
+    </clipPath>
+    <rect id="maintenance-toolkit-shape8" x="148.5" y="153" width="25" height="10" rx="5" />
+    <clipPath id="maintenance-toolkit-shape8-clip">
+      <use href="#maintenance-toolkit-shape8" />
+    </clipPath>
+    <path id="maintenance-toolkit-shape9" d="M192 127 C184 130 181 137 183 145 Q185 152 192 155 L192 190 Q198 194 204 190 L204 155 Q211 152 213 145 C215 137 212 130 204 127 L204 141 Q204 144 201 144 H195 Q192 144 192 141 Z" />
+    <clipPath id="maintenance-toolkit-shape9-clip">
+      <use href="#maintenance-toolkit-shape9" />
+    </clipPath>
+    <path id="maintenance-toolkit-shape10" d="M144 178.5 Q101.5 178.5 59 174 L59 210 Q59 224 74 224 L144 224 L214 224 Q229 224 229 210 L229 174 Q186.5 178.5 144 178.5 Z" />
+    <clipPath id="maintenance-toolkit-shape10-clip">
+      <use href="#maintenance-toolkit-shape10" />
+    </clipPath>
+    <rect id="maintenance-toolkit-shape11" x="131.5" y="182" width="25" height="18" rx="3" />
+    <clipPath id="maintenance-toolkit-shape11-clip">
+      <use href="#maintenance-toolkit-shape11" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#maintenance-toolkit-shape1" fill="url(#maintenance-toolkit-red)" />
+    <g clip-path="url(#maintenance-toolkit-shape1-clip)" fill="none">
+      <path d="M113 99 V81 Q113 71 124 71 H164" stroke="#ff8583" stroke-width="7" />
+      <path d="M171 76 Q175 78 175 86 V103" stroke="#bb1428" stroke-width="7" />
+    </g>
+    <use href="#maintenance-toolkit-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#maintenance-toolkit-shape2" fill="#050b1d" />
+    <use href="#maintenance-toolkit-shape3" fill="url(#maintenance-toolkit-red)" />
+    <g clip-path="url(#maintenance-toolkit-shape3-clip)" fill="none">
+      <path d="M65 170 V113 Q65 98 80 98 H208" stroke="#ff8077" stroke-width="8" />
+      <path d="M219 106 Q223 109 223 121 V210 Q223 215 215 216" stroke="#b60b22" stroke-width="9" />
+    </g>
+    <use href="#maintenance-toolkit-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#maintenance-toolkit-shape4" fill="url(#maintenance-toolkit-suit)" />
+    <g clip-path="url(#maintenance-toolkit-shape4-clip)" fill="none">
+      <path d="M78 189 V119 Q78 114 84 114 H205" stroke="#14253b" stroke-width="8" />
+      <path d="M210 119 V188 Q210 191 205 191 H83" stroke="#476782" stroke-width="6" />
+    </g>
+    <use href="#maintenance-toolkit-shape4" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M104 139 L120 187" fill="none" stroke="#050b1d" stroke-width="20" />
+    <path d="M104 139 L120 187" fill="none" stroke="#ffcf29" stroke-width="12" />
+    <path d="M102 143 L116 185" fill="none" stroke="#fff184" stroke-width="3" />
+    <path d="M108 141 L123 185" fill="none" stroke="#d9990c" stroke-width="3" />
+    <use href="#maintenance-toolkit-shape5" fill="url(#maintenance-toolkit-steel)" />
+    <g clip-path="url(#maintenance-toolkit-shape5-clip)" fill="none">
+      <path d="M74 143 Q81 130 100 127 L113 124" stroke="#c3d9e9" stroke-width="5" />
+      <path d="M83 153 Q91 142 102 145 L120 140" stroke="#405b79" stroke-width="6" />
+    </g>
+    <use href="#maintenance-toolkit-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#maintenance-toolkit-shape6" fill="url(#maintenance-toolkit-steel)" />
+    <g clip-path="url(#maintenance-toolkit-shape6-clip)" fill="none">
+      <path d="M120 122 L126 121" stroke="#c6dae8" stroke-width="4" />
+      <path d="M130 122 L133 137 L125 140" stroke="#3b5675" stroke-width="4" />
+    </g>
+    <use href="#maintenance-toolkit-shape6" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <g id="maintenance-toolkit-screwdriver" transform="rotate(5 161 150)">
+      <path d="M161 145 V193" fill="none" stroke="#050b1d" stroke-width="10" />
+      <path d="M161 145 V193" fill="none" stroke="#c3d5e5" stroke-width="5" />
+      <use href="#maintenance-toolkit-shape7" fill="url(#maintenance-toolkit-red)" />
+      <g clip-path="url(#maintenance-toolkit-shape7-clip)" fill="none">
+        <path d="M153 147 V125 Q153 117 161 117" stroke="#ff7f78" stroke-width="5" />
+        <path d="M168 120 Q170 123 169 132 V145 Q169 152 162 153" stroke="#bb0d26" stroke-width="5" />
+      </g>
+      <use href="#maintenance-toolkit-shape7" fill="none" stroke="#050b1d" stroke-width="3" />
+      <use href="#maintenance-toolkit-shape8" fill="url(#maintenance-toolkit-red)" />
+      <g clip-path="url(#maintenance-toolkit-shape8-clip)" fill="none">
+        <path d="M153 156 H167" stroke="#ff7b70" stroke-width="3" />
+        <path d="M153 160 H168" stroke="#aa0c22" stroke-width="3" />
+      </g>
+      <use href="#maintenance-toolkit-shape8" fill="none" stroke="#050b1d" stroke-width="2" />
+    </g>
+    <g id="maintenance-toolkit-wrench" transform="rotate(8 198 146)">
+      <use href="#maintenance-toolkit-shape9" fill="url(#maintenance-toolkit-silver)" />
+      <g clip-path="url(#maintenance-toolkit-shape9-clip)" fill="none">
+        <path d="M188 133 Q182 142 190 150 Q195 152 195 158 V186" stroke="#f1f7fc" stroke-width="4" />
+        <path d="M208 132 Q215 145 203 152 L201 188" stroke="#7890aa" stroke-width="4" />
+        <path d="M194 142 Q194 147 202 147" stroke="#6e86a0" stroke-width="2" />
+      </g>
+      <use href="#maintenance-toolkit-shape9" fill="none" stroke="#050b1d" stroke-width="4" />
+    </g>
+    <use href="#maintenance-toolkit-shape10" fill="url(#maintenance-toolkit-red)" />
+    <g clip-path="url(#maintenance-toolkit-shape10-clip)" fill="none">
+      <path d="M64 179 Q102 183 144 183 Q185 183 224 179" stroke="#ff726c" stroke-width="7" />
+      <path d="M64 185 V209 Q64 217 76 218" stroke="#ff5b57" stroke-width="6" />
+      <path d="M223 184 V209 Q223 219 212 219 H77" stroke="#c40c25" stroke-width="8" />
+    </g>
+    <path d="M59 174 Q144 183 229 174" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path fill="none" stroke="#050b1d" stroke-width="7" d="M59 174 V210 Q59 224 74 224 H214 Q229 224 229 210 V174" />
+    <use href="#maintenance-toolkit-shape11" fill="url(#maintenance-toolkit-silver)" />
+    <g clip-path="url(#maintenance-toolkit-shape11-clip)" fill="none">
+      <path d="M135 196 V186 H152" stroke="#f4f9fe" stroke-width="3" />
+      <path d="M153 187 V196 H137" stroke="#7c94ae" stroke-width="3" />
+    </g>
+    <use href="#maintenance-toolkit-shape11" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

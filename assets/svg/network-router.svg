@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="network-router-title">
+  <title id="network-router-title">ルーター</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="network-router-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-router-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-router-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-router-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="network-router-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <rect id="network-router-antenna-0" x="77" y="66" width="22" height="88" rx="11" />
+    <clipPath id="network-router-antenna-0-clip">
+      <use href="#network-router-antenna-0" />
+    </clipPath>
+    <rect id="network-router-antenna-1" x="191" y="66" width="22" height="88" rx="11" />
+    <clipPath id="network-router-antenna-1-clip">
+      <use href="#network-router-antenna-1" />
+    </clipPath>
+    <path id="network-router-body" d="M62 141 Q67 135 75 135 H215 Q223 135 228 141 L241 164 Q244 169 244 176 V191 Q244 218 219 218 H71 Q46 218 46 191 V176 Q46 169 49 164 Z" />
+    <clipPath id="network-router-body-clip">
+      <use href="#network-router-body" />
+    </clipPath>
+    <path id="network-router-top" d="M49 164 L62 141 Q67 135 75 135 H215 Q223 135 228 141 L241 164 Z" />
+    <clipPath id="network-router-top-clip">
+      <use href="#network-router-top" />
+    </clipPath>
+    <rect id="network-router-port" x="194" y="176" width="22" height="23" rx="2" />
+    <clipPath id="network-router-port-clip">
+      <use href="#network-router-port" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" transform="translate(144 0) scale(0.97 1) translate(-145 0)">
+    <use href="#network-router-antenna-0" fill="url(#network-router-steel)" />
+    <use href="#network-router-antenna-0" fill="none" stroke="url(#network-router-steel-edge)" stroke-width="13" clip-path="url(#network-router-antenna-0-clip)" />
+    <use href="#network-router-antenna-0" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#network-router-antenna-1" fill="url(#network-router-steel)" />
+    <use href="#network-router-antenna-1" fill="none" stroke="url(#network-router-steel-edge)" stroke-width="13" clip-path="url(#network-router-antenna-1-clip)" />
+    <use href="#network-router-antenna-1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#network-router-body" fill="url(#network-router-steel)" />
+    <use href="#network-router-top" fill="#6e879f" />
+    <path d="M49 164 L62 141 Q67 135 75 135 H215 Q223 135 228 141 L241 164" fill="none" stroke="#9aafc2" stroke-width="10" clip-path="url(#network-router-top-clip)" />
+    <path d="M51 164 H239" fill="none" stroke="#8ea8bc" stroke-width="2" />
+    <use href="#network-router-body" fill="none" stroke="url(#network-router-steel-edge)" stroke-width="13" clip-path="url(#network-router-body-clip)" />
+    <use href="#network-router-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="82" cy="187" r="8" fill="url(#network-router-green)" stroke="#050b1d" stroke-width="2" />
+    <path d="M78.0 187 A4.4 4.4 0 0 1 83.2 182.6" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+    <circle cx="112" cy="187" r="8" fill="url(#network-router-green)" stroke="#050b1d" stroke-width="2" />
+    <path d="M108.0 187 A4.4 4.4 0 0 1 113.2 182.6" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+    <circle cx="142" cy="187" r="8" fill="url(#network-router-green)" stroke="#050b1d" stroke-width="2" />
+    <path d="M138.0 187 A4.4 4.4 0 0 1 143.2 182.6" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+    <use href="#network-router-port" fill="url(#network-router-gold)" />
+    <use href="#network-router-port" fill="none" stroke="url(#network-router-gold-edge)" stroke-width="5" clip-path="url(#network-router-port-clip)" />
+    <use href="#network-router-port" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

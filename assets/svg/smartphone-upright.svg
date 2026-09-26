@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="smartphone-upright-title">
+  <title id="smartphone-upright-title">スマートフォン</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="smartphone-upright-metal-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8ba5bc" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4d6882" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a64" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="smartphone-upright-metal-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d1e2ef" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7b99b3" stop-opacity="1" />
+      <stop offset="1" stop-color="#213c56" stop-opacity="1" />
+    </linearGradient>
+    <rect id="smartphone-upright-body" x="85" y="55" width="119" height="178" rx="24" />
+    <clipPath id="smartphone-upright-body-clip">
+      <use href="#smartphone-upright-body" />
+    </clipPath>
+    <rect id="smartphone-upright-screen" x="102" y="70" width="85" height="149" rx="12" />
+    <clipPath id="smartphone-upright-screen-clip">
+      <use href="#smartphone-upright-screen" />
+    </clipPath>
+    <linearGradient id="smartphone-upright-shared-glass-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08c4ef" stop-opacity="1" />
+      <stop offset="1" stop-color="#00ade6" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="smartphone-upright-shared-glass-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity=".22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="smartphone-upright-shared-glass-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#smartphone-upright-body" fill="url(#smartphone-upright-metal-paint)" />
+    <use href="#smartphone-upright-body" fill="none" stroke="url(#smartphone-upright-metal-edge)" stroke-width="18" clip-path="url(#smartphone-upright-body-clip)" />
+    <use href="#smartphone-upright-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#smartphone-upright-screen" fill="url(#smartphone-upright-shared-glass-paint)" />
+    <path d="M102 70 H169 L102 183Z" fill="url(#smartphone-upright-shared-glass-light)" clip-path="url(#smartphone-upright-screen-clip)" />
+    <path d="M179 70 H187 V219 H108Z" fill="url(#smartphone-upright-shared-glass-shadow)" clip-path="url(#smartphone-upright-screen-clip)" />
+    <use href="#smartphone-upright-screen" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M133 208 H156" fill="none" stroke="#f0fbff" stroke-width="6" />
+    <g id="smartphone-upright-island">
+      <rect x="125.5" y="77" width="38" height="11" rx="5.5" fill="#050b1d" />
+      <circle cx="156.5" cy="82.5" r="2.3" fill="#102133" />
+      <circle cx="156" cy="82" r=".65" fill="#294a67" />
+    </g>
+  </g>
+</svg>

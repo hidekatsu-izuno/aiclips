@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="vaccine-title">
+  <title id="vaccine-title">ワクチン</title>
+  <desc>Blue capped glass vaccine vial with curved white label, blue band and directional glass reflections.</desc>
+  <defs>
+    <linearGradient id="vaccine-glass" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#ddf4ff" />
+      <stop offset=".5" stop-color="#b9e7fc" />
+      <stop offset="1" stop-color="#8bcaf0" />
+    </linearGradient>
+    <linearGradient id="vaccine-blue" x1="0" y1="0" x2="1" y2=".3">
+      <stop stop-color="#0cc3ff" />
+      <stop offset=".55" stop-color="#00aaff" />
+      <stop offset="1" stop-color="#0086ed" />
+    </linearGradient>
+    <linearGradient id="vaccine-label" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f8fcff" />
+      <stop offset=".6" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#eef8ff" />
+    </linearGradient>
+    <linearGradient id="vaccine-cap-top" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#41dcff" />
+      <stop offset="1" stop-color="#10bafa" />
+    </linearGradient>
+    <path id="vaccine-bottle" d="M108 95 H184 V108 Q184 112 191 116 Q209 126 209 141 V202 Q209 219 193 224 Q177 230 144 230 Q111 230 95 224 Q79 219 79 202 V141 Q79 126 97 116 Q104 112 104 108 V95Z" />
+    <clipPath id="vaccine-bottle-clip">
+      <use href="#vaccine-bottle" />
+    </clipPath>
+    <path id="vaccine-cap" d="M92 67 C92 48 196 48 196 67 V87 Q196 98 144 98 Q92 98 92 87Z" />
+    <clipPath id="vaccine-cap-clip">
+      <use href="#vaccine-cap" />
+    </clipPath>
+    <path id="vaccine-label-shape" d="M95 140 Q144 149 193 140 V201 Q193 208 144 209 Q95 208 95 201Z" />
+    <clipPath id="vaccine-label-clip">
+      <use href="#vaccine-label-shape" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#vaccine-bottle" fill="url(#vaccine-glass)" />
+    <g clip-path="url(#vaccine-bottle-clip)">
+      <path d="M104 98 H184 V107 Q144 117 104 107Z" fill="#7babcb" opacity=".6" />
+      <path d="M89 201 V142 Q89 130 104 122 Q113 117 113 109 V98" fill="none" stroke="#f1fbff" stroke-width="8" />
+      <path d="M190 119 Q202 130 202 143 V201 Q202 214 189 218 Q174 224 144 223" fill="none" stroke="#64addb" stroke-width="8" />
+      <path d="M96 211 Q105 221 136 221" fill="none" stroke="#d5f2ff" stroke-width="5" />
+      <path d="M114 113 Q144 119 175 113" fill="none" stroke="#7eafd0" stroke-width="4" />
+      <use href="#vaccine-label-shape" fill="url(#vaccine-label)" />
+      <g clip-path="url(#vaccine-label-clip)">
+        <path d="M95 139 Q144 148 193 139 V162 Q144 170 95 161Z" fill="url(#vaccine-blue)" />
+        <path d="M99 140 V200" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="5" />
+        <path d="M113 184 Q144 187 171 184" fill="none" stroke="#7893ad" stroke-width="12" />
+        <path d="M115 181 Q144 183 170 181" fill="none" stroke="#91a8bd" stroke-width="2" opacity=".55" />
+      </g>
+    </g>
+    <use href="#vaccine-bottle" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#vaccine-cap" fill="url(#vaccine-blue)" />
+    <g clip-path="url(#vaccine-cap-clip)">
+      <path d="M101 68 V86 Q101 90 110 91" fill="none" stroke="#55d8ff" stroke-width="6" />
+      <path d="M190 69 V85 Q190 92 146 92" fill="none" stroke="#0071d7" stroke-width="5" />
+      <ellipse cx="144" cy="66" rx="49" ry="8" fill="url(#vaccine-cap-top)" />
+      <path d="M102 63 Q142 53 184 62" fill="none" stroke="#4cdcff" stroke-width="2" />
+    </g>
+    <use href="#vaccine-cap" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

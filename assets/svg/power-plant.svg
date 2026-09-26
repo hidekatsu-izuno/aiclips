@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="power-plant-title">
+  <title id="power-plant-title">発電所</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="power-plant-building" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#f4fbff" />
+      <stop offset=".5" stop-color="#d7e7f3" />
+      <stop offset="1" stop-color="#bed2e6" />
+    </linearGradient>
+    <linearGradient id="power-plant-left-light" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#e1effa" />
+      <stop offset="1" stop-color="#edf9ff" />
+    </linearGradient>
+    <radialGradient id="power-plant-window" cx=".4" cy=".4" r=".8">
+      <stop offset="0" stop-color="#0089f5" />
+      <stop offset=".6" stop-color="#0070dd" />
+      <stop offset="1" stop-color="#0052b6" />
+    </radialGradient>
+    <linearGradient id="power-plant-stack-red" x1="0" y1="0" x2="1" y2=".1">
+      <stop offset="0" stop-color="#ff8162" />
+      <stop offset=".35" stop-color="#ff3b22" />
+      <stop offset="1" stop-color="#de210c" />
+    </linearGradient>
+    <linearGradient id="power-plant-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="power-plant-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffeb35" />
+      <stop offset="0.5" stop-color="#ffda06" />
+      <stop offset="1.0" stop-color="#ffc000" />
+    </linearGradient>
+    <linearGradient id="power-plant-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="power-plant-silver" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#e3eaf2" />
+      <stop offset="0.5" stop-color="#c5d0de" />
+      <stop offset="1.0" stop-color="#95a8bf" />
+    </linearGradient>
+    <linearGradient id="power-plant-tower" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#adc4d6" />
+      <stop offset="0.5" stop-color="#a3bcd0" />
+      <stop offset="1.0" stop-color="#97b1c8" />
+    </linearGradient>
+    <path id="power-plant-shape1" d="M214 162 V85 Q214 79 220 79 H230 Q237 79 237 85 V162Z" />
+    <clipPath id="power-plant-shape1-clip">
+      <use href="#power-plant-shape1" />
+    </clipPath>
+    <rect id="power-plant-shape2" x="163" y="134" width="52" height="43" rx="4" />
+    <clipPath id="power-plant-shape2-clip">
+      <use href="#power-plant-shape2" />
+    </clipPath>
+    <path id="power-plant-shape3" d="M108 79 H171 C168 119 184 167 195 210 H83 C95 164 111 119 108 79 Z" />
+    <clipPath id="power-plant-shape3-clip">
+      <use href="#power-plant-shape3" />
+    </clipPath>
+    <rect id="power-plant-shape4" x="101" y="70" width="79" height="21" rx="10" />
+    <clipPath id="power-plant-shape4-clip">
+      <use href="#power-plant-shape4" />
+    </clipPath>
+    <path id="power-plant-shape5" d="M151 121 L122 157 Q120 162 127 162 H141 L133 188 Q132 192 136 188 L160 154 Q163 148 157 148 H147 L155 124 Q156 118 151 121 Z" />
+    <clipPath id="power-plant-shape5-clip">
+      <use href="#power-plant-shape5" />
+    </clipPath>
+    <rect id="power-plant-shape6" x="173" y="159" width="84" height="53" rx="7" />
+    <clipPath id="power-plant-shape6-clip">
+      <use href="#power-plant-shape6" />
+    </clipPath>
+    <rect id="power-plant-shape7" x="187" y="180" width="12" height="14" rx="2" />
+    <rect id="power-plant-shape8" x="207" y="180" width="12" height="14" rx="2" />
+    <rect id="power-plant-shape9" x="227" y="180" width="12" height="14" rx="2" />
+  </defs>
+  <g transform="translate(-27 0)" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#power-plant-shape1" fill="url(#power-plant-paper)" />
+    <g clip-path="url(#power-plant-shape1-clip)">
+      <path d="M214 82 H237 V96 H214Z M214 106 H237 V120 H214Z" fill="url(#power-plant-stack-red)" />
+      <path d="M217 84 V160" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="2" />
+      <path d="M231 80 H237 V162 H231Z" fill="#536e85" opacity=".16" />
+    </g>
+    <use href="#power-plant-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#power-plant-shape2" fill="url(#power-plant-blue)" />
+    <path d="M167 173 V141 Q167 138 170 138 H209" fill="none" stroke="#299cff" stroke-width="3" clip-path="url(#power-plant-shape2-clip)" />
+    <path d="M209 137 H215 V177 H208Z" fill="#0057b8" opacity=".5" clip-path="url(#power-plant-shape2-clip)" />
+    <use href="#power-plant-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#power-plant-shape3" fill="url(#power-plant-tower)" />
+    <g clip-path="url(#power-plant-shape3-clip)">
+      <path d="M108 79 H119 C121 119 106 164 94 210 H83 C95 164 111 119 108 79Z" fill="url(#power-plant-left-light)" />
+      <path d="M158 90 H174 C174 127 184 173 195 210 H180 C168 168 155 116 158 90Z" fill="#7597b3" opacity=".28" />
+      <path d="M106 88 H175 V99 H107Z" fill="#54748f" opacity=".7" />
+    </g>
+    <use href="#power-plant-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#power-plant-shape4" fill="url(#power-plant-silver)" />
+    <path d="M102 83 H179 V92 H102Z" fill="#adc3d7" clip-path="url(#power-plant-shape4-clip)" />
+    <path d="M106 79 Q108 74 114 74 H169" fill="none" stroke="#ffffff" stroke-width="3" clip-path="url(#power-plant-shape4-clip)" />
+    <use href="#power-plant-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#power-plant-shape5" transform="translate(3 3)" fill="#486982" opacity=".35" />
+    <use href="#power-plant-shape5" fill="url(#power-plant-gold)" />
+    <path d="M125 155 L151 123" fill="none" stroke="#fff05b" stroke-width="2.5" clip-path="url(#power-plant-shape5-clip)" />
+    <use href="#power-plant-shape6" fill="url(#power-plant-building)" />
+    <g clip-path="url(#power-plant-shape6-clip)">
+      <path d="M179 207 V170 Q179 164 185 164 H248" fill="none" stroke="#ffffff" stroke-width="4" />
+      <path d="M248 162 Q253 163 253 170 V210 H246 V171Z" fill="#8faac4" opacity=".22" />
+    </g>
+    <use href="#power-plant-shape6" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#power-plant-shape7" fill="url(#power-plant-window)" />
+    <use href="#power-plant-shape8" fill="url(#power-plant-window)" />
+    <use href="#power-plant-shape9" fill="url(#power-plant-window)" />
+  </g>
+</svg>

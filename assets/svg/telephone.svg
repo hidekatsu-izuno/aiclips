@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="telephone-title">
+  <title id="telephone-title">電話</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="telephone-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="telephone-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <path id="telephone-body" d="M87 80 H204 Q220 80 223 98 L232 194 Q234 217 211 217 H71 Q48 217 51 195 L58 99 Q60 80 87 80 Z" />
+    <clipPath id="telephone-body-clip">
+      <use href="#telephone-body" />
+    </clipPath>
+    <rect id="telephone-display" x="139" y="103" width="63" height="27" rx="4" />
+    <clipPath id="telephone-display-clip">
+      <use href="#telephone-display" />
+    </clipPath>
+    <path id="telephone-handset" d="M83 68 H103 Q118 68 118 82 V103 L112 116 V172 L114 189 Q114 204 99 204 H77 Q62 204 62 189 V91 Q62 68 83 68 Z" />
+    <clipPath id="telephone-handset-clip">
+      <use href="#telephone-handset" />
+    </clipPath>
+    <linearGradient id="telephone-shared-glass-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08c4ef" stop-opacity="1" />
+      <stop offset="1" stop-color="#00ade6" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="telephone-shared-glass-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity=".22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="telephone-shared-glass-shadow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#telephone-body" fill="url(#telephone-steel)" />
+    <use href="#telephone-body" fill="none" stroke="url(#telephone-steel-edge)" stroke-width="16" clip-path="url(#telephone-body-clip)" />
+    <use href="#telephone-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#telephone-display" fill="url(#telephone-shared-glass-paint)" />
+    <path d="M131 103 H172 L131 132Z" fill="url(#telephone-shared-glass-light)" clip-path="url(#telephone-display-clip)" />
+    <path d="M187 103 H210 V132 H151Z" fill="url(#telephone-shared-glass-shadow)" clip-path="url(#telephone-display-clip)" />
+    <use href="#telephone-display" fill="none" stroke="#23485f" stroke-width="4" clip-path="url(#telephone-display-clip)" />
+    <use href="#telephone-display" fill="none" stroke="#050b1d" stroke-width="2" />
+    <circle cx="144" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="196" cy="147" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="144" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="196" cy="168" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="144" cy="189" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="170" cy="189" r="8.5" fill="#f6f8fa" stroke="#050b1d" stroke-width="2" />
+    <circle cx="196" cy="189" r="8.5" fill="#ff5359" stroke="#050b1d" stroke-width="2" />
+    <use href="#telephone-handset" fill="url(#telephone-steel)" />
+    <use href="#telephone-handset" fill="none" stroke="url(#telephone-steel-edge)" stroke-width="14" clip-path="url(#telephone-handset-clip)" />
+    <use href="#telephone-handset" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

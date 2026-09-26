@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="bicycle-title">
+  <title id="bicycle-title">自転車</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="bicycle-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <circle id="bicycle-shape1" cx="87" cy="168" r="43" />
+    <clipPath id="bicycle-shape1-clip">
+      <use href="#bicycle-shape1" />
+    </clipPath>
+    <circle id="bicycle-shape2" cx="87" cy="168" r="31" />
+    <clipPath id="bicycle-shape2-clip">
+      <use href="#bicycle-shape2" />
+    </clipPath>
+    <circle id="bicycle-shape3" cx="199" cy="168" r="43" />
+    <clipPath id="bicycle-shape3-clip">
+      <use href="#bicycle-shape3" />
+    </clipPath>
+    <circle id="bicycle-shape4" cx="199" cy="168" r="31" />
+    <clipPath id="bicycle-shape4-clip">
+      <use href="#bicycle-shape4" />
+    </clipPath>
+    <rect id="bicycle-shape5" x="91" y="88" width="37" height="16" rx="8" />
+    <clipPath id="bicycle-shape5-clip">
+      <use href="#bicycle-shape5" />
+    </clipPath>
+    <circle id="bicycle-shape6" cx="139" cy="168" r="11" />
+    <clipPath id="bicycle-shape6-clip">
+      <use href="#bicycle-shape6" />
+    </clipPath>
+    <linearGradient id="bicycle-tire-face" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#355374" offset="0" />
+      <stop stop-color="#1d344d" offset="0.3" />
+      <stop stop-color="#14273d" offset="0.75" />
+      <stop stop-color="#0d1b2b" offset="1" />
+    </linearGradient>
+    <linearGradient id="bicycle-tire-bevel" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#a2bdd7" offset="0" />
+      <stop stop-color="#6085ac" offset="0.25" />
+      <stop stop-color="#284968" offset="0.55" />
+      <stop stop-color="#14293e" offset="1" />
+    </linearGradient>
+    <linearGradient id="bicycle-rim" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#f5fcff" offset="0" />
+      <stop stop-color="#dfecf6" offset="0.45" />
+      <stop stop-color="#afc8df" offset="1" />
+    </linearGradient>
+    <linearGradient id="bicycle-saddle" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#b7d1e7" offset="0" />
+      <stop stop-color="#789ab9" offset="0.35" />
+      <stop stop-color="#3e5c7b" offset="1" />
+    </linearGradient>
+    <linearGradient id="bicycle-crank-edge" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#a8f0ff" offset="0" />
+      <stop stop-color="#45d5ff" offset="0.35" />
+      <stop stop-color="#0083c9" offset="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#bicycle-shape1" fill="url(#bicycle-tire-face)" />
+    <use href="#bicycle-shape1" fill="none" stroke="url(#bicycle-tire-bevel)" stroke-width="12" clip-path="url(#bicycle-shape1-clip)" />
+    <use href="#bicycle-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#bicycle-shape2" fill="#8da7c0" />
+    <path d="M87 168 L117.0 168.0 A30 30 0 0 1 108.21320343559643 189.21320343559643 Z" fill="#708fac" clip-path="url(#bicycle-shape2-clip)" />
+    <path d="M87 168 L87.0 198.0 A30 30 0 0 1 65.78679656440357 189.21320343559643 Z" fill="#708fac" clip-path="url(#bicycle-shape2-clip)" />
+    <path d="M87 168 L57.0 168.0 A30 30 0 0 1 65.78679656440357 146.78679656440357 Z" fill="#708fac" clip-path="url(#bicycle-shape2-clip)" />
+    <path d="M87 168 L87.0 138.0 A30 30 0 0 1 108.21320343559643 146.78679656440357 Z" fill="#708fac" clip-path="url(#bicycle-shape2-clip)" />
+    <path d="M87 168 L114.0000 168.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L106.0919 187.0919" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L87.0000 195.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L67.9081 187.0919" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L60.0000 168.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L67.9081 148.9081" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L87.0000 141.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M87 168 L106.0919 148.9081" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <use href="#bicycle-shape2" fill="none" stroke="url(#bicycle-rim)" stroke-width="8" clip-path="url(#bicycle-shape2-clip)" />
+    <use href="#bicycle-shape2" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#bicycle-shape3" fill="url(#bicycle-tire-face)" />
+    <use href="#bicycle-shape3" fill="none" stroke="url(#bicycle-tire-bevel)" stroke-width="12" clip-path="url(#bicycle-shape3-clip)" />
+    <use href="#bicycle-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#bicycle-shape4" fill="#8da7c0" />
+    <path d="M199 168 L229.0 168.0 A30 30 0 0 1 220.21320343559643 189.21320343559643 Z" fill="#708fac" clip-path="url(#bicycle-shape4-clip)" />
+    <path d="M199 168 L199.0 198.0 A30 30 0 0 1 177.78679656440357 189.21320343559643 Z" fill="#708fac" clip-path="url(#bicycle-shape4-clip)" />
+    <path d="M199 168 L169.0 168.0 A30 30 0 0 1 177.78679656440357 146.78679656440357 Z" fill="#708fac" clip-path="url(#bicycle-shape4-clip)" />
+    <path d="M199 168 L199.0 138.0 A30 30 0 0 1 220.21320343559643 146.78679656440357 Z" fill="#708fac" clip-path="url(#bicycle-shape4-clip)" />
+    <path d="M199 168 L226.0000 168.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L218.0919 187.0919" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L199.0000 195.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L179.9081 187.0919" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L172.0000 168.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L179.9081 148.9081" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L199.0000 141.0000" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M199 168 L218.0919 148.9081" fill="none" stroke="#e1edf7" stroke-width="1.5" stroke-linecap="butt" />
+    <use href="#bicycle-shape4" fill="none" stroke="url(#bicycle-rim)" stroke-width="8" clip-path="url(#bicycle-shape4-clip)" />
+    <use href="#bicycle-shape4" fill="none" stroke="#050b1d" stroke-width="3" />
+    <g clip-path="url(#bicycle-shape2-clip)" id="bicycle-dress-guard">
+      <path d="M78 148 L78 156.5 L70 152 Q68.5 151.2 68 152.8 Q67.7 154 69.2 154.8 L78.3 159 Q80 159.6 79.7 157.9 L79.2 148 Q79 146.8 78.4 147.1 Q78 147.3 78 148 Z" fill="#f7b82e" />
+      <path d="M70 160.5 Q73 159.9 75.5 161 Q78 163 78 169.5 Q75 172.8 70.5 174 Z" fill="#efa519" />
+      <path d="M70.5 161 Q73 160.8 75 161.6" fill="none" stroke="#f8c450" stroke-width=".7" />
+    </g>
+    <path d="M87 168 L115 125 L139 168 H87 M115 125 L178 104 L139 168 M178 104 L199 168 M115 125 L106 100 M178 104 L174 91 Q189 91 183 81 H162" fill="none" stroke="#050b1d" stroke-width="13" />
+    <path d="M87 168 L115 125" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M115 125 L139 168" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M87 168 H139" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M115 125 L178 104" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M178 104 L139 168" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M178 104 L199 168" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <path d="M115 125 L106 100" fill="none" stroke="#19b6ed" stroke-width="6" stroke-linecap="butt" />
+    <path d="M178 104 L174 91 Q189 91 183 81 H162" fill="none" stroke="#19b6ed" stroke-width="6" />
+    <circle cx="87" cy="168" r="3" fill="url(#bicycle-crank-edge)" />
+    <circle cx="199" cy="168" r="3" fill="url(#bicycle-crank-edge)" />
+    <path d="M89 165 L113 128" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <path d="M90 166 H134" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <path d="M117 122 L173 103" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <path d="M141 163 L174 111" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <path d="M113.6 120 L108 104.5" fill="none" stroke="#8ce1fa" stroke-width="1.5" stroke-linecap="butt" />
+    <path d="M179 109 L196 165" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <path d="M163 79.5 H181" fill="none" stroke="#8ce1fa" stroke-width="1.5" />
+    <use href="#bicycle-shape5" fill="url(#bicycle-saddle)" />
+    <path d="M97 91.5 H122" fill="none" stroke="#d1e5f3" stroke-width="2.2" clip-path="url(#bicycle-shape5-clip)" />
+    <path d="M96 100 H120 Q124 100 124.5 97" fill="none" stroke="#476581" stroke-width="2.5" clip-path="url(#bicycle-shape5-clip)" />
+    <use href="#bicycle-shape5" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path id="bicycle-pedal-arm" d="M139 174 V189" fill="none" stroke="#050b1d" stroke-width="10" stroke-linecap="butt" />
+    <path id="bicycle-pedal" d="M133 188 H145 L147 193 H131 Z" fill="#13afe8" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M134 189 H144" fill="none" stroke="#81def9" stroke-width="1.2" />
+    <use href="#bicycle-shape6" fill="url(#bicycle-blue)" />
+    <use href="#bicycle-shape6" fill="none" stroke="url(#bicycle-crank-edge)" stroke-width="8" clip-path="url(#bicycle-shape6-clip)" />
+    <use href="#bicycle-shape6" fill="none" stroke="#050b1d" stroke-width="4" />
+    <circle cx="139" cy="168" r="5.3" fill="#7ddbf7" />
+    <path d="M135.5 168 Q135.5 164 139.5 164" fill="none" stroke="#dbf6ff" stroke-width="1.6" />
+    <path d="M139 168 V189" fill="none" stroke="#16b7ed" stroke-width="4.5" id="bicycle-pedal-arm-front" stroke-linecap="butt" />
+    <path d="M137.5 170 V187" fill="none" stroke="#9ae6fc" stroke-width="1.2" stroke-linecap="butt" />
+  </g>
+</svg>

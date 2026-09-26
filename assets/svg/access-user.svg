@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="access-user-title">
+  <title id="access-user-title">ユーザー（権限管理）</title>
+  <desc>Editable vector paths with continuous outlines, clipped highlights and gradient shading. Transparent background; no raster images or filters.</desc>
+  <defs>
+    <linearGradient id="access-user-blue-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="access-user-blue" gradientUnits="objectBoundingBox" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <circle id="access-user-shape1" cx="144" cy="104" r="40" />
+    <clipPath id="access-user-shape1-clip">
+      <use href="#access-user-shape1" />
+    </clipPath>
+    <path id="access-user-shape2" d="M80 203 C80 129 208 129 208 203 Q208 209 201 209 H87 Q80 209 80 203 Z" />
+    <clipPath id="access-user-shape2-clip">
+      <use href="#access-user-shape2" />
+    </clipPath>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#access-user-shape1" fill="url(#access-user-blue)" />
+    <use href="#access-user-shape1" fill="none" stroke="url(#access-user-blue-edge)" stroke-width="17.4" clip-path="url(#access-user-shape1-clip)" />
+    <use href="#access-user-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#access-user-shape2" fill="url(#access-user-blue)" />
+    <use href="#access-user-shape2" fill="none" stroke="url(#access-user-blue-edge)" stroke-width="17.4" clip-path="url(#access-user-shape2-clip)" />
+    <use href="#access-user-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

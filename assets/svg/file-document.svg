@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-document-title">
+  <title id="file-document-title">文書ファイル</title>
+  <desc>Editable geometry, exact symmetry where applicable, shared component boundaries and gradient-only inset bevels. No raster images, text rendering or blur filters.</desc>
+  <defs>
+    <linearGradient id="file-document-paper-paint" gradientUnits="userSpaceOnUse" x1="82" y1="71" x2="205" y2="213">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.6" stop-color="#f8f9fb" />
+      <stop offset="1" stop-color="#edf0f4" />
+    </linearGradient>
+    <linearGradient id="file-document-fold-paint" gradientUnits="userSpaceOnUse" x1="174" y1="75" x2="204" y2="106">
+      <stop offset="0" stop-color="#8399b0" />
+      <stop offset="0.45" stop-color="#687e94" />
+      <stop offset="1" stop-color="#435b73" />
+    </linearGradient>
+    <linearGradient id="file-document-fold-edge-paint" gradientUnits="userSpaceOnUse" x1="172" y1="67" x2="187" y2="107">
+      <stop offset="0" stop-color="#b4c6d8" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#839cb3" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="file-document-ink-paint" gradientUnits="userSpaceOnUse" x1="96" y1="91" x2="185" y2="197">
+      <stop offset="0" stop-color="#9dabb8" />
+      <stop offset="1" stop-color="#a1afbc" />
+    </linearGradient>
+    <path id="file-document-paper" d="M92 61 H170 L212 103 V203 Q212 221 194 221 H90 Q72 221 72 203 V81 Q72 61 92 61 Z" />
+    <clipPath id="file-document-paper-clip">
+      <use href="#file-document-paper" />
+    </clipPath>
+    <path id="file-document-fold" d="M168.343146 65 L208 104.656854 H180.343146 Q168.343146 104.656854 168.343146 92.656854 Z" />
+    <clipPath id="file-document-fold-clip">
+      <use href="#file-document-fold" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-document-paper" fill="url(#file-document-paper-paint)" />
+    <use href="#file-document-paper" fill="none" stroke="#ffffff" stroke-width="4" clip-path="url(#file-document-paper-clip)" />
+    <use href="#file-document-fold" fill="url(#file-document-fold-paint)" />
+    <path d="M168.343146 65 V92.656854 Q168.343146 104.656854 180.343146 104.656854 H208" fill="none" stroke="url(#file-document-fold-edge-paint)" stroke-width="3" clip-path="url(#file-document-fold-clip)" />
+    <path d="M97 96 H150" fill="none" stroke="url(#file-document-ink-paint)" stroke-width="13" />
+    <path d="M97 121 H184" fill="none" stroke="url(#file-document-ink-paint)" stroke-width="13" />
+    <path d="M97 144 H184" fill="none" stroke="url(#file-document-ink-paint)" stroke-width="13" />
+    <path d="M97 168 H184" fill="none" stroke="url(#file-document-ink-paint)" stroke-width="13" />
+    <path d="M97 191 H153" fill="none" stroke="url(#file-document-ink-paint)" stroke-width="13" />
+    <use href="#file-document-paper" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

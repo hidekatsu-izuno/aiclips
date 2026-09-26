@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-archive-title">
+  <title id="file-archive-title">ARCHIVE</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="file-archive-pull-paint" gradientUnits="userSpaceOnUse" x1="123" y1="145" x2="160" y2="181">
+      <stop offset="0" stop-color="#ffe222" />
+      <stop offset=".5" stop-color="#ffd400" />
+      <stop offset="1" stop-color="#efb900" />
+    </linearGradient>
+    <linearGradient id="file-archive-pull-edge" gradientUnits="userSpaceOnUse" x1="123" y1="140" x2="160" y2="192">
+      <stop offset="0" stop-color="#ffed48" />
+      <stop offset=".5" stop-color="#ffe12a" />
+      <stop offset="1" stop-color="#dba900" />
+    </linearGradient>
+    <linearGradient id="file-archive-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="file-archive-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="file-archive-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <linearGradient id="file-archive-sheet" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#fcfcfe" />
+      <stop offset="1.0" stop-color="#edf0f5" />
+    </linearGradient>
+    <path id="file-archive-shape1" d="M92 64 H169 L212 106 V208 Q212 224 196 224 H92 Q76 224 76 208 V80 Q76 64 92 64 Z" />
+    <clipPath id="file-archive-shape1-clip">
+      <use href="#file-archive-shape1" />
+    </clipPath>
+    <rect id="file-archive-shape2" x="123" y="133" width="37" height="64" rx="18" />
+    <clipPath id="file-archive-shape2-clip">
+      <use href="#file-archive-shape2" />
+    </clipPath>
+    <rect id="file-archive-shape3" x="135" y="166" width="12" height="17" rx="5" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-archive-shape1" fill="url(#file-archive-sheet)" />
+    <use href="#file-archive-shape1" fill="none" stroke="url(#file-archive-silver-edge)" stroke-width="5" clip-path="url(#file-archive-shape1-clip)" />
+    <use href="#file-archive-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-archive-blue)" stroke="none" stroke-width="0" />
+    <path d="M127 68 H155 V147 H127 Z" fill="url(#file-archive-gold)" stroke="#050b1d" stroke-width="3" stroke-linejoin="miter" />
+    <path d="M128 77 H138 M144 85 H154" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <path d="M128 93 H138 M144 101 H154" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <path d="M128 109 H138 M144 117 H154" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <path d="M128 125 H138 M144 133 H154" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <path d="M128 141 H138 M144 149 H154" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <use href="#file-archive-shape2" fill="url(#file-archive-pull-paint)" />
+    <use href="#file-archive-shape2" fill="none" stroke="url(#file-archive-pull-edge)" stroke-width="13" clip-path="url(#file-archive-shape2-clip)" />
+    <use href="#file-archive-shape2" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#file-archive-shape3" fill="#050b1d" />
+  </g>
+</svg>

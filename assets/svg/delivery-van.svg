@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="delivery-van-title">
+  <title id="delivery-van-title">配送車</title>
+  <desc>Delivery truck with a low rounded silver cargo body, a wide blue windshield and warm brown fascia.</desc>
+  <defs>
+    <linearGradient id="delivery-van-body" gradientUnits="userSpaceOnUse" x1="90" y1="104" x2="205" y2="208">
+      <stop stop-color="#ffffff" />
+      <stop offset=".45" stop-color="#e9f1f8" />
+      <stop offset="1" stop-color="#cdddeb" />
+    </linearGradient>
+    <linearGradient id="delivery-van-wheel" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#273e55" />
+      <stop offset=".45" stop-color="#6d8aa4" />
+      <stop offset="1" stop-color="#42617e" />
+    </linearGradient>
+    <linearGradient id="delivery-van-grille" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#24425e" />
+      <stop offset=".3" stop-color="#516f8e" />
+      <stop offset="1" stop-color="#304b68" />
+    </linearGradient>
+    <linearGradient id="delivery-van-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="delivery-van-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="delivery-van-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="delivery-van-glass7-screen-paint" gradientUnits="userSpaceOnUse" x1="94.176471" y1="114.321839" x2="194.235294" y2="155.379310">
+      <stop offset="0" stop-color="#08c4ef" />
+      <stop offset="1" stop-color="#00ade6" />
+    </linearGradient>
+    <linearGradient id="delivery-van-glass7-glass-paint" gradientUnits="userSpaceOnUse" x1="100.529412" y1="114.321839" x2="158.500000" y2="146.195402">
+      <stop offset="0" stop-color="#77e6fc" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#34d2f4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="delivery-van-glass7-screen-shadow-paint" gradientUnits="userSpaceOnUse" x1="155.323529" y1="123.505747" x2="199.000000" y2="157.000000">
+      <stop offset="0" stop-color="#008df9" stop-opacity=".3" />
+      <stop offset="1" stop-color="#007be9" stop-opacity=".8" />
+    </linearGradient>
+    <linearGradient id="delivery-van-bumper-shadow" gradientUnits="userSpaceOnUse" x1="145" y1="201" x2="145" y2="211">
+      <stop stop-color="#8ca5bb" stop-opacity="0" />
+      <stop offset=".6" stop-color="#8ca5bb" stop-opacity=".28" />
+      <stop offset="1" stop-color="#748fa9" stop-opacity=".65" />
+    </linearGradient>
+    <path id="delivery-van-truck-box" d="M94 60 H196 Q210 60 210 74 V192 H80 V74 Q80 60 94 60Z" />
+    <clipPath id="delivery-van-truck-box-clip">
+      <use href="#delivery-van-truck-box" />
+    </clipPath>
+    <path id="delivery-van-truck-cab" d="M100 102 H190 Q202 102 204 115 L210 155 V199 Q210 211 198 211 H92 Q80 211 80 199 V155 L86 115 Q88 102 100 102Z" />
+    <clipPath id="delivery-van-truck-cab-clip">
+      <use href="#delivery-van-truck-cab" />
+    </clipPath>
+    <path id="delivery-van-truck-window" d="M100 114 H190 Q194 114 194.6 118 L199 147 Q199 152 194 152 H96 Q91 152 91 147 L95.4 118 Q96 114 100 114Z" />
+    <clipPath id="delivery-van-truck-window-clip">
+      <use href="#delivery-van-truck-window" />
+    </clipPath>
+    <linearGradient id="delivery-van-cargo-silver" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#eef2f5" />
+      <stop offset=".25" stop-color="#d3dbe2" />
+      <stop offset=".6" stop-color="#bac5ce" />
+      <stop offset="1" stop-color="#8d9daa" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="86" y="197" width="26" height="36" rx="8" fill="url(#delivery-van-wheel)" stroke="#050b1d" stroke-width="6" />
+    <path d="M91 216 V224 Q91 228 96 228" fill="none" stroke="#a3bcd0" stroke-width="3" />
+    <rect x="178" y="197" width="26" height="36" rx="8" fill="url(#delivery-van-wheel)" stroke="#050b1d" stroke-width="6" />
+    <path d="M183 216 V224 Q183 228 188 228" fill="none" stroke="#a3bcd0" stroke-width="3" />
+    <use href="#delivery-van-truck-box" fill="url(#delivery-van-cargo-silver)" />
+    <g clip-path="url(#delivery-van-truck-box-clip)">
+      <path d="M85 190 V75 Q85 65 95 65 H195" fill="none" stroke="#ffffff" stroke-width="6" />
+      <path d="M198 65 Q205 67 205 75 V192" fill="none" stroke="#879aa9" stroke-width="8" />
+    </g>
+    <use href="#delivery-van-truck-box" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M82 135 H65 V150 M208 135 H225 V150" fill="none" stroke="#050b1d" stroke-width="6" />
+    <rect x="57" y="127" width="16" height="29" rx="5" fill="url(#delivery-van-steel)" stroke="#050b1d" stroke-width="5" />
+    <path d="M61 149 V134 Q61 131 66 131" fill="none" stroke="#c3d8e8" stroke-width="2" />
+    <rect x="217" y="127" width="16" height="29" rx="5" fill="url(#delivery-van-steel)" stroke="#050b1d" stroke-width="5" />
+    <path d="M221 149 V134 Q221 131 226 131" fill="none" stroke="#c3d8e8" stroke-width="2" />
+    <use href="#delivery-van-truck-cab" fill="url(#delivery-van-body)" />
+    <g clip-path="url(#delivery-van-truck-cab-clip)">
+      <path d="M85 194 V155 L91 116 Q92 107 102 107 H188" fill="none" stroke="#ffffff" stroke-width="5" />
+      <path d="M199 114 L205 155 V199" fill="none" stroke="#acc0d1" stroke-width="7" />
+      <path d="M80 161 H113 L120 165 H170 L177 161 H210 V193 H80Z" fill="#a8744c" />
+      <path d="M82 161 H113 L120 165 M170 165 L177 161 H208" fill="none" stroke="#d8ab7b" stroke-width="2" />
+      <path d="M80 193 H210 V211 H80Z" fill="url(#delivery-van-paper)" />
+      <path d="M80 201 H210 V211 H80Z" fill="url(#delivery-van-bumper-shadow)" />
+      <path d="M85 195 H205" fill="none" stroke="#ffffff" stroke-width="2" />
+    </g>
+    <use href="#delivery-van-truck-window" fill="url(#delivery-van-glass7-screen-paint)" />
+    <path d="M92 114 H162 L92 152Z" fill="url(#delivery-van-glass7-glass-paint)" clip-path="url(#delivery-van-truck-window-clip)" />
+    <path d="M180 114 H198 V152 H113Z" fill="url(#delivery-van-glass7-screen-shadow-paint)" clip-path="url(#delivery-van-truck-window-clip)" />
+    <use href="#delivery-van-truck-window" fill="none" stroke="#050b1d" stroke-width="2.3" />
+    <path d="M113 169 H177 L174 190 H116Z" fill="url(#delivery-van-grille)" stroke="#050b1d" stroke-width="3" />
+    <path d="M118 174 H172 M118.8 179.5 H171.2 M119.6 185 H170.4" fill="none" stroke="#88a8c1" stroke-width="1.4" />
+    <rect x="85" y="175" width="22" height="14" rx="2" fill="url(#delivery-van-gold)" stroke="#050b1d" stroke-width="1.6" />
+    <path d="M88 184 V178 H103" fill="none" stroke="#fff386" stroke-width="2" />
+    <rect x="183" y="175" width="22" height="14" rx="2" fill="url(#delivery-van-gold)" stroke="#050b1d" stroke-width="1.6" />
+    <path d="M186 184 V178 H201" fill="none" stroke="#fff386" stroke-width="2" />
+    <rect x="132" y="198" width="26" height="8" rx="1" fill="#ecf5fb" stroke="#748da4" stroke-width="1.5" />
+    <path d="M88 202 H99 M191 202 H202" fill="none" stroke="#718ba3" stroke-width="2" />
+    <use href="#delivery-van-truck-cab" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

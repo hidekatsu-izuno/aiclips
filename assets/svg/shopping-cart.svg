@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="shopping-cart-title">
+  <title id="shopping-cart-title">ショッピングカート</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="shopping-cart-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="shopping-cart-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="shopping-cart-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="shopping-cart-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="shopping-cart-metal-paint" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8ba5bc" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#4d6882" stop-opacity="1" />
+      <stop offset="1" stop-color="#304a64" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="shopping-cart-metal-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#d1e2ef" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7b99b3" stop-opacity="1" />
+      <stop offset="1" stop-color="#213c56" stop-opacity="1" />
+    </linearGradient>
+    <path id="shopping-cart-basket-outer" d="M105 94 H227 Q237 94 234 105 L219 165 Q216 178 204 178 H127 Q117 178 114 166 Z" />
+    <path id="shopping-cart-basket" d="M105 94 H227 Q237 94 234 105 L219 165 Q216 178 204 178 H127 Q117 178 114 166 Z M117.311500000 110 L139.443500000 110 L139.810750000 123 L118.536750000 123 Z M144.976500000 110 L167.108500000 110 L166.403250000 123 L145.129250000 123 Z M172.641500000 110 L194.773500000 110 L192.995750000 123 L171.721750000 123 Z M200.306500000 110 L222.438500000 110 L219.588250000 123 L198.314250000 123 Z M119.290750000 131 L140.036750000 131 L140.404000000 144 L120.516000000 144 Z M145.223250000 131 L165.969250000 131 L165.264000000 144 L145.376000000 144 Z M171.155750000 131 L191.901750000 131 L190.124000000 144 L170.236000000 144 Z M197.088250000 131 L217.834250000 131 L214.984000000 144 L195.096000000 144 Z M121.270000000 152 L140.630000000 152 L140.997250000 165 L122.495250000 165 Z M145.470000000 152 L164.830000000 152 L164.124750000 165 L145.622750000 165 Z M169.670000000 152 L189.030000000 152 L187.252250000 165 L168.750250000 165 Z M193.870000000 152 L213.230000000 152 L210.379750000 165 L191.877750000 165 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="shopping-cart-basket-clip">
+      <use href="#shopping-cart-basket" />
+    </clipPath>
+    <rect id="shopping-cart-grip" x="54" y="66" width="47" height="22" rx="11" />
+    <clipPath id="shopping-cart-grip-clip">
+      <use href="#shopping-cart-grip" />
+    </clipPath>
+    <circle id="shopping-cart-wheel-0" cx="118" cy="205" r="18" />
+    <clipPath id="shopping-cart-wheel-0-clip">
+      <use href="#shopping-cart-wheel-0" />
+    </clipPath>
+    <circle id="shopping-cart-wheel-1" cx="194" cy="205" r="18" />
+    <clipPath id="shopping-cart-wheel-1-clip">
+      <use href="#shopping-cart-wheel-1" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M114 174 H217 L213 187 H126 Q117 187 114 174 Z" fill="#009de8" stroke="#050b1d" stroke-width="4" />
+    <use href="#shopping-cart-basket-outer" fill="#17384e" />
+    <use href="#shopping-cart-basket" fill="url(#shopping-cart-blue)" />
+    <use href="#shopping-cart-basket" fill="none" stroke="url(#shopping-cart-blue-edge)" stroke-width="5" clip-path="url(#shopping-cart-basket-clip)" />
+    <path d="M117.311500000 110 L139.443500000 110 L139.810750000 123 L118.536750000 123 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M144.976500000 110 L167.108500000 110 L166.403250000 123 L145.129250000 123 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M172.641500000 110 L194.773500000 110 L192.995750000 123 L171.721750000 123 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M200.306500000 110 L222.438500000 110 L219.588250000 123 L198.314250000 123 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M119.290750000 131 L140.036750000 131 L140.404000000 144 L120.516000000 144 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M145.223250000 131 L165.969250000 131 L165.264000000 144 L145.376000000 144 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M171.155750000 131 L191.901750000 131 L190.124000000 144 L170.236000000 144 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M197.088250000 131 L217.834250000 131 L214.984000000 144 L195.096000000 144 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M121.270000000 152 L140.630000000 152 L140.997250000 165 L122.495250000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M145.470000000 152 L164.830000000 152 L164.124750000 165 L145.622750000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M169.670000000 152 L189.030000000 152 L187.252250000 165 L168.750250000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <path d="M193.870000000 152 L213.230000000 152 L210.379750000 165 L191.877750000 165 Z" fill="none" stroke="#15364e" stroke-width="1.5" />
+    <use href="#shopping-cart-basket-outer" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#050b1d" stroke-width="13" />
+    <path d="M90 81 L108 174 Q112 188 130 188 H211" fill="none" stroke="#05b2f7" stroke-width="7" />
+    <path d="M91 85 L109 174 Q113 185 130 185 H209" fill="none" stroke="#91e4ff" stroke-width="2" />
+    <use href="#shopping-cart-grip" fill="url(#shopping-cart-gold)" />
+    <use href="#shopping-cart-grip" fill="none" stroke="url(#shopping-cart-gold-edge)" stroke-width="13" clip-path="url(#shopping-cart-grip-clip)" />
+    <use href="#shopping-cart-grip" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#shopping-cart-wheel-0" fill="url(#shopping-cart-metal-paint)" />
+    <use href="#shopping-cart-wheel-0" fill="none" stroke="url(#shopping-cart-metal-edge)" stroke-width="13" clip-path="url(#shopping-cart-wheel-0-clip)" />
+    <use href="#shopping-cart-wheel-0" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="118" cy="205" r="8" fill="#6c91b7" stroke="#1b3656" stroke-width="2" />
+    <path d="M114 205 A4.5 4.5 0 0 1 119 200.5" fill="none" stroke="#badcf4" stroke-width="1.2" />
+    <use href="#shopping-cart-wheel-1" fill="url(#shopping-cart-metal-paint)" />
+    <use href="#shopping-cart-wheel-1" fill="none" stroke="url(#shopping-cart-metal-edge)" stroke-width="13" clip-path="url(#shopping-cart-wheel-1-clip)" />
+    <use href="#shopping-cart-wheel-1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="194" cy="205" r="8" fill="#6c91b7" stroke="#1b3656" stroke-width="2" />
+    <path d="M190 205 A4.5 4.5 0 0 1 195 200.5" fill="none" stroke="#badcf4" stroke-width="1.2" />
+  </g>
+</svg>

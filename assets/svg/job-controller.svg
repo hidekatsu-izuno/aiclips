@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="job-controller-title">
+  <title id="job-controller-title">ジョブコントローラー</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="job-controller-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="job-controller-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-gold" gradientUnits="userSpaceOnUse" x1="105" y1="80" x2="188" y2="213">
+      <stop offset="0" stop-color="#ffe23a" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffd000" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffc300" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-gold-edge" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="187" y2="206">
+      <stop offset="0" stop-color="#fff487" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#ffdf35" stop-opacity="1" />
+      <stop offset="1" stop-color="#ecac00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-green" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#38db74" stop-opacity="1" />
+      <stop offset="1" stop-color="#16b94f" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-green-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#9af5b5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#51e58b" stop-opacity="1" />
+      <stop offset="1" stop-color="#088a37" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-red" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ff656a" stop-opacity="1" />
+      <stop offset="1" stop-color="#ef2634" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="job-controller-red-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffb2b5" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#ff666e" stop-opacity="1" />
+      <stop offset="1" stop-color="#be1425" stop-opacity="1" />
+    </linearGradient>
+    <rect id="job-controller-top" x="125" y="61" width="38" height="28" rx="7" />
+    <clipPath id="job-controller-top-clip">
+      <use href="#job-controller-top" />
+    </clipPath>
+    <rect id="job-controller-body" x="81" y="100" width="126" height="67" rx="13" />
+    <clipPath id="job-controller-body-clip">
+      <use href="#job-controller-body" />
+    </clipPath>
+    <path id="job-controller-play" d="M106 124 Q106 119 111 121 L130 131 Q135 134 130 138 L111 148 Q106 150 106 145 Z" />
+    <clipPath id="job-controller-play-clip">
+      <use href="#job-controller-play" />
+    </clipPath>
+    <rect id="job-controller-stop" x="157" y="121" width="28" height="27" rx="4" />
+    <clipPath id="job-controller-stop-clip">
+      <use href="#job-controller-stop" />
+    </clipPath>
+    <rect id="job-controller-node-0" x="58" y="190" width="48" height="36" rx="10" />
+    <clipPath id="job-controller-node-0-clip">
+      <use href="#job-controller-node-0" />
+    </clipPath>
+    <rect id="job-controller-node-1" x="120" y="190" width="48" height="36" rx="10" />
+    <clipPath id="job-controller-node-1-clip">
+      <use href="#job-controller-node-1" />
+    </clipPath>
+    <rect id="job-controller-node-2" x="182" y="190" width="48" height="36" rx="10" />
+    <clipPath id="job-controller-node-2-clip">
+      <use href="#job-controller-node-2" />
+    </clipPath>
+    <mask id="job-controller-connectors-outside-faces" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect width="288" height="288" fill="white" />
+      <rect x="127.5" y="63.5" width="33.0" height="23.0" rx="4.5" fill="black" />
+      <rect x="84.5" y="103.5" width="119.0" height="60.0" rx="9.5" fill="black" />
+      <rect x="61.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
+      <rect x="123.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
+      <rect x="185.0" y="193.0" width="42.0" height="30.0" rx="7.0" fill="black" />
+    </mask>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M144 89 V190" fill="none" stroke="#050b1d" stroke-width="11" />
+    <path d="M95 162 L82 192" fill="none" stroke="#050b1d" stroke-width="11" />
+    <path d="M193 162 L206 192" fill="none" stroke="#050b1d" stroke-width="11" />
+    <use href="#job-controller-top" fill="url(#job-controller-gold)" />
+    <use href="#job-controller-top" fill="none" stroke="url(#job-controller-gold-edge)" stroke-width="11" clip-path="url(#job-controller-top-clip)" />
+    <use href="#job-controller-top" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#job-controller-body" fill="url(#job-controller-white)" />
+    <use href="#job-controller-body" fill="none" stroke="url(#job-controller-white-edge)" stroke-width="13" clip-path="url(#job-controller-body-clip)" />
+    <use href="#job-controller-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#job-controller-play" fill="url(#job-controller-green)" />
+    <use href="#job-controller-play" fill="none" stroke="url(#job-controller-green-edge)" stroke-width="6" clip-path="url(#job-controller-play-clip)" />
+    <use href="#job-controller-play" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#job-controller-stop" fill="url(#job-controller-red)" />
+    <use href="#job-controller-stop" fill="none" stroke="url(#job-controller-red-edge)" stroke-width="6" clip-path="url(#job-controller-stop-clip)" />
+    <use href="#job-controller-stop" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#job-controller-node-0" fill="url(#job-controller-blue)" />
+    <use href="#job-controller-node-0" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-0-clip)" />
+    <use href="#job-controller-node-0" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M74 207 H90" fill="none" stroke="#ffffff" stroke-width="7" />
+    <use href="#job-controller-node-1" fill="url(#job-controller-blue)" />
+    <use href="#job-controller-node-1" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-1-clip)" />
+    <use href="#job-controller-node-1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M136 207 H152" fill="none" stroke="#ffffff" stroke-width="7" />
+    <use href="#job-controller-node-2" fill="url(#job-controller-blue)" />
+    <use href="#job-controller-node-2" fill="none" stroke="url(#job-controller-blue-edge)" stroke-width="12" clip-path="url(#job-controller-node-2-clip)" />
+    <use href="#job-controller-node-2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M198 207 H214" fill="none" stroke="#ffffff" stroke-width="7" />
+    <g id="job-controller-connector-faces" fill="#23354c" stroke="none" mask="url(#job-controller-connectors-outside-faces)">
+      <path d="M141.5 85 H146.5 V104.5 H141.5Z" />
+      <path d="M141.5 162.5 H146.5 V194 H141.5Z" />
+      <path d="M92.059 162.5 H97.507 L83.858 194 H78.409Z" />
+      <path d="M190.493 162.5 H195.941 L209.591 194 H204.142Z" />
+    </g>
+  </g>
+</svg>

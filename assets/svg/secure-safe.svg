@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="secure-safe-title">
+  <title id="secure-safe-title">金庫</title>
+  <desc>Editable vector paths with continuous outlines, clipped highlights and gradient shading. Transparent background; no raster images or filters.</desc>
+  <defs>
+    <linearGradient id="secure-safe-white" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f2f6fb" />
+      <stop offset="1.0" stop-color="#c9d4e0" />
+    </linearGradient>
+    <linearGradient id="secure-safe-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a4bed3" />
+      <stop offset="0.5" stop-color="#6d8ba4" />
+      <stop offset="1.0" stop-color="#405d78" />
+    </linearGradient>
+    <linearGradient id="secure-safe-dark" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#3f5b75" />
+      <stop offset="0.5" stop-color="#2b425a" />
+      <stop offset="1.0" stop-color="#1a2e44" />
+    </linearGradient>
+    <linearGradient id="secure-safe-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#dcf7ff" />
+      <stop offset="0.5" stop-color="#70c6ec" />
+      <stop offset="1.0" stop-color="#245786" />
+    </linearGradient>
+    <path id="secure-safe-shape1" d="M74 221 H105 L100 237 H81 Z" />
+    <clipPath id="secure-safe-shape1-clip">
+      <use href="#secure-safe-shape1" />
+    </clipPath>
+    <path id="secure-safe-shape2" d="M183 221 H214 L207 237 H190 Z" />
+    <clipPath id="secure-safe-shape2-clip">
+      <use href="#secure-safe-shape2" />
+    </clipPath>
+    <path id="secure-safe-shape3" d="M144 63 L82 63 L61 85 L61 218 Q61 229 72 229 L144 229 L216 229 Q227 229 227 218 L227 85 L206 63 L144 63 Z" />
+    <clipPath id="secure-safe-shape3-clip">
+      <use href="#secure-safe-shape3" />
+    </clipPath>
+    <rect id="secure-safe-shape4" x="82.5" y="105" width="117" height="104" rx="4" />
+    <clipPath id="secure-safe-shape4-clip">
+      <use href="#secure-safe-shape4" />
+    </clipPath>
+    <circle id="secure-safe-shape5" cx="141" cy="157" r="30" />
+    <clipPath id="secure-safe-shape5-clip">
+      <use href="#secure-safe-shape5" />
+    </clipPath>
+    <circle id="secure-safe-shape6" cx="141" cy="157" r="18" />
+    <clipPath id="secure-safe-shape6-clip">
+      <use href="#secure-safe-shape6" />
+    </clipPath>
+    <circle id="secure-safe-shape7" cx="141" cy="157" r="10" />
+    <clipPath id="secure-safe-shape7-clip">
+      <use href="#secure-safe-shape7" />
+    </clipPath>
+    <rect id="secure-safe-shape8" x="193" y="116" width="14" height="26" rx="2" />
+    <clipPath id="secure-safe-shape8-clip">
+      <use href="#secure-safe-shape8" />
+    </clipPath>
+    <rect id="secure-safe-shape9" x="193" y="169" width="14" height="26" rx="2" />
+    <clipPath id="secure-safe-shape9-clip">
+      <use href="#secure-safe-shape9" />
+    </clipPath>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#secure-safe-shape1" fill="url(#secure-safe-dark)" />
+    <use href="#secure-safe-shape1" fill="none" stroke="url(#secure-safe-edge)" stroke-width="5" clip-path="url(#secure-safe-shape1-clip)" />
+    <use href="#secure-safe-shape1" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#secure-safe-shape2" fill="url(#secure-safe-dark)" />
+    <use href="#secure-safe-shape2" fill="none" stroke="url(#secure-safe-edge)" stroke-width="5" clip-path="url(#secure-safe-shape2-clip)" />
+    <use href="#secure-safe-shape2" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#secure-safe-shape3" fill="url(#secure-safe-steel)" />
+    <g clip-path="url(#secure-safe-shape3-clip)">
+      <path d="M61 86 L82 63 H206 L227 86Z" fill="#94acc1" />
+      <path d="M69 83 L85 69 H203" fill="none" stroke="#c5d9e8" stroke-width="4" />
+      <path d="M209 69 L224 86 H64" fill="none" stroke="#526e88" stroke-width="4" />
+      <rect x="61" y="87" width="166" height="142" fill="#bed5e5" />
+      <path d="M227 87 V229 H61 L85 205 L203 107Z" fill="#365571" />
+      <rect x="73" y="97" width="142" height="120" rx="3" fill="url(#secure-safe-steel)" />
+      <path d="M61 87 H227" fill="none" stroke="#304960" stroke-width="2.5" />
+    </g>
+    <use href="#secure-safe-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#secure-safe-shape4" fill="url(#secure-safe-steel)" />
+    <g clip-path="url(#secure-safe-shape4-clip)">
+      <use href="#secure-safe-shape4" fill="#b6cedf" />
+      <path d="M199.5 105 V209 H82.5 L100.5 183.286 L181.5 123Z" fill="#29465f" />
+      <rect x="89.5" y="112" width="103" height="87" rx="1" fill="url(#secure-safe-steel)" />
+    </g>
+    <use href="#secure-safe-shape4" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#secure-safe-shape5" fill="url(#secure-safe-white)" />
+    <g clip-path="url(#secure-safe-shape5-clip)">
+      <path d="M114 157 A27 27 0 0 1 141 130" fill="none" stroke="#d6e8f5" stroke-width="3" />
+      <path d="M168 157 A27 27 0 0 1 141 184" fill="none" stroke="#526b85" stroke-width="3" />
+    </g>
+    <use href="#secure-safe-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M165.000 157.000 L169.000 157.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M161.785 169.000 L165.249 171.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M153.000 177.785 L155.000 181.249" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M141.000 181.000 L141.000 185.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M129.000 177.785 L127.000 181.249" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M120.215 169.000 L116.751 171.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M117.000 157.000 L113.000 157.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M120.215 145.000 L116.751 143.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M129.000 136.215 L127.000 132.751" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M141.000 133.000 L141.000 129.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M153.000 136.215 L155.000 132.751" fill="none" stroke="#050b1d" stroke-width="2" />
+    <path d="M161.785 145.000 L165.249 143.000" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#secure-safe-shape6" fill="url(#secure-safe-dark)" />
+    <g clip-path="url(#secure-safe-shape6-clip)">
+      <path d="M126 157 A15 15 0 0 1 141 142" fill="none" stroke="#d6e8f5" stroke-width="3" />
+      <path d="M156 157 A15 15 0 0 1 141 172" fill="none" stroke="#526b85" stroke-width="3" />
+    </g>
+    <use href="#secure-safe-shape6" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#secure-safe-shape7" fill="url(#secure-safe-steel)" />
+    <g clip-path="url(#secure-safe-shape7-clip)">
+      <path d="M134 157 A7 7 0 0 1 141 150" fill="none" stroke="#d6e8f5" stroke-width="3" />
+      <path d="M148 157 A7 7 0 0 1 141 164" fill="none" stroke="#526b85" stroke-width="3" />
+    </g>
+    <use href="#secure-safe-shape7" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#secure-safe-shape8" fill="url(#secure-safe-white)" />
+    <g clip-path="url(#secure-safe-shape8-clip)">
+      <path d="M196 137 V119 H203" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M204 120 V139 H197" fill="none" stroke="#819ab0" stroke-width="3" />
+    </g>
+    <use href="#secure-safe-shape8" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#secure-safe-shape9" fill="url(#secure-safe-white)" />
+    <g clip-path="url(#secure-safe-shape9-clip)">
+      <path d="M196 190 V172 H203" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M204 173 V192 H197" fill="none" stroke="#819ab0" stroke-width="3" />
+    </g>
+    <use href="#secure-safe-shape9" fill="none" stroke="#050b1d" stroke-width="2" />
+  </g>
+</svg>

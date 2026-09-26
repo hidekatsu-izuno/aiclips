@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="cash-register-title">
+  <title id="cash-register-title">レジ</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="cash-register-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="cash-register-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="cash-register-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="cash-register-silver" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#e3eaf2" />
+      <stop offset="0.5" stop-color="#c5d0de" />
+      <stop offset="1.0" stop-color="#95a8bf" />
+    </linearGradient>
+    <linearGradient id="cash-register-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#48688e" />
+      <stop offset="0.5" stop-color="#29435f" />
+      <stop offset="1.0" stop-color="#1d304b" />
+    </linearGradient>
+    <linearGradient id="cash-register-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d3ecff" />
+      <stop offset="0.5" stop-color="#6d92b9" />
+      <stop offset="1.0" stop-color="#294766" />
+    </linearGradient>
+    <linearGradient id="cash-register-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <linearGradient id="cash-register-drawer" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#91abc7" />
+      <stop offset="0.5" stop-color="#6483a8" />
+      <stop offset="1.0" stop-color="#4b698d" />
+    </linearGradient>
+    <linearGradient id="cash-register-drawer-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d9eafa" />
+      <stop offset="0.5" stop-color="#9db9d4" />
+      <stop offset="1.0" stop-color="#5a7799" />
+    </linearGradient>
+    <linearGradient id="cash-register-body-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#e3edf5" />
+      <stop offset="1.0" stop-color="#b9cbdc" />
+    </linearGradient>
+    <linearGradient id="cash-register-keypad" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#708ea5" />
+      <stop offset="0.5" stop-color="#476b83" />
+      <stop offset="1.0" stop-color="#304f66" />
+    </linearGradient>
+    <linearGradient id="cash-register-keypad-teal" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#438e8f" />
+      <stop offset="0.5" stop-color="#267276" />
+      <stop offset="1.0" stop-color="#15555c" />
+    </linearGradient>
+    <linearGradient id="cash-register-red-key" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffbe22" />
+      <stop offset="0.5" stop-color="#ff6f05" />
+      <stop offset="1.0" stop-color="#f01605" />
+    </linearGradient>
+    <rect id="cash-register-shape1" x="65" y="210" width="24" height="19" rx="8" />
+    <clipPath id="cash-register-shape1-clip">
+      <use href="#cash-register-shape1" />
+    </clipPath>
+    <rect id="cash-register-shape2" x="199" y="210" width="24" height="19" rx="8" />
+    <clipPath id="cash-register-shape2-clip">
+      <use href="#cash-register-shape2" />
+    </clipPath>
+    <rect id="cash-register-shape3" x="135" y="94" width="18" height="22" rx="1" />
+    <clipPath id="cash-register-shape3-clip">
+      <use href="#cash-register-shape3" />
+    </clipPath>
+    <path id="cash-register-shape4" d="M144 112 H88 Q78 112 75 123 L63 175 H225 L213 123 Q210 112 200 112 Z" />
+    <clipPath id="cash-register-shape4-clip">
+      <use href="#cash-register-shape4" />
+    </clipPath>
+    <rect id="cash-register-shape5" x="99" y="60" width="90" height="43" rx="11" />
+    <clipPath id="cash-register-shape5-clip">
+      <use href="#cash-register-shape5" />
+    </clipPath>
+    <rect id="cash-register-shape6" x="107" y="68" width="74" height="28" rx="5" />
+    <clipPath id="cash-register-shape6-clip">
+      <use href="#cash-register-shape6" />
+    </clipPath>
+    <rect id="cash-register-shape7" x="114" y="73" width="60" height="19" rx="3" />
+    <path id="cash-register-shape8" d="M90.0000 128.0000 L135.0000 128.0000 L134.0640 154.0000 L84.3840 154.0000 Z" />
+    <clipPath id="cash-register-shape8-clip">
+      <use href="#cash-register-shape8" stroke-linejoin="miter" />
+    </clipPath>
+    <path id="cash-register-shape9" d="M149.9040 124.0000 L161.7120 124.0000 L162.4320 134.0000 L150.1440 134.0000 Z" />
+    <path id="cash-register-shape10" d="M167.6160 124.0000 L179.4240 124.0000 L180.8640 134.0000 L168.5760 134.0000 Z" />
+    <path id="cash-register-shape11" d="M185.3280 124.0000 L197.1360 124.0000 L199.2960 134.0000 L187.0080 134.0000 Z" />
+    <path id="cash-register-shape12" d="M150.2400 138.0000 L162.7200 138.0000 L163.4400 148.0000 L150.4800 148.0000 Z" />
+    <path id="cash-register-shape13" d="M168.9600 138.0000 L181.4400 138.0000 L182.8800 148.0000 L169.9200 148.0000 Z" />
+    <path id="cash-register-shape14" d="M187.6800 138.0000 L200.1600 138.0000 L202.3200 148.0000 L189.3600 148.0000 Z" />
+    <path id="cash-register-shape15" d="M150.5760 152.0000 L163.7280 152.0000 L164.4480 162.0000 L150.8160 162.0000 Z" />
+    <path id="cash-register-shape16" d="M170.3040 152.0000 L183.4560 152.0000 L184.8960 162.0000 L171.2640 162.0000 Z" />
+    <path id="cash-register-shape17" d="M190.0320 152.0000 L203.1840 152.0000 L205.3440 162.0000 L191.7120 162.0000 Z" />
+    <rect id="cash-register-shape18" x="56" y="173" width="176" height="49" rx="12" />
+    <clipPath id="cash-register-shape18-clip">
+      <use href="#cash-register-shape18" />
+    </clipPath>
+    <rect id="cash-register-shape19" x="68" y="183" width="152" height="28" rx="4" />
+    <clipPath id="cash-register-shape19-clip">
+      <use href="#cash-register-shape19" />
+    </clipPath>
+    <circle id="cash-register-shape20" cx="144" cy="198" r="7.5" />
+    <clipPath id="cash-register-shape20-clip">
+      <use href="#cash-register-shape20" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#cash-register-shape1" fill="url(#cash-register-suit)" />
+    <use href="#cash-register-shape1" fill="none" stroke="url(#cash-register-edge)" stroke-width="6" clip-path="url(#cash-register-shape1-clip)" />
+    <use href="#cash-register-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#cash-register-shape2" fill="url(#cash-register-suit)" />
+    <use href="#cash-register-shape2" fill="none" stroke="url(#cash-register-edge)" stroke-width="6" clip-path="url(#cash-register-shape2-clip)" />
+    <use href="#cash-register-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#cash-register-shape3" fill="url(#cash-register-silver)" />
+    <use href="#cash-register-shape3" fill="none" stroke="url(#cash-register-silver-edge)" stroke-width="6" clip-path="url(#cash-register-shape3-clip)" />
+    <use href="#cash-register-shape3" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#cash-register-shape4" fill="url(#cash-register-paper)" />
+    <use href="#cash-register-shape4" fill="none" stroke="url(#cash-register-body-edge)" stroke-width="11" clip-path="url(#cash-register-shape4-clip)" />
+    <path d="M63 175 L75 123 Q78 112 88 112 H200 Q210 112 213 123 L225 175" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#cash-register-shape5" fill="url(#cash-register-paper)" />
+    <use href="#cash-register-shape5" fill="none" stroke="url(#cash-register-silver-edge)" stroke-width="9" clip-path="url(#cash-register-shape5-clip)" />
+    <use href="#cash-register-shape5" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#cash-register-shape6" fill="url(#cash-register-blue)" />
+    <use href="#cash-register-shape6" fill="none" stroke="url(#cash-register-cyan)" stroke-width="5" clip-path="url(#cash-register-shape6-clip)" />
+    <use href="#cash-register-shape6" fill="none" stroke="#050b1d" stroke-width="1.5" />
+    <use href="#cash-register-shape7" fill="url(#cash-register-blue)" />
+    <use href="#cash-register-shape7" fill="none" stroke="#050b1d" stroke-width="1.8" />
+    <use href="#cash-register-shape8" fill="url(#cash-register-blue)" stroke-linejoin="miter" />
+    <use href="#cash-register-shape8" fill="none" stroke="url(#cash-register-cyan)" stroke-width="5" clip-path="url(#cash-register-shape8-clip)" stroke-linejoin="miter" />
+    <use href="#cash-register-shape8" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linejoin="miter" />
+    <path d="M93.4 131 L100.48400000000001 131" fill="none" stroke="#b9edff" stroke-width="2" stroke-linecap="butt" />
+    <use href="#cash-register-shape9" fill="url(#cash-register-keypad)" stroke-linejoin="miter" />
+    <path d="M149.9040 124.0000 L161.7120 124.0000 L160.2426 125.6000 L151.5270 125.6000 Z" fill="#b5cadb" stroke-linejoin="miter" />
+    <path d="M150.1440 134.0000 L149.9040 124.0000 L151.5270 125.6000 L151.7338 132.4000 Z" fill="#83a3ba" stroke-linejoin="miter" />
+    <path d="M161.7120 124.0000 L162.4320 134.0000 L160.6886 132.4000 L160.2426 125.6000 Z" fill="#304d65" stroke-linejoin="miter" />
+    <path d="M162.4320 134.0000 L150.1440 134.0000 L151.7338 132.4000 L160.6886 132.4000 Z" fill="#20394e" stroke-linejoin="miter" />
+    <use href="#cash-register-shape9" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape10" fill="url(#cash-register-keypad)" stroke-linejoin="miter" />
+    <path d="M167.6160 124.0000 L179.4240 124.0000 L178.0698 125.6000 L169.3542 125.6000 Z" fill="#b5cadb" stroke-linejoin="miter" />
+    <path d="M168.5760 134.0000 L167.6160 124.0000 L169.3542 125.6000 L170.0506 132.4000 Z" fill="#83a3ba" stroke-linejoin="miter" />
+    <path d="M179.4240 124.0000 L180.8640 134.0000 L179.0054 132.4000 L178.0698 125.6000 Z" fill="#304d65" stroke-linejoin="miter" />
+    <path d="M180.8640 134.0000 L168.5760 134.0000 L170.0506 132.4000 L179.0054 132.4000 Z" fill="#20394e" stroke-linejoin="miter" />
+    <use href="#cash-register-shape10" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape11" fill="url(#cash-register-keypad)" stroke-linejoin="miter" />
+    <path d="M185.3280 124.0000 L197.1360 124.0000 L195.8970 125.6000 L187.1814 125.6000 Z" fill="#b5cadb" stroke-linejoin="miter" />
+    <path d="M187.0080 134.0000 L185.3280 124.0000 L187.1814 125.6000 L188.3674 132.4000 Z" fill="#83a3ba" stroke-linejoin="miter" />
+    <path d="M197.1360 124.0000 L199.2960 134.0000 L197.3222 132.4000 L195.8970 125.6000 Z" fill="#304d65" stroke-linejoin="miter" />
+    <path d="M199.2960 134.0000 L187.0080 134.0000 L188.3674 132.4000 L197.3222 132.4000 Z" fill="#20394e" stroke-linejoin="miter" />
+    <use href="#cash-register-shape11" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape12" fill="url(#cash-register-keypad)" stroke-linejoin="miter" />
+    <path d="M150.2400 138.0000 L162.7200 138.0000 L161.1610 139.6000 L151.9526 139.6000 Z" fill="#b5cadb" stroke-linejoin="miter" />
+    <path d="M150.4800 148.0000 L150.2400 138.0000 L151.9526 139.6000 L152.1594 146.4000 Z" fill="#83a3ba" stroke-linejoin="miter" />
+    <path d="M162.7200 138.0000 L163.4400 148.0000 L161.6070 146.4000 L161.1610 139.6000 Z" fill="#304d65" stroke-linejoin="miter" />
+    <path d="M163.4400 148.0000 L150.4800 148.0000 L152.1594 146.4000 L161.6070 146.4000 Z" fill="#20394e" stroke-linejoin="miter" />
+    <use href="#cash-register-shape12" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape13" fill="url(#cash-register-keypad-teal)" stroke-linejoin="miter" />
+    <path d="M168.9600 138.0000 L181.4400 138.0000 L179.9962 139.6000 L170.7878 139.6000 Z" fill="#87c5c0" stroke-linejoin="miter" />
+    <path d="M169.9200 148.0000 L168.9600 138.0000 L170.7878 139.6000 L171.4842 146.4000 Z" fill="#5ca6a2" stroke-linejoin="miter" />
+    <path d="M181.4400 138.0000 L182.8800 148.0000 L180.9318 146.4000 L179.9962 139.6000 Z" fill="#1b575f" stroke-linejoin="miter" />
+    <path d="M182.8800 148.0000 L169.9200 148.0000 L171.4842 146.4000 L180.9318 146.4000 Z" fill="#123e49" stroke-linejoin="miter" />
+    <use href="#cash-register-shape13" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape14" fill="url(#cash-register-red-key)" stroke-linejoin="miter" />
+    <path d="M187.6800 138.0000 L200.1600 138.0000 L198.8314 139.6000 L189.6230 139.6000 Z" fill="#ffdc70" stroke-linejoin="miter" />
+    <path d="M189.3600 148.0000 L187.6800 138.0000 L189.6230 139.6000 L190.8090 146.4000 Z" fill="#ffac28" stroke-linejoin="miter" />
+    <path d="M200.1600 138.0000 L202.3200 148.0000 L200.2566 146.4000 L198.8314 139.6000 Z" fill="#cc4805" stroke-linejoin="miter" />
+    <path d="M202.3200 148.0000 L189.3600 148.0000 L190.8090 146.4000 L200.2566 146.4000 Z" fill="#aa2e03" stroke-linejoin="miter" />
+    <use href="#cash-register-shape14" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape15" fill="url(#cash-register-keypad)" stroke-linejoin="miter" />
+    <path d="M150.5760 152.0000 L163.7280 152.0000 L162.0794 153.6000 L152.3782 153.6000 Z" fill="#b5cadb" stroke-linejoin="miter" />
+    <path d="M150.8160 162.0000 L150.5760 152.0000 L152.3782 153.6000 L152.5850 160.4000 Z" fill="#83a3ba" stroke-linejoin="miter" />
+    <path d="M163.7280 152.0000 L164.4480 162.0000 L162.5254 160.4000 L162.0794 153.6000 Z" fill="#304d65" stroke-linejoin="miter" />
+    <path d="M164.4480 162.0000 L150.8160 162.0000 L152.5850 160.4000 L162.5254 160.4000 Z" fill="#20394e" stroke-linejoin="miter" />
+    <use href="#cash-register-shape15" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape16" fill="url(#cash-register-keypad-teal)" stroke-linejoin="miter" />
+    <path d="M170.3040 152.0000 L183.4560 152.0000 L181.9226 153.6000 L172.2214 153.6000 Z" fill="#87c5c0" stroke-linejoin="miter" />
+    <path d="M171.2640 162.0000 L170.3040 152.0000 L172.2214 153.6000 L172.9178 160.4000 Z" fill="#5ca6a2" stroke-linejoin="miter" />
+    <path d="M183.4560 152.0000 L184.8960 162.0000 L182.8582 160.4000 L181.9226 153.6000 Z" fill="#1b575f" stroke-linejoin="miter" />
+    <path d="M184.8960 162.0000 L171.2640 162.0000 L172.9178 160.4000 L182.8582 160.4000 Z" fill="#123e49" stroke-linejoin="miter" />
+    <use href="#cash-register-shape16" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape17" fill="url(#cash-register-red-key)" stroke-linejoin="miter" />
+    <path d="M190.0320 152.0000 L203.1840 152.0000 L201.7658 153.6000 L192.0646 153.6000 Z" fill="#ffdc70" stroke-linejoin="miter" />
+    <path d="M191.7120 162.0000 L190.0320 152.0000 L192.0646 153.6000 L193.2506 160.4000 Z" fill="#ffac28" stroke-linejoin="miter" />
+    <path d="M203.1840 152.0000 L205.3440 162.0000 L203.1910 160.4000 L201.7658 153.6000 Z" fill="#cc4805" stroke-linejoin="miter" />
+    <path d="M205.3440 162.0000 L191.7120 162.0000 L193.2506 160.4000 L203.1910 160.4000 Z" fill="#aa2e03" stroke-linejoin="miter" />
+    <use href="#cash-register-shape17" fill="none" stroke="#050b1d" stroke-width="1.2" stroke-linejoin="miter" />
+    <use href="#cash-register-shape18" fill="url(#cash-register-paper)" />
+    <use href="#cash-register-shape18" fill="none" stroke="url(#cash-register-body-edge)" stroke-width="10" clip-path="url(#cash-register-shape18-clip)" />
+    <path id="cash-register-body-drawer-seam" d="M52.5 185 Q52.5 171.75 68 171.75 H220 Q235.5 171.75 235.5 185 H228.5 Q228.5 174.25 220 174.25 H68 Q59.5 174.25 59.5 185 Z" fill="#050b1d" />
+    <path d="M56 185 V210 Q56 222 68 222 H220 Q232 222 232 210 V185" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+    <use href="#cash-register-shape19" fill="url(#cash-register-drawer)" />
+    <use href="#cash-register-shape19" fill="none" stroke="url(#cash-register-drawer-edge)" stroke-width="5" clip-path="url(#cash-register-shape19-clip)" />
+    <use href="#cash-register-shape19" fill="none" stroke="#050b1d" stroke-width="1.2" />
+    <use href="#cash-register-shape20" fill="url(#cash-register-silver)" />
+    <use href="#cash-register-shape20" fill="none" stroke="url(#cash-register-silver-edge)" stroke-width="4" clip-path="url(#cash-register-shape20-clip)" />
+    <use href="#cash-register-shape20" fill="none" stroke="#050b1d" stroke-width="3" />
+  </g>
+</svg>

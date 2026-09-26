@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="puzzle-piece-title">
+  <title id="puzzle-piece-title">パズル部品</title>
+  <desc>Editable blue puzzle piece with a smooth symmetrical upper tab and directional highlights along its raised and recessed edges.</desc>
+  <defs>
+    <linearGradient id="puzzle-piece-blue" gradientUnits="userSpaceOnUse" x1="106" y1="77" x2="192" y2="207"><stop stop-color="#22aaf1"/><stop offset=".5" stop-color="#0aa4f6"/><stop offset="1" stop-color="#0097f8"/></linearGradient>
+    <linearGradient id="puzzle-piece-highlight" gradientUnits="userSpaceOnUse" x1="102" y1="58" x2="127" y2="221"><stop stop-color="#89e0fa"/><stop offset=".5" stop-color="#60d4f7"/><stop offset="1" stop-color="#4dc9f6"/></linearGradient>
+    <linearGradient id="puzzle-piece-shadow" gradientUnits="userSpaceOnUse" x1="174" y1="82" x2="199" y2="211"><stop stop-color="#007edc" stop-opacity=".15"/><stop offset="1" stop-color="#0070df" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="puzzle-piece-recess-shadow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0073c8" stop-opacity=".5"/><stop offset="1" stop-color="#0073c8" stop-opacity="0"/></linearGradient>
+    <path id="puzzle-piece-shape1" d="M90 92 H121 C126 92 127 89 124 85 C111 70 123 53 144 53 C165 53 177 70 164 85 C161 89 162 92 167 92 H198 Q211 92 211 105 V128 Q211 138 202 133 C179 120 165 151 181 165 Q191 174 202 167 Q211 161 211 172 V194 Q211 208 198 208 H163 C157 208 156 211 159 217 C165 228 155 236 144 236 C133 236 123 228 129 217 C132 211 131 208 125 208 H90 Q76 208 76 194 V172 Q76 161 85 167 C108 180 122 149 106 135 Q96 126 85 133 Q76 139 76 128 V106 Q76 92 90 92Z"/>
+    <clipPath id="puzzle-piece-clip"><use href="#puzzle-piece-shape1"/></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#puzzle-piece-shape1" fill="url(#puzzle-piece-blue)"/>
+    <g clip-path="url(#puzzle-piece-clip)">
+      <path d="M164 60 C177 75 163 87 165 92" fill="none" stroke="url(#puzzle-piece-shadow)" stroke-width="5"/>
+      <path d="M130 84 C116 68 130 58 144 58" fill="none" stroke="url(#puzzle-piece-highlight)" stroke-width="3.5"/>
+      <path d="M82 129 V107 Q82 98 91 98 H121 C131 98 133 90 129 85" fill="none" stroke="url(#puzzle-piece-highlight)" stroke-width="4"/>
+      <path d="M161 90 Q161 98 169 98 H197" fill="none" stroke="url(#puzzle-piece-highlight)" stroke-width="3.5"/>
+      <path d="M83 138 C101 126 117 138 116 151 C116 169 100 177 85 172 Q82 170 82 177 V193 Q82 200 87 202" fill="none" stroke="url(#puzzle-piece-highlight)" stroke-width="4"/>
+      <path d="M201 132 C184 120 169 133 169 151 C169 166 182 176 194 172" fill="none" stroke="url(#puzzle-piece-recess-shadow)" stroke-width="5"/>
+      <path d="M181 166 Q191 175 202 167" fill="none" stroke="#46c5f7" stroke-width="3.5"/>
+      <path d="M205 103 V128 M205 176 V194 Q205 202 197 202 H163 C150 202 150 211 155 219 C162 232 141 241 131 227" fill="none" stroke="url(#puzzle-piece-shadow)" stroke-width="5"/>
+      <path d="M90 203 H123 Q130 203 132 207" fill="none" stroke="#0089e6" stroke-width="4" opacity=".5"/>
+      <path d="M134 214 C127 225 133 231 139 232" fill="none" stroke="url(#puzzle-piece-highlight)" stroke-width="3.5"/>
+    </g>
+    <use href="#puzzle-piece-shape1" fill="none" stroke="#050b1d" stroke-width="7"/>
+  </g>
+</svg>

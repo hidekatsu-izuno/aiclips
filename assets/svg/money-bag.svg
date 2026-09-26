@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="money-bag-title">
+  <title id="money-bag-title">お金</title>
+  <desc>Editable money bag with a rounded fabric body, folded opening, overlapping coins and directional cloth shading.</desc>
+  <defs>
+    <linearGradient id="money-bag-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#fff071" />
+      <stop offset="0.5" stop-color="#ffd51c" />
+      <stop offset="1.0" stop-color="#f2a900" />
+    </linearGradient>
+    <linearGradient id="money-bag-beige" gradientUnits="userSpaceOnUse" x1="95" y1="120" x2="199" y2="214">
+      <stop stop-color="#ffeac8" />
+      <stop offset=".6" stop-color="#f7d9b0" />
+      <stop offset="1" stop-color="#efd0a7" />
+    </linearGradient>
+    <path id="money-bag-shape1" d="M104 113 C83 132 62 167 64 193 C66 218 100 224 145 224 C185 224 217 218 222 200 C228 176 203 128 181 113 Z" />
+    <clipPath id="money-bag-shape1-clip">
+      <use href="#money-bag-shape1" />
+    </clipPath>
+    <path id="money-bag-shape2" d="M105 72 C115 58 127 57 141 63 Q150 67 160 63 C174 57 188 62 190 74 C205 77 196 96 185 109 Q177 119 144 119 Q113 120 100 109 C87 98 81 86 90 78 Q96 73 105 72Z" />
+    <ellipse id="money-bag-shape3" cx="132" cy="89" rx="18" ry="13" transform="rotate(8 132 89)" />
+    <ellipse id="money-bag-shape4" cx="164" cy="86" rx="14" ry="12" transform="rotate(-18 164 86)" />
+    <linearGradient id="money-bag-body-shadow" gradientUnits="userSpaceOnUse" x1="100" y1="150" x2="212" y2="216">
+      <stop stop-color="#dfb58c" />
+      <stop offset=".65" stop-color="#e6c09a" />
+      <stop offset="1" stop-color="#d9b18f" />
+    </linearGradient>
+    <linearGradient id="money-bag-fold" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#efc99f" />
+      <stop offset=".55" stop-color="#ffebc9" />
+      <stop offset="1" stop-color="#d9b18e" />
+    </linearGradient>
+    <linearGradient id="money-bag-crease" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b2825e" stop-opacity=".65" />
+      <stop offset="1" stop-color="#c3946f" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="money-bag-rope" x1="0" y1="0" x2=".2" y2="1">
+      <stop stop-color="#ffe968" />
+      <stop offset=".38" stop-color="#ffc71e" />
+      <stop offset="1" stop-color="#e89100" />
+    </linearGradient>
+    <linearGradient id="money-bag-coin-face" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#e6a400" />
+      <stop offset=".3" stop-color="#ffce16" />
+      <stop offset="1" stop-color="#ffdf38" />
+    </linearGradient>
+    <linearGradient id="money-bag-coin-rim" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#b77a00" />
+      <stop offset=".45" stop-color="#d19a08" />
+      <stop offset=".75" stop-color="#fff078" />
+      <stop offset="1" stop-color="#fff6ac" />
+    </linearGradient>
+    <linearGradient id="money-bag-neck-shadow" gradientUnits="userSpaceOnUse" x1="140" y1="119" x2="140" y2="142">
+      <stop stop-color="#9e6e48" stop-opacity=".6" />
+      <stop offset=".55" stop-color="#b98c61" stop-opacity=".18" />
+      <stop offset="1" stop-color="#b98c61" stop-opacity="0" />
+    </linearGradient>
+    <path id="money-bag-cord" d="M100 110 C121 119 158 120 184 108 L183 119 C157 131 122 131 100 120 Q96 117 100 110Z" />
+    <clipPath id="money-bag-cord-clip">
+      <use href="#money-bag-cord" />
+    </clipPath>
+    <path id="money-bag-tail" d="M183 109 C202 107 214 119 222 135 Q226 142 221 145 Q215 148 212 141 C205 126 199 120 182 121Z" />
+    <clipPath id="money-bag-tail-clip">
+      <use href="#money-bag-tail" />
+    </clipPath>
+    <linearGradient id="money-bag-cord-paint" gradientUnits="userSpaceOnUse" x1="139" y1="111" x2="141" y2="129">
+      <stop stop-color="#ffe46b" />
+      <stop offset=".38" stop-color="#ffc523" />
+      <stop offset="1" stop-color="#e08c00" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#money-bag-tail" fill="url(#money-bag-rope)" />
+    <g clip-path="url(#money-bag-tail-clip)">
+      <path d="M183 112 C201 110 212 122 219 137" fill="none" stroke="#ffe56c" stroke-width="2.5" />
+      <path d="M183 119 C201 117 208 131 215 143" fill="none" stroke="#d38a00" stroke-width="2.5" />
+      <path d="M194 108 Q196 114 191 123 M204 113 Q207 119 200 126 M214 122 Q215 129 207 133 M222 134 Q219 139 212 140" fill="none" stroke="#956012" stroke-width="1.8" />
+    </g>
+    <use href="#money-bag-tail" fill="none" stroke="#050b1d" stroke-width="4.5" />
+    <use href="#money-bag-shape1" fill="url(#money-bag-body-shadow)" />
+    <g clip-path="url(#money-bag-shape1-clip)">
+      <path d="M101 115 H169 C184 128 197 150 196 175 C195 200 173 210 143 210 C104 210 75 201 69 180 C69 158 87 126 101 115Z" fill="url(#money-bag-beige)" />
+      <path d="M104 121 C84 143 67 174 68 193" fill="none" stroke="#fff1d6" stroke-width="3.5" />
+      <path d="M110 115 L125 120 C116 130 110 144 99 151 C96 142 104 124 110 115Z M156 120 L170 115 C180 129 182 142 179 151 C168 139 168 131 156 120Z" fill="url(#money-bag-crease)" />
+      <path d="M100 115 Q142 127 184 115 L191 142 Q143 144 91 142Z" fill="url(#money-bag-neck-shadow)" />
+    </g>
+    <use href="#money-bag-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#money-bag-shape2" fill="url(#money-bag-fold)" />
+    <path d="M92 88 Q89 79 107 77 C119 63 128 63 141 68 Q150 72 162 68 C175 63 186 68 185 78" fill="none" stroke="#fff1d3" stroke-width="4" />
+    <use href="#money-bag-shape2" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#money-bag-shape4" fill="url(#money-bag-gold)" stroke="#171207" stroke-width="4" />
+    <ellipse cx="164" cy="86" rx="10.5" ry="8.5" transform="rotate(-18 164 86)" fill="url(#money-bag-coin-face)" stroke="url(#money-bag-coin-rim)" stroke-width="1.5" />
+    <path d="M152.8 86 A11.2 9.2 0 0 1 169.6 78.0326" transform="rotate(-18 164 86)" fill="none" stroke="#fff493" stroke-width=".9" />
+    <use href="#money-bag-shape3" fill="url(#money-bag-gold)" stroke="#171207" stroke-width="4" />
+    <ellipse cx="132" cy="89" rx="14" ry="9.2" transform="rotate(8 132 89)" fill="url(#money-bag-coin-face)" stroke="url(#money-bag-coin-rim)" stroke-width="1.5" />
+    <path d="M116.8 89 A15.2 10.4 0 0 1 139.6 79.9933" transform="rotate(8 132 89)" fill="none" stroke="#fff493" stroke-width=".9" />
+    <path d="M100 87 Q101 93 112 91 C125 87 136 102 150 98 C163 95 164 90 178 89 Q183 88 184 83 L188 89 Q181 113 145 116 Q115 117 101 104Z" fill="url(#money-bag-fold)" />
+    <path d="M102 87 Q104 93 113 91 C126 88 135 102 150 98 C163 95 166 91 178 89 Q183 88 184 83" fill="none" stroke="#171207" stroke-width="4" />
+    <path d="M103 97 C120 92 134 110 151 104 Q170 94 180 94" fill="none" stroke="#ffeccd" stroke-width="3" />
+    <path d="M112 101 Q116 101 123 114 L116 114 Q110 108 112 101Z M166 105 L174 100 Q171 111 164 115 H159Z" fill="#c69e79" opacity=".5" />
+    <use href="#money-bag-cord" fill="url(#money-bag-cord-paint)" />
+    <g clip-path="url(#money-bag-cord-clip)">
+      <path d="M99 113 C122 122 159 122 184 111" fill="none" stroke="#ffe975" stroke-width="2" />
+      <path d="M98 119 C124 130 158 130 184 117" fill="none" stroke="#ce7b00" stroke-width="2.5" />
+      <path d="M109 112 Q111 118 107 125 M123 116 Q125 121 120 129 M138 117 Q139 123 134 131 M153 116 Q155 123 149 129 M167 114 Q170 119 164 126 M180 109 Q183 115 177 122" fill="none" stroke="#996017" stroke-width="1.8" />
+    </g>
+    <use href="#money-bag-cord" fill="none" stroke="#050b1d" stroke-width="4" />
+    <path d="M118 147 H129 L140 168 L151 147 H161 L146 172 H158 V179 H145 V185 H158 V192 H145 V203 H134 V192 H120 V185 H134 V179 H120 V172 H134Z" fill="#663509" stroke="#663509" stroke-width="1.5" />
+  </g>
+</svg>

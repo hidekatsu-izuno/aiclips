@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="processor-chip-title">
+  <title id="processor-chip-title">CPU</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="processor-chip-blue" gradientUnits="userSpaceOnUse" x1="96" y1="93" x2="192" y2="205">
+      <stop offset="0" stop-color="#10c4fb" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#009cff" stop-opacity="1" />
+      <stop offset="1" stop-color="#0085f4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="processor-chip-blue-edge" gradientUnits="userSpaceOnUse" x1="91" y1="92" x2="191" y2="203">
+      <stop offset="0" stop-color="#83e7ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#16b9ff" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#006bdd" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="processor-chip-blue-shadow" gradientUnits="userSpaceOnUse" x1="154" y1="122" x2="202" y2="204">
+      <stop offset="0" stop-color="#0086ec" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#0060d1" stop-opacity="0.9" />
+    </linearGradient>
+    <rect id="processor-chip-body" x="83" y="86" width="120" height="120" rx="14" />
+    <clipPath id="processor-chip-body-clip">
+      <use href="#processor-chip-body" />
+    </clipPath>
+    <linearGradient id="processor-chip-core-paint" gradientUnits="userSpaceOnUse" x1="110" y1="110" x2="178" y2="185">
+      <stop offset="0" stop-color="#f6f8fc" stop-opacity="1" />
+      <stop offset="1" stop-color="#cbd7e3" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="processor-chip-core-bevel" gradientUnits="userSpaceOnUse" x1="107" y1="110" x2="178" y2="182">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#e8eef5" stop-opacity="1" />
+      <stop offset="1" stop-color="#a5b8cb" stop-opacity="1" />
+    </linearGradient>
+    <rect id="processor-chip-core" x="103" y="106" width="80" height="82" rx="10" />
+    <clipPath id="processor-chip-core-clip">
+      <use href="#processor-chip-core" />
+    </clipPath>
+    <linearGradient id="processor-chip-pin-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff48a" />
+      <stop offset=".4" stop-color="#ffd725" />
+      <stop offset="1" stop-color="#f1ac00" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="105" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="105" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="133" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="133" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="161" y="60" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="161" y="195" width="20" height="32" rx="10" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="104" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="104" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="133" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="133" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="62" y="162" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <rect x="192" y="162" width="32" height="21" rx="10.5" fill="url(#processor-chip-pin-paint)" stroke="#050b1d" stroke-width="7" />
+    <use href="#processor-chip-body" fill="url(#processor-chip-blue)" />
+    <path d="M197 86 H203 V206 H110 C152 192 181 143 197 86 Z" fill="url(#processor-chip-blue-shadow)" clip-path="url(#processor-chip-body-clip)" />
+    <use href="#processor-chip-body" fill="none" stroke="url(#processor-chip-blue-edge)" stroke-width="15" clip-path="url(#processor-chip-body-clip)" />
+    <use href="#processor-chip-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#processor-chip-core" fill="url(#processor-chip-core-paint)" />
+    <path d="M166 106 H183 V188 H108 Z" fill="#d6e0ea" clip-path="url(#processor-chip-core-clip)" />
+    <use href="#processor-chip-core" fill="none" stroke="url(#processor-chip-core-bevel)" stroke-width="11" clip-path="url(#processor-chip-core-clip)" />
+    <use href="#processor-chip-core" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

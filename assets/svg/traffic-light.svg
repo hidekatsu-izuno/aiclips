@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="traffic-light-title">
+  <title id="traffic-light-title">信号</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="traffic-light-gold" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffdf49" />
+      <stop offset="0.5" stop-color="#ffd533" />
+      <stop offset="1.0" stop-color="#ffc927" />
+    </linearGradient>
+    <linearGradient id="traffic-light-red" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ff4148" />
+      <stop offset="0.5" stop-color="#ff3039" />
+      <stop offset="1.0" stop-color="#ee2530" />
+    </linearGradient>
+    <rect id="traffic-light-shape1" x="57" y="112" width="26" height="98" rx="1" />
+    <clipPath id="traffic-light-shape1-clip">
+      <use href="#traffic-light-shape1" />
+    </clipPath>
+    <rect id="traffic-light-shape2" x="49" y="105" width="27" height="35" rx="10" />
+    <clipPath id="traffic-light-shape2-clip">
+      <use href="#traffic-light-shape2" />
+    </clipPath>
+    <rect id="traffic-light-shape3" x="67" y="84" width="172" height="81" rx="36" />
+    <clipPath id="traffic-light-shape3-clip">
+      <use href="#traffic-light-shape3" />
+    </clipPath>
+    <linearGradient id="traffic-light-lamp-green" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#4bd960" />
+      <stop offset="0.5" stop-color="#36c552" />
+      <stop offset="1.0" stop-color="#2eb74a" />
+    </linearGradient>
+    <circle id="traffic-light-shape4" cx="103" cy="124.5" r="20" />
+    <clipPath id="traffic-light-shape4-clip">
+      <use href="#traffic-light-shape4" />
+    </clipPath>
+    <circle id="traffic-light-shape5" cx="153" cy="124.5" r="20" />
+    <clipPath id="traffic-light-shape5-clip">
+      <use href="#traffic-light-shape5" />
+    </clipPath>
+    <circle id="traffic-light-shape6" cx="203" cy="124.5" r="20" />
+    <clipPath id="traffic-light-shape6-clip">
+      <use href="#traffic-light-shape6" />
+    </clipPath>
+    <linearGradient id="traffic-light-housing" x1="0" y1="0" x2="1" y2=".7">
+      <stop stop-color="#59779b" offset="0" />
+      <stop stop-color="#435e81" offset="0.5" />
+      <stop stop-color="#3d5677" offset="1" />
+    </linearGradient>
+    <linearGradient id="traffic-light-housing-bevel" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#c5dce9" offset="0" />
+      <stop stop-color="#8daac2" offset="0.17" />
+      <stop stop-color="#5a7a9b" offset="0.55" />
+      <stop stop-color="#29415e" offset="1" />
+    </linearGradient>
+    <linearGradient id="traffic-light-recess" x1="0" y1="0" x2=".2" y2="1">
+      <stop stop-color="#142638" offset="0" />
+      <stop stop-color="#253e54" offset="0.45" />
+      <stop stop-color="#7294af" offset="1" />
+    </linearGradient>
+    <linearGradient id="traffic-light-green-edge" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#68e887" offset="0" />
+      <stop stop-color="#24b754" offset="0.5" />
+      <stop stop-color="#0e803b" offset="1" />
+    </linearGradient>
+    <linearGradient id="traffic-light-gold-edge" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#ffe97b" offset="0" />
+      <stop stop-color="#ffce28" offset="0.5" />
+      <stop stop-color="#dc9206" offset="1" />
+    </linearGradient>
+    <linearGradient id="traffic-light-red-edge" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#ff8a8b" offset="0" />
+      <stop stop-color="#f32637" offset="0.5" />
+      <stop stop-color="#b61021" offset="1" />
+    </linearGradient>
+    <radialGradient id="traffic-light-reflection" cx=".3" cy=".25" r=".6">
+      <stop stop-color="#ffffde" stop-opacity=".75" offset="0" />
+      <stop stop-color="#ffffde" stop-opacity=".25" offset=".5" />
+      <stop stop-color="#ffffde" stop-opacity="0" offset="1" />
+    </radialGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#traffic-light-shape1" fill="url(#traffic-light-housing)" />
+    <use href="#traffic-light-shape1" fill="none" stroke="url(#traffic-light-housing-bevel)" stroke-width="12" clip-path="url(#traffic-light-shape1-clip)" />
+    <use href="#traffic-light-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#traffic-light-shape2" fill="url(#traffic-light-housing)" />
+    <use href="#traffic-light-shape2" fill="none" stroke="url(#traffic-light-housing-bevel)" stroke-width="12" clip-path="url(#traffic-light-shape2-clip)" />
+    <use href="#traffic-light-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#traffic-light-shape3" fill="url(#traffic-light-housing)" />
+    <use href="#traffic-light-shape3" fill="none" stroke="url(#traffic-light-housing-bevel)" stroke-width="14" clip-path="url(#traffic-light-shape3-clip)" />
+    <use href="#traffic-light-shape3" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="103" cy="124.5" r="23.5" fill="url(#traffic-light-recess)" />
+    <use href="#traffic-light-shape4" fill="url(#traffic-light-lamp-green)" />
+    <use href="#traffic-light-shape4" fill="none" stroke="url(#traffic-light-green-edge)" stroke-width="10" clip-path="url(#traffic-light-shape4-clip)" />
+    <ellipse cx="97.0" cy="115.5" rx="7" ry="5" transform="rotate(-40 97.0 115.5)" fill="url(#traffic-light-reflection)" />
+    <use href="#traffic-light-shape4" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="153" cy="124.5" r="23.5" fill="url(#traffic-light-recess)" />
+    <use href="#traffic-light-shape5" fill="url(#traffic-light-gold)" />
+    <use href="#traffic-light-shape5" fill="none" stroke="url(#traffic-light-gold-edge)" stroke-width="10" clip-path="url(#traffic-light-shape5-clip)" />
+    <ellipse cx="147.0" cy="115.5" rx="7" ry="5" transform="rotate(-40 147.0 115.5)" fill="url(#traffic-light-reflection)" />
+    <use href="#traffic-light-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="203" cy="124.5" r="23.5" fill="url(#traffic-light-recess)" />
+    <use href="#traffic-light-shape6" fill="url(#traffic-light-red)" />
+    <use href="#traffic-light-shape6" fill="none" stroke="url(#traffic-light-red-edge)" stroke-width="10" clip-path="url(#traffic-light-shape6-clip)" />
+    <ellipse cx="197.0" cy="115.5" rx="7" ry="5" transform="rotate(-40 197.0 115.5)" fill="url(#traffic-light-reflection)" />
+    <use href="#traffic-light-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+  </g>
+</svg>

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="microscope-title">
+  <title id="microscope-title">顕微鏡</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="microscope-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="microscope-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="microscope-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="microscope-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#48688e" />
+      <stop offset="0.5" stop-color="#29435f" />
+      <stop offset="1.0" stop-color="#1d304b" />
+    </linearGradient>
+    <path id="microscope-shape1" d="M157 107 C210 108 224 177 190 210 H157 C193 176 179 140 151 137 Z" />
+    <clipPath id="microscope-shape1-clip">
+      <use href="#microscope-shape1" />
+    </clipPath>
+    <rect id="microscope-shape2" x="106" y="177" width="35" height="37" rx="1" />
+    <clipPath id="microscope-shape2-clip">
+      <use href="#microscope-shape2" />
+    </clipPath>
+    <path id="microscope-shape3" d="M133 133 L148 144 L127 168 L112 157 Z" />
+    <clipPath id="microscope-shape3-clip">
+      <use href="#microscope-shape3" />
+    </clipPath>
+    <path id="microscope-shape4" d="M155 73 L181 94 L152 148 Q150 152 145 149 L118 130 Q114 126 118 122 Z" />
+    <clipPath id="microscope-shape4-clip">
+      <use href="#microscope-shape4" />
+    </clipPath>
+    <path id="microscope-shape5" d="M170 58 Q173 55 178 59 L190 69 Q194 72 191 77 L183 88 L162 72 Z" />
+    <clipPath id="microscope-shape5-clip">
+      <use href="#microscope-shape5" />
+    </clipPath>
+    <circle id="microscope-shape6" cx="169" cy="121" r="13" />
+    <clipPath id="microscope-shape6-clip">
+      <use href="#microscope-shape6" />
+    </clipPath>
+    <rect id="microscope-shape7" x="88" y="165" width="72" height="17" rx="8" />
+    <clipPath id="microscope-shape7-clip">
+      <use href="#microscope-shape7" />
+    </clipPath>
+    <circle id="microscope-shape8" cx="172" cy="195" r="15" />
+    <clipPath id="microscope-shape8-clip">
+      <use href="#microscope-shape8" />
+    </clipPath>
+    <circle id="microscope-shape9" cx="172" cy="195" r="5" />
+    <rect id="microscope-shape10" x="94" y="209" width="119" height="23" rx="11" />
+    <clipPath id="microscope-shape10-clip">
+      <use href="#microscope-shape10" />
+    </clipPath>
+    <linearGradient id="microscope-tube" gradientUnits="userSpaceOnUse" x1="132" y1="102" x2="163" y2="125">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".55" stop-color="#f3f7fb" />
+      <stop offset="1" stop-color="#c6d7e7" />
+    </linearGradient>
+    <linearGradient id="microscope-arm" gradientUnits="userSpaceOnUse" x1="177" y1="142" x2="211" y2="154">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".55" stop-color="#f2f6fb" />
+      <stop offset="1" stop-color="#b7cce0" />
+    </linearGradient>
+    <linearGradient id="microscope-foot" gradientUnits="userSpaceOnUse" x1="145" y1="210" x2="154" y2="232">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".4" stop-color="#f4f8fc" />
+      <stop offset="1" stop-color="#c7d9e8" />
+    </linearGradient>
+    <linearGradient id="microscope-stage" gradientUnits="userSpaceOnUse" x1="115" y1="166" x2="122" y2="182">
+      <stop offset="0" stop-color="#b9d0e3" />
+      <stop offset=".25" stop-color="#7495b5" />
+      <stop offset="1" stop-color="#304f73" />
+    </linearGradient>
+    <linearGradient id="microscope-dial" gradientUnits="userSpaceOnUse" x1="160" y1="111" x2="178" y2="131">
+      <stop offset="0" stop-color="#9bbbd5" />
+      <stop offset=".3" stop-color="#537a9f" />
+      <stop offset="1" stop-color="#305678" />
+    </linearGradient>
+    <linearGradient id="microscope-pivot-shadow" gradientUnits="userSpaceOnUse" x1="173" y1="126" x2="186" y2="148">
+      <stop stop-color="#8ea7bf" stop-opacity=".5" />
+      <stop offset="1" stop-color="#8ea7bf" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#microscope-shape1" fill="url(#microscope-arm)" />
+    <g clip-path="url(#microscope-shape1-clip)">
+      <path d="M177 122 C201 141 207 177 185 202" fill="none" stroke="#ffffff" stroke-width="7" opacity=".8" />
+      <path d="M199 128 C218 154 211 191 190 210" fill="none" stroke="#9fb9d2" stroke-width="6" opacity=".55" />
+      <path d="M159 116 C177 120 184 134 187 148" fill="none" stroke="url(#microscope-pivot-shadow)" stroke-width="8" />
+    </g>
+    <use href="#microscope-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#microscope-shape2" fill="url(#microscope-paper)" />
+    <g clip-path="url(#microscope-shape2-clip)">
+      <path d="M109 211 V181 H136" fill="none" stroke="#ffffff" stroke-width="3" />
+      <path d="M137 180 V213" fill="none" stroke="#a7bdcf" stroke-width="5" />
+      <path d="M109 180 H139" fill="none" stroke="#7f9cb6" stroke-width="5" opacity=".6" />
+    </g>
+    <use href="#microscope-shape2" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#microscope-shape3" fill="url(#microscope-steel)" />
+    <g clip-path="url(#microscope-shape3-clip)">
+      <path d="M133 138 L118 155" fill="none" stroke="#c0d6e9" stroke-width="4" />
+      <path d="M142 145 L127 163" fill="none" stroke="#284b6e" stroke-width="5" opacity=".65" />
+    </g>
+    <use href="#microscope-shape3" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#microscope-shape4" fill="url(#microscope-tube)" />
+    <g clip-path="url(#microscope-shape4-clip)">
+      <path d="M155 79 L122 123 Q120 126 123 128" fill="none" stroke="#ffffff" stroke-width="4" />
+      <path d="M175 96 L148 146" fill="none" stroke="#aac1d5" stroke-width="5" opacity=".6" />
+    </g>
+    <use href="#microscope-shape4" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#microscope-shape5" fill="url(#microscope-steel)" />
+    <g clip-path="url(#microscope-shape5-clip)">
+      <path d="M171 63 Q174 60 178 64 L186 70" fill="none" stroke="#c8dceb" stroke-width="3" />
+      <path d="M174 69 L166 79" fill="none" stroke="#bfd4e6" stroke-width="3" />
+      <path d="M187 75 L179 85" fill="none" stroke="#294e73" stroke-width="4" />
+      <path d="M166 66 L187 82" fill="none" stroke="#050b1d" stroke-width="4" />
+    </g>
+    <use href="#microscope-shape5" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#microscope-shape6" fill="url(#microscope-dial)" />
+    <g clip-path="url(#microscope-shape6-clip)">
+      <path d="M159 123 A10 10 0 0 1 172 112" fill="none" stroke="#abc8df" stroke-width="2.5" opacity=".8" />
+      <ellipse cx="170.5" cy="122" rx="6.5" ry="7" fill="#25486b" opacity=".55" />
+      <path d="M178 118 A10 10 0 0 1 170 131" fill="none" stroke="#2f506f" stroke-width="3" opacity=".6" />
+    </g>
+    <use href="#microscope-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#microscope-shape7" fill="url(#microscope-stage)" />
+    <g clip-path="url(#microscope-shape7-clip)">
+      <path d="M93 174 Q92 169 98 169 H151" fill="none" stroke="#c7dceb" stroke-width="2.5" />
+      <path d="M96 179 H153 V171" fill="none" stroke="#2d4967" stroke-width="3" opacity=".65" />
+    </g>
+    <use href="#microscope-shape7" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#microscope-shape8" fill="url(#microscope-blue)" />
+    <g clip-path="url(#microscope-shape8-clip)">
+      <path d="M160 199 A12 12 0 0 1 177 184" fill="none" stroke="#90e7fc" stroke-width="3.5" />
+      <path d="M184 190 A12 12 0 0 1 164 205" fill="none" stroke="#006799" stroke-width="4" opacity=".75" />
+    </g>
+    <use href="#microscope-shape8" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#microscope-shape9" fill="url(#microscope-suit)" />
+    <use href="#microscope-shape9" fill="none" stroke="#050b1d" stroke-width="2" />
+    <use href="#microscope-shape10" fill="url(#microscope-foot)" />
+    <g clip-path="url(#microscope-shape10-clip)">
+      <path d="M99 221 Q98 214 106 214 H199" fill="none" stroke="#ffffff" stroke-width="4" />
+      <path d="M105 229 H201 Q209 229 210 222" fill="none" stroke="#b5cadd" stroke-width="3" opacity=".6" />
+    </g>
+    <use href="#microscope-shape10" fill="none" stroke="#050b1d" stroke-width="6" />
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="coin-title">
+  <title id="coin-title">硬貨</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="coin-coin-rim" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0.0" stop-color="#ffe63f" />
+      <stop offset="0.5" stop-color="#ffd00b" />
+      <stop offset="1.0" stop-color="#e8a600" />
+    </linearGradient>
+    <linearGradient id="coin-coin-face" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0.0" stop-color="#ffe333" />
+      <stop offset="0.5" stop-color="#ffd019" />
+      <stop offset="1.0" stop-color="#f9bb06" />
+    </linearGradient>
+    <linearGradient id="coin-rim-bevel" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0.0" stop-color="#fff9b7" />
+      <stop offset="0.5" stop-color="#ffe968" />
+      <stop offset="1.0" stop-color="#c98d05" />
+    </linearGradient>
+    <linearGradient id="coin-engraved-edge" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0.0" stop-color="#ad6900" />
+      <stop offset="0.5" stop-color="#d38b00" />
+      <stop offset="1.0" stop-color="#e8a222" />
+    </linearGradient>
+    <linearGradient id="coin-yen" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#985200" />
+      <stop offset="0.5" stop-color="#8b4800" />
+      <stop offset="1.0" stop-color="#773c00" />
+    </linearGradient>
+    <circle id="coin-shape1" cx="144" cy="144" r="75" />
+    <clipPath id="coin-shape1-clip">
+      <use href="#coin-shape1" />
+    </clipPath>
+    <circle id="coin-shape2" cx="144" cy="144" r="58" />
+    <linearGradient id="coin-diagonal-gloss" gradientUnits="userSpaceOnUse" x1="97" y1="103" x2="183" y2="189">
+      <stop stop-color="#fff9c7" stop-opacity=".05" offset="0" />
+      <stop stop-color="#fff9c7" stop-opacity=".10" offset="0.37" />
+      <stop stop-color="#fff9c7" stop-opacity=".42" offset="0.46" />
+      <stop stop-color="#fff9c7" stop-opacity=".30" offset="0.64" />
+      <stop stop-color="#fff9c7" stop-opacity="0" offset="0.65" />
+      <stop stop-color="#fff9c7" stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#coin-shape1" fill="url(#coin-coin-rim)" />
+    <use href="#coin-shape1" fill="none" stroke="url(#coin-rim-bevel)" stroke-width="15" clip-path="url(#coin-shape1-clip)" />
+    <use href="#coin-shape1" fill="none" stroke="url(#coin-diagonal-gloss)" stroke-width="21" clip-path="url(#coin-shape1-clip)" />
+    <use href="#coin-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#coin-shape2" fill="url(#coin-coin-face)" />
+    <use id="coin-face-gloss" href="#coin-shape2" fill="url(#coin-diagonal-gloss)" />
+    <path d="M202 144 A58 58 0 1 1 86 144 A58 58 0 1 1 202 144" fill="none" stroke="url(#coin-engraved-edge)" stroke-width="3.4" />
+    <path d="M190 182 A60 60 0 0 1 105 190" fill="none" stroke="#fff077" stroke-width="2.5" />
+    <path d="M82.520550 112.674656 A69 69 0 0 1 107.435571 85.484681" fill="none" stroke="#fff6a8" stroke-width="3" stroke-linecap="round" />
+    <path d="M118 113 H131 L144 138 L157 113 H170 L152 145 H166 V154 H150 V161 H166 V170 H150 V184 H138 V170 H122 V161 H138 V154 H122 V145 H136 Z" fill="#ffe775" stroke="none" stroke-width="0.7" transform="translate(.6 1)" />
+    <path d="M118 113 H131 L144 138 L157 113 H170 L152 145 H166 V154 H150 V161 H166 V170 H150 V184 H138 V170 H122 V161 H138 V154 H122 V145 H136 Z" fill="url(#coin-yen)" stroke="#965000" stroke-width="0.7" />
+  </g>
+</svg>

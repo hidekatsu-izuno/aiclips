@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="file-binary-title">
+  <title id="file-binary-title">BINARY</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="file-binary-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="file-binary-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <linearGradient id="file-binary-sheet" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#fcfcfe" />
+      <stop offset="1.0" stop-color="#edf0f5" />
+    </linearGradient>
+    <path id="file-binary-shape1" d="M92 64 H169 L212 106 V208 Q212 224 196 224 H92 Q76 224 76 208 V80 Q76 64 92 64 Z" />
+    <clipPath id="file-binary-shape1-clip">
+      <use href="#file-binary-shape1" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#file-binary-shape1" fill="url(#file-binary-sheet)" />
+    <use href="#file-binary-shape1" fill="none" stroke="url(#file-binary-silver-edge)" stroke-width="5" clip-path="url(#file-binary-shape1-clip)" />
+    <use href="#file-binary-shape1" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M169 68 L208 107 H179 Q169 107 169 97 Z" fill="url(#file-binary-blue)" stroke="none" stroke-width="0" />
+    <path d="M107 124 C96 124 96 153 107 153 C118 153 118 124 107 124 Z" fill="none" stroke="#10235b" stroke-width="6" />
+    <path d="M125 129 L132 124 V153 M125 153 H139" fill="none" stroke="#10235b" stroke-width="6" stroke-linejoin="round" />
+    <path d="M157 124 C146 124 146 153 157 153 C168 153 168 124 157 124 Z" fill="none" stroke="#10235b" stroke-width="6" />
+    <path d="M175 129 L182 124 V153 M175 153 H189" fill="none" stroke="#10235b" stroke-width="6" stroke-linejoin="round" />
+    <path d="M100 171 L107 166 V195 M100 195 H114" fill="none" stroke="#10235b" stroke-width="6" stroke-linejoin="round" />
+    <path d="M125 171 L132 166 V195 M125 195 H139" fill="none" stroke="#10235b" stroke-width="6" stroke-linejoin="round" />
+    <path d="M157 166 C146 166 146 195 157 195 C168 195 168 166 157 166 Z" fill="none" stroke="#10235b" stroke-width="6" />
+    <path d="M182 166 C171 166 171 195 182 195 C193 195 193 166 182 166 Z" fill="none" stroke="#10235b" stroke-width="6" />
+  </g>
+</svg>

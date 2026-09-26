@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="walking-sneaker-title">
+  <title id="walking-sneaker-title">スニーカー</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="walking-sneaker-hair" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#344f6d" />
+      <stop offset="0.5" stop-color="#263c57" />
+      <stop offset="1.0" stop-color="#1b2d43" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-upper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#16c1ff" />
+      <stop offset="0.5" stop-color="#009bfb" />
+      <stop offset="1.0" stop-color="#0068de" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-toe" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#12c0ff" />
+      <stop offset="0.5" stop-color="#00a1fa" />
+      <stop offset="1.0" stop-color="#0086ed" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-quarter" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0aaafa" />
+      <stop offset="0.5" stop-color="#007cdf" />
+      <stop offset="1.0" stop-color="#0060c3" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-heel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#079cff" />
+      <stop offset="0.5" stop-color="#0075e8" />
+      <stop offset="1.0" stop-color="#0753b9" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-sole" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f0f5f9" />
+      <stop offset="1.0" stop-color="#dbe6ee" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-lace" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f7fafe" />
+      <stop offset="1.0" stop-color="#dbe6f1" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-outsole" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#17c4ff" />
+      <stop offset="0.5" stop-color="#008cf5" />
+      <stop offset="1.0" stop-color="#005cbb" />
+    </linearGradient>
+    <path id="walking-sneaker-shape1" d="M55 153 C64 143 78 141 101 132 L135 101 Q146 87 152 92 Q163 97 168 112 C184 117 190 105 198 91 Q203 79 210 87 C224 106 230 129 230 148 Q236 159 236 169 C236 183 227 190 211 192 L181 192 Q166 189 152 195 C120 203 89 199 70 192 Q45 183 50 165 Q51 158 55 153 Z" />
+    <clipPath id="walking-sneaker-shape1-clip">
+      <use href="#walking-sneaker-shape1" />
+    </clipPath>
+    <path id="walking-sneaker-shape2" d="M54 157 C67 175 104 182 138 173 C162 165 178 158 197 158 Q218 158 230 148 Q236 159 236 169 C236 183 227 190 211 192 L181 192 Q166 189 152 195 C120 203 89 199 70 192 Q45 183 50 165 Z" />
+    <clipPath id="walking-sneaker-shape2-clip">
+      <use href="#walking-sneaker-shape2" />
+    </clipPath>
+    <linearGradient id="walking-sneaker-upper-edge" x1="0" y1="0" x2=".35" y2="1">
+      <stop stop-color="#a8efff" offset="0" />
+      <stop stop-color="#45c9fa" offset="0.35" />
+      <stop stop-color="#0077ca" offset="0.7" />
+      <stop stop-color="#064691" offset="1" />
+    </linearGradient>
+    <linearGradient id="walking-sneaker-sole-edge" x1="0" y1="0" x2=".35" y2="1">
+      <stop stop-color="#ffffff" offset="0" />
+      <stop stop-color="#e1edf5" offset="0.45" />
+      <stop stop-color="#91abc0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#walking-sneaker-shape1" fill="url(#walking-sneaker-upper)" />
+    <g clip-path="url(#walking-sneaker-shape1-clip)">
+      <path d="M101 132 C112 141 130 148 138 169 Q112 183 80 173 Q60 168 55 153 C64 143 78 141 101 132 Z" fill="url(#walking-sneaker-toe)" stroke="none" stroke-width="0" />
+      <path d="M142 112 Q157 108 167 112 Q178 124 193 124 L202 138 L193 158 Q175 161 163 167 L138 172 C136 157 114 145 101 136 Z" fill="url(#walking-sneaker-quarter)" stroke="none" stroke-width="0" />
+      <path d="M224 119 Q209 127 201 134 Q195 145 195 158 Q217 157 230 148 L228 132 Z" fill="url(#walking-sneaker-heel)" stroke="none" stroke-width="0" />
+      <use href="#walking-sneaker-shape1" fill="none" stroke="url(#walking-sneaker-upper-edge)" stroke-width="15" />
+      <path d="M107 138 C121 147 130 152 134 161" fill="none" stroke="#37b9ee" stroke-width="2.2" />
+      <path d="M214 106 Q222 123 223 138" fill="none" stroke="#50c7f5" stroke-width="2.5" />
+      <path d="M101 139 C116 146 131 152 137 169 M223 121 Q203 131 199 139 Q196 148 195 156" fill="none" stroke="#0560ae" stroke-width="2.5" />
+      <path d="M133 110 L145 96 Q150 91 155 98 L165 110 Q149 109 133 118 Z" fill="url(#walking-sneaker-upper)" stroke="none" stroke-width="0" />
+      <path d="M163 111 C181 123 190 110 199 93 Q203 85 207 93 Q212 116 197 124 Q183 132 169 120 Z" fill="url(#walking-sneaker-hair)" stroke="#050b1d" stroke-width="3.8" />
+      <path d="M170 114 C185 123 195 109 201 94 Q203 89 205 94 Q209 113 198 120" fill="none" stroke="#56d6ff" stroke-width="2.5" />
+      <path d="M134 146 L145 140 C154 148 161 157 166 166 L154 171 C149 161 143 153 134 146 Z" fill="url(#walking-sneaker-lace)" stroke="none" stroke-width="0" />
+      <path d="M153 133 L164 126 C179 138 189 149 194 159 L180 163 C174 151 165 142 153 133 Z" fill="url(#walking-sneaker-lace)" stroke="none" stroke-width="0" />
+      <path d="M106 131 Q114 133 121 140" fill="none" stroke="#050b1d" stroke-width="10.5" />
+      <path d="M106 131 Q114 133 121 140" fill="none" stroke="#f8fbff" stroke-width="6.5" />
+      <path d="M119 119 Q129 122 135 128" fill="none" stroke="#050b1d" stroke-width="10.5" />
+      <path d="M119 119 Q129 122 135 128" fill="none" stroke="#f8fbff" stroke-width="6.5" />
+      <path d="M132 109 Q143 113 149 120" fill="none" stroke="#050b1d" stroke-width="10.5" />
+      <path d="M132 109 Q143 113 149 120" fill="none" stroke="#f8fbff" stroke-width="6.5" />
+    </g>
+    <use href="#walking-sneaker-shape2" fill="url(#walking-sneaker-sole)" />
+    <g clip-path="url(#walking-sneaker-shape2-clip)">
+      <use href="#walking-sneaker-shape2" fill="none" stroke="url(#walking-sneaker-sole-edge)" stroke-width="15" />
+      <path d="M109 199 Q122 189 135 198 L132 204 H110 Z" fill="url(#walking-sneaker-outsole)" stroke="none" stroke-width="0" />
+      <path d="M149 195 Q165 179 180 186 Q185 189 185 193 L180 198 H151 Z" fill="url(#walking-sneaker-outsole)" stroke="none" stroke-width="0" />
+      <path d="M193 193 Q203 182 216 183 Q229 181 235 170 L242 180 L233 199 H191 Z" fill="url(#walking-sneaker-outsole)" stroke="none" stroke-width="0" />
+      <path d="M62 176 C82 187 111 190 136 183 Q174 167 199 168 Q219 169 230 159" fill="none" stroke="#ffffff" stroke-width="2.5" />
+    </g>
+    <path d="M54 157 C67 175 104 182 138 173 C162 165 178 158 197 158 Q218 158 230 148" fill="none" stroke="#124879" stroke-width="3.4" />
+    <path d="M58 151 C69 143 85 140 101 134" fill="none" stroke="#adf1ff" stroke-width="3.2" />
+    <path d="M55 153 C64 143 78 141 101 132 L135 101 Q146 87 152 92 Q163 97 168 112 C184 117 190 105 198 91 Q203 79 210 87 C224 106 230 129 230 148 Q236 159 236 169 C236 183 227 190 211 192 L181 192 Q166 189 152 195 C120 203 89 199 70 192 Q45 183 50 165 Q51 158 55 153 Z" fill="none" stroke="#050b1d" stroke-width="8.5" />
+  </g>
+</svg>

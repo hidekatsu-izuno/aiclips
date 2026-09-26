@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="desktop-printer-title">
+  <title id="desktop-printer-title">プリンター</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="desktop-printer-steel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#7896b4" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4c6682" stop-opacity="1" />
+      <stop offset="1" stop-color="#354d69" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-printer-steel-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c4d5e5" stop-opacity="1" />
+      <stop offset="0.4" stop-color="#7798b8" stop-opacity="1" />
+      <stop offset="1" stop-color="#243a53" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-printer-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="desktop-printer-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <rect id="desktop-printer-rear" x="67" y="92" width="158" height="49" rx="18" />
+    <clipPath id="desktop-printer-rear-clip">
+      <use href="#desktop-printer-rear" />
+    </clipPath>
+    <rect id="desktop-printer-input" x="90" y="62" width="112" height="72" rx="3" />
+    <clipPath id="desktop-printer-input-clip">
+      <use href="#desktop-printer-input" />
+    </clipPath>
+    <rect id="desktop-printer-body" x="51" y="115" width="190" height="83" rx="22" />
+    <clipPath id="desktop-printer-body-clip">
+      <use href="#desktop-printer-body" />
+    </clipPath>
+    <linearGradient id="desktop-printer-lamp" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#65f49a" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#23db66" stop-opacity="1" />
+      <stop offset="1" stop-color="#0eaa46" stop-opacity="1" />
+    </linearGradient>
+    <rect id="desktop-printer-slot" x="77.5" y="170" width="137" height="19" rx="5" />
+    <path id="desktop-printer-output" d="M83 175 H209 L215 220 Q215 224 211 224 H81 Q77 224 77 220 Z" />
+    <clipPath id="desktop-printer-output-clip">
+      <use href="#desktop-printer-output" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#desktop-printer-rear" fill="url(#desktop-printer-steel)" />
+    <use href="#desktop-printer-rear" fill="none" stroke="url(#desktop-printer-steel-edge)" stroke-width="12" clip-path="url(#desktop-printer-rear-clip)" />
+    <use href="#desktop-printer-rear" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#desktop-printer-input" fill="url(#desktop-printer-white)" />
+    <use href="#desktop-printer-input" fill="none" stroke="url(#desktop-printer-white-edge)" stroke-width="10" clip-path="url(#desktop-printer-input-clip)" />
+    <use href="#desktop-printer-input" fill="none" stroke="#050b1d" stroke-width="7" />
+    <use href="#desktop-printer-body" fill="url(#desktop-printer-steel)" />
+    <use href="#desktop-printer-body" fill="none" stroke="url(#desktop-printer-steel-edge)" stroke-width="16" clip-path="url(#desktop-printer-body-clip)" />
+    <use href="#desktop-printer-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <circle cx="208" cy="146" r="9" fill="url(#desktop-printer-lamp)" stroke="#050b1d" stroke-width="2" />
+    <path d="M203.5 146 A4.95 4.95 0 0 1 209.35 141.05" fill="none" stroke="#b5ffcf" stroke-width="1.5" />
+    <use href="#desktop-printer-slot" fill="#08111c" />
+    <use href="#desktop-printer-output" fill="url(#desktop-printer-white)" />
+    <use href="#desktop-printer-output" fill="none" stroke="url(#desktop-printer-white-edge)" stroke-width="11" clip-path="url(#desktop-printer-output-clip)" />
+    <use href="#desktop-printer-output" fill="none" stroke="#050b1d" stroke-width="7" />
+    <g fill="none" stroke="#a5b2be" stroke-width="5" stroke-linecap="round" clip-path="url(#desktop-printer-output-clip)">
+      <path d="M101 192 H191" />
+      <path d="M99.267 205 H174" />
+    </g>
+  </g>
+</svg>

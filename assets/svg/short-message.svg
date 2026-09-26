@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="short-message-title">
+  <title id="short-message-title">ショートメッセージ</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="short-message-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="short-message-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <path id="short-message-body" d="M104 75 H185 Q230 75 230 119 V147 Q230 190 187 190 H113 L88 210 Q74 220 79 201 L83 182 Q57 173 57 147 V119 Q57 75 104 75 Z" />
+    <clipPath id="short-message-body-clip">
+      <use href="#short-message-body" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#short-message-body" fill="url(#short-message-white)" />
+    <use href="#short-message-body" fill="none" stroke="url(#short-message-white-edge)" stroke-width="20" clip-path="url(#short-message-body-clip)" />
+    <use href="#short-message-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M94 112 H190" fill="none" stroke="#a4b3c2" stroke-width="10" />
+    <path d="M94 135 H174" fill="none" stroke="#a4b3c2" stroke-width="10" />
+    <path d="M94 158 H146" fill="none" stroke="#a4b3c2" stroke-width="10" />
+  </g>
+</svg>

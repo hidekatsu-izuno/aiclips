@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="airplane-title">
+  <title id="airplane-title">飛行機</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="airplane-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="airplane-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="airplane-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <linearGradient id="airplane-steel" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#a9bfd5" />
+      <stop offset="0.5" stop-color="#7896b1" />
+      <stop offset="1.0" stop-color="#516d8d" />
+    </linearGradient>
+    <linearGradient id="airplane-suit" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#48688e" />
+      <stop offset="0.5" stop-color="#29435f" />
+      <stop offset="1.0" stop-color="#1d304b" />
+    </linearGradient>
+    <linearGradient id="airplane-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#d3ecff" />
+      <stop offset="0.5" stop-color="#6d92b9" />
+      <stop offset="1.0" stop-color="#294766" />
+    </linearGradient>
+    <linearGradient id="airplane-silver-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#dce5ef" />
+      <stop offset="1.0" stop-color="#9caec2" />
+    </linearGradient>
+    <path id="airplane-shape1" d="M144 64 Q137 64 135 79 L130 115 L144 115 L158 115 L153 79 Q151 64 144 64 Z" />
+    <clipPath id="airplane-shape1-clip">
+      <use href="#airplane-shape1" />
+    </clipPath>
+    <path id="airplane-shape2" d="M144 129 L132 129 L61 126 Q50 126 49 136 Q49 145 62 145 L130 151 L144 151 L158 151 L226 145 Q239 145 239 136 Q238 126 227 126 L156 129 L144 129 Z" />
+    <clipPath id="airplane-shape2-clip">
+      <use href="#airplane-shape2" />
+    </clipPath>
+    <circle id="airplane-shape3" cx="87" cy="169" r="24" />
+    <clipPath id="airplane-shape3-clip">
+      <use href="#airplane-shape3" />
+    </clipPath>
+    <circle id="airplane-shape4" cx="87" cy="169" r="12" />
+    <clipPath id="airplane-shape4-clip">
+      <use href="#airplane-shape4" />
+    </clipPath>
+    <circle id="airplane-shape5" cx="201" cy="169" r="24" />
+    <clipPath id="airplane-shape5-clip">
+      <use href="#airplane-shape5" />
+    </clipPath>
+    <circle id="airplane-shape6" cx="201" cy="169" r="12" />
+    <clipPath id="airplane-shape6-clip">
+      <use href="#airplane-shape6" />
+    </clipPath>
+    <rect id="airplane-shape7" x="124" y="197" width="14" height="21" rx="7" />
+    <clipPath id="airplane-shape7-clip">
+      <use href="#airplane-shape7" />
+    </clipPath>
+    <rect id="airplane-shape8" x="150" y="197" width="14" height="21" rx="7" />
+    <clipPath id="airplane-shape8-clip">
+      <use href="#airplane-shape8" />
+    </clipPath>
+    <path id="airplane-shape9" d="M144 99 C119 99 107 124 107 146 C107 169 120 187 144 187 C168 187 181 169 181 146 C181 124 169 99 144 99 Z" />
+    <clipPath id="airplane-shape9-clip">
+      <use href="#airplane-shape9" />
+    </clipPath>
+    <linearGradient id="airplane-gear-metal" x1="141" y1="181" x2="147" y2="181" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d1e5f4" offset="0" />
+      <stop stop-color="#abc5dc" offset="0.35" />
+      <stop stop-color="#627f9d" offset="1" />
+    </linearGradient>
+    <radialGradient id="airplane-fuselage" cx=".32" cy=".28" r=".78" fx=".27" fy=".2">
+      <stop stop-color="#f8fcff" offset="0" />
+      <stop stop-color="#ebf3f8" offset="0.4" />
+      <stop stop-color="#e2edf4" offset="0.72" />
+      <stop stop-color="#cfdfeb" offset="0.9" />
+      <stop stop-color="#a4bfd3" offset="1" />
+    </radialGradient>
+    <linearGradient id="airplane-fuselage-bevel" x1="0" y1="0" x2="1" y2=".65">
+      <stop stop-color="#ffffff" offset="0" />
+      <stop stop-color="#f8fcff" offset="0.3" />
+      <stop stop-color="#e5f0f7" offset="0.6" />
+      <stop stop-color="#9bb7cb" offset="1" />
+    </linearGradient>
+    <clipPath id="airplane-cockpit-glass-clip">
+      <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" />
+    </clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#airplane-shape1" fill="url(#airplane-blue)" />
+    <use href="#airplane-shape1" fill="none" stroke="url(#airplane-cyan)" stroke-width="7" clip-path="url(#airplane-shape1-clip)" />
+    <use href="#airplane-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape2" fill="url(#airplane-paper)" />
+    <use href="#airplane-shape2" fill="none" stroke="url(#airplane-silver-edge)" stroke-width="7" clip-path="url(#airplane-shape2-clip)" />
+    <use href="#airplane-shape2" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape3" fill="url(#airplane-paper)" />
+    <use href="#airplane-shape3" fill="none" stroke="url(#airplane-silver-edge)" stroke-width="7" clip-path="url(#airplane-shape3-clip)" />
+    <use href="#airplane-shape3" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape4" fill="url(#airplane-suit)" />
+    <use href="#airplane-shape4" fill="none" stroke="url(#airplane-edge)" stroke-width="5" clip-path="url(#airplane-shape4-clip)" />
+    <use href="#airplane-shape4" fill="none" stroke="#050b1d" stroke-width="4" />
+    <use href="#airplane-shape5" fill="url(#airplane-paper)" />
+    <use href="#airplane-shape5" fill="none" stroke="url(#airplane-silver-edge)" stroke-width="7" clip-path="url(#airplane-shape5-clip)" />
+    <use href="#airplane-shape5" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape6" fill="url(#airplane-suit)" />
+    <use href="#airplane-shape6" fill="none" stroke="url(#airplane-edge)" stroke-width="5" clip-path="url(#airplane-shape6-clip)" />
+    <use href="#airplane-shape6" fill="none" stroke="#050b1d" stroke-width="4" />
+    <rect id="airplane-landing-gear" x="139.5" y="183" width="9" height="26" rx=".5" fill="url(#airplane-gear-metal)" stroke="#050b1d" stroke-width="3" />
+    <use href="#airplane-shape7" fill="url(#airplane-steel)" />
+    <use href="#airplane-shape7" fill="none" stroke="url(#airplane-edge)" stroke-width="11" clip-path="url(#airplane-shape7-clip)" />
+    <use href="#airplane-shape7" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape8" fill="url(#airplane-steel)" />
+    <use href="#airplane-shape8" fill="none" stroke="url(#airplane-edge)" stroke-width="11" clip-path="url(#airplane-shape8-clip)" />
+    <use href="#airplane-shape8" fill="none" stroke="#050b1d" stroke-width="6" />
+    <use href="#airplane-shape9" fill="url(#airplane-fuselage)" />
+    <use href="#airplane-shape9" fill="none" stroke="url(#airplane-fuselage-bevel)" stroke-width="13" clip-path="url(#airplane-shape9-clip)" />
+    <use href="#airplane-shape9" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" fill="#08b9eb" stroke="none" id="airplane-cockpit-glass" />
+    <path d="M116 121 H148 L129 138 H116Z" fill="#77e6fc" opacity=".3" clip-path="url(#airplane-cockpit-glass-clip)" />
+    <path d="M157 120 H173 V138 H140Z" fill="#0085ed" opacity=".65" clip-path="url(#airplane-cockpit-glass-clip)" />
+    <path d="M144 121 V136 M128 121 L125 136 M160 121 L163 136" fill="none" stroke="#d7eaf3" stroke-width="2" />
+  </g>
+</svg>

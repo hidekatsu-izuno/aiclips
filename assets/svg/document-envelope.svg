@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="document-envelope-title">
+  <title id="document-envelope-title">封筒</title>
+  <desc>Editable paths with shared boundaries, symmetric structural geometry, clipped bevels and crisp gradient shadows. No blur or raster images.</desc>
+  <defs>
+    <linearGradient id="document-envelope-white" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#edf2f7" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="document-envelope-white-edge" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="0.45" stop-color="#f7fbff" stop-opacity="1" />
+      <stop offset="1" stop-color="#bfd0de" stop-opacity="1" />
+    </linearGradient>
+    <rect id="document-envelope-body" x="61" y="81" width="166" height="122" rx="19" />
+    <clipPath id="document-envelope-body-clip">
+      <use href="#document-envelope-body" />
+    </clipPath>
+    <path id="document-envelope-flap" d="M61 100 Q61 81 80 81 H208 Q227 81 227 100 L154 164 Q144 173 134 164 Z" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#document-envelope-body" fill="url(#document-envelope-white)" />
+    <use href="#document-envelope-body" fill="none" stroke="url(#document-envelope-white-edge)" stroke-width="15" clip-path="url(#document-envelope-body-clip)" />
+    <use href="#document-envelope-body" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M66 190 L119 143 M222 190 L169 143" fill="none" stroke="#9bafc0" stroke-width="5" />
+    <use href="#document-envelope-flap" fill="url(#document-envelope-white)" />
+    <path d="M63 101 L134 164 Q144 173 154 164 L225 101" fill="none" stroke="#050b1d" stroke-width="5" />
+    <use href="#document-envelope-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

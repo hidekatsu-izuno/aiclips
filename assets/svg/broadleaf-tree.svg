@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="broadleaf-tree-title">
+  <title id="broadleaf-tree-title">広葉樹</title>
+  <desc>Editable broadleaf tree with a three-branched trunk, rounded foliage, a broad upper-left highlight and shaded lower foliage.</desc>
+  <defs>
+    <linearGradient id="broadleaf-tree-leaves" gradientUnits="userSpaceOnUse" x1="112" y1="68" x2="178" y2="189">
+      <stop offset="0" stop-color="#4bd05c" />
+      <stop offset=".5" stop-color="#2fc55d" />
+      <stop offset="1" stop-color="#009f56" />
+    </linearGradient>
+    <linearGradient id="broadleaf-tree-leaf-highlight" gradientUnits="userSpaceOnUse" x1="120" y1="60" x2="90" y2="177">
+      <stop offset="0" stop-color="#99f578" />
+      <stop offset=".55" stop-color="#83eb70" />
+      <stop offset="1" stop-color="#61df78" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="broadleaf-tree-leaf-shadow" gradientUnits="userSpaceOnUse" x1="144" y1="143" x2="144" y2="177">
+      <stop offset="0" stop-color="#009e52" stop-opacity="0" />
+      <stop offset=".6" stop-color="#008747" stop-opacity=".45" />
+      <stop offset="1" stop-color="#008747" stop-opacity=".16" />
+    </linearGradient>
+    <linearGradient id="broadleaf-tree-bark" gradientUnits="userSpaceOnUse" x1="126" y1="180" x2="167" y2="198">
+      <stop offset="0" stop-color="#ed963f" />
+      <stop offset=".5" stop-color="#df8335" />
+      <stop offset="1" stop-color="#b65a1e" />
+    </linearGradient>
+    <linearGradient id="broadleaf-tree-bark-highlight" gradientUnits="userSpaceOnUse" x1="127" y1="172" x2="139" y2="222">
+      <stop offset="0" stop-color="#ffc16c" />
+      <stop offset=".6" stop-color="#ffb259" />
+      <stop offset="1" stop-color="#f5a54c" />
+    </linearGradient>
+    <path id="broadleaf-tree-shape1" d="M125 172 L134 171 L142 178 V168 L149 163 L152 166 V177 L159 170 L166 172 L157 185 C152 196 157 211 166 222 H123 C134 207 136 197 133 185 Z" />
+    <clipPath id="broadleaf-tree-shape1-clip"><use href="#broadleaf-tree-shape1" /></clipPath>
+    <path id="broadleaf-tree-shape2" d="M144 59 C126 59 112 72 109 90 C92 86 78 100 80 117 Q80 124 83 129 C70 134 64 146 68 160 C71 174 84 182 97 180 C101 193 113 197 126 188 L113 165 C128 169 141 166 148 154 C157 166 168 170 180 165 L164 188 C176 196 190 191 193 180 C209 182 220 169 222 157 C225 144 219 134 207 129 C214 112 205 88 180 90 C178 72 162 59 144 59 Z" />
+    <clipPath id="broadleaf-tree-shape2-clip"><use href="#broadleaf-tree-shape2" /></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#broadleaf-tree-shape1" fill="none" stroke="#02102a" stroke-width="14" />
+    <use href="#broadleaf-tree-shape2" fill="none" stroke="#02102a" stroke-width="16" />
+    <use href="#broadleaf-tree-shape1" fill="url(#broadleaf-tree-bark)" />
+    <path d="M125 172 L131 172 L138 184 C143 198 135 215 130 222 H123 C134 207 136 197 133 185 Z" fill="url(#broadleaf-tree-bark-highlight)" clip-path="url(#broadleaf-tree-shape1-clip)" />
+    <use href="#broadleaf-tree-shape2" fill="url(#broadleaf-tree-leaves)" />
+    <g clip-path="url(#broadleaf-tree-shape2-clip)">
+      <path d="M144 59 C126 59 112 72 109 90 C92 86 78 100 80 117 Q80 124 83 129 C70 134 64 146 68 160 L74 171 C68 155 75 141 90 134 C78 122 91 100 116 96 C128 69 153 61 169 70 C162 62 153 59 144 59 Z" fill="url(#broadleaf-tree-leaf-highlight)" />
+      <path d="M109 151 C122 160 140 158 148 143 C157 158 173 166 185 160 L180 165 C168 170 157 166 148 154 C141 166 128 169 113 165 Z" fill="url(#broadleaf-tree-leaf-shadow)" />
+    </g>
+  </g>
+</svg>

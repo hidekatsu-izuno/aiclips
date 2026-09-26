@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="database-cylinder-title">
+  <title id="database-cylinder-title">データベース</title>
+  <desc>Elliptical top with a constant-width clipped bevel stroke. Crisp editable paths and gradients without blur.</desc>
+  <defs>
+    <linearGradient id="database-cylinder-tier-edge-paint" gradientUnits="userSpaceOnUse" x1="85" y1="125" x2="185" y2="184">
+      <stop offset="0" stop-color="#64e1fc" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#27c7f8" stop-opacity="0.45" />
+    </linearGradient>
+    <radialGradient id="database-cylinder-lamp-paint" cx="30%" cy="25%" r="85%">
+      <stop stop-color="#76f6b1" />
+      <stop offset=".5" stop-color="#26d886" />
+      <stop offset="1" stop-color="#0eac70" />
+    </radialGradient>
+    <path id="database-cylinder-body" d="M73 85.5 C73 83.337637749 73.753356273 81.23940171 74.950074033 79.461856619 C76.146791794 77.684311528 77.763074454 76.163613796 79.701144853 74.781206843 C81.639215251 73.39879989 83.913774207 72.154016478 86.505375377 71.008064929 C89.096976547 69.862113379 92.006637228 68.818121899 95.197567878 67.875346935 C98.388498527 66.93257197 101.860312639 66.091997559 105.557651212 65.362082231 C109.254989785 64.632166902 113.177497902 64.013225038 117.256993526 63.513971143 C121.336489151 63.014717247 125.572681687 62.635266529 129.88936541 62.381576913 C134.206049133 62.127887296 138.602960282 62 143 62 C147.397039718 62 151.793950867 62.127887296 156.11063459 62.381576913 C160.427318313 62.635266529 164.663510849 63.014717247 168.743006474 63.513971143 C172.822502098 64.013225038 176.745010215 64.632166902 180.442348788 65.362082231 C184.139687361 66.091997559 187.611501473 66.93257197 190.802432122 67.875346935 C193.993362772 68.818121899 196.903023453 69.862113379 199.494624623 71.008064929 C202.086225793 72.154016478 204.360784749 73.39879989 206.298855147 74.781206843 C208.236925546 76.163613796 209.853208206 77.684311528 211.049925967 79.461856619 C212.246643728 81.239401709 213 83.337637749 213 85.5 V202 C213 220 182 230 143 230 C104 230 73 220 73 202 Z" />
+    <clipPath id="database-cylinder-body-clip">
+      <use href="#database-cylinder-body" />
+    </clipPath>
+    <ellipse id="database-cylinder-top" cx="143" cy="85.5" rx="66" ry="19.5" />
+    <clipPath id="database-cylinder-top-clip">
+      <use href="#database-cylinder-top" />
+    </clipPath>
+    <linearGradient id="database-cylinder-body-paint" gradientUnits="userSpaceOnUse" x1="143" y1="88" x2="143" y2="225">
+      <stop offset="0" stop-color="#00b6fc" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#00acfc" stop-opacity="1" />
+      <stop offset="1" stop-color="#00a9fc" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="database-cylinder-top-paint" gradientUnits="userSpaceOnUse" x1="125" y1="71" x2="167" y2="104">
+      <stop offset="0" stop-color="#17c1fc" stop-opacity="1" />
+      <stop offset="1" stop-color="#11befb" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="database-cylinder-bevel-paint" gradientUnits="userSpaceOnUse" x1="94" y1="66" x2="189" y2="108">
+      <stop offset="0" stop-color="#77e9ff" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#4bd6fd" stop-opacity="1" />
+      <stop offset="1" stop-color="#2ec9fc" stop-opacity=".4" />
+    </linearGradient>
+    <linearGradient id="database-cylinder-left-light" gradientUnits="userSpaceOnUse" x1="75" y1="140" x2="88" y2="140">
+      <stop offset="0" stop-color="#4ddbff" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#1ac6ff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="database-cylinder-side-face" gradientUnits="userSpaceOnUse" x1="196" y1="130" x2="213" y2="130">
+      <stop offset="0" stop-color="#009df9" />
+      <stop offset="0.4" stop-color="#008df3" />
+      <stop offset="1" stop-color="#007be9" />
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#database-cylinder-body" fill="url(#database-cylinder-body-paint)" />
+    <use href="#database-cylinder-body" fill="url(#database-cylinder-left-light)" />
+    <path d="M197 96.711711704 A66 19.5 0 0 0 209 85.5 H213 V202 C213 220 182 230 143 230 C178 224 197 212 197 199 Z" fill="url(#database-cylinder-side-face)" id="database-cylinder-side-face-shape" clip-path="url(#database-cylinder-body-clip)" />
+    <use href="#database-cylinder-top" fill="url(#database-cylinder-top-paint)" />
+    <use href="#database-cylinder-top" fill="none" stroke="url(#database-cylinder-bevel-paint)" stroke-width="6" clip-path="url(#database-cylinder-top-clip)" />
+    <path d="M73 119 C73 136 104 145 143 145 C182 145 213 136 213 119 V125 C213 142 182 151 143 151 C104 151 73 142 73 125 Z" fill="url(#database-cylinder-tier-edge-paint)" />
+    <path d="M73 119 C73 136 104 145 143 145 C182 145 213 136 213 119" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M73 161 C73 178 104 187 143 187 C182 187 213 178 213 161 V167 C213 184 182 193 143 193 C104 193 73 184 73 167 Z" fill="url(#database-cylinder-tier-edge-paint)" />
+    <path d="M73 161 C73 178 104 187 143 187 C182 187 213 178 213 161" fill="none" stroke="#050b1d" stroke-width="3" />
+    <circle cx="183" cy="119" r="9.5" fill="url(#database-cylinder-lamp-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M177 123 C174 116 180 110 187 113" fill="none" stroke="#8bf7bb" stroke-width="1.4" />
+    <circle cx="183" cy="161" r="9.5" fill="url(#database-cylinder-lamp-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M177 165 C174 158 180 152 187 155" fill="none" stroke="#8bf7bb" stroke-width="1.4" />
+    <circle cx="183" cy="202" r="9.5" fill="url(#database-cylinder-lamp-paint)" stroke="#050b1d" stroke-width="1.8" />
+    <path d="M177 206 C174 199 180 193 187 196" fill="none" stroke="#8bf7bb" stroke-width="1.4" />
+    <use href="#database-cylinder-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

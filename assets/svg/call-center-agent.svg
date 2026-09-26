@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="call-center-agent-title">
+  <title id="call-center-agent-title">コールセンター担当者</title>
+  <desc>Editable vector illustration reconstructed from the reference silhouette, with shared boundaries and clipped gradient highlights.</desc>
+  <defs>
+    <linearGradient id="call-center-agent-blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#0bc5ff" />
+      <stop offset="0.5" stop-color="#0099ff" />
+      <stop offset="1.0" stop-color="#0078ed" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-cyan" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#82e2ff" />
+      <stop offset="0.5" stop-color="#1ac0ff" />
+      <stop offset="1.0" stop-color="#078bdc" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-hair" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#344f6d" />
+      <stop offset="0.5" stop-color="#263c57" />
+      <stop offset="1.0" stop-color="#1b2d43" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-skin" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffd39a" />
+      <stop offset="0.5" stop-color="#ffca90" />
+      <stop offset="1.0" stop-color="#f6b77e" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-hair-edge" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#6683a5" />
+      <stop offset="0.5" stop-color="#3b597c" />
+      <stop offset="1.0" stop-color="#1b2d43" />
+    </linearGradient>
+    <path id="call-center-agent-shape1" d="M91 125 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V191 H91 Z" />
+    <clipPath id="call-center-agent-shape1-clip">
+      <use href="#call-center-agent-shape1" />
+    </clipPath>
+    <path id="call-center-agent-shape3" d="M144 90 C123 90 105 94 104 107 C101 127 105 153 118 166 Q130 174 144 174 Q158 174 170 166 C183 153 187 127 184 107 C183 94 165 90 144 90 Z" />
+    <path id="call-center-agent-shape4" d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124 L187 129 L181 135 Q168 121 161 101 C145 118 122 127 100 128 Z" />
+    <clipPath id="call-center-agent-shape4-clip">
+      <use href="#call-center-agent-shape4" />
+    </clipPath>
+    <rect id="call-center-agent-shape5" x="83" y="119" width="24" height="35" rx="8" />
+    <clipPath id="call-center-agent-shape5-clip">
+      <use href="#call-center-agent-shape5" />
+    </clipPath>
+    <rect id="call-center-agent-shape6" x="181" y="119" width="24" height="35" rx="8" />
+    <clipPath id="call-center-agent-shape6-clip">
+      <use href="#call-center-agent-shape6" />
+    </clipPath>
+    <rect id="call-center-agent-shape7" x="153" y="161" width="17" height="12" rx="6" />
+    <clipPath id="call-center-agent-shape7-clip">
+      <use href="#call-center-agent-shape7" />
+    </clipPath>
+    <path id="call-center-agent-outfit-body" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 C96 231 120 231 144 231 C168 231 192 231 216 231 C223 231 227 229 227 222 C227 212 223 197 215 186 C196 165 169 157 144 158 Z" />
+    <clipPath id="call-center-agent-outfit-body-clip">
+      <use href="#call-center-agent-outfit-body" />
+    </clipPath>
+    <path id="call-center-agent-outfit-neck" d="M123 148 Q144 138 165 148 L166 160 L144 182 L122 160 Z" />
+    <path id="call-center-agent-outfit-shirt" d="M121 157 H167 L166 162 C163 183 159 208 153 231 H135 C129 208 125 183 122 162 Z" />
+    <linearGradient id="call-center-agent-outfit-suit-paint" gradientUnits="userSpaceOnUse" x1="82" y1="174" x2="208" y2="225">
+      <stop offset="0" stop-color="#3f5e82" />
+      <stop offset=".3" stop-color="#253d58" />
+      <stop offset="1" stop-color="#1b3049" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-outfit-lapel-paint" gradientUnits="userSpaceOnUse" x1="116" y1="163" x2="121" y2="226">
+      <stop offset="0" stop-color="#3d5774" />
+      <stop offset=".5" stop-color="#253b54" />
+      <stop offset="1" stop-color="#355170" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-outfit-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="157" x2="144" y2="181">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="call-center-agent-outfit-white-paint" gradientUnits="userSpaceOnUse" x1="128" y1="164" x2="152" y2="223">
+      <stop offset="0" stop-color="#fffefd" />
+      <stop offset="1" stop-color="#edf3fc" />
+    </linearGradient>
+    <path id="call-center-agent-outfit-lapel-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135 C129 208 125 183 122 162 Z" />
+    <path id="call-center-agent-outfit-collar-left" d="M122 160 L144 182 L132 187 Z" />
+    <linearGradient id="call-center-agent-outfit-suit-bevel" gradientUnits="userSpaceOnUse" x1="80" y1="168" x2="80" y2="222">
+      <stop offset="0" stop-color="#88a5cb" stop-opacity=".55" />
+      <stop offset=".65" stop-color="#6584aa" stop-opacity=".35" />
+      <stop offset="1" stop-color="#4d6b8f" stop-opacity="0" />
+    </linearGradient>
+    <path id="call-center-agent-outfit-lapel-seam-left" d="M122 162 C125 183 129 208 135 231" />
+    <path id="call-center-agent-outfit-lapel-rim-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
+    <path id="call-center-agent-outfit-shoulder-left" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222" />
+    <path id="call-center-agent-outfit-hem" d="M72 231 H216" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#050b1d" stroke-width="17" id="call-center-agent-headset-outer-outline" />
+    <use href="#call-center-agent-shape1" fill="url(#call-center-agent-hair)" />
+    <use href="#call-center-agent-shape1" fill="none" stroke="url(#call-center-agent-hair-edge)" stroke-width="7" clip-path="url(#call-center-agent-shape1-clip)" />
+    <use href="#call-center-agent-shape1" fill="none" stroke="#050b1d" stroke-width="6" />
+    <g id="call-center-agent-outfit" transform="translate(17.28 47.82) scale(.88 .78)">
+      <use href="#call-center-agent-outfit-body" fill="url(#call-center-agent-outfit-suit-paint)" />
+      <use href="#call-center-agent-outfit-shoulder-left" fill="none" stroke="url(#call-center-agent-outfit-suit-bevel)" stroke-width="15" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-body" fill="none" stroke="#050b1d" stroke-width="4.5" vector-effect="non-scaling-stroke" />
+      <path d="M89 215 L88 227 M199 215 L200 227" fill="none" stroke="#10253d" stroke-width="2" opacity=".2" />
+      <use href="#call-center-agent-outfit-shirt" fill="url(#call-center-agent-outfit-white-paint)" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-neck" fill="url(#call-center-agent-outfit-neck-paint)" />
+      <use href="#call-center-agent-outfit-collar-left" fill="url(#call-center-agent-outfit-white-paint)" />
+      <use href="#call-center-agent-outfit-collar-left" fill="url(#call-center-agent-outfit-white-paint)" transform="translate(288 0) scale(-1 1)" />
+      <path d="M144 182 L132 187 L122 160" fill="none" stroke="#aabed1" stroke-width="1.3" />
+      <path d="M144 182 L132 187 L122 160" fill="none" stroke="#aabed1" stroke-width="1.3" transform="translate(288 0) scale(-1 1)" />
+      <use href="#call-center-agent-outfit-lapel-left" fill="url(#call-center-agent-outfit-lapel-paint)" />
+      <use href="#call-center-agent-outfit-lapel-left" fill="url(#call-center-agent-outfit-lapel-paint)" transform="translate(288 0) scale(-1 1)" />
+      <use href="#call-center-agent-outfit-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="2.5" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-lapel-rim-left" fill="none" stroke="#050b1d" stroke-width="2.5" transform="translate(288 0) scale(-1 1)" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="2.5" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-lapel-seam-left" fill="none" stroke="#0c1a2c" stroke-width="2.5" transform="translate(288 0) scale(-1 1)" stroke-linecap="butt" clip-path="url(#call-center-agent-outfit-body-clip)" />
+      <use href="#call-center-agent-outfit-hem" fill="none" stroke="#050b1d" stroke-width="4.5" stroke-linecap="butt" vector-effect="non-scaling-stroke" />
+    </g>
+    <g transform="translate(0 0)">
+      <use href="#call-center-agent-shape3" fill="url(#call-center-agent-skin)" />
+      <path d="M104 107 C101 127 105 153 118 166 Q121.666637 168.444425 125.520000 170.141948 V173.4 M162.480000 173.4 V170.141948 Q166.333363 168.444425 170 166 C183 153 187 127 184 107" fill="none" stroke="#050b1d" stroke-width="3" stroke-linecap="butt" />
+      <use href="#call-center-agent-shape4" fill="url(#call-center-agent-hair)" />
+      <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="url(#call-center-agent-hair-edge)" stroke-width="20" clip-path="url(#call-center-agent-shape4-clip)" />
+      <path d="M187 129 L181 135 Q168 121 161 101 C145 118 122 127 100 128" fill="none" stroke="#050b1d" stroke-width="3" />
+    </g>
+    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#050b1d" stroke-width="9" />
+    <path d="M91 124 V105 C91 75 112 58 144 58 C177 58 195 79 195 110 V124" fill="none" stroke="#06baff" stroke-width="4.5" />
+    <use href="#call-center-agent-shape5" fill="none" stroke="#050b1d" stroke-width="9" />
+    <use href="#call-center-agent-shape5" fill="url(#call-center-agent-blue)" />
+    <use href="#call-center-agent-shape5" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape5-clip)" />
+    <use href="#call-center-agent-shape5" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#call-center-agent-shape6" fill="none" stroke="#050b1d" stroke-width="9" />
+    <use href="#call-center-agent-shape6" fill="url(#call-center-agent-blue)" />
+    <use href="#call-center-agent-shape6" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="5" clip-path="url(#call-center-agent-shape6-clip)" />
+    <use href="#call-center-agent-shape6" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M193 154 Q189 166 166 167" fill="none" stroke="#050b1d" stroke-width="7" />
+    <path d="M193 154 Q189 166 166 167" fill="none" stroke="#08a4e3" stroke-width="3" />
+    <use href="#call-center-agent-shape7" fill="url(#call-center-agent-blue)" />
+    <use href="#call-center-agent-shape7" fill="none" stroke="url(#call-center-agent-cyan)" stroke-width="3" clip-path="url(#call-center-agent-shape7-clip)" />
+    <use href="#call-center-agent-shape7" fill="none" stroke="#050b1d" stroke-width="4" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="protective-helmet-title">
+  <title id="protective-helmet-title">保護帽</title>
+  <desc>Protective helmet with a continuous outer outline and a thin yellow projecting brim, with highlights and shading following its curved edge.</desc>
+  <defs>
+    <linearGradient id="helmet-gold" x1="0" y1="0" x2="1" y2=".6">
+      <stop stop-color="#ffed59" />
+      <stop offset=".55" stop-color="#ffda14" />
+      <stop offset="1" stop-color="#ffbd00" />
+    </linearGradient>
+    <linearGradient id="helmet-rib-gold" x1="0" y1="0" x2="1" y2=".6">
+      <stop stop-color="#ffe638" />
+      <stop offset="1" stop-color="#ffd218" />
+    </linearGradient>
+    <linearGradient id="helmet-green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#28b53a" />
+      <stop offset="1" stop-color="#079334" />
+    </linearGradient>
+    <path id="helmet-dome" d="M144 85 C97 85 71 119 67 173 L65 184 H223 L221 173 C217 119 191 85 144 85Z" />
+    <clipPath id="helmet-dome-clip">
+      <use href="#helmet-dome" />
+    </clipPath>
+    <path id="helmet-rib" d="M119 182 L125 91 Q126 80 137 80 H151 Q163 80 165 91 L173 182Z" />
+    <clipPath id="helmet-rib-clip">
+      <use href="#helmet-rib" />
+    </clipPath>
+    <path id="helmet-brim" d="M65 173 Q144 197 223 173 Q233 178 229 185 Q224 194 212 198 Q196 211 144 211 Q92 211 76 198 Q60 193 58 185 Q55 178 65 173Z" />
+    <clipPath id="helmet-brim-clip">
+      <use href="#helmet-brim" />
+    </clipPath>
+    <path id="helmet-silhouette" d="M65 173 C69 126 85 99 125 88 Q126 80 137 80 H151 Q163 80 165 88 C203 94 217 127 223 173 Q233 178 229 185 Q224 194 212 198 Q196 211 144 211 Q92 211 76 198 Q60 193 58 185 Q55 178 65 173Z" />
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <use href="#helmet-silhouette" fill="url(#helmet-gold)" />
+    <use href="#helmet-dome" fill="url(#helmet-gold)" />
+    <g clip-path="url(#helmet-dome-clip)" fill="none">
+      <path d="M68 174 C72 126 88 102 119 92" stroke="#fff57a" stroke-width="9" />
+      <path d="M191 105 C211 125 218 150 218 175 Q197 185 174 185" stroke="#f5ae00" stroke-width="8" />
+    </g>
+    <path d="M166 91 L176 184" fill="none" stroke="#e9a000" stroke-width="4" />
+    <use href="#helmet-rib" fill="url(#helmet-rib-gold)" />
+    <g clip-path="url(#helmet-rib-clip)" fill="none">
+      <path d="M120 181 L126 92 Q127 82 137 82 H154" stroke="#fff77a" stroke-width="6" />
+      <path d="M163 88 L172 181" stroke="#efad00" stroke-width="4" />
+    </g>
+    <path d="M142 135 H151 Q152 135 152 137 V149 H163 Q165 149 165 151 V159 Q165 161 163 161 H152 V173 Q152 175 150 175 H142 Q140 175 140 173 V161 H130 Q128 161 128 159 V151 Q128 149 130 149 H140 V137 Q140 135 142 135Z" fill="url(#helmet-green)" />
+    <use href="#helmet-brim" fill="url(#helmet-rib-gold)" />
+    <g clip-path="url(#helmet-brim-clip)">
+      <path fill="none" d="M65 174 Q144 196 223 174" stroke="#fff079" stroke-width="4" />
+      <path fill="none" d="M61 182 Q66 190 79 195 Q91 206 144 206 Q194 206 210 194 Q224 190 228 182" stroke="#efba08" stroke-width="4" />
+      <path fill="none" d="M63 183 Q67 188 79 191 Q91 202 142 202" stroke="#fff171" stroke-width="3" />
+    </g>
+    <use href="#helmet-silhouette" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+</svg>

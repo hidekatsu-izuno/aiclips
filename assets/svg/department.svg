@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="department-title">
+  <title id="department-title">部署・組織図</title>
+  <desc>Editable organization chart with one upper department connected to three subordinate departments.</desc>
+  <defs>
+    <linearGradient id="department-blue" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#18bcf5" />
+      <stop offset="1" stop-color="#0085ed" />
+    </linearGradient>
+    <linearGradient id="department-paper" x1="0" y1="0" x2=".5" y2="1">
+      <stop stop-color="#ffffff" />
+      <stop offset=".6" stop-color="#edf4fb" />
+      <stop offset="1" stop-color="#c7d9e9" />
+    </linearGradient>
+    <rect id="department-parent" x="104" y="64" width="80" height="52" rx="8" />
+    <clipPath id="department-parent-clip">
+      <use href="#department-parent" />
+    </clipPath>
+    <rect id="department-child" width="56" height="50" rx="7" />
+    <clipPath id="department-child-clip">
+      <use href="#department-child" />
+    </clipPath>
+    <path id="department-connectors" d="M144 108 V140 M76 172 V140 H212 V172 M144 140 V172" />
+    <path id="department-connector-faces" d="M144 113 V140 M76 170 V140 H212 V170 M144 140 V170" />
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#department-connectors" fill="none" stroke="#050b1d" stroke-width="12" />
+    <use href="#department-parent" fill="url(#department-blue)" />
+    <g clip-path="url(#department-parent-clip)">
+      <path d="M109 105 V72 Q109 69 112 69 H176 Q179 69 179 72" fill="none" stroke="#83ddfa" stroke-width="3" />
+      <path d="M179 75 V106 Q179 111 174 111 H116" fill="none" stroke="#006ccc" stroke-width="4" opacity=".55" />
+    </g>
+    <use href="#department-parent" fill="none" stroke="#050b1d" stroke-width="6" />
+    <path d="M128 85 H160 M135 96 H153" fill="none" stroke="#e4f8ff" stroke-width="3.5" />
+    <g transform="translate(48 167)">
+      <use href="#department-child" fill="url(#department-paper)" />
+      <g clip-path="url(#department-child-clip)">
+        <path d="M0 0 H56 V15 H0Z" fill="url(#department-blue)" />
+        <path d="M5 11 V7 Q5 5 8 5 H46" fill="none" stroke="#8ddffd" stroke-width="2" />
+        <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
+      </g>
+      <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
+      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <g transform="translate(116 167)">
+      <use href="#department-child" fill="url(#department-paper)" />
+      <g clip-path="url(#department-child-clip)">
+        <path d="M0 0 H56 V15 H0Z" fill="url(#department-blue)" />
+        <path d="M5 11 V7 Q5 5 8 5 H46" fill="none" stroke="#8ddffd" stroke-width="2" />
+        <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
+      </g>
+      <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
+      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <g transform="translate(184 167)">
+      <use href="#department-child" fill="url(#department-paper)" />
+      <g clip-path="url(#department-child-clip)">
+        <path d="M0 0 H56 V15 H0Z" fill="url(#department-blue)" />
+        <path d="M5 11 V7 Q5 5 8 5 H46" fill="none" stroke="#8ddffd" stroke-width="2" />
+        <path d="M52 18 V41 Q52 46 46 46 H10" fill="none" stroke="#a4bdd3" stroke-width="3" opacity=".5" />
+      </g>
+      <path d="M16 27 H40 M16 36 H32" fill="none" stroke="#6e879e" stroke-width="3" />
+      <use href="#department-child" fill="none" stroke="#050b1d" stroke-width="6" />
+    </g>
+    <use href="#department-connector-faces" fill="none" stroke="#23354c" stroke-width="4" stroke-linecap="butt" />
+  </g>
+</svg>
