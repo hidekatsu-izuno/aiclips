@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="internet-title">
+  <title id="internet-title">インターネット</title>
+  <desc>青い球だけで表現したインターネット。太い白色の経線と等間隔の水平線。濃い外周線の内側に左上のハイライトと右下の影。</desc>
+  <defs>
+    <linearGradient id="internet-blue" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#35d9f6" />
+      <stop offset="0.5" stop-color="#08b4f5" />
+      <stop offset="1" stop-color="#0080ed" />
+    </linearGradient>
+    <linearGradient id="internet-blue-edge" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#a0f5ff" />
+      <stop offset="0.4" stop-color="#38d6ff" />
+      <stop offset="1" stop-color="#0058c8" />
+    </linearGradient>
+    <circle id="internet-globe" cx="144" cy="144" r="88" />
+    <clipPath id="internet-globe-clip"><use href="#internet-globe" /></clipPath>
+  </defs>
+  <!-- Artwork size aligned to the icon set; exterior contours remain 7px at 288px display size. --><g id="internet-display-size" transform="translate(10.080000 10.080000) scale(0.93)"><g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#internet-globe" fill="url(#internet-blue)" />
+    <use href="#internet-globe" fill="none" stroke="url(#internet-blue-edge)" stroke-width="17" clip-path="url(#internet-globe-clip)" />
+    <g clip-path="url(#internet-globe-clip)" fill="none" stroke="#ffffff" stroke-width="6.5">
+      <ellipse cx="144" cy="144" rx="45" ry="88" />
+      <path d="M144 56 V232 M56 100 H232 M56 144 H232 M56 188 H232" />
+    </g>
+    <use href="#internet-globe" fill="none" stroke="#050b1d" stroke-width="7.526881720" />
+  </g>
+</g></svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="passenger-car-title">
+  <title id="passenger-car-title">自動車</title>
+  <desc>imagegenの生成原画を見本に、滑らかな曲線とグラデーションで描き直した青い乗用車。大きめのキャビンと独立したボンネット。下半分を短くし、既存車両に合わせた表示サイズ。</desc>
+  <defs>
+    <linearGradient id="passenger-car-blue" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#04b9fb" /><stop offset="0.5" stop-color="#0099fb" /><stop offset="1" stop-color="#0079ee" /></linearGradient>
+    <linearGradient id="passenger-car-blue-edge" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#94ecff" /><stop offset="0.5" stop-color="#20baff" /><stop offset="1" stop-color="#0061d8" /></linearGradient>
+    <linearGradient id="passenger-car-glass" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#60e6f5" /><stop offset="0.5" stop-color="#10c5f5" /><stop offset="1" stop-color="#0099f7" /></linearGradient>
+    <linearGradient id="passenger-car-glass-reflection" x1="0" y1="0" x2=".7" y2="1"><stop offset="0" stop-color="#c1ffff" stop-opacity=".55" /><stop offset="1" stop-color="#94f9ff" stop-opacity="0" /></linearGradient>
+    <linearGradient id="passenger-car-hood" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#68d5fa" /><stop offset="0.5" stop-color="#2fbcfb" /><stop offset="1" stop-color="#0097ed" /></linearGradient>
+    <linearGradient id="passenger-car-hood-edge" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#96edff" /><stop offset="1" stop-color="#45c8fa" /></linearGradient>
+    <linearGradient id="passenger-car-gold" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#fff27c" /><stop offset="0.5" stop-color="#ffdf19" /><stop offset="1" stop-color="#f6bc00" /></linearGradient>
+    <linearGradient id="passenger-car-gold-edge" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#ffffae" /><stop offset="0.5" stop-color="#ffed5d" /><stop offset="1" stop-color="#db9800" /></linearGradient>
+    <linearGradient id="passenger-car-grille" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#41566a" /><stop offset="0.5" stop-color="#263b4e" /><stop offset="1" stop-color="#152737" /></linearGradient>
+    <linearGradient id="passenger-car-grille-bar" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#748696" /><stop offset="1" stop-color="#526577" /></linearGradient>
+    <linearGradient id="passenger-car-tire" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#344759" /><stop offset="0.5" stop-color="#26394b" /><stop offset="1" stop-color="#162637" /></linearGradient>
+    <linearGradient id="passenger-car-tire-edge" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#536a7e" /><stop offset="0.5" stop-color="#334b5f" /><stop offset="1" stop-color="#1c3044" /></linearGradient>
+    <linearGradient id="passenger-car-plate" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#ffffff" /><stop offset="0.5" stop-color="#f9fbfe" /><stop offset="1" stop-color="#e9f0f7" /></linearGradient>
+    <path id="passenger-car-body" d="M98 46 C120 43 168 43 190 46 C205 48 212 59 219 77 L236 116 Q238 123 242 128.28 C247 135 251.4 140 250 148 L243 186.8 Q243 195.92 233 195.92 H55 Q45 195.92 45 186.8 L38 148 C36.6 140 41 135 46 128.28 Q50 123 52 116 L69 77 C76 59 83 48 98 46 Z" />
+    <clipPath id="passenger-car-body-clip"><use href="#passenger-car-body" /></clipPath>
+    <path id="passenger-car-glass-shape" d="M 99.0,60.0 C 121.0,58.0 167.0,58.0 189.0,60.0 Q 200.0,61.0 205.0,74.0 L 222.0,112.0 Q 225.0,118.0 218.0,118.0 L 70.0,118.0 Q 63.0,118.0 66.0,112.0 L 83.0,74.0 Q 88.0,61.0 99.0,60.0" />
+    <clipPath id="passenger-car-glass-shape-clip"><use href="#passenger-car-glass-shape" /></clipPath>
+    <path id="passenger-car-hood-shape" d="M 52.81777777777778,126.0 Q 144.0,117.0 235.1822222222222,126.0 C 189.10899348777778,136.64 122.63740234375,145.0 77.99007777777777,141.2 Q 68.13079738083334,132.84 52.81777777777778,126.0" />
+    <clipPath id="passenger-car-hood-shape-clip"><use href="#passenger-car-hood-shape" /></clipPath>
+    <path id="passenger-car-tire-left" transform="translate(-8 0)" d="M 51.599999999999994,190.6 L 78.0,190.6 L 78.0,203.51999999999998 Q 78.0,211.88 68.32,211.88 L 61.28,211.88 Q 51.599999999999994,211.88 51.599999999999994,203.51999999999998 L 51.599999999999994,190.6" />
+    <clipPath id="passenger-car-tire-left-clip"><use href="#passenger-car-tire-left" /></clipPath>
+    <path id="passenger-car-tire-right" transform="translate(8 0)" d="M 210.0,190.6 L 236.4,190.6 L 236.4,203.51999999999998 Q 236.4,211.88 226.72,211.88 L 219.68,211.88 Q 210.0,211.88 210.0,203.51999999999998 L 210.0,190.6" />
+    <clipPath id="passenger-car-tire-right-clip"><use href="#passenger-car-tire-right" /></clipPath>
+    <path id="passenger-car-mirror-left" d="M 35.0,105.0 L 46.0,105.0 Q 54.0,105.0 54.0,112.0 L 53.0,118.0 Q 52.63589409722222,125.0 44.691189236111114,125.0 L 32.77413194444445,125.0 Q 22.843250868055563,125.0 22.0,116.0 Q 22.0,105.0 35.0,105.0" />
+    <clipPath id="passenger-car-mirror-left-clip"><use href="#passenger-car-mirror-left" /></clipPath>
+    <path id="passenger-car-mirror-right" d="M 253.0,105.0 L 242.0,105.0 Q 234.0,105.0 234.0,112.0 L 235.0,118.0 Q 235.3641059027778,125.0 243.30881076388889,125.0 L 255.22586805555557,125.0 Q 265.1567491319444,125.0 266.0,116.0 Q 266.0,105.0 253.0,105.0" />
+    <clipPath id="passenger-car-mirror-right-clip"><use href="#passenger-car-mirror-right" /></clipPath>
+    <path id="passenger-car-headlight-left" d="M 46.76838731666666,145.76 L 86.97443931000001,151.84 Q 88.78477457,151.84 90.095182275,154.12 L 95.58701382013889,164.76 L 50.649096783333334,157.92000000000002 Q 46.912489812361116,157.16 46.07291446625,154.12 L 44.24512263888889,148.8 Q 43.0643258811111,145.76 46.76838731666666,145.76" />
+    <clipPath id="passenger-car-headlight-left-clip"><use href="#passenger-car-headlight-left" /></clipPath>
+    <path id="passenger-car-headlight-right" d="M 241.23161268333334,145.76 L 201.02556069,151.84 Q 199.21522543,151.84 197.904817725,154.12 L 192.4129861798611,164.76 L 237.35090321666667,157.92000000000002 Q 241.08751018763888,157.16 241.92708553375002,154.12 L 243.7548773611111,148.8 Q 244.9356741188889,145.76 241.23161268333334,145.76" />
+    <clipPath id="passenger-car-headlight-right-clip"><use href="#passenger-car-headlight-right" /></clipPath>
+    <path id="passenger-car-upper-grille" d="M 98.37061618749999,149.56 L 189.6293838125,149.56 Q 191.454559165,149.56 190.16354913,151.84 L 182.770363445,163.24 Q 180.07999999999998,167.8 175.68,167.8 L 112.32,167.8 Q 107.92,167.8 105.229636555,163.24 L 97.83645087,151.84 Q 96.545440835,149.56 98.37061618749999,149.56" />
+    <clipPath id="passenger-car-upper-grille-clip"><use href="#passenger-car-upper-grille" /></clipPath>
+    <path id="passenger-car-lower-grille" d="M 98.24000000000001,179.2 L 189.76,179.2 Q 194.16,179.2 198.56,183.0 L 211.76,193.64 Q 213.51999999999998,195.16 211.76,195.92000000000002 L 76.24,195.92000000000002 Q 74.48,195.16 76.24,193.64 L 89.44,183.0 Q 93.84,179.2 98.24000000000001,179.2" />
+    <clipPath id="passenger-car-lower-grille-clip"><use href="#passenger-car-lower-grille" /></clipPath>
+    <path id="passenger-car-vent-left" d="M 52.480000000000004,173.12 L 70.96,179.2 Q 72.72,179.96 70.96,181.48000000000002 L 63.92,189.07999999999998 Q 63.040000000000006,190.6 60.400000000000006,190.6 L 50.72,190.6 Q 48.959999999999994,190.6 48.959999999999994,188.32 L 48.959999999999994,176.16 Q 48.959999999999994,172.36 52.480000000000004,173.12" />
+    <clipPath id="passenger-car-vent-left-clip"><use href="#passenger-car-vent-left" /></clipPath>
+    <path id="passenger-car-vent-right" d="M 235.51999999999998,173.12 L 217.04000000000002,179.2 Q 215.28,179.96 217.04000000000002,181.48000000000002 L 224.07999999999998,189.07999999999998 Q 224.95999999999998,190.6 227.6,190.6 L 237.28,190.6 Q 239.04000000000002,190.6 239.04000000000002,188.32 L 239.04000000000002,176.16 Q 239.04000000000002,172.36 235.51999999999998,173.12" />
+    <clipPath id="passenger-car-vent-right-clip"><use href="#passenger-car-vent-right" /></clipPath>
+    <rect id="passenger-car-plate-shape" x="124.64" y="174.64" width="38.72" height="16.72" rx="3" ry="2.28" />
+    <clipPath id="passenger-car-plate-shape-clip"><use href="#passenger-car-plate-shape" /></clipPath>
+  </defs>
+  
+  <!-- Artwork size aligned to the icon set; exterior contours remain 7px at 288px display size. --><g id="passenger-car-display-size" transform="translate(14.400000 13.950000) scale(0.9)"><g id="passenger-car-artwork" transform="translate(25.92 39.38) scale(.82)" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#passenger-car-tire-left" fill="url(#passenger-car-tire)" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-tire-left" fill="none" stroke="url(#passenger-car-tire-edge)" stroke-width="11.036585366" clip-path="url(#passenger-car-tire-left-clip)" />
+    <use href="#passenger-car-tire-left" fill="none" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-tire-right" fill="url(#passenger-car-tire)" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-tire-right" fill="none" stroke="url(#passenger-car-tire-edge)" stroke-width="11.036585366" clip-path="url(#passenger-car-tire-right-clip)" />
+    <use href="#passenger-car-tire-right" fill="none" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-mirror-left" fill="url(#passenger-car-blue)" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-mirror-left" fill="none" stroke="url(#passenger-car-blue-edge)" stroke-width="10.036585366" clip-path="url(#passenger-car-mirror-left-clip)" />
+    <use href="#passenger-car-mirror-left" fill="none" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-mirror-right" fill="url(#passenger-car-blue)" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-mirror-right" fill="none" stroke="url(#passenger-car-blue-edge)" stroke-width="10.036585366" clip-path="url(#passenger-car-mirror-right-clip)" />
+    <use href="#passenger-car-mirror-right" fill="none" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-body" fill="url(#passenger-car-blue)" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-body" fill="none" stroke="url(#passenger-car-blue-edge)" stroke-width="13.036585366" clip-path="url(#passenger-car-body-clip)" />
+    <g clip-path="url(#passenger-car-body-clip)"><path d="M 42.45893429916667,157.16 C 55.120000000000005,173.88 232.88,173.88 245.54106570083331,157.16 L 244.32,196.68 L 43.67999999999999,196.68 L 42.45893429916667,157.16" fill="#0080f0" opacity=".36" /><path d="M 44.56,190.6 Q 144.0,193.64 243.44,190.6 L 243.44,198.2 L 44.56,198.2 L 44.56,190.6" fill="#0067dd" /></g>
+    <use href="#passenger-car-glass-shape" fill="url(#passenger-car-glass)" stroke="#050b1d" stroke-width="2.5" />
+    <g clip-path="url(#passenger-car-glass-shape-clip)"><path d="M 64.0,58.0 L 164.0,58.0 L 91.0,118.0 L 64.0,118.0 L 64.0,58.0" fill="url(#passenger-car-glass-reflection)" /><path d="M 64.0,58.0 L 140.0,58.0 L 66.0,115.0 L 64.0,58.0" fill="#a6faff" opacity=".2" /></g>
+    <use href="#passenger-car-glass-shape" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#passenger-car-hood-shape" fill="url(#passenger-car-hood)" />
+    <path d="M 52.81777777777778,126.0 Q 144.0,117.0 235.1822222222222,126.0" fill="none" stroke="url(#passenger-car-hood-edge)" stroke-width="3.5" clip-path="url(#passenger-car-hood-shape-clip)" />
+    <path d="M 52.81777777777778,126.0 Q 68.3233275,133.6 79.91220703124999,145.0 M 235.1822222222222,126.0 Q 219.6766725,133.6 208.08779296875002,145.0" fill="none" stroke="#006acd" stroke-width="1.8" />
+    <use href="#passenger-car-headlight-left" fill="url(#passenger-car-gold)" />
+    <use href="#passenger-car-headlight-left" fill="none" stroke="url(#passenger-car-gold-edge)" stroke-width="5" clip-path="url(#passenger-car-headlight-left-clip)" />
+    <use href="#passenger-car-headlight-left" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <use href="#passenger-car-headlight-right" fill="url(#passenger-car-gold)" />
+    <use href="#passenger-car-headlight-right" fill="none" stroke="url(#passenger-car-gold-edge)" stroke-width="5" clip-path="url(#passenger-car-headlight-right-clip)" />
+    <use href="#passenger-car-headlight-right" fill="none" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M 49.88461721666667,154.88 L 47.90585208333334,148.8 L 85.60311413125001,154.12 M 238.11538278333333,154.88 L 240.09414791666666,148.8 L 202.39688586875,154.12" fill="none" stroke="#ffffb8" stroke-width="2.5" />
+    <use href="#passenger-car-upper-grille" fill="url(#passenger-car-grille)" stroke="#050b1d" stroke-width="2.5" />
+    <g clip-path="url(#passenger-car-upper-grille-clip)"><path d="M 98.7416185,151.84 L 189.25838149999998,151.84 L 188.9206814375,154.12 L 99.07931856249999,154.12 L 98.7416185,151.84" fill="url(#passenger-car-grille-bar)" /><path d="M 103.17403072249999,158.68 L 184.8259692775,158.68" fill="none" stroke="#4e6476" stroke-width="1.8" opacity=".6" /></g>
+    <use href="#passenger-car-lower-grille" fill="url(#passenger-car-grille)" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M 89.44,182.24 L 198.56,182.24" fill="none" stroke="#62788c" stroke-width="2.3" clip-path="url(#passenger-car-lower-grille-clip)" />
+    <use href="#passenger-car-vent-left" fill="url(#passenger-car-grille)" stroke="#050b1d" stroke-width="2.2" />
+    <use href="#passenger-car-vent-right" fill="url(#passenger-car-grille)" stroke="#050b1d" stroke-width="2.2" />
+    <use href="#passenger-car-body" fill="none" stroke="#050b1d" stroke-width="9.485094851" />
+    <use href="#passenger-car-plate-shape" fill="url(#passenger-car-plate)" stroke="#050b1d" stroke-width="2.5" />
+  </g>
+</g></svg>

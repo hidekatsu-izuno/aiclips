@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="scientist-title">
+  <title id="scientist-title">博士</title>
+  <desc>Scientist based on the medical-doctor white coat and older-adult silver hair, with round glasses and a matching silver-gray moustache. No eyes or mouth are drawn.</desc>
+  <defs>
+    <linearGradient id="scientist-paper" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="0.5" stop-color="#f6f7fb" />
+      <stop offset="1.0" stop-color="#e0e6ed" />
+    </linearGradient>
+    <path id="scientist-reference-neck" d="M144 144 C138 144 132 145 128 148 C129 153 129 157 126 160 C131 164 138 168 144 168 C150 168 157 164 162 160 C159 157 159 153 160 148 C156 145 150 144 144 144Z" />
+    <path id="scientist-reference-tie" d="M144 181 C141 181 139 185 138 190 C135 203 132 217 136 231 C138 231 141 231 144 231 C147 231 150 231 152 231 C156 217 153 203 150 190 C149 185 147 181 144 181 Z" />
+    <path id="scientist-reference-knot" d="M144 169 L135 177 C138 183 139 185.5 144 185.5 C149 185.5 150 183 153 177 L144 169 Z" />
+    <linearGradient id="scientist-reference-neck-paint" gradientUnits="userSpaceOnUse" x1="144" y1="151" x2="144" y2="169">
+      <stop offset="0" stop-color="#c57c45" />
+      <stop offset=".55" stop-color="#df9458" />
+      <stop offset="1" stop-color="#f3b47a" />
+    </linearGradient>
+    <linearGradient id="scientist-reference-blue-paint" gradientUnits="userSpaceOnUse" x1="135" y1="196" x2="153" y2="200">
+      <stop offset="0" stop-color="#039bff" />
+      <stop offset=".45" stop-color="#0089fc" />
+      <stop offset="1" stop-color="#0078ea" />
+    </linearGradient>
+    <radialGradient id="scientist-reference-knot-paint" gradientUnits="userSpaceOnUse" cx="143" cy="175" r="11">
+      <stop stop-color="#0094f8" />
+      <stop offset=".55" stop-color="#007bdb" />
+      <stop offset="1" stop-color="#0058a7" />
+    </radialGradient>
+    <path id="scientist-reference-collar-left" d="M126 159 Q135 165 144 168 L144 169 L128.25 183 L123 161Z" />
+    <path id="scientist-coat-body" d="M144 158 C119 157 92 165 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 C96 231 120 231 144 231 C168 231 192 231 216 231 C223 231 227 229 227 222 C227 212 223 197 215 186 C196 165 169 157 144 158 Z" />
+    <clipPath id="scientist-coat-body-clip">
+      <use href="#scientist-coat-body" />
+    </clipPath>
+    <path id="scientist-coat-shirt" d="M144 165 C136 165 132 161 129 158 C126 159 124 160 122 162 C125 183 129 208 135 231 C138 231 141 231 144 231 C147 231 150 231 153 231 C159 208 163 183 166 162 C164 160 162 159 159 158 C156 161 152 165 144 165 Z" />
+    <clipPath id="scientist-coat-shirt-clip">
+      <use href="#scientist-coat-shirt" />
+    </clipPath>
+    <path id="scientist-coat-lapel-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135 C129 208 125 183 122 162 Z" />
+    <path id="scientist-coat-lapel-rim-left" d="M122 162 L122.74912 158.364608 L109.94625 165.75 L103 179 Q102 180 105 182 L112 186 L104 192 Q103 193 105 197 L120 231 H135" />
+    <path id="scientist-coat-lapel-seam-left" d="M122 162 C125 183 129 208 135 231" />
+    <linearGradient id="scientist-elder-ref-cheek-shadow" gradientUnits="userSpaceOnUse" x1="176" y1="116" x2="157" y2="160">
+      <stop stop-color="#c48b5b" stop-opacity="0" />
+      <stop offset=".3" stop-color="#c48b5b" stop-opacity=".25" />
+      <stop offset=".55" stop-color="#c48b5b" stop-opacity=".28" />
+      <stop offset="1" stop-color="#c48b5b" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="scientist-elder-ref-face-clip">
+      <use href="#scientist-elder-ref-reference-base-face" />
+    </clipPath>
+    <linearGradient id="scientist-elder-ref-hair-sweep" x1="0" y1="0" x2=".4" y2="1">
+      <stop stop-color="#d9e2eb" />
+      <stop offset=".55" stop-color="#cbd8e4" />
+      <stop offset="1" stop-color="#b4c4d4" />
+    </linearGradient>
+    <linearGradient id="scientist-elder-ref-hairline-shadow" gradientUnits="userSpaceOnUse" x1="144" y1="85" x2="144" y2="122">
+      <stop stop-color="#b77d52" stop-opacity=".2" />
+      <stop offset=".55" stop-color="#b77d52" stop-opacity=".12" />
+      <stop offset="1" stop-color="#b77d52" stop-opacity="0" />
+    </linearGradient>
+    <mask id="scientist-elder-ref-neck-continuity" maskUnits="userSpaceOnUse" x="0" y="0" width="288" height="288">
+      <rect x="0" y="0" width="288" height="288" fill="white" />
+      <rect x="129" y="146" width="30" height="35" fill="black" />
+    </mask>
+    <linearGradient id="scientist-elder-ref-part-shadow" gradientUnits="userSpaceOnUse" x1="171" y1="75" x2="180" y2="83">
+      <stop stop-color="#657f9d" stop-opacity=".65" />
+      <stop offset="1" stop-color="#657f9d" stop-opacity="0" />
+    </linearGradient>
+    <path id="scientist-elder-ref-reference-base-face" d="M119 85 C135 91 155 90 170 83 C176 94 178 105 179 120 C181 116 184 114 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116 C103 114 106 116 109 120 C112 109 114 98 119 85Z" />
+    <linearGradient id="scientist-elder-ref-reference-base-skin-paint" gradientUnits="userSpaceOnUse" x1="115" y1="105" x2="168" y2="151">
+      <stop offset="0" stop-color="#ffcb92" />
+      <stop offset=".35" stop-color="#fdc58d" />
+      <stop offset="1" stop-color="#fdc28a" />
+    </linearGradient>
+    <linearGradient id="scientist-elder-ref-side-hair" gradientUnits="userSpaceOnUse" x1="176" y1="73" x2="192" y2="117">
+      <stop stop-color="#b5c8da" />
+      <stop offset=".5" stop-color="#9db3c9" />
+      <stop offset="1" stop-color="#859fb9" />
+    </linearGradient>
+    <linearGradient id="scientist-elder-ref-silver-hair" gradientUnits="userSpaceOnUse" x1="112" y1="62" x2="175" y2="115">
+      <stop stop-color="#d7e1ec" offset="0" />
+      <stop stop-color="#bacadb" offset="0.5" />
+      <stop stop-color="#8fa5bd" offset="1" />
+    </linearGradient>
+    <clipPath id="scientist-elder-ref-silver-hair-clip">
+      <use href="#scientist-elder-ref-silver-hair-shape" />
+    </clipPath>
+    <path id="scientist-elder-ref-silver-hair-shape" d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C155 90 135 91 119 85 C114 98 112 109 109 120 C106 116 103 114 99 116Z" />
+    <linearGradient id="scientist-moustache-paint" x1="0" y1="0" x2=".5" y2="1">
+      <stop offset="0" stop-color="#d7e1ec" />
+      <stop offset=".5" stop-color="#bacadb" />
+      <stop offset="1" stop-color="#8fa5bd" />
+    </linearGradient>
+  </defs>
+  <g id="scientist-exterior-width-detail" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
+        <path d="M126 160 C108 162 88 170 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 H216 C223 231 227 229 227 222 C227 212 223 197 215 186 C200 170 180 162 162 160" fill="none" stroke="#050b1d" stroke-width="8.555556" />
+      </g>
+    </g>
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
+        <path d="M72 231 H216" fill="none" stroke="#050b1d" stroke-width="8.555556" stroke-linecap="butt" />
+      </g>
+    </g>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g id="scientist-torso-proportions" transform="translate(144 231) scale(0.92 0.88) translate(-144 -231)">
+      <use href="#scientist-coat-body" fill="url(#scientist-paper)" />
+      <g clip-path="url(#scientist-coat-body-clip)" fill="none">
+        <path d="M122 163 C103 165 84 178 76 190 Q66 207 66 224" stroke="#ffffff" stroke-width="8" />
+        <path d="M188 174 Q221 193 222 229" stroke="#afc1d3" stroke-width="8" />
+        <path d="M198 209 L201 231" stroke="#b6c6d5" stroke-width="2" />
+      </g>
+      <path d="M126 160 C108 162 88 170 73 186 C65 197 61 212 61 222 C61 229 65 231 72 231 H216 C223 231 227 229 227 222 C227 212 223 197 215 186 C200 170 180 162 162 160" fill="none" stroke="#050b1d" stroke-width="7" />
+      <use href="#scientist-coat-shirt" fill="#dcebf6" />
+      <use href="#scientist-reference-neck" fill="url(#scientist-reference-neck-paint)" />
+      <use href="#scientist-reference-tie" fill="url(#scientist-reference-blue-paint)" clip-path="url(#scientist-coat-shirt-clip)" />
+      <use href="#scientist-reference-collar-left" fill="#ffffff" />
+      <path d="M123 161 L128.25 183 L135 177" fill="none" stroke="#8fa8c2" stroke-width="1.5" />
+      <use href="#scientist-coat-lapel-left" fill="#f9fcff" />
+      <use href="#scientist-coat-lapel-rim-left" fill="none" stroke="#8599ae" stroke-width="2" />
+      <use href="#scientist-coat-lapel-seam-left" fill="none" stroke="#8096ab" stroke-width="1.6" />
+      <use href="#scientist-reference-collar-left" fill="#ffffff" transform="translate(288 0) scale(-1 1)" />
+      <path d="M123 161 L128.25 183 L135 177" fill="none" stroke="#8fa8c2" stroke-width="1.5" transform="translate(288 0) scale(-1 1)" />
+      <use href="#scientist-coat-lapel-left" fill="#f9fcff" transform="translate(288 0) scale(-1 1)" />
+      <use href="#scientist-coat-lapel-rim-left" fill="none" stroke="#8599ae" stroke-width="2" transform="translate(288 0) scale(-1 1)" />
+      <use href="#scientist-coat-lapel-seam-left" fill="none" stroke="#8096ab" stroke-width="1.6" transform="translate(288 0) scale(-1 1)" />
+      <use href="#scientist-reference-knot" fill="url(#scientist-reference-knot-paint)" />
+      <path d="M72 231 H216" fill="none" stroke="#050b1d" stroke-width="7" stroke-linecap="butt" />
+      <g id="scientist-coat-pocket">
+        <path d="M180 197 V187" stroke="#0088ed" stroke-width="3" />
+        <path d="M185 197 V190" stroke="#607b95" stroke-width="2.5" />
+        <path d="M175 196 H190 V208 Q183 211 175 208 Z" fill="#f6faff" stroke="#9bb0c4" stroke-width="1.5" />
+      </g>
+    </g>
+    <g id="scientist-elder-head-proportions" transform="translate(144 165) scale(1.04) translate(-144 -159)">
+      <path d="M99 116 C93 103 94 89 103 77 C108 70 113 69 116 65 C132 52 158 52 169 64 Q173 67 173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C195 116 196 124 193 129 C190 136 183 138 178 133 C175 150 161 159 144 159 C127 159 113 150 110 133 C105 138 98 136 95 129 C92 124 93 116 99 116Z" fill="url(#scientist-elder-ref-reference-base-skin-paint)" stroke="#050b1d" stroke-width="13.461538" mask="url(#scientist-elder-ref-neck-continuity)" />
+      <use href="#scientist-elder-ref-reference-base-face" fill="url(#scientist-elder-ref-reference-base-skin-paint)" />
+      <g clip-path="url(#scientist-elder-ref-face-clip)">
+        <path d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="url(#scientist-elder-ref-hairline-shadow)" stroke-width="7" />
+        <path d="M178 123 C181 146 162 159 144 159" fill="none" stroke="url(#scientist-elder-ref-cheek-shadow)" stroke-width="8" />
+        <path d="M97 121 Q98 116 104 118" fill="none" stroke="#ffe7b5" stroke-width="2" opacity=".7" />
+      </g>
+      <g id="scientist-elder-ref-hairstyle">
+        <use href="#scientist-elder-ref-silver-hair-shape" fill="url(#scientist-elder-ref-silver-hair)" />
+        <g clip-path="url(#scientist-elder-ref-silver-hair-clip)">
+          <path d="M173 70 C186 69 195 81 196 98 C196 106 193 112 189 116 C184 114 181 116 179 120 C178 105 176 94 170 83 C173 79 173.5 75 173 70Z" fill="url(#scientist-elder-ref-side-hair)" />
+          <path d="M173 70 C173.5 75 173 79 170 83 L174 88 Q180 78 173 70Z" fill="url(#scientist-elder-ref-part-shadow)" />
+          <path d="M100 102 C99 88 109 74 121 68 C137 59 154 61 166 68 C153 64 138 66 125 74 C110 83 104 92 100 102Z" fill="url(#scientist-elder-ref-hair-sweep)" opacity=".4" />
+          <path d="M117 80 C137 84 159 77 170 69 C168 80 147 90 128 87Z" fill="#8fa9c1" opacity=".22" />
+          <path d="M100 102 Q103 92 109 88 L108 110 L109 120 Q101 113 100 102Z" fill="#a0b7cd" opacity=".65" />
+          <path d="M177 74 C187 78 193 91 190 105 C188 94 182 88 176 84Z" fill="url(#scientist-elder-ref-hair-sweep)" opacity=".4" />
+          <path d="M178 87 Q189 98 188 113 L181 118 Q184 104 178 87Z" fill="#6f8ba7" opacity=".3" />
+        </g>
+      </g>
+      <path id="scientist-elder-hairline" d="M109 120 C112 109 114 98 119 85 C135 91 155 90 170 83 C176 94 178 105 179 120" fill="none" stroke="#8e9eae" stroke-width="1.8" />
+      <g id="scientist-round-glasses">
+        <circle cx="127" cy="120" r="11.5" fill="#e8f7ff" fill-opacity=".32" stroke="#14263c" stroke-width="2.8" />
+        <circle cx="161" cy="120" r="11.5" fill="#e8f7ff" fill-opacity=".32" stroke="#14263c" stroke-width="2.8" />
+        <path d="M138.5 119 Q144 115 149.5 119 M115.5 119 L106 116 M172.5 119 L182 116" fill="none" stroke="#14263c" stroke-width="2.5" />
+        <path d="M120 116 Q121 112 125 112 M154 116 Q155 112 159 112" fill="none" stroke="#ffffff" stroke-width="1.8" />
+      </g>
+      <g id="scientist-moustache">
+        <path d="M144 140 C140 135 132 136 127 141 Q122 146 117 146 C124 153 136 151 144 146 C152 151 164 153 171 146 Q166 146 161 141 C156 136 148 135 144 140 Z" fill="url(#scientist-moustache-paint)" stroke="#8199b0" stroke-width="1.5" />
+        <path d="M125 145 Q133 139 140 142 M149 142 Q154 140 160 144" fill="none" stroke="#d9e2eb" stroke-width="1.6" />
+      </g>
+    </g>
+  </g>
+</svg>

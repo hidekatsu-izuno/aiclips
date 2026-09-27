@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="cloud-data-store-title">
+  <title id="cloud-data-store-title">クラウドデータストア</title>
+  <desc>Editable geometry, exact symmetry where applicable, shared component boundaries and gradient-only inset bevels. No raster images, text rendering or blur filters.</desc>
+  <defs>
+    <linearGradient id="cloud-data-store-face-paint" gradientUnits="userSpaceOnUse" x1="100" y1="77" x2="227" y2="176">
+      <stop offset="0" stop-color="#0cc2f2" />
+      <stop offset="0.5" stop-color="#00b5ef" />
+      <stop offset="1" stop-color="#009cff" />
+    </linearGradient>
+    <linearGradient id="cloud-data-store-edge-paint" gradientUnits="userSpaceOnUse" x1="102" y1="67" x2="189" y2="171">
+      <stop offset="0" stop-color="#67e6ff" stop-opacity="0.95" />
+      <stop offset="0.6" stop-color="#35d3ff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#0bb7f2" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cloud-data-store-shadow-paint" gradientUnits="userSpaceOnUse" x1="180" y1="113" x2="211" y2="182">
+      <stop offset="0" stop-color="#008df9" stop-opacity="0" />
+      <stop offset="1" stop-color="#008cf6" stop-opacity="0.75" />
+    </linearGradient>
+    <path id="cloud-data-store-body" d="M156.5 57 C128 57 105 79 105 107 C81 108 63 124 63 146 C63 169 78 188 100 188 H206 C229 188 243 169 243 146 C243 124 229 108 208 107 C208 79 185 57 156.5 57 Z" />
+    <clipPath id="cloud-data-store-body-clip">
+      <use href="#cloud-data-store-body" />
+    </clipPath>
+    <linearGradient id="cloud-data-store-gold" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#ffe950" />
+      <stop offset=".5" stop-color="#ffd126" />
+      <stop offset="1" stop-color="#eda70a" />
+    </linearGradient>
+    <linearGradient id="cloud-data-store-gold-edge" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#fff6ad" />
+      <stop offset=".5" stop-color="#ffdf43" />
+      <stop offset="1" stop-color="#cb8807" />
+    </linearGradient>
+    <path id="cloud-data-store-folder" d="M111 132 H137 Q140 132 142 135 L149 143 H195 Q201 143 201 149 V188 Q201 195 194 195 H112 Q105 195 105 188 V139 Q105 132 111 132 Z" />
+    <clipPath id="cloud-data-store-folder-clip"><use href="#cloud-data-store-folder" /></clipPath>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#cloud-data-store-body" fill="url(#cloud-data-store-face-paint)" />
+    <use href="#cloud-data-store-body" fill="none" stroke="url(#cloud-data-store-edge-paint)" stroke-width="19" clip-path="url(#cloud-data-store-body-clip)" />
+    <path d="M208 107 C229 108 243 124 243 146 C243 169 229 188 206 188 H100 C90 188 80 181 73 173 C109 177 151 172 178 153 C193 141 205 123 208 107 Z" fill="url(#cloud-data-store-shadow-paint)" clip-path="url(#cloud-data-store-body-clip)" />
+    <use href="#cloud-data-store-body" fill="none" stroke="#050b1d" stroke-width="7" />
+  </g>
+  <g id="cloud-data-store-closed-folder" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#cloud-data-store-folder" fill="none" stroke="#050b1d" stroke-width="11" />
+    <use href="#cloud-data-store-folder" fill="url(#cloud-data-store-gold)" />
+    <use href="#cloud-data-store-folder" fill="none" stroke="url(#cloud-data-store-gold-edge)" stroke-width="7" clip-path="url(#cloud-data-store-folder-clip)" />
+    <use href="#cloud-data-store-folder" fill="none" stroke="#050b1d" stroke-width="3" />
+    <path d="M112 147 H141" fill="none" stroke="#ce940c" stroke-width="1.5" />
+  </g>
+</svg>

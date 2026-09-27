@@ -45,7 +45,7 @@
     <path d="M101 101 H142" fill="none" stroke="url(#file-word-line-paint1)" stroke-width="12" />
     <path d="M101 125 H183" fill="none" stroke="url(#file-word-line-paint2)" stroke-width="9" />
     <g id="file-word-embedded-chart">
-      <rect x="98" y="139" width="48" height="38" rx="2" fill="#e5f3ff" stroke="#a1c6e5" stroke-width="1.5" />
+      <rect x="98" y="139" width="48" height="38" rx="2" fill="#e5f3ff" stroke="#607b95" stroke-width="1.5" />
       <g fill="url(#file-word-blue)">
         <rect x="105" y="159" width="8" height="11" rx="1" />
         <rect x="118" y="153" width="8" height="17" rx="1" />

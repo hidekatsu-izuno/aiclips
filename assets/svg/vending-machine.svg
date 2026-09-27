@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="vending-machine-title">
+  <title id="vending-machine-title">自動販売機</title>
+  <desc>Editable geometric illustration with clipped gradient highlights, transparent background and a 7px exterior outline at 288px.</desc>
+  <defs>
+    <linearGradient id="vending-machine-paper" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#f0f5fa" />
+      <stop offset="1" stop-color="#c6d5e3" />
+    </linearGradient>
+    <linearGradient id="vending-machine-paper-edge" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".5" stop-color="#e2ecf5" />
+      <stop offset="1" stop-color="#8fa8c1" />
+    </linearGradient>
+    <linearGradient id="vending-machine-blue" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#13c6ff" />
+      <stop offset=".5" stop-color="#009dff" />
+      <stop offset="1" stop-color="#0079e9" />
+    </linearGradient>
+    <linearGradient id="vending-machine-blue-edge" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#a3eeff" />
+      <stop offset=".5" stop-color="#30c5ff" />
+      <stop offset="1" stop-color="#005eca" />
+    </linearGradient>
+    <linearGradient id="vending-machine-gold" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#ffe950" />
+      <stop offset=".5" stop-color="#ffd126" />
+      <stop offset="1" stop-color="#eda70a" />
+    </linearGradient>
+    <linearGradient id="vending-machine-gold-edge" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#fff6ad" />
+      <stop offset=".5" stop-color="#ffdf43" />
+      <stop offset="1" stop-color="#cb8807" />
+    </linearGradient>
+    <linearGradient id="vending-machine-steel" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#d0dfed" />
+      <stop offset=".5" stop-color="#8fa9c1" />
+      <stop offset="1" stop-color="#506e8c" />
+    </linearGradient>
+    <linearGradient id="vending-machine-glass" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#def8ff" />
+      <stop offset=".5" stop-color="#b1e8fc" />
+      <stop offset="1" stop-color="#74c2e8" />
+    </linearGradient>
+    <linearGradient id="vending-machine-red" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#ff8b89" />
+      <stop offset=".5" stop-color="#f84b57" />
+      <stop offset="1" stop-color="#bd2040" />
+    </linearGradient>
+    <linearGradient id="vending-machine-green" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#99edb7" />
+      <stop offset=".5" stop-color="#34c77c" />
+      <stop offset="1" stop-color="#168555" />
+    </linearGradient>
+    <rect id="vending-machine-left-foot" x="92" y="220" width="20" height="8" rx="2" />
+    <clipPath id="vending-machine-left-foot-clip"><use href="#vending-machine-left-foot" /></clipPath>
+    <rect id="vending-machine-right-foot" x="176" y="220" width="20" height="8" rx="2" />
+    <clipPath id="vending-machine-right-foot-clip"><use href="#vending-machine-right-foot" /></clipPath>
+    <rect id="vending-machine-body" x="84" y="62" width="120" height="162" rx="7" />
+    <clipPath id="vending-machine-body-clip"><use href="#vending-machine-body" /></clipPath>
+  </defs>
+  <g id="vending-machine-exterior" fill="none" stroke="#050b1d" stroke-width="11" stroke-linejoin="round">
+    <use href="#vending-machine-left-foot" />
+    <use href="#vending-machine-right-foot" />
+    <use href="#vending-machine-body" />
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <use href="#vending-machine-left-foot" fill="url(#vending-machine-steel)" />
+    <use href="#vending-machine-left-foot" fill="none" stroke="url(#vending-machine-paper-edge)" stroke-width="7" clip-path="url(#vending-machine-left-foot-clip)" />
+    <use href="#vending-machine-left-foot" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#vending-machine-right-foot" fill="url(#vending-machine-steel)" />
+    <use href="#vending-machine-right-foot" fill="none" stroke="url(#vending-machine-paper-edge)" stroke-width="7" clip-path="url(#vending-machine-right-foot-clip)" />
+    <use href="#vending-machine-right-foot" fill="none" stroke="#050b1d" stroke-width="3" />
+    <use href="#vending-machine-body" fill="url(#vending-machine-paper)" />
+    <use href="#vending-machine-body" fill="none" stroke="url(#vending-machine-paper-edge)" stroke-width="7" clip-path="url(#vending-machine-body-clip)" />
+    <use href="#vending-machine-body" fill="none" stroke="#050b1d" stroke-width="3" />
+    <rect x="92" y="70" width="104" height="20" rx="3" fill="url(#vending-machine-blue)" stroke="#050b1d" stroke-width="2" />
+    <path d="M97 75 H188" fill="none" stroke="#9ceaff" stroke-width="2" />
+    <rect x="93" y="98" width="77" height="84" rx="3" fill="url(#vending-machine-glass)" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M97 106 V102 H164" fill="none" stroke="#ffffff" stroke-width="2" />
+    <path d="M95 140 H168 M95 179 H168" stroke="#466885" stroke-width="3" />
+    <path d="M174 98 V213" stroke="#b2c3d3" stroke-width="1.5" />
+    <rect x="180" y="101" width="14" height="9" rx="1.5" fill="#163c49" stroke="#050b1d" stroke-width="1.5" />
+    <path d="M183 105 H190" stroke="#a4f0d3" stroke-width="1.5" />
+    <circle cx="187" cy="122" r="5" fill="url(#vending-machine-steel)" stroke="#050b1d" stroke-width="1.5" />
+    <path d="M187 119 V125" stroke="#050b1d" stroke-width="1.8" />
+    <rect x="181" y="134" width="12" height="4" rx="1" fill="#050b1d" />
+    <rect x="179" y="147" width="16" height="17" rx="2" fill="url(#vending-machine-blue)" stroke="#050b1d" stroke-width="1.5" />
+    <path d="M183 151 H191 V157 H183 Z" fill="none" stroke="#c6f3ff" stroke-width="1.4" />
+    <circle cx="187" cy="175" r="3" fill="url(#vending-machine-gold)" stroke="#050b1d" stroke-width="1.5" />
+    <rect x="94" y="190" width="100" height="25" rx="3" fill="#153446" stroke="#050b1d" stroke-width="2.5" />
+    <path d="M98 194 H190 L186 208 H102 Z" fill="url(#vending-machine-steel)" stroke="#050b1d" stroke-width="1.5" />
+    <path d="M102 197 H185" fill="none" stroke="#dcecf5" stroke-width="2" />
+    <rect x="103" y="109" width="11" height="21" rx="2.5" fill="url(#vending-machine-red)" stroke="#153044" stroke-width="1.2" />
+    <path d="M105 110.5 H112" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M106 115 V123" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="102" y="134" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+    <rect x="126" y="109" width="11" height="21" rx="2.5" fill="url(#vending-machine-blue)" stroke="#153044" stroke-width="1.2" />
+    <path d="M128 110.5 H135" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M129 115 V123" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="125" y="134" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+    <rect x="149" y="109" width="11" height="21" rx="2.5" fill="url(#vending-machine-green)" stroke="#153044" stroke-width="1.2" />
+    <path d="M151 110.5 H158" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M152 115 V123" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="148" y="134" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+    <rect x="103" y="149" width="11" height="21" rx="2.5" fill="url(#vending-machine-red)" stroke="#153044" stroke-width="1.2" />
+    <path d="M105 150.5 H112" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M106 155 V163" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="102" y="174" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+    <rect x="126" y="149" width="11" height="21" rx="2.5" fill="url(#vending-machine-blue)" stroke="#153044" stroke-width="1.2" />
+    <path d="M128 150.5 H135" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M129 155 V163" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="125" y="174" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+    <rect x="149" y="149" width="11" height="21" rx="2.5" fill="url(#vending-machine-green)" stroke="#153044" stroke-width="1.2" />
+    <path d="M151 150.5 H158" stroke="#e8f1f6" stroke-width="2" />
+    <path d="M152 155 V163" stroke="#ffffff" stroke-opacity=".65" stroke-width="1.5" />
+    <rect x="148" y="174" width="13" height="3" rx="1.5" fill="#fff3a2" stroke="#345267" stroke-width="1" />
+  </g>
+</svg>

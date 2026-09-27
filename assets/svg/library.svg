@@ -37,17 +37,18 @@
     <rect id="library-book-10" x="194" y="158" width="23" height="60" rx="3" />
     <clipPath id="library-book-10-clip"><use href="#library-book-10" /></clipPath>
   </defs>
-  <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
+  <!-- Artwork reduced to match the icon set; visible exterior width remains 7px. -->
+  <g id="library-display-size" transform="translate(28.8 27.2) scale(.8)">
   <g id="library-exterior-width" fill="none" stroke="#050b1d" stroke-linecap="round" stroke-linejoin="round">
-    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="9.000000">
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="12.500000">
       <rect x="58" y="229" width="15" height="14" rx="3"/>
       <rect x="215" y="229" width="15" height="14" rx="3"/>
     </g></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="11.000000">
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="14.500000">
       <path d="M57 59 H69 V228 H57 Z"/>
       <path d="M219 59 H231 V228 H219 Z"/>
     </g></g>
-    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="8.000000">
+    <g stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#050b1d" stroke-width="11.500000">
       <rect x="52" y="48" width="184" height="14" rx="5"/>
       <rect x="52" y="224" width="184" height="12" rx="4"/>
     </g></g>
@@ -178,5 +179,6 @@
       <rect x="52" y="224" width="184" height="12" rx="4" />
     </g>
     <path d="M57 56 Q57 52 62 52 H226 Q231 52 231 56 M57 230 Q57 228 61 228 H228" fill="none" stroke="#ffe6a1" stroke-width="2" />
+  </g>
   </g>
 </svg>

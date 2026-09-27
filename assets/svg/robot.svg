@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" role="img" aria-labelledby="robot-title">
+  <title id="robot-title">ロボット</title>
+  <desc>Original boxy gray humanoid robot redrawn from a generated concept. Editable geometric shapes, mirrored limbs and clipped gradient bevels; 7px exterior at 288px.</desc>
+  <defs>
+    <linearGradient id="robot-red" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#ff777d" />
+      <stop offset=".45" stop-color="#ef394c" />
+      <stop offset="1" stop-color="#c91e38" />
+    </linearGradient>
+    <linearGradient id="robot-red-edge" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#ffc0bf" />
+      <stop offset=".45" stop-color="#fa6570" />
+      <stop offset="1" stop-color="#9c1530" />
+    </linearGradient>
+    <linearGradient id="robot-paper" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#e7ebef" />
+      <stop offset=".45" stop-color="#a6adb6" />
+      <stop offset="1" stop-color="#707b89" />
+    </linearGradient>
+    <linearGradient id="robot-steel" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#d5dce3" />
+      <stop offset=".5" stop-color="#919ba7" />
+      <stop offset="1" stop-color="#5c6876" />
+    </linearGradient>
+    <linearGradient id="robot-paper-edge" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#e7ebef" />
+      <stop offset=".45" stop-color="#b9c2cc" />
+      <stop offset="1" stop-color="#586575" />
+    </linearGradient>
+    <linearGradient id="robot-eye" x1="0" y1="0" x2=".65" y2="1">
+      <stop offset="0" stop-color="#fff29a" />
+      <stop offset=".5" stop-color="#ffd83d" />
+      <stop offset="1" stop-color="#efa800" />
+    </linearGradient>
+    <rect id="robot-ear" x="98" y="96" width="13" height="23" rx="2" />
+    <clipPath id="robot-ear-clip">
+      <use href="#robot-ear" />
+    </clipPath>
+    <rect id="robot-neck" x="129" y="127.6" width="30" height="17.4" rx="2" />
+    <clipPath id="robot-neck-clip">
+      <use href="#robot-neck" />
+    </clipPath>
+    <rect id="robot-leg" x="120" y="189" width="15" height="30" rx="1" />
+    <clipPath id="robot-leg-clip">
+      <use href="#robot-leg" />
+    </clipPath>
+    <path id="robot-boot" d="M120 214 H135 L138 218 V227 H113 V221 Z" />
+    <clipPath id="robot-boot-clip">
+      <use href="#robot-boot" />
+    </clipPath>
+    <path id="robot-arm" d="M105 148 L112 157 L100.5 181 L89.5 177 L93 169 Z" />
+    <clipPath id="robot-arm-clip">
+      <use href="#robot-arm" />
+    </clipPath>
+    <path id="robot-hand" transform="translate(3.5 -9)" d="M72.875702 209.5 A12 12 0 1 1 95.124298 209.5 H88.690416 A6.5 6.5 0 1 0 79.309584 209.5 Z" />
+    <path id="robot-hand-outline" transform="translate(3.5 -9)" d="M70.400171 213.580357 A16.080357 16.080357 0 1 1 97.599829 213.580357 H88.690416 V209.5 A6.5 6.5 0 1 0 79.309584 209.5 V213.580357 Z" />
+    <clipPath id="robot-hand-clip">
+      <use href="#robot-hand" />
+    </clipPath>
+    <path id="robot-cuff" transform="translate(3.5 -9)" d="M86 184 L100 188 L97 197 L83 193 Z" />
+    <clipPath id="robot-cuff-clip">
+      <use href="#robot-cuff" />
+    </clipPath>
+    <path id="robot-torso" d="M110 140 H178 L182 144 V190 L176 196 H112 L106 190 V144 Z" />
+    <clipPath id="robot-torso-clip">
+      <use href="#robot-torso" />
+    </clipPath>
+    <rect id="robot-shoulder" x="100" y="145" width="8" height="18" rx="2" />
+    <clipPath id="robot-shoulder-clip">
+      <use href="#robot-shoulder" />
+    </clipPath>
+    <path id="robot-head" d="M110 80 H178 L183 85 V123 L178 128 H110 L105 123 V85 Z" />
+    <clipPath id="robot-head-clip">
+      <use href="#robot-head" />
+    </clipPath>
+  </defs>
+  <g id="robot-display-size" transform="translate(-36.6336 -56.704) scale(1.2544)">
+    <g id="robot-exterior" fill="none" stroke="#050b1d" stroke-width="8.1607142857" stroke-linejoin="round">
+      <g transform="translate(25.92 27.64) scale(.82)" stroke-width="10.6106271777">
+        <use href="#robot-ear" />
+      </g>
+      <g transform="translate(25.92 27.64) scale(.82)" stroke-width="10.6106271777">
+        <use href="#robot-ear" transform="translate(288 0) scale(-1 1)" />
+      </g>
+      <use href="#robot-neck" />
+      <use href="#robot-leg" />
+      <use href="#robot-leg" transform="translate(288 0) scale(-1 1)" />
+      <use href="#robot-boot" />
+      <use href="#robot-boot" transform="translate(288 0) scale(-1 1)" />
+      <use href="#robot-arm" />
+      <use href="#robot-arm" transform="translate(288 0) scale(-1 1)" />
+      <use href="#robot-hand-outline" fill="#050b1d" stroke="none" />
+      <use href="#robot-hand-outline" fill="#050b1d" stroke="none" transform="translate(288 0) scale(-1 1)" />
+      <use href="#robot-cuff" />
+      <use href="#robot-cuff" transform="translate(288 0) scale(-1 1)" />
+      <use href="#robot-torso" />
+      <use href="#robot-shoulder" />
+      <use href="#robot-shoulder" transform="translate(288 0) scale(-1 1)" />
+      <g transform="translate(25.92 27.64) scale(.82)" stroke-width="10.6106271777">
+        <use href="#robot-head" />
+      </g>
+    </g>
+    <g stroke-linejoin="round" stroke-linecap="round">
+      <g transform="translate(25.92 27.64) scale(.82)">
+        <g>
+          <use href="#robot-ear" fill="url(#robot-red)" />
+          <use href="#robot-ear" fill="none" stroke="url(#robot-red-edge)" stroke-width="5" clip-path="url(#robot-ear-clip)" />
+          <use href="#robot-ear" fill="none" stroke="#050b1d" stroke-width="3" />
+        </g>
+      </g>
+      <g transform="translate(25.92 27.64) scale(.82)">
+        <g transform="translate(288 0) scale(-1 1)">
+          <use href="#robot-ear" fill="url(#robot-red)" />
+          <use href="#robot-ear" fill="none" stroke="url(#robot-red-edge)" stroke-width="5" clip-path="url(#robot-ear-clip)" />
+          <use href="#robot-ear" fill="none" stroke="#050b1d" stroke-width="3" />
+        </g>
+      </g>
+      <g>
+        <use href="#robot-neck" fill="url(#robot-steel)" />
+        <use href="#robot-neck" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-neck-clip)" />
+        <use href="#robot-neck" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-leg" fill="url(#robot-paper)" />
+        <use href="#robot-leg" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-leg-clip)" />
+        <use href="#robot-leg" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-leg" fill="url(#robot-paper)" />
+        <use href="#robot-leg" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-leg-clip)" />
+        <use href="#robot-leg" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-boot" fill="url(#robot-steel)" />
+        <use href="#robot-boot" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-boot-clip)" />
+        <use href="#robot-boot" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-boot" fill="url(#robot-steel)" />
+        <use href="#robot-boot" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-boot-clip)" />
+        <use href="#robot-boot" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-arm" fill="url(#robot-steel)" />
+        <use href="#robot-arm" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-arm-clip)" />
+        <g clip-path="url(#robot-arm-clip)" fill="none">
+          <path d="M95.00 153.00 L115.00 161.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M95.00 154.70 L115.00 162.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M92.45 158.50 L112.45 166.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M92.45 160.20 L112.45 168.20" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M89.90 164.00 L109.90 172.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M89.90 165.70 L109.90 173.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M87.35 169.50 L107.35 177.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M87.35 171.20 L107.35 179.20" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M84.80 175.00 L104.80 183.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M84.80 176.70 L104.80 184.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M82.25 180.50 L102.25 188.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M82.25 182.20 L102.25 190.20" stroke="#d1d9e1" stroke-width="1.6" />
+        </g>
+        <use href="#robot-arm" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-arm" fill="url(#robot-steel)" />
+        <use href="#robot-arm" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-arm-clip)" />
+        <g clip-path="url(#robot-arm-clip)" fill="none">
+          <path d="M95.00 153.00 L115.00 161.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M95.00 154.70 L115.00 162.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M92.45 158.50 L112.45 166.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M92.45 160.20 L112.45 168.20" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M89.90 164.00 L109.90 172.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M89.90 165.70 L109.90 173.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M87.35 169.50 L107.35 177.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M87.35 171.20 L107.35 179.20" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M84.80 175.00 L104.80 183.00" stroke="#465262" stroke-width="2.3" />
+          <path d="M84.80 176.70 L104.80 184.70" stroke="#d1d9e1" stroke-width="1.6" />
+          <path d="M82.25 180.50 L102.25 188.50" stroke="#465262" stroke-width="2.3" />
+          <path d="M82.25 182.20 L102.25 190.20" stroke="#d1d9e1" stroke-width="1.6" />
+        </g>
+        <use href="#robot-arm" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-hand" fill="url(#robot-steel)" />
+        <use href="#robot-hand" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-hand-clip)" />
+        <use href="#robot-hand" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-hand" fill="url(#robot-steel)" />
+        <use href="#robot-hand" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-hand-clip)" />
+        <use href="#robot-hand" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-cuff" fill="url(#robot-steel)" />
+        <use href="#robot-cuff" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-cuff-clip)" />
+        <use href="#robot-cuff" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-cuff" fill="url(#robot-steel)" />
+        <use href="#robot-cuff" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-cuff-clip)" />
+        <use href="#robot-cuff" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-torso" fill="url(#robot-paper)" />
+        <use href="#robot-torso" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-torso-clip)" />
+        <use href="#robot-torso" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g>
+        <use href="#robot-shoulder" fill="url(#robot-steel)" />
+        <use href="#robot-shoulder" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-shoulder-clip)" />
+        <use href="#robot-shoulder" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(288 0) scale(-1 1)">
+        <use href="#robot-shoulder" fill="url(#robot-steel)" />
+        <use href="#robot-shoulder" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-shoulder-clip)" />
+        <use href="#robot-shoulder" fill="none" stroke="#050b1d" stroke-width="3" />
+      </g>
+      <g transform="translate(25.92 27.64) scale(.82)">
+        <g>
+          <use href="#robot-head" fill="url(#robot-paper)" />
+          <use href="#robot-head" fill="none" stroke="url(#robot-paper-edge)" stroke-width="5" clip-path="url(#robot-head-clip)" />
+          <use href="#robot-head" fill="none" stroke="#050b1d" stroke-width="3" />
+        </g>
+      </g>
+      <g transform="translate(25.92 27.64) scale(.82)">
+        <circle cx="126.5" cy="100" r="8" fill="url(#robot-eye)" stroke="#050b1d" stroke-width="3" />
+        <circle cx="161.5" cy="100" r="8" fill="url(#robot-eye)" stroke="#050b1d" stroke-width="3" />
+        <path d="M122 100 A4.5 4.5 0 0 1 126.5 95.5 M157 100 A4.5 4.5 0 0 1 161.5 95.5" fill="none" stroke="#fff7cb" stroke-width="2" />
+        <rect x="128" y="115" width="32" height="5" rx="2.5" fill="#617180" stroke="#050b1d" stroke-width="2" />
+      </g>
+      <g id="robot-chest-panel">
+        <rect x="118" y="150" width="52" height="35" rx="3" fill="url(#robot-steel)" stroke="#050b1d" stroke-width="2" />
+        <path d="M121 157 V155 Q121 153 123 153 H163" fill="none" stroke="#d8e0e7" stroke-width="1.5" />
+        <rect x="123" y="154" width="42" height="19" rx="2" fill="#374350" stroke="#050b1d" stroke-width="1.5" />
+        <circle cx="134" cy="163.5" r="6" fill="#f7e5a2" stroke="#111b2a" stroke-width="1.8" />
+        <circle cx="154" cy="163.5" r="6" fill="#c7e2e8" stroke="#111b2a" stroke-width="1.8" />
+        <path d="M129.7 161.3 A4.8 4.8 0 0 1 138.3 161.3 M149.7 161.3 A4.8 4.8 0 0 1 158.3 161.3" fill="none" stroke="#6d7b85" stroke-width="1" />
+        <path d="M134 164 L131.5 160.5 M154 164 L157 161" fill="none" stroke="#192536" stroke-width="1.3" />
+        <circle cx="134" cy="164" r="1" fill="#192536" />
+        <circle cx="154" cy="164" r="1" fill="#192536" />
+        <path d="M129 179 H159" fill="none" stroke="#050b1d" stroke-width="5" />
+        <path d="M131 177.5 V180 M137.5 177.5 V180 M144 177.5 V180 M150.5 177.5 V180 M157 177.5 V180" fill="none" stroke="#c3ced7" stroke-width="2" />
+      </g>
+      <path d="M122 203 H133 M155 203 H166" stroke="#050b1d" stroke-width="8" />
+      <path d="M122 203 H133 M155 203 H166" stroke="#8dc5df" stroke-width="4" />
+      <path d="M117 221 H134 M154 221 H171" stroke="#8f9eac" stroke-width="2" />
+    </g>
+  </g>
+</svg>

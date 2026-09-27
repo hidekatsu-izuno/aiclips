@@ -1,13 +1,13 @@
 # aiclips
 
-GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を収録しています。
+GPT-6 で作った SVG 形式のクリップアート集です。全 160 点を収録しています。
 
 - サイズ：288 × 288 px
 
 ## クリップアート一覧
 
 <div align="center">
-  <p><strong>全152点のクリップアート</strong><br><sub>画像または日本語名をクリックすると、SVGファイルを開けます。</sub></p>
+  <p><strong>全160点のクリップアート</strong><br><sub>画像または日本語名をクリックすると、SVGファイルを開けます。</sub></p>
   <table align="center">
     <tbody>
       <tr>
@@ -38,6 +38,12 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
       </tr>
       <tr>
         <td align="center" valign="middle" width="180">
+          <a href="assets/svg/ai-agent.svg">
+            <img src="assets/svg/ai-agent.svg" width="144" height="144" alt="AIエージェント"><br>
+            <strong>AIエージェント</strong>
+          </a>
+        </td>
+        <td align="center" valign="middle" width="180">
           <a href="assets/svg/ai.svg">
             <img src="assets/svg/ai.svg" width="144" height="144" alt="人工知能（AI）"><br>
             <strong>人工知能（AI）</strong>
@@ -55,14 +61,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ロジック</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/algorithm-loop.svg">
             <img src="assets/svg/algorithm-loop.svg" width="144" height="144" alt="繰り返し"><br>
             <strong>繰り返し</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/algorithm-merge.svg">
             <img src="assets/svg/algorithm-merge.svg" width="144" height="144" alt="マージ"><br>
@@ -81,14 +87,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>救急車</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/application-window.svg">
             <img src="assets/svg/application-window.svg" width="144" height="144" alt="アプリ画面"><br>
             <strong>アプリ画面</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/approval-person.svg">
             <img src="assets/svg/approval-person.svg" width="144" height="144" alt="承認者"><br>
@@ -107,14 +113,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>スピーカー</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/balance-scale.svg">
             <img src="assets/svg/balance-scale.svg" width="144" height="144" alt="天秤"><br>
             <strong>天秤</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/barcode.svg">
             <img src="assets/svg/barcode.svg" width="144" height="144" alt="バーコード"><br>
@@ -133,14 +139,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>自転車</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/broadleaf-tree.svg">
             <img src="assets/svg/broadleaf-tree.svg" width="144" height="144" alt="広葉樹"><br>
             <strong>広葉樹</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/browser-frame.svg">
             <img src="assets/svg/browser-frame.svg" width="144" height="144" alt="ブラウザー"><br>
@@ -159,14 +165,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>オフィス</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/business-wallet.svg">
             <img src="assets/svg/business-wallet.svg" width="144" height="144" alt="財布"><br>
             <strong>財布</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/calculator.svg">
             <img src="assets/svg/calculator.svg" width="144" height="144" alt="電卓"><br>
@@ -185,14 +191,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>コールセンター担当者</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/cash-register.svg">
             <img src="assets/svg/cash-register.svg" width="144" height="144" alt="レジ"><br>
             <strong>レジ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/clipboard-sheet.svg">
             <img src="assets/svg/clipboard-sheet.svg" width="144" height="144" alt="クリップボード"><br>
@@ -211,14 +217,20 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>閉じた本</strong>
           </a>
         </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/cloud-data-store.svg">
+            <img src="assets/svg/cloud-data-store.svg" width="144" height="144" alt="クラウドデータストア"><br>
+            <strong>クラウドデータストア</strong>
+          </a>
+        </td>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/cloud-service.svg">
             <img src="assets/svg/cloud-service.svg" width="144" height="144" alt="クラウドサービス"><br>
             <strong>クラウドサービス</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/coin.svg">
             <img src="assets/svg/coin.svg" width="144" height="144" alt="硬貨"><br>
@@ -231,6 +243,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>社長</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/console-terminal.svg">
             <img src="assets/svg/console-terminal.svg" width="144" height="144" alt="ターミナル"><br>
@@ -243,8 +257,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>クレジットカード</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/data-chart.svg">
             <img src="assets/svg/data-chart.svg" width="144" height="144" alt="グラフ"><br>
@@ -257,6 +269,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ダウンロード</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/data-upload.svg">
             <img src="assets/svg/data-upload.svg" width="144" height="144" alt="アップロード"><br>
@@ -269,8 +283,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>データベース</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/decision-manager.svg">
             <img src="assets/svg/decision-manager.svg" width="144" height="144" alt="上司"><br>
@@ -283,6 +295,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>配送車</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/department.svg">
             <img src="assets/svg/department.svg" width="144" height="144" alt="部署・組織図"><br>
@@ -295,8 +309,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>マイク</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/desktop-printer.svg">
             <img src="assets/svg/desktop-printer.svg" width="144" height="144" alt="プリンター"><br>
@@ -309,6 +321,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>封筒</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/document-handoff.svg">
             <img src="assets/svg/document-handoff.svg" width="144" height="144" alt="資料の受け渡し"><br>
@@ -321,8 +335,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>スキャナー</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/earth.svg">
             <img src="assets/svg/earth.svg" width="144" height="144" alt="地球"><br>
@@ -335,6 +347,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>工場</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/field-worker.svg">
             <img src="assets/svg/field-worker.svg" width="144" height="144" alt="現場担当者"><br>
@@ -347,8 +361,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>圧縮ファイル</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-audio.svg">
             <img src="assets/svg/file-audio.svg" width="144" height="144" alt="音声ファイル"><br>
@@ -361,6 +373,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>バイナリファイル</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-code.svg">
             <img src="assets/svg/file-code.svg" width="144" height="144" alt="ソースコード"><br>
@@ -373,8 +387,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>CSVファイル</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-document.svg">
             <img src="assets/svg/file-document.svg" width="144" height="144" alt="文書ファイル"><br>
@@ -387,6 +399,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>画像ファイル</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-markdown.svg">
             <img src="assets/svg/file-markdown.svg" width="144" height="144" alt="マークダウンファイル"><br>
@@ -399,8 +413,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>PDF文書</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-presentation.svg">
             <img src="assets/svg/file-presentation.svg" width="144" height="144" alt="プレゼンテーション資料"><br>
@@ -413,6 +425,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>表計算ファイル</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-structured-data.svg">
             <img src="assets/svg/file-structured-data.svg" width="144" height="144" alt="構造化データ"><br>
@@ -425,8 +439,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>テキストファイル</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/file-video.svg">
             <img src="assets/svg/file-video.svg" width="144" height="144" alt="動画ファイル"><br>
@@ -439,6 +451,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ワード文書</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/folder-open.svg">
             <img src="assets/svg/folder-open.svg" width="144" height="144" alt="フォルダー"><br>
@@ -451,14 +465,20 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>フォーム画面</strong>
           </a>
         </td>
-      </tr>
-      <tr>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/game-controller.svg">
+            <img src="assets/svg/game-controller.svg" width="144" height="144" alt="ゲームコントローラ"><br>
+            <strong>ゲームコントローラ</strong>
+          </a>
+        </td>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/general-user.svg">
             <img src="assets/svg/general-user.svg" width="144" height="144" alt="一般利用者"><br>
             <strong>一般利用者</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/gpu.svg">
             <img src="assets/svg/gpu.svg" width="144" height="144" alt="GPU"><br>
@@ -477,14 +497,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>台車</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/hard-disk.svg">
             <img src="assets/svg/hard-disk.svg" width="144" height="144" alt="ハードディスク"><br>
             <strong>ハードディスク</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/heart.svg">
             <img src="assets/svg/heart.svg" width="144" height="144" alt="ハート"><br>
@@ -503,14 +523,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ホストコンピュータ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/idea-bulb.svg">
             <img src="assets/svg/idea-bulb.svg" width="144" height="144" alt="電球"><br>
             <strong>電球</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/identity-badge.svg">
             <img src="assets/svg/identity-badge.svg" width="144" height="144" alt="IDカード"><br>
@@ -529,12 +549,24 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>情報マーク</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/inspection-magnifier.svg">
             <img src="assets/svg/inspection-magnifier.svg" width="144" height="144" alt="検索・拡大鏡"><br>
             <strong>検索・拡大鏡</strong>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/internet.svg">
+            <img src="assets/svg/internet.svg" width="144" height="144" alt="インターネット"><br>
+            <strong>インターネット</strong>
+          </a>
+        </td>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/japan-map.svg">
+            <img src="assets/svg/japan-map.svg" width="144" height="144" alt="日本地図"><br>
+            <strong>日本地図</strong>
           </a>
         </td>
         <td align="center" valign="middle" width="180">
@@ -549,14 +581,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>鍵束</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/laptop-open.svg">
             <img src="assets/svg/laptop-open.svg" width="144" height="144" alt="ノートPC"><br>
             <strong>ノートPC</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/library.svg">
             <img src="assets/svg/library.svg" width="144" height="144" alt="ライブラリ"><br>
@@ -575,14 +607,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>折り畳み地図</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/maintenance-toolkit.svg">
             <img src="assets/svg/maintenance-toolkit.svg" width="144" height="144" alt="工具箱"><br>
             <strong>工具箱</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/maintenance-wrench.svg">
             <img src="assets/svg/maintenance-wrench.svg" width="144" height="144" alt="レンチ"><br>
@@ -601,14 +633,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>医師</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/memory-module.svg">
             <img src="assets/svg/memory-module.svg" width="144" height="144" alt="メモリ"><br>
             <strong>メモリ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/message-queue.svg">
             <img src="assets/svg/message-queue.svg" width="144" height="144" alt="メッセージキュー"><br>
@@ -627,14 +659,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>お金</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/mountain.svg">
             <img src="assets/svg/mountain.svg" width="144" height="144" alt="緑豊かな二つの山"><br>
             <strong>緑豊かな二つの山</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/navigation-compass.svg">
             <img src="assets/svg/navigation-compass.svg" width="144" height="144" alt="コンパス"><br>
@@ -653,14 +685,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ルーター</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/neural-network.svg">
             <img src="assets/svg/neural-network.svg" width="144" height="144" alt="ニューラルネット"><br>
             <strong>ニューラルネット</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/office-employee-female.svg">
             <img src="assets/svg/office-employee-female.svg" width="144" height="144" alt="女性社員"><br>
@@ -679,14 +711,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>高齢者</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/open-report.svg">
             <img src="assets/svg/open-report.svg" width="144" height="144" alt="開いた冊子"><br>
             <strong>開いた冊子</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/padlock.svg">
             <img src="assets/svg/padlock.svg" width="144" height="144" alt="南京錠"><br>
@@ -700,6 +732,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
           </a>
         </td>
         <td align="center" valign="middle" width="180">
+          <a href="assets/svg/passenger-car.svg">
+            <img src="assets/svg/passenger-car.svg" width="144" height="144" alt="自動車"><br>
+            <strong>自動車</strong>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="180">
           <a href="assets/svg/passenger-train.svg">
             <img src="assets/svg/passenger-train.svg" width="144" height="144" alt="電車"><br>
             <strong>電車</strong>
@@ -711,8 +751,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>入力する人</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/photo-camera.svg">
             <img src="assets/svg/photo-camera.svg" width="144" height="144" alt="カメラ"><br>
@@ -725,6 +763,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>発電所</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/prepared-meal.svg">
             <img src="assets/svg/prepared-meal.svg" width="144" height="144" alt="料理"><br>
@@ -737,8 +777,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>中央処理装置（CPU）</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/prohibition.svg">
             <img src="assets/svg/prohibition.svg" width="144" height="144" alt="禁止"><br>
@@ -751,6 +789,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>保護帽</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/protective-shield.svg">
             <img src="assets/svg/protective-shield.svg" width="144" height="144" alt="保護シールド"><br>
@@ -763,8 +803,6 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>パズル部品</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/qr-code.svg">
             <img src="assets/svg/qr-code.svg" width="144" height="144" alt="QRコード"><br>
@@ -777,6 +815,8 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>データベースのテーブル</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/rdbms-view.svg">
             <img src="assets/svg/rdbms-view.svg" width="144" height="144" alt="データベースのビュー"><br>
@@ -789,12 +829,24 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>リモコン</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/report-sheet.svg">
             <img src="assets/svg/report-sheet.svg" width="144" height="144" alt="レポート"><br>
             <strong>レポート</strong>
+          </a>
+        </td>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/robot.svg">
+            <img src="assets/svg/robot.svg" width="144" height="144" alt="ロボット"><br>
+            <strong>ロボット</strong>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/scientist.svg">
+            <img src="assets/svg/scientist.svg" width="144" height="144" alt="博士"><br>
+            <strong>博士</strong>
           </a>
         </td>
         <td align="center" valign="middle" width="180">
@@ -830,25 +882,19 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
           </a>
         </td>
         <td align="center" valign="middle" width="180">
-          <a href="assets/svg/service-robot.svg">
-            <img src="assets/svg/service-robot.svg" width="144" height="144" alt="ロボット"><br>
-            <strong>ロボット</strong>
-          </a>
-        </td>
-        <td align="center" valign="middle" width="180">
           <a href="assets/svg/settings-gear.svg">
             <img src="assets/svg/settings-gear.svg" width="144" height="144" alt="歯車"><br>
             <strong>歯車</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/ship.svg">
             <img src="assets/svg/ship.svg" width="144" height="144" alt="船"><br>
             <strong>船</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/shipping-carton.svg">
             <img src="assets/svg/shipping-carton.svg" width="144" height="144" alt="梱包箱"><br>
@@ -867,14 +913,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ショートメッセージ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/smartphone-upright.svg">
             <img src="assets/svg/smartphone-upright.svg" width="144" height="144" alt="スマートフォン"><br>
             <strong>スマートフォン</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/sports.svg">
             <img src="assets/svg/sports.svg" width="144" height="144" alt="スポーツ"><br>
@@ -893,14 +939,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>ストップウォッチ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/storefront.svg">
             <img src="assets/svg/storefront.svg" width="144" height="144" alt="店舗"><br>
             <strong>店舗</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/tablet-stylus.svg">
             <img src="assets/svg/tablet-stylus.svg" width="144" height="144" alt="ペン付きタブレット"><br>
@@ -919,14 +965,14 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>打ち合わせ</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/telephone.svg">
             <img src="assets/svg/telephone.svg" width="144" height="144" alt="電話"><br>
             <strong>電話</strong>
           </a>
         </td>
+      </tr>
+      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/thinking-person.svg">
             <img src="assets/svg/thinking-person.svg" width="144" height="144" alt="考える人"><br>
@@ -945,12 +991,18 @@ GPT-6 で作った SVG 形式のクリップアート集です。全 152 点を�
             <strong>信号</strong>
           </a>
         </td>
-      </tr>
-      <tr>
         <td align="center" valign="middle" width="180">
           <a href="assets/svg/vaccine.svg">
             <img src="assets/svg/vaccine.svg" width="144" height="144" alt="ワクチン"><br>
             <strong>ワクチン</strong>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="180">
+          <a href="assets/svg/vending-machine.svg">
+            <img src="assets/svg/vending-machine.svg" width="144" height="144" alt="自動販売機"><br>
+            <strong>自動販売機</strong>
           </a>
         </td>
         <td align="center" valign="middle" width="180">
