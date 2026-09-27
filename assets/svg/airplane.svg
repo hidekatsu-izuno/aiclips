@@ -91,8 +91,15 @@
       <stop stop-color="#e5f0f7" offset="0.6" />
       <stop stop-color="#9bb7cb" offset="1" />
     </linearGradient>
+    <path id="airplane-cockpit-pane-1" d="M125.85 121.2 Q119 122 116 136 H122.85 Z" />
+    <path id="airplane-cockpit-pane-2" d="M130.15 121 H141.85 V136 H127.15 Z" />
+    <path id="airplane-cockpit-pane-3" d="M146.15 121 H157.85 L160.85 136 H146.15 Z" />
+    <path id="airplane-cockpit-pane-4" d="M162.15 121.2 Q169 122 172 136 H165.15 Z" />
     <clipPath id="airplane-cockpit-glass-clip">
-      <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" />
+      <use href="#airplane-cockpit-pane-1" />
+      <use href="#airplane-cockpit-pane-2" />
+      <use href="#airplane-cockpit-pane-3" />
+      <use href="#airplane-cockpit-pane-4" />
     </clipPath>
   </defs>
   <!-- Exterior width: 7 units after fills, overlapping strokes and placement transforms. -->
@@ -135,10 +142,20 @@
     <use href="#airplane-shape9" fill="url(#airplane-fuselage)" />
     <use href="#airplane-shape9" fill="none" stroke="url(#airplane-fuselage-bevel)" stroke-width="13" clip-path="url(#airplane-shape9-clip)" />
     <use href="#airplane-shape9" fill="none" stroke="#050b1d" stroke-width="6" />
-    <path d="M144 121 L127 121 Q119 122 116 136 L144 136 L172 136 Q169 122 161 121 L144 121 Z" fill="#08b9eb" stroke="none" id="airplane-cockpit-glass" />
+    <path id="airplane-cockpit-glass" d="M144 121 L127 121 Q119 122 116 136 H172 Q169 122 161 121 Z" fill="#d7eaf3" />
+    <g id="airplane-cockpit-panes" fill="#08b9eb">
+      <use href="#airplane-cockpit-pane-1" />
+      <use href="#airplane-cockpit-pane-2" />
+      <use href="#airplane-cockpit-pane-3" />
+      <use href="#airplane-cockpit-pane-4" />
+    </g>
     <path d="M116 121 H148 L129 138 H116Z" fill="#77e6fc" opacity=".3" clip-path="url(#airplane-cockpit-glass-clip)" />
     <path d="M157 120 H173 V138 H140Z" fill="#0085ed" opacity=".65" clip-path="url(#airplane-cockpit-glass-clip)" />
-    <path id="airplane-cockpit-frame" d="M144 121 L127 121 Q119 122 116 136 H172 Q169 122 161 121 Z" fill="none" stroke="#050b1d" stroke-width="2.3" />
-    <path d="M144 121 V136 M128 121 L125 136 M160 121 L163 136" fill="none" stroke="#d7eaf3" stroke-width="2" />
+    <g id="airplane-cockpit-window-frames" fill="none" stroke="#050b1d" stroke-width="2.3">
+      <use href="#airplane-cockpit-pane-1" />
+      <use href="#airplane-cockpit-pane-2" />
+      <use href="#airplane-cockpit-pane-3" />
+      <use href="#airplane-cockpit-pane-4" />
+    </g>
   </g>
 </svg>
